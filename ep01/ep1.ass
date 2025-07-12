@@ -13,10 +13,10 @@ Audio File: 异文化_ep1_翻译用.mp4
 Video File: 异文化_ep1_翻译用.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.375000
-Scroll Position: 200
-Active Line: 216
-Video Position: 32019
+Video Zoom Percent: 0.250000
+Scroll Position: 234
+Active Line: 240
+Video Position: 33941
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -33,15 +33,15 @@ Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TITLE
 Dialogue: 0,0:02:48.02,0:02:52.53,OnScreen,Cur,0,0,0,,
 Dialogue: 0,0:23:34.98,0:23:39.98,OnScreen,Next,0,0,0,,
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,SCREEN
-Dialogue: 0,0:00:40.27,0:00:45.27,OnScreen,,0,0,0,,招牌文字
+Dialogue: 0,0:00:40.27,0:00:45.27,OnScreen,,0,0,0,,卡拉OK
 Dialogue: 0,0:00:45.27,0:00:50.28,OnScreen,,0,0,0,,米饭\N乌冬面\N荞麦面
 Dialogue: 0,0:01:08.21,0:01:17.97,OnScreen,,0,0,0,,游戏乐园
 Dialogue: 0,0:03:05.29,0:03:07.29,OnScreen,,0,0,0,,情人节快乐
 Dialogue: 0,0:03:49.71,0:03:53.96,OnScreen,,0,0,0,,情人节快乐
-Dialogue: 0,0:04:05.72,0:04:11.23,OnScreen,,0,0,0,,外立面上的文字
-Dialogue: 0,0:11:13.40,0:11:16.91,OnScreen,,0,0,0,,大头贴机器的宣传文字
-Dialogue: 0,0:13:08.48,0:13:11.48,OnScreen,,0,0,0,,景品包装盒上的文字
-Dialogue: 0,0:16:21.63,0:16:23.63,OnScreen,,0,0,0,,我想和你成为恋人
+Dialogue: 0,0:04:05.72,0:04:11.23,OnScreen,,0,0,0,,街机·夹娃娃机·奖品 投币游戏·角色扮演 etc...
+Dialogue: 0,0:11:13.40,0:11:16.91,OnScreen,,0,0,0,,成熟可爱 尽展魅力
+Dialogue: 0,0:13:08.48,0:13:11.48,OnScreen,,0,0,0,,男人范儿马克杯
+Dialogue: 0,0:16:21.63,0:16:23.63,OnScreen,,0,0,0,,当我的爱人吧！
 Dialogue: 0,0:19:25.56,0:19:28.56,OnScreen,,0,0,0,,{\an7}Hello 你好\NThank you for always coming to the game center. 感谢你总是光顾游戏中心\NMy name is Kusakabe Renji 我的名字是草壁莲司\NI'm not good at English, so I'm sorry if my sentences sound strange. 我的英语不太好 所以如果我的用句听起来很奇怪的话 我很抱歉\NThank you for the present yesterday. 谢谢你昨天的礼物\NI used it as one of my favorites. 我将它作为我最喜欢的物品使用\NYou gave me a message along with it, 随之你交给了我一条信息\Nbut did that really mean "be my lover?" 但其含义真的是“做我的爱人”吗？\NIf so, I am very flattered. 若是如此 我深感荣幸\NBut… 但是\Nwe can't become lovers. 我们不能成为爱人\NBecause I still don't know anything about you. 因为我对你尚且一无所知\NI don't even know your name. 我甚至不知道你的名字\NThat's why I prepared this notebook, 这就是我准备了这个笔记本的原因\Nbecause I'm hoping that we can get to know each other better. 因为我希望我们可以更深入地了解彼此\NI thought it would be nice to get closer to you through this... 如果通过这种方式能够更接近你的话 就再好不过了\NIt'll help me learn the language too... 同时这也能帮我学习语言\NI think? 你说呢？
 Dialogue: 0,0:20:31.13,0:20:33.38,OnScreen,,0,0,0,,留言本上的文字
 Dialogue: 0,0:21:59.63,0:22:04.97,OnScreen,,0,0,0,,招牌文字
@@ -61,21 +61,21 @@ Dialogue: 0,0:02:24.88,0:02:25.59,Default,OP,0,0,0,,闯关继续\N(let's go！)
 Dialogue: 0,0:02:25.59,0:02:30.58,Default,OP,0,0,0,,四目相对的瞬间奖励关卡就要开始了哦\N目が合った瞬間　ボーナスステージはじまるよ
 Dialogue: 0,0:02:30.87,0:02:35.73,Default,OP,0,0,0,,如果能重复挑战的话 还请多来几次\Nコンティニューできるなら　何回でも
 Dialogue: 0,0:02:36.14,0:02:41.26,Default,OP,0,0,0,,虽然不能像游戏一样重置\Nゲームみたいにリセットできない
-Dialogue: 0,0:02:41.49,0:02:46.34,Default,OP,0,0,0,,但可以像一场游戏般的爱情开始\Nゲームみたいな恋の始まり
+Dialogue: 0,0:02:41.49,0:02:46.34,Default,OP,0,0,0,,但恋情伊始可以像一场游戏般\Nゲームみたいな恋の始まり
 Dialogue: 0,0:03:01.31,0:03:03.57,Default,,0,0,0,,莲司 这边也拜托你啦\N蓮司くん こっちも頼むわ
 Dialogue: 0,0:03:04.03,0:03:05.23,Default,,0,0,0,,好的\N分かりました
 Dialogue: 0,0:03:33.63,0:03:35.26,Default,,0,0,0,,该死\NBloody hell.
 Dialogue: 0,0:03:40.27,0:03:41.54,Default,,0,0,0,,还要继续吗？\Nまだやんの?
-Dialogue: 0,0:03:43.09,0:03:46.75,Default,,0,0,0,,抱歉了 这位小姐 经济就是这样运转的\N悪いなお嬢さん こうして経済は回っていく
+Dialogue: 0,0:03:43.09,0:03:46.75,Default,,0,0,0,,抱歉了 这位小姐 经济就是这样运转起来的\N悪いなお嬢さん こうして経済は回っていく
 Dialogue: 0,0:03:46.75,0:03:48.18,Default,,0,0,0,,莲司 你人呢！\Nちょっと蓮司くん！
 Dialogue: 0,0:03:48.18,0:03:51.52,Default,,0,0,0,,抱歉 马上来\Nあ すいません すぐ行きます
 Dialogue: 0,0:04:02.95,0:04:04.82,Default,,0,0,0,,三小时后\NThree hours later.
 Dialogue: 0,0:04:07.18,0:04:08.19,Default,,0,0,0,,我先走了\Nお先です
 Dialogue: 0,0:04:08.19,0:04:09.42,Default,,0,0,0,,辛苦了\Nお疲れ様
 Dialogue: 0,0:04:09.42,0:04:10.77,Default,,0,0,0,,明天见\Nまた明日
-Dialogue: 0,0:04:17.62,0:04:19.60,Default,,0,0,0,,诶 她还在吗？\Nえ まだやってる?
-Dialogue: 0,0:04:19.60,0:04:21.55,Default,,0,0,0,,已经过去挺长时间了吧\Nあれから結構経ってるぞ
-Dialogue: 0,0:04:26.03,0:04:28.74,Default,,0,0,0,,还有就是无情的不动考拉\Nそして無情なる不動のコアラ
+Dialogue: 0,0:04:17.62,0:04:19.60,Default,,0,0,0,,诶 她还在玩吗？\Nえ まだやってる?
+Dialogue: 0,0:04:19.60,0:04:21.55,Default,,0,0,0,,那之后已经过去很久了诶\Nあれから結構経ってるぞ
+Dialogue: 0,0:04:26.03,0:04:28.74,Default,,0,0,0,,而那只考拉还无情地一动不动\Nそして無情なる不動のコアラ
 Dialogue: 0,0:04:50.90,0:04:52.32,Default,,0,0,0,,不好意思\N\NExcuse me—
 Dialogue: 0,0:05:16.56,0:05:18.14,Default,,0,0,0,,\N
 Dialogue: 0,0:05:23.52,0:05:24.41,Default,,0,0,0,,搞定\Nはい
@@ -91,16 +91,16 @@ Dialogue: 0,0:06:08.61,0:06:11.27,Default,,0,0,0,,你要给我这个吗\NAre you
 Dialogue: 0,0:06:11.27,0:06:12.49,Default,,0,0,0,,对！\Nイエス!
 Dialogue: 0,0:06:21.61,0:06:25.47,Default,,0,0,0,,好吧 谢谢你 我会珍惜它的\NUm, all right. Thank you, I'll cherish it.
 Dialogue: 0,0:06:25.91,0:06:28.27,Default,,0,0,0,,好 好呀\Nオホ イエスイエス
-Dialogue: 0,0:06:28.27,0:06:30.30,Default,,0,0,0,,我刚才应该说谢谢才对吧？\N今サンキューって言ったよな？
-Dialogue: 0,0:06:30.95,0:06:35.15,Default,,0,0,0,,太好了 看来她挺喜欢那个布偶的\Nよかった あのぬいぐるみ本当に欲しかったんだな
+Dialogue: 0,0:06:28.27,0:06:30.30,Default,,0,0,0,,她刚才应该是说了谢谢吧？\N今サンキューって言ったよな？
+Dialogue: 0,0:06:30.95,0:06:35.15,Default,,0,0,0,,太好了 看来她是真的很想要那个布偶\Nよかった あのぬいぐるみ本当に欲しかったんだな
 Dialogue: 0,0:06:35.53,0:06:37.38,Default,,0,0,0,,再…再见\NS-See you.
 Dialogue: 0,0:06:41.44,0:06:44.35,Default,,0,0,0,,不过我随口说了情人节什么的\Nでも適当にバレンタインとか言っちゃったけど
-Dialogue: 0,0:06:48.25,0:06:50.45,Default,,0,0,0,,算了 没事的\Nまあ いっか
+Dialogue: 0,0:06:48.25,0:06:50.45,Default,,0,0,0,,算了 也没事\Nまあ いっか
 Dialogue: 0,0:07:11.36,0:07:13.74,Default,,0,0,0,,给你的礼物\Nプレゼントフォーユー
 Dialogue: 0,0:07:24.09,0:07:26.37,Default,,0,0,0,,嘿 想和我喝杯茶吗\NHey, fancy a cuppa with me?
-Dialogue: 0,0:07:26.37,0:07:27.89,Default,,0,0,0,,我刚才泡了一些\NI've just made some tea.
+Dialogue: 0,0:07:26.37,0:07:27.89,Default,,0,0,0,,我刚才泡了点茶\NI've just made some tea.
 Dialogue: 0,0:07:26.69,0:07:28.86,Default,,0,0,0,,妈…妈妈 敲门！\NM-Mom... knock!
-Dialogue: 0,0:07:28.86,0:07:31.18,Default,,0,0,0,,哦 我刚刚可是敲过门了哦\NOh? I knocked properly, you know.
+Dialogue: 0,0:07:28.86,0:07:31.18,Default,,0,0,0,,哦 我可是好好敲过门了哦\NOh? I knocked properly, you know.
 Dialogue: 0,0:07:31.28,0:07:33.07,Default,,0,0,0,,\N
 Dialogue: 0,0:07:33.25,0:07:36.21,Default,,0,0,0,,看来你很喜欢那个毛绒玩具嘛\NYou seem to quite like that stuffed toy.
 Dialogue: 0,0:07:36.35,0:07:40.75,Default,,0,0,0,,\N
@@ -109,12 +109,12 @@ Dialogue: 0,0:07:50.45,0:07:52.43,Default,,0,0,0,,那个 莲司\Nあのさ 蓮�
 Dialogue: 0,0:07:52.97,0:07:54.05,Default,,0,0,0,,嗯\Nええ
 Dialogue: 0,0:07:56.63,0:07:57.69,Default,,0,0,0,,\N
 Dialogue: 0,0:07:57.69,0:07:58.16,Default,,0,0,0,,\N
-Dialogue: 0,0:08:00.82,0:08:02.93,Default,,0,0,0,,你对她做了什么\Nきみさ なんかしたの？
+Dialogue: 0,0:08:00.82,0:08:02.93,Default,,0,0,0,,你啊 对她做了什么吗\Nきみさ なんかしたの？
 Dialogue: 0,0:08:02.93,0:08:05.11,Default,,0,0,0,,怎么可能 我什么也没做\Nそんな なんにもしてない
 Dialogue: 0,0:08:05.49,0:08:07.09,Default,,0,0,0,,的吧\N...ですよ
-Dialogue: 0,0:08:13.55,0:08:16.32,Default,,0,0,0,,果然会被认为是可疑的家伙吗？\Nやっぱり怪しい奴って思われてる？
+Dialogue: 0,0:08:13.55,0:08:16.32,Default,,0,0,0,,果然被她认为是可疑的家伙了吗？\Nやっぱり怪しい奴って思われてる？
 Dialogue: 0,0:08:25.33,0:08:26.67,Default,,0,0,0,,你好\Nハ ハロー
-Dialogue: 0,0:08:26.67,0:08:29.73,Default,,0,0,0,,\Nうわ あだだだだ...
+Dialogue: 0,0:08:26.67,0:08:29.73,Default,,0,0,0,,呜哇 呃呃呃\Nうわ あだだだだ...
 Dialogue: 0,0:08:32.11,0:08:33.53,Default,,0,0,0,,嗨\NH-Hi.
 Dialogue: 0,0:08:33.53,0:08:35.02,Default,,0,0,0,,嗨\Nあ ハーイ
 Dialogue: 0,0:08:35.18,0:08:35.70,Default,,0,0,0,,\Nお
@@ -136,20 +136,20 @@ Dialogue: 0,0:09:48.46,0:09:50.74,Default,,0,0,0,,感觉如何 很棒吧\Nどう
 Dialogue: 0,0:09:50.74,0:09:52.72,Default,,0,0,0,,Saiko 是什么？\N"Saiko?" What's that?
 Dialogue: 0,0:10:01.41,0:10:02.98,Default,,0,0,0,,请调头 请调头\NTurn around Turn around
 Dialogue: 0,0:10:04.61,0:10:06.48,Default,,0,0,0,,错了 快掉头！\Nいや Turn around！
-Dialogue: 0,0:10:43.71,0:10:46.66,Default,,0,0,0,,还没有对我敞开心扉吗\Nまだ心開いてくれてないのかな
+Dialogue: 0,0:10:43.71,0:10:46.66,Default,,0,0,0,,看来她还没有对我敞开心扉啊\Nまだ心開いてくれてないのかな
 Dialogue: 0,0:10:51.51,0:10:54.02,Default,,0,0,0,,任你挑选\Nチューズエニシング ユーウォント
 Dialogue: 0,0:10:54.43,0:10:55.49,Default,,0,0,0,,谢谢\NCheers.
 Dialogue: 0,0:10:56.86,0:10:58.75,Default,,0,0,0,,我很感激\NI appreciate it.
 Dialogue: 0,0:11:00.49,0:11:03.12,Default,,0,0,0,,接下来你想做什么\Nホワットドゥユーウォントトゥドゥネクスト？
-Dialogue: 0,0:11:20.74,0:11:22.78,Default,,0,0,0,,诶 想去试试那个吗？\Nえ あれやりたいの?
-Dialogue: 0,0:11:29.51,0:11:31.70,Default,,0,0,0,,等了挺长时间呢\N久しぶりだな
+Dialogue: 0,0:11:20.74,0:11:22.78,Default,,0,0,0,,诶 你想试试那个吗？\Nえ あれやりたいの?
+Dialogue: 0,0:11:29.51,0:11:31.70,Default,,0,0,0,,真是好久没玩了啊\N久しぶりだな
 Dialogue: 0,0:11:31.70,0:11:33.01,Default,,0,0,0,,为啥？！\NWhy?
-Dialogue: 0,0:11:33.01,0:11:37.22,Default,,0,0,0,,我还以为你喜欢可爱的东西 原来对这个也很感兴趣啊\N可愛いのが好きだと思ってたけど こういうのも興味あるんだね
+Dialogue: 0,0:11:33.01,0:11:37.22,Default,,0,0,0,,我还以为你喜欢可爱的东西 原来你对这个也很感兴趣啊\N可愛いのが好きだと思ってたけど こういうのも興味あるんだね
 Dialogue: 0,0:11:37.54,0:11:38.59,Default,,0,0,0,,\N
 Dialogue: 0,0:11:38.94,0:11:40.86,Default,,0,0,0,,我也很喜欢这个哦\N俺もこれ好きなんだよ
 Dialogue: 0,0:11:40.99,0:11:42.79,Default,,0,0,0,,不要啊\NOh no...
-Dialogue: 0,0:11:42.79,0:11:44.17,Default,,0,0,0,,不要担心\N遠慮しないで
-Dialogue: 0,0:11:44.34,0:11:46.32,Default,,0,0,0,,那么 开始吧\Nさ 始まるよ
+Dialogue: 0,0:11:42.79,0:11:44.17,Default,,0,0,0,,不用客气啦\N遠慮しないで
+Dialogue: 0,0:11:44.34,0:11:46.32,Default,,0,0,0,,来吧 要开始了\Nさ 始まるよ
 Dialogue: 0,0:11:54.98,0:11:57.59,Default,,0,0,0,,别担心 我来保护你\NDon't worry. I'll protect you!
 Dialogue: 0,0:11:59.18,0:12:00.31,Default,,0,0,0,,开玩笑的\Nなんてね
 Dialogue: 0,0:12:00.66,0:12:02.63,Default,,0,0,0,,别担心 我来保护你\NDon't worry. I'll protect you!
@@ -160,18 +160,18 @@ Dialogue: 0,0:12:17.18,0:12:18.34,Default,,0,0,0,,机枪\NMachine gun.
 Dialogue: 0,0:12:29.70,0:12:30.75,Default,,0,0,0,,大奖\NJackpot!
 Dialogue: 0,0:12:31.10,0:12:32.79,Default,,0,0,0,,哇 好厉害\Nうわ すごっ
 Dialogue: 0,0:12:37.47,0:12:38.87,Default,,0,0,0,,大奖\NJackpot!
-Dialogue: 0,0:12:38.62,0:12:41.36,Default,,0,0,0,,是游戏高手啊\Nゲームすげぇな
+Dialogue: 0,0:12:38.62,0:12:41.36,Default,,0,0,0,,瞄得真准啊\Nエームすげぇな
 Dialogue: 0,0:12:39.28,0:12:40.33,Default,,0,0,0,,大奖\NJackpot!
 Dialogue: 0,0:12:41.01,0:12:42.39,Default,,0,0,0,,大奖\NJackpot!
 Dialogue: 0,0:12:52.35,0:12:53.63,Default,,0,0,0,,胜者通吃\NJackpot.
 Dialogue: 0,0:13:00.93,0:13:03.92,Default,,0,0,0,,哇 你打游戏真厉害啊\Nいやあ ほんとすごかったよ
-Dialogue: 0,0:13:04.22,0:13:05.71,Default,,0,0,0,,那下一个项目是\Nじゃあ次は
+Dialogue: 0,0:13:04.22,0:13:05.71,Default,,0,0,0,,那我们下一个去玩\Nじゃあ次は
 Dialogue: 0,0:13:30.25,0:13:32.81,Default,,0,0,0,,果然最后还是来这里了啊\Nやっぱり最後はここに来るんだな
-Dialogue: 0,0:13:38.15,0:13:40.51,Default,,0,0,0,,怎会如此…\NOh no...
-Dialogue: 0,0:13:40.97,0:13:44.17,Default,,0,0,0,,果然不行吗 还是快点帮她一把吧\Nやっぱりダメか ここは早いとこ助け舟を
+Dialogue: 0,0:13:38.15,0:13:40.51,Default,,0,0,0,,还是不行吗…\NOh no...
+Dialogue: 0,0:13:40.97,0:13:44.17,Default,,0,0,0,,果然不行吗 我还是赶紧帮她一把吧\Nやっぱりダメか ここは早いとこ助け舟を
 Dialogue: 0,0:13:44.39,0:13:46.98,Default,,0,0,0,,那个 需要帮助吗？\Nえっと カンアイヘルプユー？
 Dialogue: 0,0:13:49.02,0:13:50.25,Default,,0,0,0,, 那 那个\Nあっ あの
-Dialogue: 0,0:14:57.18,0:14:58.85,Default,,0,0,0,,那个 这个给你\Nあのー これ
+Dialogue: 0,0:14:57.18,0:14:58.85,Default,,0,0,0,,那个 这些给你\Nあのー これ
 Dialogue: 0,0:15:06.80,0:15:07.57,Default,,0,0,0,,\N
 Dialogue: 0,0:15:09.11,0:15:10.98,Default,,0,0,0,,那再见了\Nそれじゃまた
 Dialogue: 0,0:15:24.11,0:15:25.94,Default,,0,0,0,,这是…\NThis is...
@@ -181,73 +181,73 @@ Dialogue: 0,0:15:32.10,0:15:33.17,Default,,0,0,0,,是给我的吗\NIt's me?
 Dialogue: 0,0:15:33.17,0:15:34.86,Default,,0,0,0,,就是给你的啦！\NYes it is!
 Dialogue: 0,0:15:37.91,0:15:39.51,Default,,0,0,0,,还有\N\NAnd...
 Dialogue: 0,0:15:39.51,0:15:42.00,Default,,0,0,0,,谢谢你今天带我逛\Nthank you for showing me around today.
-Dialogue: 0,0:15:46.39,0:15:49.68,Default,,0,0,0,,该不会是为了给我才去抓的吧？\Nもしかしたら 俺にくれるために取ったの?
-Dialogue: 0,0:15:51.78,0:15:54.16,Default,,0,0,0,,做我的情人吧\Nビーマイバレンタイン
+Dialogue: 0,0:15:46.39,0:15:49.68,Default,,0,0,0,,该不会是为了给我还礼才去抓这个的吧？\Nもしかしたら 俺にくれるために取ったの?
+Dialogue: 0,0:15:51.78,0:15:54.16,Default,,0,0,0,,Be my Valentine...\Nビーマイバレンタイン
 Dialogue: 0,0:15:55.36,0:15:58.71,Default,,0,0,0,,什么意思 像情人节快乐类似的问候吗\Nなんだろう ハッピーバレンタインみたいな挨拶かな
-Dialogue: 0,0:15:59.38,0:16:03.30,Default,,0,0,0,,算了 总之没被讨厌真是太好了\Nま とにかく嫌われてるみたいじゃなくて良かった
+Dialogue: 0,0:15:59.38,0:16:03.30,Default,,0,0,0,,算了 总之好像没被讨厌 真是太好了\Nま とにかく嫌われてるみたいじゃなくて良かった
 Dialogue: 0,0:16:03.63,0:16:04.51,Default,,0,0,0,,对了\Nあ
 Dialogue: 0,0:16:05.75,0:16:09.30,Default,,0,0,0,,还不知道她的名字\Nまだ名前 聞いてなかった
 Dialogue: 0,0:16:25.27,0:16:27.58,Default,,0,0,0,,什么？\Nなんだってー！
 Dialogue: 0,0:16:28.33,0:16:33.54,Default,,0,0,0,,就是这样 因为英国的情人节和日本相反\Nそうなのです イギリスのバレンタインデーとは 日本とは逆で
-Dialogue: 0,0:16:33.54,0:16:38.24,Default,,0,0,0,,是男生送礼物向女生表白爱情的节日\N男が女へ愛の告白をするため プレゼントを贈る日なのです
+Dialogue: 0,0:16:33.54,0:16:38.24,Default,,0,0,0,,是男生送礼物向女生表白爱意的节日\N男が女へ愛の告白をするため プレゼントを贈る日なのです
 Dialogue: 0,0:16:39.90,0:16:41.73,Default,,0,0,0,,给你的礼物\Nプレゼントフォーユー！
-Dialogue: 0,0:16:42.22,0:16:44.42,Default,,0,0,0,,难道说 那个时候该不会\Nじゃあ もしかしてあの時も
+Dialogue: 0,0:16:42.22,0:16:44.42,Default,,0,0,0,,难道说 那个时候也是\Nじゃあ もしかしてあの時も
 Dialogue: 0,0:16:45.11,0:16:49.44,Default,,0,0,0,,好的 谢谢 我会好好珍惜的\Nわかった ありがとう 大切にするわ
-Dialogue: 0,0:16:50.27,0:16:54.15,Default,,0,0,0,,在日本 那也算是爱的告白吗\Nこ この場合 あれも愛の告白になるってことか！？
+Dialogue: 0,0:16:50.27,0:16:54.15,Default,,0,0,0,,那 那种情况下 是被理解成爱的告白了吗\Nこ この場合 あれも愛の告白になるってことか！？
 Dialogue: 0,0:16:54.42,0:16:55.91,Default,,0,0,0,,真的假的\Nマジかー！！
-Dialogue: 0,0:16:55.91,0:16:57.43,Default,,0,0,0,,哥哥 你太吵了\N兄さん うるさい
-Dialogue: 0,0:16:57.20,0:16:59.70,Default,,0,0,0,,（）进来前\N（） 入る前にはいつもノック
-Dialogue: 0,0:16:59.70,0:17:02.86,Default,,0,0,0,,你以为现在几点了 会吵到邻居的\N今何時だと思ってんの ご近所迷惑でしょ
+Dialogue: 0,0:16:55.91,0:16:57.43,Default,,0,0,0,,哥哥 你太吵了\N兄ちゃん うるさい
+Dialogue: 0,0:16:57.20,0:16:59.70,Default,,0,0,0,,不是跟你说过进来前一定要敲门\N 入る前にはいつもノック
+Dialogue: 0,0:16:59.70,0:17:02.86,Default,,0,0,0,,你以为现在几点了啊 会吵到邻居的\N今何時だと思ってんの ご近所迷惑でしょ
 Dialogue: 0,0:17:02.86,0:17:04.96,Default,,0,0,0,,抱 抱歉\Nす すみません
 Dialogue: 0,0:17:15.33,0:17:16.58,Default,,0,0,0,,哈喽\Nハ ハロー
 Dialogue: 0,0:17:18.06,0:17:20.99,Default,,0,0,0,,那个 我想找你聊聊\Nあ あのさ ちょっと話が
 Dialogue: 0,0:17:29.37,0:17:31.23,Default,,0,0,0,,啊 为什么\Nあ なんで？
 Dialogue: 0,0:17:31.23,0:17:32.63,Default,,0,0,0,,等 等等\Nま 待って
 Dialogue: 0,0:17:44.38,0:17:46.02,Default,,0,0,0,,你为什么要逃跑啊\Nなんで逃げるんだよ
-Dialogue: 0,0:17:50.41,0:17:51.71,Default,,0,0,0,,那位客人请慢一点\Nちょっとお客さん
-Dialogue: 0,0:17:54.66,0:17:56.77,Default,,0,0,0,,那家伙今天有排班吗\Nあいつ今日シフトだったっけ
-Dialogue: 0,0:17:56.77,0:17:57.54,Default,,0,0,0,,没有\Nいえ
+Dialogue: 0,0:17:50.41,0:17:51.71,Default,,0,0,0,,等一下 那位客人\Nちょっとお客さん
+Dialogue: 0,0:17:54.66,0:17:56.77,Default,,0,0,0,,那家伙今天有排班来着吗\Nあいつ今日シフトだったっけ
+Dialogue: 0,0:17:56.77,0:17:57.54,Default,,0,0,0,,没有啊\Nいえ
 Dialogue: 0,0:18:13.93,0:18:15.17,Default,,0,0,0,,请等一下\Nちょっと待って
 Dialogue: 0,0:19:09.68,0:19:11.19,Default,,0,0,0,,抱歉\Nあーっ ごめん
 Dialogue: 0,0:19:14.27,0:19:16.17,Default,,0,0,0,,我想把这个给你\Nこれを君に渡したくて
 Dialogue: 0,0:19:30.57,0:19:34.17,Default,,0,0,0,,你好 感谢你一直以来对游戏中心的频频惠顾\Nこんにちは いつもゲーセンに来てくれてありがとう
 Dialogue: 0,0:19:34.63,0:19:37.52,Default,,0,0,0,,我的名字是草壁莲司\N俺の名前は草壁蓮司と言います
 Dialogue: 0,0:19:38.07,0:19:39.31,Default,,0,0,0,,莲司？\NRenji?
-Dialogue: 0,0:19:39.99,0:19:44.30,Default,,0,0,0,,我的英语不太好 所以如果我的用句听起来很奇怪的话 我很抱歉\N英語は得意ではないので 変な文章になってたらごめんなさい
-Dialogue: 0,0:19:45.42,0:19:50.27,Default,,0,0,0,,谢谢你昨天的礼物 我将它作为我最喜欢的物品使用\N昨日のプレゼントありがとう 早速お気に入りとして使ってます
-Dialogue: 0,0:19:51.43,0:19:58.40,Default,,0,0,0,,随之你交给了我一条信息 但其含义真的是“做我的爱人”吗？\Nそれと一緒にもらったメッセージなんだけど あれはそのまま恋人になってという意味でいいんでしょうか
+Dialogue: 0,0:19:39.99,0:19:44.30,Default,,0,0,0,,我的英语不太好 所以如果我的行文用句听起来很奇怪的话 我很抱歉\N英語は得意ではないので 変な文章になってたらごめんなさい
+Dialogue: 0,0:19:45.42,0:19:50.27,Default,,0,0,0,,谢谢你昨天的礼物 我很喜欢 已经迫不及待地使用上了\N昨日のプレゼントありがとう 早速お気に入りとして使ってます
+Dialogue: 0,0:19:51.43,0:19:58.40,Default,,0,0,0,,关于你随之交给我的那条信息 其含义真的是“成为我的爱人”吗？\Nそれと一緒にもらったメッセージなんだけど あれはそのまま恋人になってという意味でいいんでしょうか
 Dialogue: 0,0:20:00.27,0:20:02.43,Default,,0,0,0,,若是如此 我深感荣幸\Nもしそうならとても嬉しいです
 Dialogue: 0,0:20:04.97,0:20:05.83,Default,,0,0,0,,但是\Nでも
 Dialogue: 0,0:20:12.03,0:20:13.68,Default,,0,0,0,,我们不能成为爱人\N恋人にはなれません
-Dialogue: 0,0:20:18.39,0:20:22.98,Default,,0,0,0,,因为我对你甚至于你的名字尚且一无所知\Nだって俺はまだ君のこと名前すらも知らないから
-Dialogue: 0,0:20:25.82,0:20:30.31,Default,,0,0,0,,所以我为了今后能互相了解\Nだから これからお互いのこと知っていけたらと思って
+Dialogue: 0,0:20:18.39,0:20:22.98,Default,,0,0,0,,因为我对你一无所知 甚至连你的名字都还不知道\Nだって俺はまだ君のこと名前すらも知らないから
+Dialogue: 0,0:20:25.82,0:20:30.31,Default,,0,0,0,,所以为了今后我们能了解彼此\Nだから これからお互いのこと知っていけたらと思って
 Dialogue: 0,0:20:30.31,0:20:31.98,Default,,0,0,0,,我准备了这个笔记本\Nこのノートを用意したんだ
-Dialogue: 0,0:20:32.43,0:20:37.07,Default,,0,0,0,,通过这个我们的感情可以变得更好\Nこれを通じて君ともっと仲良くなれたらいいかなって
+Dialogue: 0,0:20:32.43,0:20:37.07,Default,,0,0,0,,希望通过这个我能和你变得要好起来\Nこれを通じて君ともっと仲良くなれたらいいかなって
 Dialogue: 0,0:20:37.34,0:20:39.66,Default,,0,0,0,,也为了学习语言\N言葉の勉強にもなるし
-Dialogue: 0,0:20:40.37,0:20:41.29,Default,,0,0,0,,你意下如何\Nどうかな
+Dialogue: 0,0:20:40.37,0:20:41.29,Default,,0,0,0,,不知你意下如何\Nどうかな
 Dialogue: 0,0:20:44.40,0:20:45.47,Default,,0,0,0,,我明白了\NGotcha.
 Dialogue: 0,0:20:47.06,0:20:48.56,Default,,0,0,0,,现在这样就好\NThat's fine for now.
 Dialogue: 0,0:20:54.45,0:20:56.40,Default,,0,0,0,,我会让你爱上我的！\NI'll make you fall in love with me!
 Dialogue: 0,0:21:00.31,0:21:01.13,Default,,0,0,0,,啥\Nふぁ？
 Dialogue: 0,0:21:06.43,0:21:07.33,Default,,0,0,0,,等下\Nあの
 Dialogue: 0,0:21:12.91,0:21:15.55,Default,,0,0,0,,我叫莉莉！莉莉·贝可！\NMy name is Lily! Lily Baker!
-Dialogue: 0,0:21:15.89,0:21:18.75,Default,,0,0,0,,再见 莲司 下回见\NGood bye, Renji! See you next time!
+Dialogue: 0,0:21:15.89,0:21:18.75,Default,,0,0,0,,再见 莲司 下回见啦\NGood bye, Renji! See you next time!
 Dialogue: 0,0:21:19.92,0:21:20.95,Default,,0,0,0,,莉莉\Nリリー
 Dialogue: 0,0:21:22.69,0:21:24.22,Default,,0,0,0,,那就是她的名字\Nそれがあの子の
 Dialogue: 0,0:21:26.64,0:21:28.88,Default,,0,0,0,,再见了\Nシーユーレイター
-Dialogue: 0,0:21:29.09,0:21:30.94,Default,,0,0,0,,下次还来游戏厅玩吧\Nまたゲーセンにカモン
-Dialogue: 0,0:21:36.54,0:21:38.09,Default,,0,0,0,,再见！\NSee you again!
-Dialogue: 0,0:21:40.71,0:21:43.22,Default,,0,0,0,,再见！\Nあ S-See you again!
-Dialogue: 0,0:21:44.22,0:21:45.63,Default,,0,0,0,,回见！\NSee you!
+Dialogue: 0,0:21:29.09,0:21:30.94,Default,,0,0,0,,下次再来游戏厅玩吧\Nまたゲーセンにカモン
+Dialogue: 0,0:21:36.54,0:21:38.09,Default,,0,0,0,,下次再见！\NSee you again!
+Dialogue: 0,0:21:40.71,0:21:43.22,Default,,0,0,0,,下次再见！\Nあ S-See you again!
+Dialogue: 0,0:21:44.22,0:21:45.63,Default,,0,0,0,,再见！\NSee you!
 Dialogue: 0,0:21:48.49,0:21:53.89,Default,,0,0,0,,就这样 我和莉莉开始了在游戏厅的异文化交流\Nこうして俺とリリーちゃんとのゲーセンでの異文化交流が始まった
 Dialogue: 0,0:22:05.44,0:22:07.23,Default,ED,0,0,0,,机会！机会！机会！一把抓住\NChance！ Chance！ Chance！ つかめ
 Dialogue: 0,0:22:07.23,0:22:09.02,Default,ED,0,0,0,,幸运值！幸运值！幸运值！还有力量\NLuck！ Luck！ Luck！ パワー
 Dialogue: 0,0:22:09.02,0:22:11.52,Default,ED,0,0,0,,向上！向上！向上！就在此时此地\NUp！ Up！ Up！ Right Here, Right Now.
 Dialogue: 0,0:22:12.56,0:22:14.18,Default,ED,0,0,0,,战斗！战斗！战斗！永不结束\NFight！ Fight！ Fight！ 欲張れ
 Dialogue: 0,0:22:14.18,0:22:15.44,Default,ED,0,0,0,,命中！命中！连续命中！\NBeat Down！ Down！ Down！
-Dialogue: 0,0:22:15.44,0:22:18.94,Default,ED,0,0,0,,一起享受！享受！享受！通关的乐趣\NいざEn-Joy！ Joy！ Joy！ Let's Get Over！
+Dialogue: 0,0:22:15.44,0:22:18.94,Default,ED,0,0,0,,开始享受！享受！享受！通关的乐趣\NいざEn-Joy！ Joy！ Joy！ Let's Get Over！
 Dialogue: 0,0:22:19.85,0:22:22.62,Default,ED,0,0,0,,游戏币投入的瞬间\Nクレジット入れた瞬間に
-Dialogue: 0,0:22:23.26,0:22:26.21,Default,ED,0,0,0,,进入更广阔的世界\N広がる世界 interaction
+Dialogue: 0,0:22:23.26,0:22:26.21,Default,ED,0,0,0,,与变得更广阔的世界互动\N広がる世界 interaction
 Dialogue: 0,0:22:27.03,0:22:28.39,Default,ED,0,0,0,,多么新奇的体验\NWhat a fresh experience！
 Dialogue: 0,0:22:28.39,0:22:31.21,Default,ED,0,0,0,,不知不觉与大家一起\Nいつの間にかみんなで
 Dialogue: 0,0:22:31.21,0:22:33.43,Default,ED,0,0,0,,享受此刻\N楽しんだり
@@ -255,7 +255,7 @@ Dialogue: 0,0:22:34.80,0:22:36.81,Default,ED,0,0,0,,变得狂热\N熱くなっ�
 Dialogue: 0,0:22:38.25,0:22:40.29,Default,ED,0,0,0,,乐此不疲\Nハマったり
 Dialogue: 0,0:22:41.86,0:22:46.33,Default,ED,0,0,0,,有时会因为被揍得鼻青脸肿而消沉\Nボコボコにやられてへこんだりと
 Dialogue: 0,0:22:46.33,0:22:52.71,Default,ED,0,0,0,,在这热闹的空间中创造美好回忆\N作る思い出　賑わうこの空間(ばしょ)で
-Dialogue: 0,0:22:52.96,0:22:56.56,Default,ED,0,0,0,,有时也想像超人一样\Nたまには Like a superhero に
+Dialogue: 0,0:22:52.96,0:22:56.56,Default,ED,0,0,0,,有时也像个超级英雄一样\Nたまには Like a superhero に
 Dialogue: 0,0:22:56.56,0:23:02.48,Default,ED,0,0,0,,也许谁都可以成为也说不定\N誰でもなれるかもしれない
 Dialogue: 0,0:23:03.82,0:23:05.60,Default,ED,0,0,0,,我们随时加入游戏\NAnytime we enjoy them！
 Dialogue: 0,0:23:05.67,0:23:07.31,Default,ED,0,0,0,,我们随时畅享游戏\NAnytime we love it all！
@@ -269,3 +269,4 @@ Dialogue: 0,0:23:21.92,0:23:24.40,Default,ED,0,0,0,,向上！向上！向上！�
 Dialogue: 0,0:23:24.46,0:23:25.49,Default,ED,0,0,0,,哦 天哪\N(Oh my gosh！)
 Dialogue: 0,0:23:25.49,0:23:28.25,Default,ED,0,0,0,,糟了！糟了！糟了！游戏结束时间已经到了！到了！到了！\NUh！ Oh！ Oh！ もう It's Time Up！ Up！ Up！
 Dialogue: 0,0:23:28.25,0:23:33.62,Default,ED,0,0,0,,那么明天也在这里见\Nそれじゃまた明日もここで　See you again！
+Dialogue: 0,0:23:35.62,0:23:40.62,Default,ED,0,0,0,,下一集\N此路不通，另辟蹊径
