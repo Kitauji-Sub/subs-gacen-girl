@@ -1,0 +1,129 @@
+name: Build Subtitles
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
+    paths-ignore:
+      - '.github/**'
+      - 'README.md'
+
+env:
+  PYTHONUNBUFFERED: "1"
+  WINEDEBUG: "-all"
+
+jobs:
+  Build-CI-Versions:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Semantic Version
+        uses: PaulHatch/semantic-version@v5.4.0
+        id: semver
+        with:
+          tag_prefix: "v"
+          major_pattern: "(MAJOR)"
+          minor_pattern: "(MINOR)"
+          bump_each_commit: true
+          bump_each_commit_patch_pattern: "(PATCH)"
+      - name: Check if version exists
+        id: version_check
+        shell: bash
+        run: |
+          if [ $(git tag -l "${{ steps.semver.outputs.version_tag }}") ]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+      - name: Tag
+        if: steps.version_check.outputs.skip == 'false'
+        run: |
+          git tag ${{ steps.semver.outputs.version_tag }}
+      - name: Install git-cliff
+        uses: taiki-e/install-action@git-cliff
+      - name: Generate a changelog
+        if: steps.version_check.outputs.skip == 'false'
+        run: git-cliff --verbose --latest -c cliff.toml -o CHANGELOG.md --github-repo ${{ github.repository }}
+      - name: Setup Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: |
+          pip install --user git+https://github.com/FichteForks/Myaamori-Aegisub-Scripts.git@pr/fix-style-deduplication#subdirectory=scripts/sub-digest
+          pip install requests urllib3
+      - name: Download Aegisub-cli
+        run: |
+          Invoke-WebRequest -Uri "https://github.com/scrpr/aegisub-cli/releases/download/disable_unique_path/aegisub-cli.zip" -OutFile "aegisub-cli.zip"
+          Expand-Archive -Path "aegisub-cli.zip" -DestinationPath "aegisub-cli" -Force
+      - name: Install custom fonts
+        run: |
+          Invoke-WebRequest -Uri "https://github.com/Kitauji-Sub/subs-gacen-girl/releases/download/typeface/fonts.7z" -OutFile "fonts.7z"
+          Expand-Archive -Path "fonts.zip" -DestinationPath "Fonts" -Force
+          $fontSourceFolder = "Fonts\"
+          $SystemFontsPath = "C:\Windows\Fonts\"
+          
+          foreach($FontFile in Get-ChildItem $fontSourceFolder -Include '*.ttf','*.ttc','*.otf' -recurse ) {
+            $targetPath = Join-Path $SystemFontsPath $FontFile.Name
+          
+              if(![System.IO.Path]::IsPathRooted($fontSourceFolder)){
+                  $fontSourceFolder = $FontFile.Directory.FullName
+              }
+            if(Test-Path -Path $targetPath){
+              $FontFile.Name + " already installed"
+            }
+            else {
+              "Installing font " + $FontFile.Name
+              
+              #Extract Font information for Reqistry 
+              $ShellFolder = (New-Object -COMObject Shell.Application).Namespace($fontSourceFolder)
+              $ShellFile = $ShellFolder.ParseName($FontFile.name)
+              $ShellFileType = $ShellFolder.GetDetailsOf($ShellFile, 2)
+          
+              #Set the $FontType Variable
+              If ($ShellFileType -Like '*TrueType font file*') {$FontType = '(TrueType)'}
+                
+              #Update Registry and copy font to font directory
+              $RegName = $ShellFolder.GetDetailsOf($ShellFile, 21) + ' ' + $FontType
+              $null = New-ItemProperty -Name $RegName -Path "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Fonts" -PropertyType string -Value $FontFile.name -Force
+              Copy-item $FontFile.FullName -Destination $SystemFontsPath
+              "Done"
+            }
+          }
+      - name: Build substitles
+        run: |
+          python build_scripts/build.py ${{ github.workspace }}
+      - name: Pack files
+        run: |
+          $version = "${{steps.semver.outputs.version_tag}}"
+          $oldString = '${version}'
+          Get-ChildItem -Path "build/output" -File -Recurse | ForEach-Object {
+            $content = Get-Content $_.FullName -Raw
+            if ($content -match [regex]::Escape($oldString)) {
+                $content -replace [regex]::Escape($oldString), $version | Set-Content $_.FullName -NoNewline
+                Write-Host "Updated: $($_.Name)"
+            }
+          }
+          Write-Host "Replacement complete!"
+          Compress-Archive -Path "build/output/*" -DestinationPath "gcg_subs_$version.zip" -Force
+      - name: Publish
+        if: steps.version_check.outputs.skip == 'false'
+        uses: "softprops/action-gh-release@v2"
+        with:
+          tag_name: ${{steps.semver.outputs.version_tag}}
+          fail_on_unmatched_files: true
+          prerelease: false
+          draft: false
+          body_path: CHANGELOG.md
+          name: ${{steps.semver.outputs.version}}
+          files: |
+            gcg_subs_*.zip
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: gcg_subs_built
+          path: gcg_subs_*.zip
