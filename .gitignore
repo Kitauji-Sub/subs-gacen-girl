@@ -5,6 +5,6 @@ __pycache__
 .vscode/
 .env
 *.mp4
-gacen.tfml
+*.tfml
 *pre.ass
 aegisub-cli/
