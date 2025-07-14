@@ -14,9 +14,9 @@ Video File: C:/Users/scree/Desktop/gcg/ep1.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Scroll Position: 7
-Active Line: 8
-Video Position: 4032
+Scroll Position: 157
+Active Line: 180
+Video Position: 31117
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -209,7 +209,7 @@ Comment: 0,0:21:19.92,0:21:20.95,Text_Bottom,,0,0,0,kara,莉莉\Nリリー
 Comment: 0,0:21:22.69,0:21:24.22,Text_Bottom,,0,0,0,kara,那就是她的名字\Nそれがあの子の
 Comment: 0,0:21:26.64,0:21:29.09,Text_Bottom,,0,0,0,kara,{ruby=See you later}再见了{/ruby}\Nシーユーレイター
 Comment: 0,0:21:29.09,0:21:30.94,Text_Bottom,,0,0,0,kara,下次再来游戏中心{ruby=Come on}玩吧{/ruby}\Nまたゲーセンにカモン
-Comment: 0,0:21:36.54,0:21:38.09,Text_Bottom,,0,0,0,kara,下次再见！\NSee you again!
+Comment: 0,0:21:36.57,0:21:37.86,Text_Bottom,,0,0,120,kara,下次再见！\NSee you again!
 Comment: 0,0:21:40.71,0:21:43.22,Text_Bottom,,0,0,0,kara,下 下次再见！\Nあ S-See you again!
 Comment: 0,0:21:44.22,0:21:45.63,Text_Bottom,,0,0,0,kara,再见！\NSee you!
 Comment: 0,0:21:48.49,0:21:53.89,Text_Bottom,,0,0,0,kara,就这样 我和莉莉开始了在游戏中心的异文化交流\Nこうして俺とリリーちゃんとのゲーセンでの異文化交流が始まった
