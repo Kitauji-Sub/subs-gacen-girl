@@ -8,14 +8,13 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: C:/Users/scree/Desktop/Cultural.Exchange.with.a.Game.Centre.Girl.S01E01.1080p.CR.WEB-DL.AAC2.0.H.264-VARYG.mkv
-Video File: C:/Users/scree/Desktop/Cultural.Exchange.with.a.Game.Centre.Girl.S01E01.1080p.CR.WEB-DL.AAC2.0.H.264-VARYG.mkv
+Audio File: C:/Users/scree/Desktop/gcg/ep1.mkv
+Video File: C:/Users/scree/Desktop/gcg/ep1.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 1.250000
-Scroll Position: 610
-Active Line: 616
-Video Position: 29518
+Video Zoom Percent: 0.875000
+Active Line: 3
+Video Position: 8361
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -25,6 +24,8 @@ Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:03:05.29,0:03:07.29,OnScreen,,0,0,0,,{=12}{\fn思源黑体\b1\c&H5E4AFC&\fax0.120002\fscx120.57\fscy133.47\frz-6.2266\frx0.0122\fry4.6231\org(424.61,686.02)\pos(421.72,712.71)\blur1.7}情人节快乐
 Dialogue: 0,0:04:05.72,0:04:11.23,OnScreen,,0,0,0,,{=21}{\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fax-0.000002\fscx64.29\fscy77.30\frz0.0380\frx0.2092\fry-7.4237\xbord1.97\ybord2.15\org(1203.86,1165.37)\pos(1080.93,400.47)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:04:28.75,0:04:30.25,OnScreen,,0,0,0,,{\fn悠哉字体\c&HFDFFFE&\3c&H010102&\bord2.5\fscx200\fscy200\b1\pos(960,1040)}无情考拉！
+Dialogue: 0,0:05:48.70,0:05:49.70,OnScreen,,0,0,0,,{=98}{\fn思源黑体\b1\c&H4D3DFB&\fscx84.71\fscy85.21\frz-0.6330\frx-0.2630\fry0.9669\org(1093.18,1642.35)\pos(921.95,1001.27)}情人节快乐
 Dialogue: 0,0:10:12.34,0:10:15.35,OnScreen,,0,0,0,,{\fscx80\fscy80\fn仓耳周珂正大榜书\pos(122.65,489.94)\c&H1C1B1D&\3c&HC0C2C7&\bord3}简单
 Dialogue: 0,0:10:12.34,0:10:15.35,OnScreen,,0,0,0,,{\fscx80\fscy80\fn仓耳周珂正大榜书\c&HD6D3D8&\3c&H302C33&\bord3\pos(374.81,488.32)}连击
 Dialogue: 0,0:10:12.34,0:10:15.35,OnScreen,,0,0,0,,{\fscx80\fscy80\pos(1705.72,154.02)\c&HB8B3BB&\3c&H313233&\bord2}原创歌曲
@@ -737,3 +738,12 @@ Data: 86,_aegi_perspective_ambient_plane,e619.55;80.00#7C1394.45;182.43#7C1371.3
 Data: 87,_aegi_perspective_ambient_plane,e619.55;80.00#7C1394.67;182.85#7C1371.35;784.67#7C611.55;644.00
 Data: 88,_aegi_perspective_ambient_plane,e619.55;80.00#7C1394.67;182.86#7C1371.35;784.67#7C610.90;644.21
 Data: 89,_aegi_perspective_ambient_plane,e618.08;83.05#7C1394.67;182.86#7C1371.35;784.67#7C610.90;644.21
+Data: 90,_aegi_perspective_ambient_plane,e779.59;895.43#7C1055.83;895.43#7C1055.83;975.43#7C730.41;1055.96
+Data: 91,_aegi_perspective_ambient_plane,e731.12;975.25#7C1055.83;895.43#7C1055.83;975.43#7C730.41;1055.96
+Data: 92,_aegi_perspective_ambient_plane,e731.12;975.25#7C1055.83;895.43#7C1115.70;1072.70#7C730.41;1055.96
+Data: 93,_aegi_perspective_ambient_plane,e731.12;975.25#7C1117.12;991.99#7C1115.70;1072.70#7C730.41;1055.96
+Data: 94,_aegi_perspective_ambient_plane,e731.12;975.25#7C1116.37;992.75#7C1115.70;1072.70#7C730.41;1055.95
+Data: 95,_aegi_perspective_ambient_plane,e731.11;975.25#7C1116.36;992.75#7C1115.45;1072.46#7C730.40;1055.95
+Data: 96,_aegi_perspective_ambient_plane,e730.87;974.90#7C1116.35;992.75#7C1115.44;1072.46#7C730.39;1055.95
+Data: 97,_aegi_perspective_ambient_plane,e730.87;974.90#7C1116.34;992.75#7C1115.44;1072.46#7C730.38;1056.30
+Data: 98,_aegi_perspective_ambient_plane,e730.87;974.90#7C1116.35;992.75#7C1115.44;1072.46#7C730.39;1056.30
