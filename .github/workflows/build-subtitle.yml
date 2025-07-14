@@ -63,7 +63,7 @@ jobs:
       - name: Install custom fonts
         run: |
           Invoke-WebRequest -Uri "https://github.com/Kitauji-Sub/subs-gacen-girl/releases/download/typeface/fonts.7z" -OutFile "fonts.7z"
-          Expand-Archive -Path "fonts.zip" -DestinationPath "Fonts" -Force
+          Expand-Archive -Path "fonts.7z" -DestinationPath "Fonts" -Force
           $fontSourceFolder = "Fonts\"
           $SystemFontsPath = "C:\Windows\Fonts\"
           
