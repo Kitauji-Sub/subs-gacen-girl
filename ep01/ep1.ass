@@ -9,13 +9,14 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: C:/Users/scree/Desktop/Cultural.Exchange.with.a.Game.Centre.Girl.S01E01.1080p.CR.WEB-DL.AAC2.0.H.264-VARYG.mkv
-Video File: C:/Users/scree/Desktop/Cultural.Exchange.with.a.Game.Centre.Girl.S01E01.1080p.CR.WEB-DL.AAC2.0.H.264-VARYG.mkv
+Audio File: C:/Users/scree/Desktop/gcg/ep1.mkv
+Video File: C:/Users/scree/Desktop/gcg/ep1.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 1.000000
-Active Line: 7
-Video Position: 4144
+Video Zoom Percent: 0.875000
+Scroll Position: 170
+Active Line: 185
+Video Position: 31768
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -212,6 +213,6 @@ Comment: 0,0:21:36.54,0:21:38.09,Text_Bottom,,0,0,0,kara,下次再见！\NSee yo
 Comment: 0,0:21:40.71,0:21:43.22,Text_Bottom,,0,0,0,kara,下 下次再见！\Nあ S-See you again!
 Comment: 0,0:21:44.22,0:21:45.63,Text_Bottom,,0,0,0,kara,再见！\NSee you!
 Comment: 0,0:21:48.49,0:21:53.89,Text_Bottom,,0,0,0,kara,就这样 我和莉莉开始了在游戏中心的异文化交流\Nこうして俺とリリーちゃんとのゲーセンでの異文化交流が始まった
-Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,import-shifted,../op.ass
-Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,import-shifted,../ed.ass
+Comment: 0,0:01:19.25,0:01:19.25,Text_Bottom,,0,0,0,import-shifted,../op.ass
+Comment: 0,0:22:04.99,0:22:04.99,Text_Bottom,,0,0,0,import-shifted,../ed.ass
 Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,import,screen/screen.ass
