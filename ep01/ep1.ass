@@ -9,14 +9,13 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: 异文化_ep1_翻译用.mp4
-Video File: 异文化_ep1_翻译用.mp4
+Audio File: C:/Users/scree/Desktop/Cultural.Exchange.with.a.Game.Centre.Girl.S01E01.1080p.CR.WEB-DL.AAC2.0.H.264-VARYG.mkv
+Video File: C:/Users/scree/Desktop/Cultural.Exchange.with.a.Game.Centre.Girl.S01E01.1080p.CR.WEB-DL.AAC2.0.H.264-VARYG.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.250000
-Scroll Position: 234
-Active Line: 240
-Video Position: 33941
+Video Zoom Percent: 0.875000
+Active Line: 197
+Video Position: 31373
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -29,8 +28,10 @@ Style: Default - moe,FOT-TsukuARdGothic SC Bold,75,&H00FFFFFF,&H000000FF,&H00000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,CREDIT
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,本字幕由北宇治字幕组制作 仅供交流试看之用 TG@KitaUji\N{\fscx90\fscy90}长期招募翻译/时轴  招募群: 232487445  观众群: 884738299
 Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TITLE
-Dialogue: 0,0:02:48.02,0:02:52.53,OnScreen,Cur,0,0,0,,
+Dialogue: 0,0:02:48.02,0:02:52.53,OnScreen,Cur,0,0,0,,游戏中心的邂逅
 Dialogue: 0,0:23:34.98,0:23:39.98,OnScreen,Next,0,0,0,,
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,SCREEN
 Dialogue: 0,0:00:40.27,0:00:45.27,OnScreen,,0,0,0,,卡拉OK
@@ -46,22 +47,7 @@ Dialogue: 0,0:19:25.56,0:19:28.56,OnScreen,,0,0,0,,{\an7}Hello 你好\NThank you
 Dialogue: 0,0:20:31.13,0:20:33.38,OnScreen,,0,0,0,,留言本上的文字
 Dialogue: 0,0:21:59.63,0:22:04.97,OnScreen,,0,0,0,,招牌文字
 Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TEXT
-Dialogue: 0,0:01:01.97,0:01:03.68,Default,,0,0,0,,游戏厅？\N\NAn Arcade?
-Dialogue: 0,0:01:19.12,0:01:24.43,Default,OP,0,0,0,,希望你注意到 我在冲击你的最高分\Nねぇ　気づいてほしいの　あなたのハイスコア目指して
-Dialogue: 0,0:01:24.53,0:01:29.19,Default,OP,0,0,0,,心与心之间的距离不断靠近 让我兴奋不已\Nハートと共にレベリング　ワクワクが止まらない
-Dialogue: 0,0:01:29.19,0:01:30.27,Default,OP,0,0,0,,闯关开始\N(let's go！)
-Dialogue: 0,0:01:43.28,0:01:48.50,Default,OP,0,0,0,,令人心动的新恋情预感\N心がドキドキ　新しい恋の予感
-Dialogue: 0,0:01:48.58,0:01:55.25,Default,OP,0,0,0,,手中的游戏币注入魔力和勇气\Nコインを片手に　おまじないと勇気を込めて
-Dialogue: 0,0:01:58.65,0:02:04.15,Default,OP,0,0,0,,就像握着游戏手柄一样(游戏厅女孩×2)\Nコントローラー握るときみたいに(ゲーセンガール×2)
-Dialogue: 0,0:02:04.16,0:02:07.68,Default,OP,0,0,0,,如果我们手牵手 你会怎么想呢\N手をつなげたらなんて思うの
-Dialogue: 0,0:02:07.79,0:02:14.34,Default,OP,0,0,0,,微笑着彼此靠近吧（让我们一起开始！）\Nもっと近くで笑って(一緒に　レッツスタート！)
-Dialogue: 0,0:02:14.34,0:02:19.98,Default,OP,0,0,0,,拜托你要注意到 我在冲击你的最高分\Nお願い　この気持ち気づいて　あなたのハイスコア目指して
-Dialogue: 0,0:02:20.21,0:02:24.88,Default,OP,0,0,0,,心与心之间的距离不断靠近 让我兴奋不已\Nハートと共にレベリング　ワクワクが止まらない
-Dialogue: 0,0:02:24.88,0:02:25.59,Default,OP,0,0,0,,闯关继续\N(let's go！)
-Dialogue: 0,0:02:25.59,0:02:30.58,Default,OP,0,0,0,,四目相对的瞬间奖励关卡就要开始了哦\N目が合った瞬間　ボーナスステージはじまるよ
-Dialogue: 0,0:02:30.87,0:02:35.73,Default,OP,0,0,0,,如果能重复挑战的话 还请多来几次\Nコンティニューできるなら　何回でも
-Dialogue: 0,0:02:36.14,0:02:41.26,Default,OP,0,0,0,,虽然不能像游戏一样重置\Nゲームみたいにリセットできない
-Dialogue: 0,0:02:41.49,0:02:46.34,Default,OP,0,0,0,,但恋情伊始可以像一场游戏般\Nゲームみたいな恋の始まり
+Dialogue: 0,0:01:01.97,0:01:03.68,Default,,0,0,0,,游戏厅？\NAn Arcade?
 Dialogue: 0,0:03:01.31,0:03:03.57,Default,,0,0,0,,莲司 这边也拜托你啦\N蓮司くん こっちも頼むわ
 Dialogue: 0,0:03:04.03,0:03:05.23,Default,,0,0,0,,好的\N分かりました
 Dialogue: 0,0:03:33.63,0:03:35.26,Default,,0,0,0,,该死\NBloody hell.
@@ -240,33 +226,3 @@ Dialogue: 0,0:21:36.54,0:21:38.09,Default,,0,0,0,,下次再见！\NSee you again
 Dialogue: 0,0:21:40.71,0:21:43.22,Default,,0,0,0,,下次再见！\Nあ S-See you again!
 Dialogue: 0,0:21:44.22,0:21:45.63,Default,,0,0,0,,再见！\NSee you!
 Dialogue: 0,0:21:48.49,0:21:53.89,Default,,0,0,0,,就这样 我和莉莉开始了在游戏厅的异文化交流\Nこうして俺とリリーちゃんとのゲーセンでの異文化交流が始まった
-Dialogue: 0,0:22:05.44,0:22:07.23,Default,ED,0,0,0,,机会！机会！机会！一把抓住\NChance！ Chance！ Chance！ つかめ
-Dialogue: 0,0:22:07.23,0:22:09.02,Default,ED,0,0,0,,幸运值！幸运值！幸运值！还有力量\NLuck！ Luck！ Luck！ パワー
-Dialogue: 0,0:22:09.02,0:22:11.52,Default,ED,0,0,0,,向上！向上！向上！就在此时此地\NUp！ Up！ Up！ Right Here, Right Now.
-Dialogue: 0,0:22:12.56,0:22:14.18,Default,ED,0,0,0,,战斗！战斗！战斗！永不结束\NFight！ Fight！ Fight！ 欲張れ
-Dialogue: 0,0:22:14.18,0:22:15.44,Default,ED,0,0,0,,命中！命中！连续命中！\NBeat Down！ Down！ Down！
-Dialogue: 0,0:22:15.44,0:22:18.94,Default,ED,0,0,0,,开始享受！享受！享受！通关的乐趣\NいざEn-Joy！ Joy！ Joy！ Let's Get Over！
-Dialogue: 0,0:22:19.85,0:22:22.62,Default,ED,0,0,0,,游戏币投入的瞬间\Nクレジット入れた瞬間に
-Dialogue: 0,0:22:23.26,0:22:26.21,Default,ED,0,0,0,,与变得更广阔的世界互动\N広がる世界 interaction
-Dialogue: 0,0:22:27.03,0:22:28.39,Default,ED,0,0,0,,多么新奇的体验\NWhat a fresh experience！
-Dialogue: 0,0:22:28.39,0:22:31.21,Default,ED,0,0,0,,不知不觉与大家一起\Nいつの間にかみんなで
-Dialogue: 0,0:22:31.21,0:22:33.43,Default,ED,0,0,0,,享受此刻\N楽しんだり
-Dialogue: 0,0:22:34.80,0:22:36.81,Default,ED,0,0,0,,变得狂热\N熱くなったり
-Dialogue: 0,0:22:38.25,0:22:40.29,Default,ED,0,0,0,,乐此不疲\Nハマったり
-Dialogue: 0,0:22:41.86,0:22:46.33,Default,ED,0,0,0,,有时会因为被揍得鼻青脸肿而消沉\Nボコボコにやられてへこんだりと
-Dialogue: 0,0:22:46.33,0:22:52.71,Default,ED,0,0,0,,在这热闹的空间中创造美好回忆\N作る思い出　賑わうこの空間(ばしょ)で
-Dialogue: 0,0:22:52.96,0:22:56.56,Default,ED,0,0,0,,有时也像个超级英雄一样\Nたまには Like a superhero に
-Dialogue: 0,0:22:56.56,0:23:02.48,Default,ED,0,0,0,,也许谁都可以成为也说不定\N誰でもなれるかもしれない
-Dialogue: 0,0:23:03.82,0:23:05.60,Default,ED,0,0,0,,我们随时加入游戏\NAnytime we enjoy them！
-Dialogue: 0,0:23:05.67,0:23:07.31,Default,ED,0,0,0,,我们随时畅享游戏\NAnytime we love it all！
-Dialogue: 0,0:23:07.45,0:23:10.85,Default,ED,0,0,0,,我们每天更新乐趣理论值\N日々更新される楽しさの理論値
-Dialogue: 0,0:23:10.94,0:23:12.62,Default,ED,0,0,0,,这里是极乐净土\NSo here's the wonderland！
-Dialogue: 0,0:23:12.80,0:23:14.30,Default,ED,0,0,0,,为何不一起加入？\NWhy don't you come with me？
-Dialogue: 0,0:23:14.30,0:23:18.34,Default,ED,0,0,0,,失败就一起再来一次\N失敗してもう一回　次も一緒に
-Dialogue: 0,0:23:18.34,0:23:20.10,Default,ED,0,0,0,,机会！机会！机会！一把抓住\NChance！ Chance！ Chance！ つかめ
-Dialogue: 0,0:23:20.10,0:23:21.92,Default,ED,0,0,0,,幸运值！幸运值！幸运值！还有力量\NLuck！ Luck！ Luck！ パワー
-Dialogue: 0,0:23:21.92,0:23:24.40,Default,ED,0,0,0,,向上！向上！向上！就在此时此地\NUp！ Up！ Up！ Right Here, Right Now.
-Dialogue: 0,0:23:24.46,0:23:25.49,Default,ED,0,0,0,,哦 天哪\N(Oh my gosh！)
-Dialogue: 0,0:23:25.49,0:23:28.25,Default,ED,0,0,0,,糟了！糟了！糟了！游戏结束时间已经到了！到了！到了！\NUh！ Oh！ Oh！ もう It's Time Up！ Up！ Up！
-Dialogue: 0,0:23:28.25,0:23:33.62,Default,ED,0,0,0,,那么明天也在这里见\Nそれじゃまた明日もここで　See you again！
-Dialogue: 0,0:23:35.62,0:23:40.62,Default,ED,0,0,0,,下一集\N此路不通，另辟蹊径
