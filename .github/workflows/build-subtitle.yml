@@ -63,7 +63,7 @@ jobs:
       - name: Install custom fonts
         run: |
           Invoke-WebRequest -Uri "https://github.com/Kitauji-Sub/subs-gacen-girl/releases/download/typeface/fonts.7z" -OutFile "fonts.7z"
-          Expand-Archive -Path "fonts.7z" -DestinationPath "Fonts" -Force
+          7z e fonts.7z -oFonts
           $fontSourceFolder = "Fonts\"
           $SystemFontsPath = "C:\Windows\Fonts\"
           
@@ -109,7 +109,7 @@ jobs:
             }
           }
           Write-Host "Replacement complete!"
-          Compress-Archive -Path "build/output/*" -DestinationPath "gcg_subs_$version.zip" -Force
+          7z a -t7z "gcg_subs_$version.7z" "./build/output/*" -mx=9 -ms=4g -mf=off -m0=LZMA:d=1g:mf=bt4
       - name: Publish
         if: steps.version_check.outputs.skip == 'false'
         uses: "softprops/action-gh-release@v2"
@@ -121,9 +121,9 @@ jobs:
           body_path: CHANGELOG.md
           name: ${{steps.semver.outputs.version}}
           files: |
-            gcg_subs_*.zip
+            gcg_subs_*.7z
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: gcg_subs_built
-          path: gcg_subs_*.zip
+          path: gcg_subs_*.7z
