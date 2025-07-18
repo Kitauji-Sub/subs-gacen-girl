@@ -9,13 +9,14 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 02 (1080p) [700AADE5].mkv
-Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 02 (1080p) [700AADE5].mkv
+Audio File: C:/Users/scree/Desktop/gcg/ep2.mkv
+Video File: C:/Users/scree/Desktop/gcg/ep2.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
-Active Line: 9
-Video Position: 31669
+Video Zoom Percent: 0.625000
+Scroll Position: 12
+Active Line: 41
+Video Position: 31778
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -35,13 +36,13 @@ Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TEXT
 Dialogue: 0,0:00:02.22,0:00:05.67,Text_Bottom,,0,0,0,,喂 莲司 能补充一下奖品吗\Nお～い蓮司くん プライズの補充 お願いしていい？
 Dialogue: 0,0:00:05.85,0:00:07.09,Text_Bottom,,0,0,0,,啊 好的\Nあっ は～い
 Dialogue: 0,0:00:14.86,0:00:15.66,Text_Bottom,,0,0,0,,搞定\Nよし
-Dialogue: 0,0:00:16.21,0:00:17.97,Text_Bottom,,0,0,0,,\NHello, Renji!
+Dialogue: 0,0:00:16.21,0:00:17.97,Text_Bottom,,0,0,0,,你好 莲司！\NHello, Renji!
 Dialogue: 0,0:00:21.90,0:00:24.62,Text_Bottom,,0,0,0,,莉莉 你今天也来了啊\Nリリーちゃん 今日も来たんだね
-Dialogue: 0,0:00:24.62,0:00:25.83,Text_Bottom,,0,0,0,,\NOf course.
-Dialogue: 0,0:00:27.43,0:00:30.40,Text_Bottom,,0,0,0,,\NI brought our notebook today too. Give it a read.
+Dialogue: 0,0:00:24.62,0:00:25.83,Text_Bottom,,0,0,0,,当然\NOf course.
+Dialogue: 0,0:00:27.38,0:00:30.34,Text_Bottom,,0,0,120,,我今天也把我们的笔记带来了 快看看\NI brought our notebook today too. Give it a read.
 Dialogue: 0,0:00:30.93,0:00:33.19,Text_Bottom,,0,0,0,,哦 好的好的\Nおっ オーケー オーケー
 Dialogue: 0,0:00:33.55,0:00:35.45,Text_Bottom,,0,0,0,,谢谢你 莉莉\Nサンキュー リリーちゃん
-Dialogue: 0,0:00:37.07,0:00:39.25,Text_Bottom,,0,0,0,,她的名字是莉莉・贝克\N彼女の名前はリリー・ベイカー
+Dialogue: 0,0:00:37.07,0:00:39.25,Text_Bottom,,0,0,0,,她的名字是莉莉・贝可\N彼女の名前はリリー・ベイカー
 Dialogue: 0,0:00:40.48,0:00:45.67,Text_Bottom,,0,0,0,,之前两人开始的交换日记“游戏厅笔记”\Nこの前から２人で始めることになった交換日記 「ゲーセン・ノート」によると…
 Dialogue: 0,0:00:46.51,0:00:50.72,Text_Bottom,,0,0,0,,听说她几个月前刚从英国搬到日本生活\N彼女は数ヶ月前イギリスから日本に引っ越してきたばかりだそうだ
 Dialogue: 0,0:00:51.52,0:00:55.29,Text_Bottom,,0,0,0,,她原本就很喜欢日本的游戏和动画\Nもともと日本のゲームやアニメ自体は好きだったそうだが
@@ -50,45 +51,45 @@ Dialogue: 0,0:01:00.85,0:01:03.47,Text_Bottom,,0,0,0,,所以才一个人来游�
 Dialogue: 0,0:01:04.73,0:01:07.22,Text_Bottom,,0,0,0,,也是经历了不少困难呢\Nいろいろ大変だったみたいだな
 Dialogue: 0,0:01:07.59,0:01:10.90,Text_Bottom,,0,0,0,,不过 她要是在这里稍微开心一点也不错\Nでも ここで少しでも楽しんでくれたら
 Dialogue: 0,0:01:13.49,0:01:15.06,Text_Bottom,,0,0,0,,怎 怎么了？\Nど どうかした？
-Dialogue: 0,0:01:17.28,0:01:19.43,Text_Bottom,,0,0,0,,\NNoticed anything?
+Dialogue: 0,0:01:17.35,0:01:19.52,Text_Bottom,,0,0,120,,注意到什么了吗？\NNoticed anything?
 Dialogue: 0,0:01:20.25,0:01:22.01,Text_Bottom,,0,0,0,,这 这个…\Nえ え えっと
 Dialogue: 0,0:01:22.42,0:01:25.60,Text_Bottom,,0,0,0,,啊 难道是肩膀酸了吗？\Nあっ もしかして肩凝ってるとか？
 Dialogue: 0,0:01:27.50,0:01:29.69,Text_Bottom,,0,0,0,,诶 生气了 为啥？\Nえ 怒った なんで？
 Dialogue: 0,0:01:29.69,0:01:31.95,Text_Bottom,,0,0,0,,啊 欢迎光临 莉莉\Nあっ いらっしゃいリリーちゃん
 Dialogue: 0,0:01:32.66,0:01:35.27,Text_Bottom,,0,0,0,,嗯 今天的穿搭很漂亮\Nんっ 今日の服いい感じだね
 Dialogue: 0,0:01:35.61,0:01:37.05,Text_Bottom,,0,0,0,,头发也剪短了吗\N髪も切ったんだ～？
-Dialogue: 0,0:01:37.05,0:01:38.10,Text_Bottom,,0,0,0,,\NUh-huh.
+Dialogue: 0,0:01:37.05,0:01:38.10,Text_Bottom,,0,0,0,,唔嗯\NUh-huh.
 Dialogue: 0,0:01:38.10,0:01:38.79,Text_Bottom,,0,0,0,,完了\Nあっ
 Dialogue: 0,0:01:39.15,0:01:40.69,Text_Bottom,,0,0,0,,玩的开心哦～\Nゆっくりしていってね～
-Dialogue: 0,0:01:41.30,0:01:42.77,Text_Bottom,,0,0,0,,\NThank you—
+Dialogue: 0,0:01:41.30,0:01:42.77,Text_Bottom,,0,0,0,,谢谢你\NThank you—
 Dialogue: 0,0:01:45.65,0:01:48.21,Text_Bottom,,0,0,0,,异 异文化交流真难\N い 異文化交流って難しい…
 Comment: 0,0:01:49.51,0:01:50.26,Text_Bottom,,0,0,0,,OP
 Dialogue: 0,0:03:32.02,0:03:33.28,Text_Bottom,,0,0,0,,再见 爸爸\NCheers, Dad!
 Dialogue: 0,0:03:38.29,0:03:39.41,Text_Bottom,,0,0,0,,早上好\Nおはよう
 Dialogue: 0,0:03:41.65,0:03:44.09,Text_Bottom,,0,0,0,,大 大家早上好\Nオ オハヨウゴザイマス
 Dialogue: 0,0:03:44.41,0:03:46.06,Text_Bottom,,0,0,0,,啊 早上好\Nあ… おはよう
-Dialogue: 0,0:03:46.06,0:03:47.77,Text_Bottom,,0,0,0,,早上好…贝克\Nおはよう… ベイカーさん
+Dialogue: 0,0:03:46.06,0:03:47.77,Text_Bottom,,0,0,0,,早上好…贝可\Nおはよう… ベイカーさん
 Dialogue: 0,0:03:55.45,0:03:57.97,Text_Bottom,,0,0,0,,大家还对莉莉有所顾虑…\Nみんなまだリリーさんに気を遣って…
 Dialogue: 0,0:03:58.49,0:04:02.26,Text_Bottom,,0,0,0,,作为班长 我必须想办法才行\Nここは クラス委員長である私がなんとかしなくちゃ
 Dialogue: 0,0:04:03.63,0:04:07.15,Text_Bottom,,0,0,0,,那个…英语打招呼的正确发音是？\Nえっと 英語の挨拶の正しい発音は？
-Dialogue: 0,0:04:07.15,0:04:08.23,Text_Bottom,,0,0,0,,哈喽！\Nハロー！
-Dialogue: 0,0:04:08.23,0:04:09.74,Text_Bottom,,0,0,0,,对 就是“哈喽”\Nそう 「ハロー」
+Dialogue: 0,0:04:07.15,0:04:08.23,Text_Bottom,,0,0,0,,{ruby=Hello}你好{/ruby}！\Nハロー！
+Dialogue: 0,0:04:08.23,0:04:09.74,Text_Bottom,,0,0,0,,对 就是「{ruby=Hello}你好{/ruby}」\Nそう 「ハロー」
 Dialogue: 0,0:04:09.74,0:04:10.83,Text_Bottom,,0,0,0,,咦？\Nって えっ？
-Dialogue: 0,0:04:11.75,0:04:14.63,Text_Bottom,,0,0,0,,我的名字是葵衣·草壁！\Nマイ・ネーム・イズ・アオイ・クサカベ！
+Dialogue: 0,0:04:11.75,0:04:14.63,Text_Bottom,,0,0,0,,{ruby=My name is}我的名字是{/ruby}葵衣·草壁！\Nマイ・ネーム・イズ・アオイ・クサカベ！
 Dialogue: 0,0:04:14.63,0:04:18.22,Text_Bottom,,0,0,0,,难得分到同班 我们好好相处吧！\Nせっかく同じクラスになったんだもん 仲よくしよ！
 Dialogue: 0,0:04:19.34,0:04:20.96,Text_Bottom,,0,0,0,,那个…\Nえっと
-Dialogue: 0,0:04:20.96,0:04:23.70,Text_Bottom,,0,0,0,,我想当你的朋友…！\Nアイム・ユア・フレンド… に なりたい！
-Dialogue: 0,0:04:24.07,0:04:24.94,Text_Bottom,,0,0,0,,好吗？\Nオーケー？
-Dialogue: 0,0:04:25.37,0:04:26.63,Text_Bottom,,0,0,0,,My friend?\NMy friend?
+Dialogue: 0,0:04:20.96,0:04:23.70,Text_Bottom,,0,0,0,,{ruby=I'm}我{/ruby}想当{ruby=Your friend}你的朋友{/ruby}…！\Nアイム・ユア・フレンド… に なりたい！
+Dialogue: 0,0:04:24.07,0:04:24.94,Text_Bottom,,0,0,0,,{ruby=OK}好吗{/ruby}？\Nオーケー？
+Dialogue: 0,0:04:25.37,0:04:26.63,Text_Bottom,,0,0,0,,我的朋友？\NMy friend?
 Dialogue: 0,0:04:26.63,0:04:28.30,Text_Bottom,,0,0,0,,Oh yes yes！\Nオー イエス イエス！
 Dialogue: 0,0:04:28.30,0:04:29.28,Text_Bottom,,0,0,0,,啊\Nあっ
 Dialogue: 0,0:04:29.28,0:04:32.11,Text_Bottom,,0,0,0,,莉莉喜欢帅气考拉啊\Nリリーちゃん 漢気コアラ好きなんだ
-Dialogue: 0,0:04:32.11,0:04:35.75,Text_Bottom,,0,0,0,,好可爱呢 这太可爱了！\Nかわいいよね ジス・イズ・ベリー・キュート！
-Dialogue: 0,0:04:36.89,0:04:37.72,Text_Bottom,,0,0,0,,No!\NNo!
-Dialogue: 0,0:04:37.72,0:04:39.59,Text_Bottom,,0,0,0,,He's very cool!\NHe's very cool!
+Dialogue: 0,0:04:32.11,0:04:35.75,Text_Bottom,,0,0,0,,好可爱呢 {ruby=This is very cute}这太可爱了{/ruby}！\Nかわいいよね ジス・イズ・ベリー・キュート！
+Dialogue: 0,0:04:36.89,0:04:37.72,Text_Bottom,,0,0,0,,不！\NNo!
+Dialogue: 0,0:04:37.72,0:04:39.59,Text_Bottom,,0,0,0,,他特别酷！\NHe's very cool!
 Dialogue: 0,0:04:40.18,0:04:40.71,Text_Bottom,,0,0,0,,咦？\Nへっ？
-Dialogue: 0,0:04:40.94,0:04:44.31,Text_Bottom,,0,0,0,,\NIt's not "cute." He's cool, like seriously cool!
-Dialogue: 0,0:04:44.31,0:04:46.35,Text_Bottom,,0,0,0,,\NHe's got all sorts of modes, you know!
+Dialogue: 0,0:04:40.94,0:04:44.31,Text_Top,,0,0,0,,他不是可爱 是很酷 真的很酷！\NIt's not "cute." He's cool, like seriously cool!
+Dialogue: 0,0:04:44.31,0:04:46.35,Text_Top,,0,0,0,,他的风格变幻莫测 你懂的！\NHe's got all sorts of modes, you know!
 Dialogue: 0,0:04:43.95,0:04:44.82,Text_Bottom,,0,0,0,,酷…？\Nクーゥ…？
 Dialogue: 0,0:04:45.44,0:04:47.36,Text_Bottom,,0,0,0,,酷啊？\Nクーァ？
 Dialogue: 0,0:04:48.09,0:04:49.81,Text_Bottom,,0,0,0,,老哥 帮帮我！\N兄ちゃん 頼む！
@@ -110,7 +111,7 @@ Dialogue: 0,0:05:37.66,0:05:39.42,Text_Bottom,,0,0,0,,嗯～哼\Nふ ふ～ん
 Dialogue: 0,0:05:39.42,0:05:45.58,Text_Bottom,,0,0,0,,然后呢 听说有个店员在她抓不到奖品时帮了她\Nでね その子がゲーセンで景品取れてない時に助けてくれた店員さんがいたらしくてさ
 Dialogue: 0,0:05:45.74,0:05:46.97,Text_Bottom,,0,0,0,,嗯～哼\Nふ～ん
 Dialogue: 0,0:05:46.97,0:05:51.73,Text_Bottom,,0,0,0,,我想如果我也能那样的话 就能跟她更亲近了吧\Nアタシもそんなふうにできたらもっと仲よくなれるかなぁって
-Dialogue: 0,0:05:51.06,0:05:53.14,Text_Bottom,,0,0,0,,Present for you\Nプレゼント・フォー・ユー
+Dialogue: 0,0:05:51.06,0:05:53.14,Text_Top,,0,0,0,,{ruby=Present for you}给你的礼物{/ruby}\Nプレゼント・フォー・ユー
 Dialogue: 0,0:05:54.93,0:05:58.88,Text_Bottom,,0,0,0,,然后 那个店员还向她表白什么的\Nで その店員さんに愛の告白をされたとか
 Dialogue: 0,0:05:59.98,0:06:01.76,Text_Bottom,,0,0,0,,哇 怎么了 发生什么了！？\Nうわ 何 どうしたの！？
 Dialogue: 0,0:06:02.40,0:06:04.00,Text_Bottom,,0,0,0,,没 没什么\Nい いや 何でも
@@ -146,7 +147,7 @@ Dialogue: 0,0:07:58.57,0:07:59.74,Text_Bottom,,0,0,0,,小混混\Nチンピラ
 Dialogue: 0,0:07:59.74,0:08:01.31,Text_Bottom,,0,0,0,,好像糊弄过去了\Nごまかせたみたいだ
 Dialogue: 0,0:08:02.11,0:08:07.74,Text_Bottom,,0,0,0,,诶～～！这种人对初中生表白什么的 该立刻报警立案吧\Nえぇ～っ こんなのが中学生に愛の告白とか 即事案の通報ものでしょ
 Dialogue: 0,0:08:08.06,0:08:10.14,Text_Bottom,,0,0,0,,你没事吧莉莉\N大丈夫なのリリーちゃん
-Dialogue: 0,0:08:11.99,0:08:13.91,Text_Bottom,,0,0,0,,\NOtokogi mode!
+Dialogue: 0,0:08:11.99,0:08:13.91,Text_Bottom,,0,0,0,,男子汉形态！\NOtokogi mode!
 Dialogue: 0,0:08:13.91,0:08:15.49,Text_Bottom,,0,0,0,,那是什么啊～！\Nなんなのそれ～！
 Dialogue: 0,0:08:15.71,0:08:19.58,Text_Bottom,,0,0,0,,话说莉莉 已经完全变成恋爱少女的表情了\Nてかリリーちゃん 完全に恋する乙女の表情に
 Dialogue: 0,0:08:19.58,0:08:22.64,Text_Bottom,,0,0,0,,不行啊莉莉 不能迷上这种男人！\Nダメだよリリーちゃん こんな男にほれちゃ！
@@ -162,7 +163,7 @@ Dialogue: 0,0:08:49.18,0:08:50.53,Text_Bottom,,0,0,0,,好 好的\Nは はぁ
 Dialogue: 0,0:08:51.10,0:08:54.46,Text_Bottom,,0,0,0,,被那样说的话就没办法拒绝了\Nそんなふうに言われたらもう断れないじゃん
 Dialogue: 0,0:08:55.01,0:08:58.66,Text_Bottom,,0,0,0,,话说 要是只有那种建议就能轻松抓到的话 谁还费劲啊\Nてか　そんなアドバイスで簡単に取れたら苦労なんか
 Dialogue: 0,0:09:01.73,0:09:04.24,Text_Bottom,,0,0,0,,骗人 真的一次就抓到了\Nウソ ホントに一発で取れちゃった
-Dialogue: 0,0:09:04.51,0:09:06.37,Text_Bottom,,0,0,0,,\NThat's amazing!
+Dialogue: 0,0:09:04.51,0:09:06.37,Text_Bottom,,0,0,0,,太惊人了！\NThat's amazing!
 Dialogue: 0,0:09:08.26,0:09:13.70,Text_Bottom,,0,0,0,,明明好好给了建议 我却凭外表擅自认定他是怪人\Nちゃんとアドバイスしてくれたのに 格好で変な人って勝手に決めつけて
 Dialogue: 0,0:09:14.05,0:09:15.69,Text_Bottom,,0,0,0,,必须好好道歉才行\Nちゃんと謝らないと
 Dialogue: 0,0:09:16.17,0:09:18.53,Text_Bottom,,0,0,0,,干得不错嘛 真了不起\Nやるじゃねえか 偉いぞ
@@ -174,11 +175,11 @@ Dialogue: 0,0:09:29.23,0:09:30.58,Text_Bottom,,0,0,0,,啊 等等\Nあっ ちょ�
 Dialogue: 0,0:09:30.97,0:09:33.01,Text_Bottom,,0,0,0,,真是的 那人怎么回事啊\Nもう なんなの あの人
 Dialogue: 0,0:09:36.41,0:09:37.14,Text_Bottom,,0,0,0,,\Nうえっ
 Dialogue: 0,0:09:37.14,0:09:40.18,Text_Bottom,,0,0,0,,诶 不 不是啦 不是你想的那样\Nえっ ち 違うって そういうんじゃないから
-Dialogue: 0,0:09:40.37,0:09:41.21,Text_Bottom,,0,0,0,,\NReally?
+Dialogue: 0,0:09:40.37,0:09:41.21,Text_Bottom,,0,0,0,,真的？\NReally?
 Dialogue: 0,0:09:41.83,0:09:44.21,Text_Bottom,,0,0,0,,是真的啦\Nホントだったら
-Dialogue: 0,0:09:50.45,0:09:51.93,Text_Bottom,,0,0,0,,\NHmm...
-Dialogue: 0,0:09:53.05,0:09:55.06,Text_Bottom,,0,0,0,,\NIsn't this the pen you fancied?
-Dialogue: 0,0:09:55.31,0:09:57.94,Text_Bottom,,0,0,0,,\NNo! I want one that's more sparkly!
+Dialogue: 0,0:09:50.45,0:09:51.93,Text_Bottom,,0,0,0,,嗯……\NHmm...
+Dialogue: 0,0:09:53.05,0:09:55.03,Text_Bottom,,0,0,120,,难道这不是你喜欢的笔吗？\NIsn't this the pen you fancied?
+Dialogue: 0,0:09:55.16,0:09:57.83,Text_Bottom,,0,0,120,,不是！我想要的是更闪耀的那种！\NNo! I want one that's more sparkly!
 Dialogue: 0,0:09:59.47,0:10:01.58,Text_Bottom,,0,0,0,,葵衣就有一支\Nアオイちゃんが持ってたんだけど
 Dialogue: 0,0:10:01.58,0:10:06.35,Text_Bottom,,0,0,0,,写完后改变角度会变成七彩色 超可爱的\N書いた後に角度を変えると七色に変わったりして すっごいかわいいの
 Dialogue: 0,0:10:06.88,0:10:10.03,Text_Bottom,,0,0,0,,我们是来买学习用文具的对吧\N勉強用の文房具を買いにきたのよね
@@ -188,11 +189,11 @@ Dialogue: 0,0:10:17.42,0:10:18.77,Text_Bottom,,0,0,0,,诶 莉莉？\Nあれっ �
 Dialogue: 0,0:10:23.93,0:10:25.10,Text_Bottom,,0,0,0,,怎么了！？\Nちょっと！？
 Dialogue: 0,0:10:25.78,0:10:27.86,Text_Bottom,,0,0,0,,那个 晚上好\Nあの こんばんは
 Dialogue: 0,0:10:28.25,0:10:30.06,Text_Bottom,,0,0,0,,晚 晚上好\Nコ コンバンハ
-Dialogue: 0,0:10:30.72,0:10:33.14,Text_Bottom,,0,0,0,,\NDo you know that boy? Why'd you hide?
-Dialogue: 0,0:10:33.30,0:10:39.36,Text_Bottom,,0,0,0,,\NYeah, but... I didn't dress cute today so I don't want him to see me.
-Dialogue: 0,0:10:39.70,0:10:41.53,Text_Bottom,,0,0,0,,\NHey! Say hello!
-Dialogue: 0,0:10:41.53,0:10:43.47,Text_Bottom,,0,0,0,,\NM-Mum, no! Don't make me!
-Dialogue: 0,0:10:43.47,0:10:44.55,Text_Bottom,,0,0,0,,什么情况\Nなんだこれ
+Dialogue: 0,0:10:30.72,0:10:33.14,Text_Bottom,,0,0,0,,你认识那个男孩吗？为什么要躲？\NDo you know that boy? Why'd you hide?
+Dialogue: 0,0:10:33.30,0:10:39.45,Text_Bottom,,0,0,120,,是啊 但是……我今天打扮得不太可爱 所以我不想让他看到我\NYeah, but... I didn't dress cute today so I don't want him to see me.
+Dialogue: 0,0:10:39.66,0:10:41.37,Text_Bottom,,0,0,120,,至少打个招呼！\NHey! Say hello!
+Dialogue: 0,0:10:41.50,0:10:43.47,Text_Bottom,,0,0,120,,妈妈 不要 别管我！\NM-Mum, no! Don't make me!
+Dialogue: 0,0:10:43.47,0:10:44.46,Text_Top,,0,0,0,,什么情况\Nなんだこれ
 Dialogue: 0,0:10:46.10,0:10:49.55,Text_Bottom,,0,0,0,,原来你是游戏厅的店员啊\Nまあ ゲームセンターの店員さんだったんだ
 Dialogue: 0,0:10:49.55,0:10:51.82,Text_Bottom,,0,0,0,,我还以为肯定是男朋友呢\Nてっきりボーイフレンドかと思ったわ
 Dialogue: 0,0:10:51.82,0:10:54.49,Text_Bottom,,0,0,0,,诶 您原来是这么想的吗！？\Nえっ そんなことを思ってたんですか！？
@@ -205,27 +206,27 @@ Dialogue: 0,0:11:12.83,0:11:14.41,Text_Bottom,,0,0,0,,这样啊\Nそうなんで
 Dialogue: 0,0:11:14.57,0:11:15.78,Text_Bottom,,0,0,0,,有点不好意思啊\Nなんか てれるな
 Dialogue: 0,0:11:15.78,0:11:19.65,Text_Bottom,,0,0,0,,啊 那个考拉玩偶也是游戏厅的吧\Nあっ あのコアラのぬいぐるみもゲーセンのやつなんでしょ
 Dialogue: 0,0:11:19.85,0:11:23.74,Text_Bottom,,0,0,0,,那孩子 睡前经常紧紧抱着那个玩偶呢\Nあの子 寝る前はよくあのぬいぐるみ抱き締めてるのよね
-Dialogue: 0,0:11:23.74,0:11:26.78,Text_Bottom,,0,0,0,,\NMum! Why would you tell him that?!
-Dialogue: 0,0:11:26.78,0:11:28.77,Text_Bottom,,0,0,0,,真是个快乐的家庭啊\N楽しい家庭なんだろうな
+Dialogue: 0,0:11:23.79,0:11:26.92,Text_Bottom,,0,0,120,,妈妈！干嘛要告诉他那些？！\NMum! Why would you tell him that?!
+Dialogue: 0,0:11:26.92,0:11:28.63,Text_Bottom,,0,0,0,,真是个快乐的家庭啊\N楽しい家庭なんだろうな
 Dialogue: 0,0:11:29.22,0:11:34.23,Text_Bottom,,0,0,0,,说起来 刚才你们在找的圆珠笔 我有线索哦\Nそういえば さっき探してたっていうボールペン 心当たりがありますよ
-Dialogue: 0,0:11:37.79,0:11:39.65,Text_Bottom,,0,0,0,,\NYes, I wanted this!
-Dialogue: 0,0:11:40.19,0:11:41.91,Text_Bottom,,0,0,0,,\NMum. My wallet.
-Dialogue: 0,0:11:42.14,0:11:46.48,Text_Bottom,,0,0,0,,\NCalm down! You always end up spending all your pocket money at arcades!
-Dialogue: 0,0:11:46.62,0:11:48.03,Text_Bottom,,0,0,0,,\NBut I...
+Dialogue: 0,0:11:37.80,0:11:39.39,Text_Bottom,,0,0,120,,是的 我就是想要这个！\NYes, I wanted this!
+Dialogue: 0,0:11:40.26,0:11:41.91,Text_Bottom,,0,0,120,,妈妈 我的钱包\NMum. My wallet.
+Dialogue: 0,0:11:42.01,0:11:46.35,Text_Bottom,,0,0,120,,别上头！你老是在游戏厅把零花钱花得一干二净！\NCalm down! You always end up spending all your pocket money at arcades!
+Dialogue: 0,0:11:46.56,0:11:47.94,Text_Bottom,,0,0,120,,但是我……\NBut I...
 Dialogue: 0,0:11:49.36,0:11:50.27,Text_Bottom,,0,0,0,,好了 给\Nはい どうぞ
 Dialogue: 0,0:11:51.90,0:11:53.54,Text_Bottom,,0,0,0,,就 就这一瞬间？\Nい 今の一瞬で？
 Dialogue: 0,0:11:53.54,0:11:55.87,Text_Bottom,,0,0,0,,你 你难道是忍者吗！？\Nあ あなた もしかしてニンジャなの！？
 Dialogue: 0,0:11:55.87,0:11:57.02,Text_Bottom,,0,0,0,,忍法！？\Nニンポー！？
 Dialogue: 0,0:11:57.02,0:12:00.15,Text_Bottom,,0,0,0,,不 我只是个普通的游戏厅店员而已\Nいや 普通のゲーセンの店員ですけど
 Dialogue: 0,0:12:01.04,0:12:03.53,Text_Bottom,,0,0,0,,这是感谢你常来游戏厅的回礼\Nいつもゲーセンに来てもらってるお礼だよ
-Dialogue: 0,0:12:04.35,0:12:05.45,Text_Bottom,,0,0,0,,\NCan I?
-Dialogue: 0,0:12:05.45,0:12:09.79,Text_Bottom,,0,0,0,,\NWell, he insisted. So it would be rather rude to turn him down.
+Dialogue: 0,0:12:04.37,0:12:05.29,Text_Bottom,,0,0,120,,我可以吗？\NCan I?
+Dialogue: 0,0:12:05.41,0:12:09.75,Text_Bottom,,0,0,120,,好吧 都到这份上了 再拒绝就不太合适了\NWell, he insisted. So it would be rather rude to turn him down.
 Dialogue: 0,0:12:19.10,0:12:21.04,Text_Bottom,,0,0,0,,谢谢你 莲司\Nアリガト レンジ
 Dialogue: 0,0:12:23.92,0:12:28.03,Text_Bottom,,0,0,0,,今日承蒙惠顾 非常感谢\N本日はご来店いただきまして 誠にありがとうございました
-Dialogue: 0,0:12:28.63,0:12:38.25,Text_Bottom,,0,0,0,,本店现在…\N当店はただいまをもちまして…
-Dialogue: 0,0:12:28.61,0:12:29.91,Text_Bottom,,0,0,0,,\NThis jingle...?
-Dialogue: 0,0:12:30.89,0:12:32.90,Text_Bottom,,0,0,0,,\NHey, is "Auld Lang Syne" playing?
-Dialogue: 0,0:12:33.13,0:12:34.32,Text_Bottom,,0,0,0,,\NWhat's going on?
+Dialogue: 0,0:12:28.63,0:12:38.25,Text_Top,,0,0,0,,本店现在…\N当店はただいまをもちまして…能听得清就补不能就算了
+Dialogue: 0,0:12:28.56,0:12:29.91,Text_Bottom,,0,0,120,,这首歌是……？\NThis jingle...?
+Dialogue: 0,0:12:30.85,0:12:32.90,Text_Bottom,,0,0,120,,嘿 这是在放《友谊地久天长》吗？\NHey, is "Auld Lang Syne" playing?
+Dialogue: 0,0:12:33.13,0:12:34.44,Text_Bottom,,0,0,120,,怎么一回事？\NWhat's going on?
 Dialogue: 0,0:12:34.69,0:12:38.14,Text_Bottom,,0,0,0,,啊 意思是“今天已经打烊了”哦\Nああ 「今日はもう閉店です」ってことよ
 Dialogue: 0,0:12:38.53,0:12:41.41,Text_Bottom,,0,0,0,,"See you tomorrow." 就是“明天见”的意思\N"See you tomorrow." 「また明日」ってね
 Dialogue: 0,0:12:43.33,0:12:44.42,Text_Bottom,,0,0,0,,\NWhy?
@@ -236,16 +237,16 @@ Dialogue: 0,0:12:55.49,0:12:59.97,Text_Bottom,,0,0,0,,是啊 硬要说的话 算
 Dialogue: 0,0:12:59.97,0:13:02.05,Text_Bottom,,0,0,0,,诶 这样啊\Nへえ そうなんですか
 Dialogue: 0,0:13:14.86,0:13:16.75,Text_Bottom,,0,0,0,,那我往这边走了\Nじゃあ 俺こっちなので
 Dialogue: 0,0:13:16.75,0:13:17.94,Text_Bottom,,0,0,0,,谢谢你啦\Nありがとうね
-Dialogue: 0,0:13:18.65,0:13:21.12,Text_Bottom,,0,0,0,,莉莉 明天见\Nリリーちゃん　シー・ユー・トゥモロー
-Dialogue: 0,0:13:25.37,0:13:27.59,Text_Bottom,,0,0,0,,\NSee you tomorrow!
+Dialogue: 0,0:13:18.65,0:13:21.12,Text_Bottom,,0,0,0,,莉莉 {ruby=See you tomorrow}明天见{/ruby}\Nリリーちゃん　シー・ユー・トゥモロー
+Dialogue: 0,0:13:25.37,0:13:27.59,Text_Bottom,,0,0,0,,明天见！\NSee you tomorrow!
 Dialogue: 0,0:13:27.59,0:13:29.26,Text_Bottom,,0,0,0,,明天见\Nマタ アシタ
 Dialogue: 0,0:13:40.85,0:13:42.63,Text_Bottom,,0,0,0,,好难念啊～\N読みづれえ～
 Dialogue: 0,0:13:52.85,0:13:57.53,Text_Bottom,,0,0,0,,诶？ 那个店员完全没回应你的攻势？\Nえっ あの店員さんが全然アプローチに応えてくれない？
-Dialogue: 0,0:13:57.71,0:14:00.27,Text_Bottom,,0,0,0,,\NH-Hmm. That's right.
+Dialogue: 0,0:13:57.71,0:14:00.27,Text_Bottom,,0,0,0,,嗯 是这样的\NH-Hmm. That's right.
 Dialogue: 0,0:14:00.69,0:14:03.11,Text_Bottom,,0,0,0,,今天谢谢你光临游戏厅\N今日はゲーセンに来てくれてありがとう
 Dialogue: 0,0:14:04.02,0:14:06.17,Text_Bottom,,0,0,0,,今天也是开心的一天呢\N今日も楽しい一日だったね
 Dialogue: 0,0:14:06.86,0:14:08.62,Text_Bottom,,0,0,0,,希望明天是晴天\N明日は晴れるといいね
-Dialogue: 0,0:14:12.41,0:14:15.02,Text_Bottom,,0,0,0,,\NAre we going through a rough patch already?
+Dialogue: 0,0:14:12.41,0:14:15.21,Text_Bottom,,0,0,120,,我们已经是在阵痛期了吗？\NAre we going through a rough patch already?
 Dialogue: 0,0:14:15.36,0:14:18.38,Text_Bottom,,0,0,0,,虽然听不懂你在说什么 但应该不是吧\N何言ってるかわかんないけど たぶん違うね
 Dialogue: 0,0:14:19.03,0:14:22.35,Text_Bottom,,0,0,0,,嗯 是那个像小混混的店员吧\Nん あのチンピラっぽい店員さんか
 Dialogue: 0,0:14:22.93,0:14:25.37,Text_Bottom,,0,0,0,,搞不清是个轻浮的人还是个好人\Nチャラいんだかいい人なんだか
@@ -275,10 +276,10 @@ Dialogue: 0,0:15:42.29,0:15:45.94,Text_Bottom,,0,0,0,,哎呀～ 演得真棒啊�
 Dialogue: 0,0:15:45.94,0:15:49.19,Text_Bottom,,0,0,0,,因为一直主动进攻的莉莉突然变得冷淡了\Nいつもグイグイのリリーちゃんが急にドライになったから
 Dialogue: 0,0:15:49.19,0:15:54.47,Text_Bottom,,0,0,0,,现在那个店员 脑子里肯定全是莉莉的事\N今頃あの店員さん リリーちゃんのことで頭がいっぱいのはずよ
 Dialogue: 0,0:15:54.47,0:15:58.89,Text_Bottom,,0,0,0,,虽然这是之前杂志上看到的 不知道行不行得通呢\Nってこの前読んだ雑誌に書いてあったけど うまくいくかなぁ
-Dialogue: 0,0:16:01.68,0:16:03.30,Text_Bottom,,0,0,0,,\NThis is hard.
+Dialogue: 0,0:16:01.61,0:16:03.23,Text_Bottom,,0,0,120,,这样好难受\NThis is hard.
 Dialogue: 0,0:16:03.30,0:16:05.09,Text_Bottom,,0,0,0,,没 没问题的莉莉\Nだ 大丈夫リリーちゃん
-Dialogue: 0,0:16:06.23,0:16:08.31,Text_Bottom,,0,0,0,,\NI'll feel better after I...
-Dialogue: 0,0:16:09.18,0:16:10.80,Text_Bottom,,0,0,0,,\Ncalm down a bit.
+Dialogue: 0,0:16:06.11,0:16:08.31,Text_Bottom,,0,0,0,,等会就会好的……\NI'll feel better after I...
+Dialogue: 0,0:16:09.18,0:16:11.12,Text_Bottom,,0,0,0,,等我冷静一点之后\Ncalm down a bit.
 Dialogue: 0,0:16:11.30,0:16:14.98,Text_Bottom,,0,0,0,,只是稍微冷淡一点就变成这样\Nちょっと冷たい態度しただけでこんなになっちゃうなんて
 Dialogue: 0,0:16:15.19,0:16:18.75,Text_Bottom,,0,0,0,,莉莉 你真的很喜欢那个人呢\Nリリーちゃん ホントにあの人のこと好きなんだな
 Dialogue: 0,0:16:19.12,0:16:20.65,Text_Bottom,,0,0,0,,好了 去侦察吧\Nさっ 偵察よ
@@ -291,6 +292,8 @@ Dialogue: 0,0:16:40.79,0:16:43.14,Text_Bottom,,0,0,0,,不 那不行啊\Nいヤ �
 Dialogue: 0,0:16:43.14,0:16:44.13,Text_Bottom,,0,0,0,,诶～\Nえ～っ
 Dialogue: 0,0:16:44.13,0:16:46.16,Text_Bottom,,0,0,0,,在正常接待客人！\N普通に接客してる！
 Dialogue: 0,0:16:46.16,0:16:48.06,Text_Bottom,,0,0,0,,而且还是女孩子\Nしかも女子相手
+Dialogue: 0,0:16:47.69,0:16:51.60,Text_Top,,0,0,0,,\N能听得清就补不能就算了
+Dialogue: 0,0:16:51.60,0:16:53.59,Text_Top,,0,0,0,,\N能听得清就补不能就算了
 Dialogue: 0,0:16:48.13,0:16:51.60,Text_Bottom,,0,0,0,,嘛 嘛 正常想也是理所当然的吧\Nま まあ 普通に考えたら当たり前よね
 Dialogue: 0,0:16:51.60,0:16:53.18,Text_Bottom,,0,0,0,,毕竟在打工嘛\Nバイト中だもんね
 Dialogue: 0,0:16:58.64,0:17:03.33,Text_Bottom,,0,0,0,,不该把普通恋爱技巧套用在这两人关系上的\Nこの二人の関係に普通の恋愛術を当てはめるべきじゃなかったわ
@@ -340,13 +343,13 @@ Dialogue: 0,0:19:43.60,0:19:45.13,Text_Bottom,,0,0,0,,呜…\Nうぅ…
 Dialogue: 0,0:19:47.87,0:19:51.42,Text_Bottom,,0,0,0,,奇 奇怪 我是按照食谱做的啊\Nあ あれ レシピどおり作ったんだけどな
 Dialogue: 0,0:19:51.92,0:19:55.26,Text_Bottom,,0,0,0,,虽 虽然卖相不好 但味道说不定意外的…\Nま まあ 見た目は悪くても味は意外と
 Dialogue: 0,0:19:55.65,0:19:58.41,Text_Bottom,,0,0,0,,哇～ 让你露出那种表情真是对不起！\Nわ～っ そんな顔させちゃってごめんっ
-Dialogue: 0,0:19:59.35,0:20:01.34,Text_Bottom,,0,0,0,,\NThanks for helping me out.
+Dialogue: 0,0:19:59.35,0:20:01.34,Text_Bottom,,0,0,0,,谢谢你能够帮我\NThanks for helping me out.
 Dialogue: 0,0:20:01.34,0:20:05.45,Text_Bottom,,0,0,0,,没关系 没关系 这次的事情我也有责任\Nいいのいいの 今回の件はアタシのせいでもあるんだし
 Dialogue: 0,0:20:05.66,0:20:09.43,Text_Bottom,,0,0,0,,而且 朋友的恋爱必须支持到底啊\Nそれに 友達の恋は最後まで応援しなくちゃ
 Dialogue: 0,0:20:09.95,0:20:11.60,Text_Bottom,,0,0,0,,朋友？\Nトモダチ？
 Dialogue: 0,0:20:12.08,0:20:13.82,Text_Bottom,,0,0,0,,谢谢你 葵衣\Nアリガト アオイ
 Dialogue: 0,0:20:14.23,0:20:16.72,Text_Bottom,,0,0,0,,那么 就实行莉莉妈妈亲授的\Nさっ リリーちゃんのママ直伝
-Dialogue: 0,0:20:16.72,0:20:19.58,Text_Bottom,,0,0,0,,“要抓住男人就要抓住他的胃”作战计划\N「男をつかむなら胃袋をつかめ」作戦
+Dialogue: 0,0:20:16.72,0:20:19.58,Text_Bottom,,0,0,0,,「要抓住男人就要抓住他的胃」作战计划\N「男をつかむなら胃袋をつかめ」作戦
 Dialogue: 0,0:20:19.97,0:20:21.38,Text_Bottom,,0,0,0,,一定能成功的\N成功させよ
 Dialogue: 0,0:20:21.38,0:20:22.55,Text_Bottom,,0,0,0,,\NYeah!
 Dialogue: 0,0:20:23.23,0:20:24.56,Text_Bottom,,0,0,0,,是葵衣啊\N葵衣か
@@ -368,14 +371,14 @@ Dialogue: 0,0:21:16.67,0:21:17.57,Text_Bottom,,0,0,0,,诶！？\Nえっ！？
 Dialogue: 0,0:21:18.14,0:21:20.29,Text_Bottom,,0,0,0,,呜 呃 呃…\Nうっ え えっと
 Dialogue: 0,0:21:20.51,0:21:22.34,Text_Bottom,,0,0,0,,是 是啊\Nそ そうだな
 Dialogue: 0,0:21:23.10,0:21:27.23,Text_Bottom,,0,0,0,,要不是在游戏厅打工的话 就能多玩一会儿了\Nゲーセンのバイト中じゃなかったらもっと遊んだりできるんだけど
-Dialogue: 0,0:21:27.69,0:21:28.45,Text_Bottom,,0,0,0,,\NWhat?
+Dialogue: 0,0:21:27.69,0:21:28.45,Text_Bottom,,0,0,0,,什么？\NWhat?
 Dialogue: 0,0:21:29.06,0:21:30.23,Text_Bottom,,0,0,0,,呃…\Nえっとぉ
-Dialogue: 0,0:21:30.89,0:21:33.66,Text_Bottom,,0,0,0,,不打工 我们就能玩了\Nノー・バイト・ウイ・キャン・エンジョイ
+Dialogue: 0,0:21:30.89,0:21:33.66,Text_Bottom,,0,0,0,,{ruby=No}不{/ruby}打工 {ruby=We can enjoy}我们就能玩了{/ruby}\Nノー・バイト・ウイ・キャン・エンジョイ
 Dialogue: 0,0:21:33.95,0:21:35.01,Text_Bottom,,0,0,0,,开玩笑的\Nなんてね
-Dialogue: 0,0:21:36.63,0:21:39.76,Text_Bottom,,0,0,0,,\NYou would meet me outside the arcade?
+Dialogue: 0,0:21:36.57,0:21:39.74,Text_Bottom,,0,0,120,,你会在游戏厅之外的地方见到我吗？\NYou would meet me outside the arcade?
 Dialogue: 0,0:21:39.90,0:21:40.63,Text_Bottom,,0,0,0,,诶…？\Nえっ…？
 Dialogue: 0,0:21:41.02,0:21:42.25,Text_Bottom,,0,0,0,,嗯\Nう うん
-Dialogue: 0,0:21:46.32,0:21:49.18,Text_Bottom,,0,0,0,,\NYou mean... like on a date?!
+Dialogue: 0,0:21:46.28,0:21:49.29,Text_Bottom,,0,0,120,,你的意思是……跟约会差不多？！\NYou mean... like on a date?!
 Dialogue: 0,0:21:50.27,0:21:51.28,Text_Bottom,,0,0,0,,约会？\Nデイト?
 Dialogue: 0,0:21:53.57,0:21:54.96,Text_Bottom,,0,0,0,,约会！？\Nデートォ！？
 Dialogue: 0,0:21:55.19,0:21:57.63,Text_Bottom,,0,0,0,,是这么回事吗！？\Nそういうことになるのか！？
