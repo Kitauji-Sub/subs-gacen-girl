@@ -14,8 +14,8 @@ Video File: C:/Users/scree/Desktop/gcg/ep2.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.625000
-Scroll Position: 252
-Active Line: 266
+Scroll Position: 48
+Active Line: 15
 Video Position: 31778
 
 [V4+ Styles]
@@ -42,7 +42,7 @@ Dialogue: 0,0:00:24.62,0:00:25.83,Text_Bottom,,0,0,0,,当然\NOf course.
 Dialogue: 0,0:00:27.38,0:00:30.34,Text_Bottom,,0,0,120,,我今天把我们的笔记也带来了 快看看\NI brought our notebook today too. Give it a read.
 Dialogue: 0,0:00:30.93,0:00:33.19,Text_Bottom,,0,0,0,,哦 好的好的\Nおっ オーケー オーケー
 Dialogue: 0,0:00:33.55,0:00:35.45,Text_Bottom,,0,0,0,,谢谢你 莉莉\Nサンキュー リリーちゃん
-Dialogue: 0,0:00:37.07,0:00:39.25,Text_Bottom,,0,0,0,,她的名字是莉莉・贝可\N彼女の名前はリリー・ベイカー
+Dialogue: 0,0:00:37.07,0:00:39.25,Text_Bottom,,0,0,0,,她的名字是莉莉・贝克\N彼女の名前はリリー・ベイカー
 Dialogue: 0,0:00:40.48,0:00:45.67,Text_Bottom,,0,0,0,,根据前阵子我们两人开始写的交换日记——“游戏厅笔记”上写的\Nこの前から２人で始めることになった交換日記 「ゲーセン・ノート」によると…
 Dialogue: 0,0:00:46.51,0:00:50.72,Text_Bottom,,0,0,0,,她似乎几个月前刚从英国搬到日本生活\N彼女は数ヶ月前イギリスから日本に引っ越してきたばかりだそうだ
 Dialogue: 0,0:00:51.52,0:00:55.29,Text_Bottom,,0,0,0,,她原本就很喜欢日本的游戏和动画\Nもともと日本のゲームやアニメ自体は好きだったそうだが
@@ -93,8 +93,8 @@ Dialogue: 0,0:04:44.31,0:04:46.35,Text_Top,,0,0,0,,他的风格变幻莫测 你�
 Dialogue: 0,0:04:43.95,0:04:44.82,Text_Bottom,,0,0,0,,酷…？\Nクーゥ…？
 Dialogue: 0,0:04:45.44,0:04:47.36,Text_Bottom,,0,0,0,,酷啊？\Nクーァ？
 Dialogue: 0,0:04:48.09,0:04:49.81,Text_Bottom,,0,0,0,,老哥 帮帮我！\N兄ちゃん 頼む！
-Dialogue: 0,0:04:49.81,0:04:53.42,Text_Bottom,,0,0,0,,让我一天之内成为游戏厅高手吧！\Nアタシを１日でゲーセンのプロにしてくれ！
-Dialogue: 0,0:04:55.59,0:04:57.30,Text_Bottom,,0,0,0,,什么叫游戏厅高手啊？\Nゲーセンのプロって何？
+Dialogue: 0,0:04:49.81,0:04:53.42,Text_Bottom,,0,0,0,,让我一天之内成为街机高手吧！\Nアタシを１日でゲーセンのプロにしてくれ！
+Dialogue: 0,0:04:55.59,0:04:57.30,Text_Bottom,,0,0,0,,什么叫街机高手啊？\Nゲーセンのプロって何？
 Dialogue: 0,0:04:57.69,0:05:00.80,Text_Bottom,,0,0,0,,话说 你不是对游戏什么的完全没兴趣吗\Nてかお前 ゲームとか全然興味なかったろ
 Dialogue: 0,0:05:01.37,0:05:03.59,Text_Bottom,,0,0,0,,社团也一直是体育系的\N部活もずっと体育会系だし
 Dialogue: 0,0:05:03.59,0:05:06.06,Text_Bottom,,0,0,0,,话是这么说啦\Nそれはそうなんだけどさ
