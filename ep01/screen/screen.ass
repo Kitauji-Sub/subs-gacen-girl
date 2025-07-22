@@ -8,14 +8,14 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: C:/Users/scree/Desktop/gcg/ep1.mkv
-Video File: C:/Users/scree/Desktop/gcg/ep1.mkv
+Audio File: C:/Users/scree/Desktop/gcg/[KitaujiSub] Game Center Shoujo to Ibunka Kouryuu [01][WebRip][HEVC_AAC][CHS_CHT_JP].mkv
+Video File: C:/Users/scree/Desktop/gcg/[KitaujiSub] Game Center Shoujo to Ibunka Kouryuu [01][WebRip][HEVC_AAC][CHS_CHT_JP].mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.875000
-Scroll Position: 221
-Active Line: 247
-Video Position: 8361
+Video Zoom Percent: 0.750000
+Scroll Position: 588
+Active Line: 610
+Video Position: 27946
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -633,8 +633,8 @@ Dialogue: 0,0:13:11.43,0:13:11.47,OnScreen,,0,0,0,track2,{=52=56}{\alpha&H00&\fn
 Dialogue: 1,0:15:18.23,0:15:20.23,OnScreen,,0,0,0,,{=89}{\fn仓耳周珂正大榜书\c&HE89F9F&\3c&HFCFCFE&\fax-0.000001\fscx203.17\fscy234.03\frz-2.2722\frx-0.5127\fry-1.6711\bord6\org(1452,-772.93)\pos(994.74,577.88)}男子气概马克杯
 Dialogue: 0,0:15:18.23,0:15:20.23,OnScreen,,0,0,0,,{=89}{\fn仓耳周珂正大榜书\c&HE89F9F&\3c&HE89F9F&\fax-0.000001\fscx203.17\fscy234.03\frz-2.2722\frx-0.5127\fry-1.6711\bord13\org(1452,-772.93)\pos(994.74,577.88)}男子气概马克杯
 Dialogue: 0,0:16:21.84,0:16:23.63,OnScreen,,0,0,0,,{=80}{\c&HE5E4E5&\fax0.000003\fscx349.85\fscy361.12\frz9.9853\frx0.2682\fry0.1742\org(-1068.37,3357.7)\pos(1244.4,1274.05)}当我的爱人吧！
-Dialogue: 1,0:19:25.56,0:19:28.56,OnScreen,,0,0,0,,{\an7\fn悠哉字体\fscx70\fscy70-\pos(46,41)}Hello 你好\NThank you for always coming to the game center. 感谢你一直以来对游戏中心的惠顾\NMy name is Kusakabe Renji 我的名字是草壁莲司\NI'm not good at English, so I'm sorry if my sentences sound strange. 我的英语不太好 所以如果我的行文用句听起来很奇怪的话 我很抱歉\NThank you for the present yesterday. 谢谢你昨天的礼物\N...put it in my favorites. 我很喜欢 已经迫不及待地使用上了\N...message along with it, 关于你随之交给我的那条信息\N..."be my lover?" 但其含义真的是“做我的爱人”吗？\N... 若是如此 我深感荣幸\NBut we… 但是我们不能成为情侣\NBecause I still don't know anything about you. 因为我对你一无所知\NI don't even know your name. 甚至连你的名字都还不知道\NThat's why I prepared this notebook, 这就是我准备了这个笔记本的原因\N...that we can get to know each other better. 因为我希望我们可以更深入地了解彼此\NI thought it would be nice ... to you through this... 希望通过这个我能和你变得要好起来\NIt'll help me learn the language too... 也能当作学习语言的助力\N... I wonder? 不知你意下如何?
-Dialogue: 0,0:19:25.56,0:19:28.56,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1\c&H777777&\1a&H64&\clip(30,30,1357,533)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 1,0:19:25.56,0:19:28.56,OnScreen,,0,0,0,,{\an7\fn悠哉字体\fscx70\fscy70-\pos(46,41)\c&H141414&}Hello 你好\NThank you for always coming to the game center. 感谢你一直以来对游戏中心的惠顾\NMy name is Kusakabe Renji 我的名字是草壁莲司\NI'm not good at English, so I'm sorry if my sentences sound strange. 我的英语不太好 所以如果我的行文用句听起来很奇怪的话 我很抱歉\NThank you for the present yesterday. 谢谢你昨天的礼物\N...put it in my favorites. 我很喜欢 已经迫不及待地使用上了\N...message along with it, 关于你随之交给我的那条信息\N..."be my lover?" 但其含义真的是“做我的爱人”吗？\N... 若是如此 我深感荣幸\NBut we… 但是我们不能成为情侣\NBecause I still don't know anything about you. 因为我对你一无所知\NI don't even know your name. 甚至连你的名字都还不知道\NThat's why I prepared this notebook, 这就是我准备了这个笔记本的原因\N...that we can get to know each other better. 因为我希望我们可以更深入地了解彼此\NI thought it would be nice ... to you through this... 希望通过这个我能和你变得要好起来\NIt'll help me learn the language too... 也能当作学习语言的助力\N... I wonder? 不知你意下如何?
+Dialogue: 0,0:19:25.56,0:19:28.56,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1\c&HFFFFFF&\1a&H64&\clip(30,30,1357,533)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
 Dialogue: 0,0:20:31.13,0:20:33.38,OnScreen,,0,0,0,,{\fn悠哉字体\c&H757073&\fscx70\fscy70\frz26.18\pos(392.76,430.38)}考试复习途中想散散心就来这里了！\N果然能和朋友一起玩要的街机厅就是好啊～\N考完了之后再来玩一次吧～
 Dialogue: 0,0:20:31.13,0:20:33.38,OnScreen,,0,0,0,,{\an6\fn悠哉字体\c&H757073&\fscx60\fscy60\frz31.81\pos(492.16,769.6)}大号的玩偶，\N下次一定要抓到！
 Dialogue: 0,0:20:31.13,0:20:33.38,OnScreen,,0,0,0,,{\fn悠哉字体\c&H757073&\fscx75\fscy75\frz24.26\pos(885.03,286.59)}非常谢谢你和我对战！
