@@ -15,7 +15,8 @@ Keyframes File: C:/Users/scree/Desktop/gcg/ep2_keyframes.txt
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Active Line: 15
+Scroll Position: 340
+Active Line: 364
 Video Position: 34044
 
 [V4+ Styles]
@@ -56,7 +57,7 @@ Comment: 0,0:00:24.62,0:00:25.83,Text_Bottom,,0,0,0,kara,当然\NOf course.
 Comment: 0,0:00:27.38,0:00:30.34,Text_Bottom,,0,0,120,kara,我今天把我们的笔记也带来了 快看看\NI brought our notebook today too. Give it a read.
 Comment: 0,0:00:30.93,0:00:33.19,Text_Bottom,,0,0,0,kara,哦 好的好的\Nおっ オーケー オーケー
 Comment: 0,0:00:33.55,0:00:35.45,Text_Bottom,,0,0,0,kara,谢谢你 莉莉\Nサンキュー リリーちゃん
-Comment: 0,0:00:37.07,0:00:39.25,Text_Bottom,,0,0,0,kara,她的名字是{ruby=※翻译变更：莉莉・贝可→莉莉・贝克}莉莉・贝克{/ruby}\N彼女の名前はリリー・ベイカー
+Comment: 0,0:00:37.07,0:00:39.25,Text_Bottom,,0,0,0,kara,她的名字是莉莉・贝克\N彼女の名前はリリー・ベイカー
 Comment: 0,0:00:40.48,0:00:45.78,Text_Bottom,,0,0,0,kara,根据前阵子我们两人开始写的交换日记{\fscx50} {\fscx100}——「游戏厅笔记」上写的\Nこの前から２人で始めることになった交換日記 「ゲーセン・ノート」によると…
 Comment: 0,0:00:46.51,0:00:50.78,Text_Bottom,,0,0,0,kara,她似乎几个月前刚从英国搬到日本生活\N彼女は数ヶ月前イギリスから日本に引っ越してきたばかりだそうだ
 Comment: 0,0:00:51.52,0:00:55.29,Text_Bottom,,0,0,0,kara,她原本就很喜欢日本的游戏和动画\Nもともと日本のゲームやアニメ自体は好きだったそうだが
@@ -96,7 +97,7 @@ Comment: 0,0:04:24.07,0:04:24.94,Text_Bottom,,0,0,0,kara,{ruby=OK}好吗{/ruby}�
 Comment: 0,0:04:25.37,0:04:26.63,Text_Bottom,,0,0,0,kara,我的朋友？\NMy friend?
 Comment: 0,0:04:26.63,0:04:28.30,Text_Bottom,,0,0,0,kara,Oh yes yes！\Nオー イエス イエス！
 Comment: 0,0:04:28.30,0:04:28.66,Text_Bottom,,0,0,0,kara,啊\Nあっ
-Comment: 0,0:04:29.28,0:04:32.11,Text_Bottom,,0,0,0,kara,莉莉喜欢{ruby=※翻译变更：男人范儿→男子气概}男子气概考拉{/ruby}啊\Nリリーちゃん 漢気コアラ好きなんだ
+Comment: 0,0:04:29.28,0:04:32.11,Text_Bottom,,0,0,0,kara,莉莉喜欢男子气概考拉啊\Nリリーちゃん 漢気コアラ好きなんだ
 Comment: 0,0:04:32.11,0:04:35.75,Text_Bottom,,0,0,0,kara,很可爱对吧 {ruby=This is very cute}这太可爱了{/ruby}！\Nかわいいよね ジス・イズ・ベリー・キュート！
 Comment: 0,0:04:36.89,0:04:37.80,Text_Bottom,,0,0,0,kara,不！\NNo!
 Comment: 0,0:04:37.80,0:04:39.59,Text_Bottom,,0,0,0,kara,他特别酷！\NHe's very cool!
@@ -129,7 +130,7 @@ Comment: 0,0:05:54.93,0:05:58.80,Text_Bottom,,0,0,0,kara,然后 那个店员好�
 Comment: 0,0:05:59.92,0:06:01.76,Text_Bottom,,0,0,0,kara,哇 怎么了 发生什么了！？\Nうわ 何 どうしたの！？
 Comment: 0,0:06:02.40,0:06:03.93,Text_Bottom,,0,0,0,kara,没 没什么\Nい いや 何でも
 Comment: 0,0:06:04.43,0:06:05.68,Text_Bottom,,0,0,0,kara,哈… 难道\Nハッ… まさか
-Comment: 0,0:06:05.90,0:06:08.09,Text_Bottom,,0,0,0,kara,那个店员不会就是{ruby=※翻译变更：哥哥→老哥}老哥你吧{/ruby}？\N兄ちゃんがその店員だったりして
+Comment: 0,0:06:05.90,0:06:08.09,Text_Bottom,,0,0,0,kara,那个店员不会就是老哥你吧？\N兄ちゃんがその店員だったりして
 Comment: 0,0:06:09.65,0:06:11.36,Text_Bottom,,0,0,0,kara,你们俩干嘛呢？\Nちょっと何やってんの？
 Comment: 0,0:06:11.61,0:06:13.94,Text_Bottom,,0,0,0,kara,对 对不起～\Nご ごめんなさ～い
 Comment: 0,0:06:14.39,0:06:17.57,Text_Bottom,,0,0,0,kara,不过你这反应 难道 真的是老哥！？\Nけどその反応 まさか ホントに兄ちゃんが！？
@@ -356,7 +357,7 @@ Comment: 0,0:19:36.77,0:19:40.53,Text_Bottom,,0,0,0,kara,真的好好吃 这真�
 Comment: 0,0:19:40.74,0:19:43.29,Text_Bottom,,0,0,0,kara,Well... 不是我一个人做的...\NWell... 一人ジャナイケド…
 Comment: 0,0:19:43.60,0:19:45.29,Text_Bottom,,0,0,0,kara,呜…\Nうぅ…
 Comment: 0,0:19:47.87,0:19:51.55,Text_Bottom,,0,0,0,kara,奇 奇怪 明明是按照食谱做的啊\Nあ あれ レシピどおり作ったんだけどな
-Dialogue: 0,0:19:51.92,0:19:55.17,Text_Bottom,,0,1000,0,kara,虽 虽然卖相不好 但味道说不定意外的…\Nま まあ 見た目は悪くても味は意外と
+Comment: 0,0:19:51.92,0:19:55.17,Text_Bottom,,0,1000,0,kara,虽 虽然卖相不好 但味道说不定意外的…\Nま まあ 見た目は悪くても味は意外と
 Comment: 0,0:19:55.65,0:19:58.41,Text_Bottom,,0,0,0,kara,哇～ 让你露出那种表情真是对不起！\Nわ～っ そんな顔させちゃってごめんっ
 Comment: 0,0:19:59.35,0:20:01.34,Text_Bottom,,0,0,0,kara,谢谢你能够帮我\NThanks for helping me out.
 Comment: 0,0:20:01.34,0:20:05.45,Text_Bottom,,0,0,0,kara,没关系 没关系 这次的事情我也有责任嘛\Nいいのいいの 今回の件はアタシのせいでもあるんだし
