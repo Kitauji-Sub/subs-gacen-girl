@@ -13,10 +13,10 @@ Audio File: C:/Users/scree/Desktop/gcg/ep2.mkv
 Video File: C:/Users/scree/Desktop/gcg/ep2.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.875000
-Scroll Position: 179
-Active Line: 185
-Video Position: 28781
+Video Zoom Percent: 1.000000
+Scroll Position: 56
+Active Line: 68
+Video Position: 19936
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -90,6 +90,10 @@ Dialogue: 0,0:11:36.13,0:11:39.64,OnScreen,,0,0,0,,{\fn@悠哉字体\b1\frz270\a
 Comment: 0,0:11:36.13,0:11:39.64,grad1,,0,0,0,kara,{\pos(1367,391)}闪闪发亮
 Dialogue: 1,0:13:35.96,0:13:37.96,OnScreen,,0,0,0,,{\an7\fn悠哉字体\fscx70\fscy70-\pos(46,41)\c&H141414&}Hello, Renji! 你好，莲司！\NThanks again for getting me that pen yesterday - I've already started using it!\N再次谢谢你昨天帮我弄到那支笔，我已经开始用它了！\NTry looking at it from a different angle... it shimmers in all these lovely colours, doesn't it? I'll let you borrow it sometime.\N如果试着以不同的角度观察它的话……看上去流光溢彩的，对吧！我会不时地借给你用的！\Npromise!\N约好了！\NAoi-chan has one just like it, and I really wanted one too, so I'm absolutely chuffed I've got it now!\N因为小葵有个一样的，所以我也很想要一支，所以现在有了这支笔，我特别特别开心！\NOh, Aoi-chan's the girl who came along to the arcade with us the other day - remember her? That's her!\N哦，小葵就是那天和我们去游戏厅的那个女孩子，还记得吗？就是她！\N... ve grown quite close recently. She's such a lovely girl, and... ever so helpful with school and all sorts.\N……最近和我关系很融洽。她真的是个很可爱的女孩子！而且……对学校里的还有各种各样的事情都帮大忙了！\N... a bit more with some of my classmates... this notebook - it's been a...\N……还有一些关于我同学的事……这本笔记本，是……
 Dialogue: 0,0:13:35.96,0:13:37.96,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1\c&HFFFFFF&\1a&H64&\clip(30,30,1247.29,475.86)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:13:51.48,0:13:53.48,OnScreen,,0,0,0,,{=69}{\c&HFDF8F5&\3c&H9C574D&\fax-0.000001\fscx65.94\fscy73.38\frz-2.3663\frx1.8745\fry-2.4827\xbord2.00\ybord2.00\org(-63.86,-208.7)\pos(322.9,365.25)}醇厚风味奶茶
+Dialogue: 0,0:13:51.48,0:13:53.48,OnScreen,,0,0,0,,{=82}{\c&HFDF8F5&\3c&H9C574D&\fscx84.25\fscy81.30\frz-0.9573\frx0.9558\fry-1.4140\xbord2.54\ybord2.22\org(1393.33,-167.67)\pos(1612.72,185.24)}醇厚风味奶茶
+Dialogue: 0,0:13:51.48,0:13:53.48,OnScreen,,0,0,0,,{=73}{\c&H8D8D8D&\fax-0.000002\fscx34.51\fscy40.13\frz-2.8350\frx1.8873\fry-2.4981\org(-149.3,-155.66)\pos(310.2,528.22)\b1}传统奶茶与甜牛奶融合的完美口感
+Dialogue: 0,0:13:51.48,0:13:53.48,OnScreen,,0,0,0,,{=91}{\c&H8D8D8D&\b1\fax-0.000001\fscx44.51\fscy44.67\frz-1.5922\frx1.2500\fry-1.5803\org(1336.37,2.71)\pos(1606.42,373.38)}传统奶茶与甜牛奶融合的完美口感
 Dialogue: 0,0:14:48.82,0:14:48.86,OnScreen,,0,0,0,,{=33=34}{\alpha&H00&\fn思源黑体\b1\c&HA1EEFC&\3c&H72C4EF&\an7\fax-0.000003\fscx105.58\fscy119.95\frz-0.16\frx-0.0511\fry-4.5041\xbord2.63\ybord3\org(1366.48,1796.77)\pos(1216.43,530.39)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
 Dialogue: 0,0:14:48.86,0:14:48.90,OnScreen,,0,0,0,,{=33=34}{\alpha&H00&\fn思源黑体\b1\c&HA1EEFC&\3c&H72C4EF&\an7\fax-0.000003\fscx105.58\fscy119.95\frz-0.16\frx-0.0511\fry-4.5041\xbord2.63\ybord3\org(1366.48,1794.22)\pos(1216.43,527.84)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
 Dialogue: 0,0:14:48.90,0:14:48.95,OnScreen,,0,0,0,,{=33=34}{\alpha&H00&\fn思源黑体\b1\c&HA1EEFC&\3c&H72C4EF&\an7\fax-0.000003\fscx105.58\fscy119.95\frz-0.16\frx-0.0511\fry-4.5041\xbord2.63\ybord3\org(1366.48,1791.71)\pos(1216.43,525.33)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
@@ -395,3 +399,30 @@ Data: 60,a-mo,u?S*P=GFH;7ZB<&2F?(1C/C*\8&RG<O;#I/74C?7NF_3^EVR=9D&=8'&O.VR=9S:)2
 Data: 61,a-mo,e{"originalText"#3A"{\\fn#E6#82#A0#E5#93#89#E5#AD#97#E4#BD#93\\b1\\an7\\c&H675F5F&\\3c&HCDD4E1&\\bord4\\pos(627.43#2C393.86)}#E5#8F#91#E9#85#B5#E7#B2#89"#2C"uuid"#3A"058a69d4-6eec-41a2-ac3b-d66ba3fa0624"}
 Data: 62,a-mo,e{"originalText"#3A"{\\fn#E6#82#A0#E5#93#89#E5#AD#97#E4#BD#93\\b1\\an7\\c&HDFE7EB&\\3c&HB3665C&\\bord4\\pos(302.86#2C355)}#E9#A6#99#E8#8D#89#E7#B2#BE"#2C"uuid"#3A"f44ebd2a-aa15-4f69-bfe4-13f3b2085cd2"}
 Data: 63,a-mo,u?S*P=GFH;7ZB<&2F?(1C/C*\8&RG<O;#I/74C?7NF_3^EVR=9D&=8'&O.VR=='^T+$)Z-SQY/$)J8&RD*EAV141Z.$AG8&QT9S:)1T>%.U1X*FR=9G^S:$2^Z<?HZ97,Z9K<ZYG()CQC>86J:#)[)DAS.41Z/4=X,4BE94-N.$-X/#UY9D)Z,4"G:$EV9T&E-T.C/#*^
+Data: 64,_aegi_perspective_ambient_plane,e238.04;428.35#7C511.75;486.14#7C511.75;566.14#7C180.25;566.14
+Data: 65,_aegi_perspective_ambient_plane,e238.04;428.35#7C450.84;455.87#7C511.75;566.14#7C180.25;566.14
+Data: 66,_aegi_perspective_ambient_plane,e238.04;428.35#7C450.84;455.87#7C451.56;549.56#7C180.25;566.14
+Data: 67,_aegi_perspective_ambient_plane,e238.04;428.35#7C450.84;455.87#7C451.56;549.56#7C237.20;519.65
+Data: 68,_aegi_perspective_ambient_plane,e238.30;428.86#7C450.84;455.87#7C451.56;549.56#7C237.20;519.65
+Data: 69,_aegi_perspective_ambient_plane,e238.30;428.86#7C450.84;455.87#7C451.56;549.56#7C237.21;519.65
+Data: 70,_aegi_perspective_ambient_plane,e238.30;428.86#7C450.84;455.87#7C451.56;549.57#7C237.20;519.65
+Data: 71,_aegi_perspective_ambient_plane,e238.29;428.81#7C450.84;455.82#7C451.56;549.54#7C237.20;519.63
+Data: 73,_aegi_perspective_ambient_plane,e238.30;428.89#7C450.85;455.90#7C451.57;549.58#7C237.21;519.67
+Data: 74,_aegi_perspective_ambient_plane,e238.30;428.86#7C1723.99;343.87#7C451.56;549.57#7C237.20;519.65
+Data: 75,_aegi_perspective_ambient_plane,e238.30;428.86#7C1737.70;195.30#7C451.56;549.57#7C237.20;519.65
+Data: 76,_aegi_perspective_ambient_plane,e238.30;428.86#7C1737.70;195.30#7C1738.42;286.71#7C237.20;519.65
+Data: 77,_aegi_perspective_ambient_plane,e1495.44;186.58#7C1737.70;195.30#7C1738.42;286.71#7C237.20;519.65
+Data: 78,_aegi_perspective_ambient_plane,e1495.44;186.58#7C1737.70;195.30#7C1738.42;286.71#7C1494.35;270.51
+Data: 79,_aegi_perspective_ambient_plane,e1494.94;184.58#7C1737.70;195.30#7C1738.42;286.71#7C1494.34;270.51
+Data: 80,_aegi_perspective_ambient_plane,e1494.94;184.58#7C1735.95;195.30#7C1738.42;286.70#7C1494.34;270.51
+Data: 81,_aegi_perspective_ambient_plane,e1494.94;184.58#7C1735.95;195.30#7C1736.02;286.04#7C1494.35;270.50
+Data: 82,_aegi_perspective_ambient_plane,e1494.94;184.58#7C1735.95;195.30#7C1736.02;286.04#7C1493.90;273.56
+Data: 83,_aegi_perspective_ambient_plane,e238.32;428.96#7C1736.85;191.97#7C451.57;549.62#7C237.22;519.70
+Data: 84,_aegi_perspective_ambient_plane,e238.32;428.96#7C1736.85;191.97#7C1737.57;289.62#7C237.22;519.70
+Data: 85,_aegi_perspective_ambient_plane,e1500.32;182.96#7C1736.85;191.97#7C1737.57;289.62#7C237.22;519.70
+Data: 86,_aegi_perspective_ambient_plane,e1500.32;182.96#7C1736.85;191.97#7C1737.57;289.62#7C1493.22;273.70
+Data: 87,_aegi_perspective_ambient_plane,e1495.20;184.75#7C1736.85;191.83#7C1737.57;289.54#7C1493.22;273.63
+Data: 88,_aegi_perspective_ambient_plane,e1495.20;184.71#7C1736.00;195.20#7C1737.57;289.51#7C1493.22;273.61
+Data: 89,_aegi_perspective_ambient_plane,e1495.20;184.80#7C1735.99;195.30#7C1735.43;286.37#7C1493.22;273.66
+Data: 90,_aegi_perspective_ambient_plane,e1495.20;184.80#7C1735.99;195.30#7C1735.86;286.14#7C1493.22;273.66
+Data: 91,_aegi_perspective_ambient_plane,e1495.20;184.76#7C1736.00;195.26#7C1735.86;286.12#7C1493.65;273.64

@@ -15,9 +15,8 @@ Keyframes File: C:/Users/scree/Desktop/gcg/ep2_keyframes.txt
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Scroll Position: 150
-Active Line: 163
-Video Position: 14373
+Active Line: 15
+Video Position: 34044
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -46,7 +45,7 @@ Dialogue: 0,0:03:19.10,0:03:22.10,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\f
 Dialogue: 0,0:03:22.10,0:03:25.10,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}长期招募翻译/时轴  招募群: 232487445  观众群: 884738299\N{\fscx80\fscy80}版本：${version}　 https://github.com/Kitauji-Sub/subs-gacen-girl
 Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TITLE
 Dialogue: 0,0:03:19.10,0:03:23.06,Title_this,Cur,0,0,0,,{\fad(477,477)\pos(1810,915)}#02 如果推不动，试着拉一下
-Dialogue: 0,0:23:34.94,0:23:39.94,Title_next,Next,0,0,0,,{\pos(960,620)}你的哥哥在哪里？
+Dialogue: 0,0:23:34.94,0:23:40.00,Title_next,Next,0,0,0,,{\pos(960,620)}你的哥哥在哪里？
 Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TEXT
 Comment: 0,0:00:02.22,0:00:05.85,Text_Bottom,,0,0,0,kara,喂 莲司 能拜托你补充一下奖品吗\Nお～い蓮司くん プライズの補充 お願いしていい？
 Comment: 0,0:00:05.85,0:00:06.99,Text_Bottom,,0,0,0,kara,啊 好的\Nあっ は～い
@@ -120,7 +119,7 @@ Comment: 0,0:05:20.25,0:05:24.99,Text_Top,,0,0,0,kara,一开始因为沟通困�
 Comment: 0,0:05:24.99,0:05:28.02,Text_Top,,0,0,0,kara,但是最近能互相理解对方的话了\Nでも 最近お互いの言葉わかってきて
 Comment: 0,0:05:28.02,0:05:30.27,Text_Bottom,,0,0,0,kara,总算和她成为朋友了\Nようやく友達になれたの
 Comment: 0,0:05:30.87,0:05:33.77,Text_Bottom,,0,0,0,kara,这说法我好像最近在哪听过\Nなんか最近聞いた話出てきたぞ
-Comment: 0,0:05:33.77,0:05:37.15,Text_Bottom,,0,0,0,kara,不 不过 这种事还挺常见的吧？\Nいやまあ それくらいならよくある話か？
+Comment: 0,0:05:33.77,0:05:37.15,Text_Bottom,,900,0,0,kara,不 不过 这种事还挺常见的吧？\Nいやまあ それくらいならよくある話か？
 Comment: 0,0:05:37.66,0:05:39.42,Text_Bottom,,0,0,0,kara,嗯～哼\Nふ ふ～ん
 Comment: 0,0:05:39.42,0:05:45.74,Text_Bottom,,0,0,0,kara,然后呢 听说有个店员在她抓不到奖品时帮了她\Nでね その子がゲーセンで景品取れてない時に助けてくれた店員さんがいたらしくてさ
 Comment: 0,0:05:45.74,0:05:46.78,Text_Bottom,,0,0,0,kara,嗯～哼\Nふ～ん
@@ -169,8 +168,8 @@ Comment: 0,0:08:23.39,0:08:28.08,Text_Bottom,,0,0,0,kara,会被他吃干抹净 �
 Comment: 0,0:08:29.11,0:08:31.99,Text_Bottom,,0,0,0,kara,其实抓那个玩偶是有诀窍的\Nそのぬいぐるみには取るコツがありましてね
 Comment: 0,0:08:32.47,0:08:33.24,Text_Bottom,,0,0,0,kara,诶？\Nえっ？
 Comment: 0,0:08:33.59,0:08:38.96,Text_Bottom,,0,0,0,kara,因为重心在头部 所以最好去抓头而不是身体\N重心が頭のほうにあるから 胴体でなく頭を持ち上げるといいかも
-Comment: 0,0:08:38.96,0:08:42.39,Text_Bottom,,0,0,0,kara,这样立起来之后 会因为头部的重量倒下去\N立ち上がったあとに重い頭のほうから倒れるので
-Comment: 0,0:08:42.39,0:08:44.13,Text_Bottom,,0,0,0,kara,就这样直接掉进出口了\Nそのまま落ちたりするんですよ
+Comment: 0,0:08:38.96,0:08:42.39,Text_Bottom,,0,0,0,kara,这样立起来之后 玩偶会因为头部的重量倒下去\N立ち上がったあとに重い頭のほうから倒れるので
+Comment: 0,0:08:42.39,0:08:44.13,Text_Bottom,,0,0,0,kara,就更容易直接掉进出口了\Nそのまま落ちたりするんですよ
 Comment: 0,0:08:45.36,0:08:46.63,Text_Bottom,,0,0,0,kara,这样吗\Nそうなんですか
 Comment: 0,0:08:47.30,0:08:49.18,Text_Bottom,,0,0,0,kara,那就请你们试试看吧\Nちょっと試してみてください
 Comment: 0,0:08:49.18,0:08:50.63,Text_Bottom,,0,0,0,kara,好 好的\Nは はぁ
@@ -309,7 +308,7 @@ Comment: 0,0:16:43.14,0:16:43.94,Text_Bottom,,0,0,0,kara,诶～\Nえ～っ
 Comment: 0,0:16:44.13,0:16:46.16,Text_Bottom,,0,0,0,kara,在正常接待客人！\N普通に接客してる！
 Comment: 0,0:16:46.16,0:16:48.06,Text_Bottom,,0,0,0,kara,而且还是女生顾客\Nしかも女子相手
 Comment: 0,0:16:47.69,0:16:51.60,Text_Top,,0,0,0,kara,话说 为什么你打扮得这么怪啊
-Comment: 0,0:16:51.60,0:16:53.59,Text_Top,,0,0,0,kara,咦？不 这个是...\Nえ？あ いやあ これは
+Comment: 0,0:16:51.60,0:16:53.03,Text_Top,,0,0,0,kara,咦？不 这个是...\Nえ？あ いやあ これは
 Comment: 0,0:16:48.13,0:16:51.60,Text_Bottom,,0,0,0,kara,嘛 嘛 正常想这也是理所应当吧\Nま まあ 普通に考えたら当たり前よね
 Comment: 0,0:16:51.60,0:16:53.18,Text_Bottom,,0,0,0,kara,毕竟在打工嘛\Nバイト中だもんね
 Comment: 0,0:16:58.64,0:17:03.33,Text_Bottom,,0,0,0,kara,不该把普通恋爱技巧套用在这两人关系上的\Nこの二人の関係に普通の恋愛術を当てはめるべきじゃなかったわ
@@ -357,7 +356,7 @@ Comment: 0,0:19:36.77,0:19:40.53,Text_Bottom,,0,0,0,kara,真的好好吃 这真�
 Comment: 0,0:19:40.74,0:19:43.29,Text_Bottom,,0,0,0,kara,Well... 不是我一个人做的...\NWell... 一人ジャナイケド…
 Comment: 0,0:19:43.60,0:19:45.29,Text_Bottom,,0,0,0,kara,呜…\Nうぅ…
 Comment: 0,0:19:47.87,0:19:51.55,Text_Bottom,,0,0,0,kara,奇 奇怪 明明是按照食谱做的啊\Nあ あれ レシピどおり作ったんだけどな
-Comment: 0,0:19:51.92,0:19:55.17,Text_Bottom,,0,0,0,kara,虽 虽然卖相不好 但味道说不定意外的…\Nま まあ 見た目は悪くても味は意外と
+Dialogue: 0,0:19:51.92,0:19:55.17,Text_Bottom,,0,1000,0,kara,虽 虽然卖相不好 但味道说不定意外的…\Nま まあ 見た目は悪くても味は意外と
 Comment: 0,0:19:55.65,0:19:58.41,Text_Bottom,,0,0,0,kara,哇～ 让你露出那种表情真是对不起！\Nわ～っ そんな顔させちゃってごめんっ
 Comment: 0,0:19:59.35,0:20:01.34,Text_Bottom,,0,0,0,kara,谢谢你能够帮我\NThanks for helping me out.
 Comment: 0,0:20:01.34,0:20:05.45,Text_Bottom,,0,0,0,kara,没关系 没关系 这次的事情我也有责任嘛\Nいいのいいの 今回の件はアタシのせいでもあるんだし
@@ -377,8 +376,8 @@ Comment: 0,0:20:42.87,0:20:43.85,Text_Bottom,,0,0,0,kara,致莲司\Nレンジへ
 Comment: 0,0:20:44.54,0:20:48.77,Text_Bottom,,0,0,0,kara,之前突然瞪你还推倒你 对不起\Nこの前はきゅうに にらみつけたりつきとばしたりしてごめんなさい
 Comment: 0,0:20:49.06,0:20:51.60,Text_Bottom,,0,0,0,kara,那是我尝试了葵衣教我的\Nあれは アオイからおしえてもらった
 Comment: 0,0:20:51.60,0:20:56.40,Text_Bottom,,0,0,0,kara,「推不动就拉一下」的方法 但是没能成功\N“おしてもダメなら　ひいてみろ”{\fscx50} {\fscx100}をやってみたんですが うまくいきませんでした
-Comment: 0,0:20:56.40,0:20:57.70,Text_Bottom,,0,0,0,kara,原来如此\Nなるほどね
-Comment: 0,0:20:57.93,0:21:00.36,Text_Bottom,,0,0,0,kara,这边也是因为那家伙多管闲事啊\Nこっちもアイツのおせっかいが原因だったのか
+Comment: 0,0:20:56.40,0:20:57.93,Text_Bottom,,0,0,0,kara,原来如此\Nなるほどね
+Comment: 0,0:20:57.93,0:21:00.36,Text_Bottom,,0,0,0,kara,都是因为那家伙多管闲事啊\Nこっちもアイツのおせっかいが原因だったのか
 Comment: 0,0:21:01.13,0:21:02.23,Text_Bottom,,0,0,0,kara,但是\Nでも
 Comment: 0,0:21:02.94,0:21:09.52,Text_Bottom,,0,0,0,kara,莲司不理我 或者和其他女孩子说话时 我感到难过 这些都是真的\Nレンジがわたしにかまってくれなかったり ほかの女の子とはなしててかなしくなったのはほんとうです
 Comment: 0,0:21:10.24,0:21:11.15,Text_Bottom,,0,0,0,kara,诶…？\Nえっ…？
