@@ -11,13 +11,12 @@ PlayResY: 1080
 Last Style Storage: Default
 Audio File: C:/Users/scree/Desktop/gcg/ep2.mkv
 Video File: C:/Users/scree/Desktop/gcg/ep2.mkv
-Keyframes File: C:/Users/scree/Desktop/gcg/ep2_keyframes.txt
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.750000
-Scroll Position: 340
-Active Line: 364
-Video Position: 34044
+Video Zoom Percent: 0.500000
+Scroll Position: 346
+Active Line: 356
+Video Position: 30907
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -370,15 +369,14 @@ Comment: 0,0:20:19.97,0:20:21.38,Text_Bottom,,0,0,0,kara,一定能成功的\N成
 Comment: 0,0:20:21.38,0:20:22.28,Text_Bottom,,0,0,0,kara,耶！\NYeah!
 Comment: 0,0:20:23.23,0:20:24.67,Text_Bottom,,0,0,0,kara,是葵衣啊\N葵衣か
 Comment: 0,0:20:24.67,0:20:27.65,Text_Bottom,,0,0,0,kara,毕竟那家伙 还挺爱管闲事的\Nアイツ 結構おせっかいなところあるからな
-Comment: 0,0:20:29.63,0:20:31.71,Text_Bottom,,0,0,0,kara,看笔记\Nノート ヨンデ
-Comment: 0,0:20:32.03,0:20:32.58,Text_Bottom,,0,0,0,kara,诶？\Nえっ？
-Comment: 0,0:20:32.93,0:20:33.59,Text_Bottom,,0,0,0,kara,现在？\N今？
+Comment: 0,0:20:29.63,0:20:31.71,Text_Bottom,,0,0,0,kara,笔记…{\fscx50} {\fscx100}你看一下\Nノート… ヨンデ
+Comment: 0,0:20:32.03,0:20:33.59,Text_Bottom,,0,0,0,kara,诶 现在？\Nえっ 今？
 Comment: 0,0:20:42.87,0:20:43.85,Text_Bottom,,0,0,0,kara,致莲司\Nレンジへ
-Comment: 0,0:20:44.54,0:20:48.77,Text_Bottom,,0,0,0,kara,之前突然瞪你还推倒你 对不起\Nこの前はきゅうに にらみつけたりつきとばしたりしてごめんなさい
-Comment: 0,0:20:49.06,0:20:51.60,Text_Bottom,,0,0,0,kara,那是我尝试了葵衣教我的\Nあれは アオイからおしえてもらった
-Comment: 0,0:20:51.60,0:20:56.40,Text_Bottom,,0,0,0,kara,「推不动就拉一下」的方法 但是没能成功\N“おしてもダメなら　ひいてみろ”{\fscx50} {\fscx100}をやってみたんですが うまくいきませんでした
-Comment: 0,0:20:56.40,0:20:57.93,Text_Bottom,,0,0,0,kara,原来如此\Nなるほどね
-Comment: 0,0:20:57.93,0:21:00.36,Text_Bottom,,0,0,0,kara,都是因为那家伙多管闲事啊\Nこっちもアイツのおせっかいが原因だったのか
+Comment: 0,0:20:44.54,0:20:48.77,Text_Bottom,,0,0,0,kara,之前我突然瞪你 还把你推倒了 对不起\Nこの前はきゅうに にらみつけたりつきとばしたりしてごめんなさい
+Comment: 0,0:20:49.06,0:20:54.69,Text_Bottom,,0,0,0,kara,那是因为我想尝试葵衣教我的「推不动就拉一下」的方法\Nあれは アオイからおしえてもらった「おしてもダメなら ひいてみろ」をやってみたんですが
+Comment: 0,0:20:54.69,0:20:56.40,Text_Bottom,,0,0,0,kara,但是没能成功\Nうまくいきませんでした
+Comment: 0,0:20:56.40,0:20:57.70,Text_Bottom,,0,0,0,kara,原来如此\Nなるほどね
+Comment: 0,0:20:57.93,0:21:00.36,Text_Bottom,,0,0,0,kara,这边也是因为那家伙多管闲事啊\Nこっちもアイツのおせっかいが原因だったのか
 Comment: 0,0:21:01.13,0:21:02.23,Text_Bottom,,0,0,0,kara,但是\Nでも
 Comment: 0,0:21:02.94,0:21:09.52,Text_Bottom,,0,0,0,kara,莲司不理我 或者和其他女孩子说话时 我感到难过 这些都是真的\Nレンジがわたしにかまってくれなかったり ほかの女の子とはなしててかなしくなったのはほんとうです
 Comment: 0,0:21:10.24,0:21:11.15,Text_Bottom,,0,0,0,kara,诶…？\Nえっ…？
@@ -388,7 +386,7 @@ Comment: 0,0:21:18.14,0:21:20.51,Text_Bottom,,0,0,0,kara,呜 呃 呃…\Nうっ 
 Comment: 0,0:21:20.51,0:21:22.14,Text_Bottom,,0,0,0,kara,这个嘛\Nそ そうだな
 Comment: 0,0:21:23.10,0:21:27.23,Text_Bottom,,0,0,0,kara,要不是在游戏厅打工的话 应该就能多和你玩一会儿了\Nゲーセンのバイト中じゃなかったらもっと遊んだりできるんだけど
 Comment: 0,0:21:27.69,0:21:28.45,Text_Bottom,,0,0,0,kara,什么？\NWhat?
-Comment: 0,0:21:29.06,0:21:30.23,Text_Bottom,,0,0,0,kara,呃…\Nえっとぉ
+Comment: 0,0:21:29.06,0:21:30.23,Text_Bottom,,0,0,0,kara,我想想\Nえっとぉ
 Comment: 0,0:21:30.89,0:21:33.66,Text_Bottom,,0,0,0,kara,{ruby=No}不{/ruby}打工 {ruby=We can enjoy}我们就能玩了{/ruby}\Nノー・バイト・ウイ・キャン・エンジョイ
 Comment: 0,0:21:33.95,0:21:35.01,Text_Bottom,,0,0,0,kara,大概这个意思吧\Nなんてね
 Comment: 0,0:21:36.57,0:21:39.74,Text_Bottom,,0,0,120,kara,你愿意在游戏厅之外的地方和我见面吗？\NYou would meet me outside the arcade?
