@@ -8,14 +8,13 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 03 (1080p) [A9CBF3C9].mkv
-Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 03 (1080p) [A9CBF3C9].mkv
+Audio File: C:/Users/scree/Desktop/gcg/ep3.mkv
+Video File: C:/Users/scree/Desktop/gcg/ep3.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 1.000000
-Scroll Position: 12
-Active Line: 17
-Video Position: 26442
+Active Line: 9
+Video Position: 20210
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -30,9 +29,9 @@ Dialogue: 0,0:03:30.98,0:03:33.48,OnScreen,,0,0,0,,{\pos(1390,909)\fscx80\fscy80
 Dialogue: 0,0:03:30.98,0:03:33.48,OnScreen,,0,0,0,,{\fscx80\fscy80\c&H523DE8&\fn思源黑体 Heavy\pos(1342.76,373.74)\frz5.172}能量饮料
 Dialogue: 1,0:06:27.15,0:06:31.66,OnScreen,,0,0,0,,{\c&H3B438A&\fn仓耳周珂正大榜书\b1\pos(310.4,462.41)\3c&HF7F8F3&\bord3}男子气概考拉{\c&H654642&}VR
 Dialogue: 0,0:06:27.15,0:06:31.66,OnScreen,,0,0,0,,{\c&H3B438A&\fn仓耳周珂正大榜书\b1\pos(310.4,462.41)\3c&H4F5A5D&\bord5}男子气概考拉{\c&H654642&}VR
-Dialogue: 0,0:14:02.28,0:14:04.57,OnScreen,,0,0,0,,父
-Dialogue: 0,0:14:02.28,0:14:04.57,OnScreen,,0,0,0,,母
-Dialogue: 0,0:14:02.28,0:14:04.57,OnScreen,,0,0,0,,兄妹
+Dialogue: 0,0:14:02.28,0:14:04.57,OnScreen,,0,0,0,,{\fn獅尾圓體SC-Bold\b1\pos(511,300)\c&H2384F8&\3c&HE6E6E6&\bord3}父
+Dialogue: 0,0:14:02.28,0:14:04.57,OnScreen,,0,0,0,,{\fn獅尾圓體SC-Bold\b1\c&H2384F8&\3c&HE6E6E6&\bord3\pos(1423,300)}母
+Dialogue: 0,0:14:02.28,0:14:04.57,OnScreen,,0,0,0,,{\fn獅尾圓體SC-Bold\b1\pos(960,1024)\c&HE6E5E5&\3c&H72AB0A&\bord3}兄妹
 Dialogue: 0,0:15:07.38,0:15:12.39,OnScreen,,0,0,0,,{=4}{\c&HEFE2D5&\3c&HD9A8AF&\fn獅尾圓體SC-Black\b0\fax-0.000001\fscx56.49\fscy74.10\frz-0.2715\frx-0.2403\fry20.6902\xbord1.99\ybord1.99\org(91.63,536.3)\pos(89.51,218.55)}卫生间
 Dialogue: 0,0:15:13.89,0:15:15.89,OnScreen,,0,0,0,,{\pos(964.79,610.19)\fn思源黑体 Heavy\b0\c&H433C3B&}莲司的房间
 Dialogue: 0,0:16:13.32,0:16:13.82,OnScreen,,0,0,0,,{=8}{\fn獅尾圓體SC-Black\fax-0.085856\fscx99.36\fscy110.46\frz4.2362\frx0.7996\fry-4.6974\org(490.95,828.62)\pos(492.65,850.71)\c&HE6B9AB&\3c&HC75D6A&\bord2}卫生间
