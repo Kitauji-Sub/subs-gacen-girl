@@ -7,6 +7,16 @@ YCbCr Matrix: TV.709
 PlayResX: 1920
 PlayResY: 1080
 
+[Aegisub Project Garbage]
+Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 03 (1080p) [A9CBF3C9].mkv
+Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 03 (1080p) [A9CBF3C9].mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 1.000000
+Scroll Position: 12
+Active Line: 17
+Video Position: 26442
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
@@ -14,3 +24,76 @@ Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:03:29.98,0:03:30.98,OnScreen,,0,0,0,,{\pos(961,870.43)\frz10.77\fscx80\fscy80\c&HE8E1E0&}清爽醒神
+Dialogue: 0,0:03:29.98,0:03:30.98,OnScreen,,0,0,0,,{\fscx80\fscy80\c&H4D3BE5&\frz5.743\pos(967.43,342)\fn思源黑体 Heavy}能量饮料
+Dialogue: 0,0:03:30.98,0:03:33.48,OnScreen,,0,0,0,,{\pos(1390,909)\fscx80\fscy80\frz6.786\c&HD4C7C0&}清爽醒神
+Dialogue: 0,0:03:30.98,0:03:33.48,OnScreen,,0,0,0,,{\fscx80\fscy80\c&H523DE8&\fn思源黑体 Heavy\pos(1342.76,373.74)\frz5.172}能量饮料
+Dialogue: 1,0:06:27.15,0:06:31.66,OnScreen,,0,0,0,,{\c&H3B438A&\fn仓耳周珂正大榜书\b1\pos(310.4,462.41)\3c&HF7F8F3&\bord3}男子气概考拉{\c&H654642&}VR
+Dialogue: 0,0:06:27.15,0:06:31.66,OnScreen,,0,0,0,,{\c&H3B438A&\fn仓耳周珂正大榜书\b1\pos(310.4,462.41)\3c&H4F5A5D&\bord5}男子气概考拉{\c&H654642&}VR
+Dialogue: 0,0:14:02.28,0:14:04.57,OnScreen,,0,0,0,,父
+Dialogue: 0,0:14:02.28,0:14:04.57,OnScreen,,0,0,0,,母
+Dialogue: 0,0:14:02.28,0:14:04.57,OnScreen,,0,0,0,,兄妹
+Dialogue: 0,0:15:07.38,0:15:12.39,OnScreen,,0,0,0,,{=4}{\c&HEFE2D5&\3c&HD9A8AF&\fn獅尾圓體SC-Black\b0\fax-0.000001\fscx56.49\fscy74.10\frz-0.2715\frx-0.2403\fry20.6902\xbord1.99\ybord1.99\org(91.63,536.3)\pos(89.51,218.55)}卫生间
+Dialogue: 0,0:15:13.89,0:15:15.89,OnScreen,,0,0,0,,{\pos(964.79,610.19)\fn思源黑体 Heavy\b0\c&H433C3B&}莲司的房间
+Dialogue: 0,0:16:13.32,0:16:13.82,OnScreen,,0,0,0,,{=8}{\fn獅尾圓體SC-Black\fax-0.085856\fscx99.36\fscy110.46\frz4.2362\frx0.7996\fry-4.6974\org(490.95,828.62)\pos(492.65,850.71)\c&HE6B9AB&\3c&HC75D6A&\bord2}卫生间
+Dialogue: 0,0:16:13.32,0:16:16.08,OnScreen,,0,0,0,,{=19}{\fn思源黑体 Heavy\c&H47403D&\fax0.061531\fscx80.91\fscy89.06\frz-3.3375\frx0.5654\fry2.7214\org(1282.74,504.81)\pos(1281.74,522.62)}莲司的房间
+Dialogue: 0,0:17:07.13,0:17:10.13,OnScreen,,0,0,0,,{=28}{\fn仓耳周珂正大榜书\fax-0.257039\fscx50.75\fscy49.86\frz-18.6330\frx1.1745\fry-0.3201\org(607.79,418.09)\pos(610.4,428.06)\c&H32393F&\3c&HE4E4E4&\bord2}困难
+Dialogue: 0,0:17:07.13,0:17:10.13,OnScreen,,0,0,0,,{=30}{\fn仓耳周珂正大榜书\c&HE5DEE7&\3c&H2C4658&\fax-0.221447\fscx80.64\fscy75.60\frz-18.1144\frx1.1560\fry-0.3148\xbord3.18\ybord3.03\org(1452.11,443.17)\pos(1455.68,458.29)}考拉之舞
+Dialogue: 0,0:17:07.13,0:17:10.13,OnScreen,,0,0,0,,{=31}{\fn思源黑体\c&HE5DEE7&\3c&H2C4658&\fax-0.220943\fscx33.18\fscy31.65\frz-18.2915\frx1.1528\fry-0.3102\xbord1.31\ybord1.27\org(1433.09,525.35)\pos(1434.56,531.68)}原创歌曲
+Dialogue: 1,0:18:21.08,0:18:21.12,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx170.99\fscy176.83\frz5.53\frx-0.0511\fry-0.6596\xbord3.28\ybord3.26\org(737.23,867.06)\pos(737.6,902.43)}男子气概考拉{\b1\c&H50B2F9&} ACT
+Dialogue: 1,0:18:21.12,0:18:21.16,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx141.92\fscy146.76\frz5.52\frx-0.0511\fry-0.6596\xbord2.72\ybord2.71\org(693.38,838.32)\pos(693.68,867.67)}男子气概考拉{\b1\c&H50B2F9&} ACT
+Dialogue: 1,0:18:21.16,0:18:21.20,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx127.84\fscy132.2\frz5.52\frx-0.0511\fry-0.6596\xbord2.45\ybord2.44\org(672.13,824.39)\pos(672.4,850.83)}男子气概考拉{\b1\c&H50B2F9&} ACT
+Dialogue: 1,0:18:21.20,0:18:21.24,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx119.94\fscy124.04\frz5.52\frx-0.0511\fry-0.6596\xbord2.3\ybord2.29\org(660.22,816.58)\pos(660.47,841.39)}男子气概考拉{\b1\c&H50B2F9&} ACT
+Dialogue: 1,0:18:21.24,0:18:21.28,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx115.4\fscy119.34\frz5.51\frx-0.0511\fry-0.6596\xbord2.21\ybord2.2\org(653.35,812.09)\pos(653.6,835.95)}男子气概考拉{\b1\c&H50B2F9&} ACT
+Dialogue: 1,0:18:21.28,0:18:21.33,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx112.82\fscy116.67\frz5.52\frx-0.0511\fry-0.6596\xbord2.16\ybord2.15\org(649.48,809.53)\pos(649.72,832.87)}男子气概考拉{\b1\c&H50B2F9&} ACT
+Dialogue: 1,0:18:21.33,0:18:21.37,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx110.97\fscy114.75\frz5.52\frx-0.0511\fry-0.6596\xbord2.13\ybord2.12\org(646.67,807.7)\pos(646.91,830.65)}男子气概考拉{\b1\c&H50B2F9&} ACT
+Dialogue: 1,0:18:21.37,0:18:21.41,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx109.46\fscy113.2\frz5.51\frx-0.0511\fry-0.6596\xbord2.1\ybord2.09\org(644.4,806.21)\pos(644.63,828.85)}男子气概考拉{\b1\c&H50B2F9&} ACT
+Dialogue: 1,0:18:21.41,0:18:21.45,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx108.21\fscy111.9\frz5.51\frx-0.0511\fry-0.6596\xbord2.07\ybord2.06\org(642.51,804.97)\pos(642.74,827.35)}男子气概考拉{\b1\c&H50B2F9&} ACT
+Dialogue: 1,0:18:21.45,0:18:21.49,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx107.15\fscy110.81\frz5.51\frx-0.0511\fry-0.6596\xbord2.05\ybord2.04\org(640.93,803.93)\pos(641.15,826.09)}男子气概考拉{\b1\c&H50B2F9&} ACT
+Dialogue: 1,0:18:21.49,0:18:21.53,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx106.29\fscy109.92\frz5.51\frx-0.0511\fry-0.6596\xbord2.04\ybord2.03\org(639.62,803.08)\pos(639.85,825.06)}男子气概考拉{\b1\c&H50B2F9&} ACT
+Dialogue: 1,0:18:21.53,0:18:21.58,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx105.63\fscy109.23\frz5.51\frx-0.0511\fry-0.6596\xbord2.02\ybord2.01\org(638.62,802.42)\pos(638.84,824.26)}男子气概考拉{\b1\c&H50B2F9&} ACT
+Dialogue: 1,0:18:21.58,0:18:21.62,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx105.18\fscy108.76\frz5.51\frx-0.0511\fry-0.6596\xbord2.01\ybord2\org(637.94,801.97)\pos(638.16,823.72)}男子气概考拉{\b1\c&H50B2F9&} ACT
+Dialogue: 1,0:18:21.62,0:18:25.79,OnScreen,track1,0,0,0,,{=39=40}{\alpha&H00&\fn仓耳周珂正大榜书\c&HAE671A&\3c&HF8F8FB&\fax-0.011675\fscx105.01\fscy108.59\frz5.51\frx-0.0511\fry-0.6596\xbord2.01\ybord2\org(637.69,801.8)\pos(637.91,823.52)}男子气概考拉{\b1\c&H50B2F9&} ACT
+
+[Aegisub Extradata]
+Data: 0,_aegi_perspective_ambient_plane,e50.37;96.51#7C172.88;106.00#7C172.88;186.00#7C7.12;186.00
+Data: 1,_aegi_perspective_ambient_plane,e50.37;96.51#7C172.88;106.00#7C172.88;186.00#7C50.01;159.28
+Data: 2,_aegi_perspective_ambient_plane,e50.37;96.51#7C137.72;141.16#7C172.88;186.00#7C50.01;159.28
+Data: 3,_aegi_perspective_ambient_plane,e50.37;96.51#7C137.72;141.16#7C137.37;197.60#7C50.01;159.28
+Data: 4,_aegi_perspective_ambient_plane,e50.36;96.50#7C137.72;141.16#7C137.37;197.60#7C50.01;159.28
+Data: 5,_aegi_perspective_ambient_plane,e378.99;721.53#7C604.32;709.72#7C604.32;789.72#7C390.00;789.72
+Data: 6,_aegi_perspective_ambient_plane,e378.99;721.53#7C604.32;709.72#7C604.32;789.72#7C378.20;807.04
+Data: 7,_aegi_perspective_ambient_plane,e378.99;721.53#7C588.58;699.49#7C604.32;789.72#7C378.20;807.04
+Data: 8,_aegi_perspective_ambient_plane,e378.99;721.53#7C588.58;699.49#7C588.58;789.72#7C378.20;807.04
+Data: 9,_aegi_perspective_ambient_plane,e1160.08;389.54#7C1425.31;419.61#7C1425.31;499.61#7C1149.06;499.61
+Data: 10,_aegi_perspective_ambient_plane,e1160.08;389.54#7C1425.31;419.61#7C1425.31;499.61#7C1158.07;520.66
+Data: 11,_aegi_perspective_ambient_plane,e1160.08;389.54#7C1407.27;407.58#7C1425.31;499.61#7C1158.07;520.66
+Data: 12,_aegi_perspective_ambient_plane,e1160.08;389.54#7C1407.27;407.58#7C1408.27;534.69#7C1158.07;520.66
+Data: 13,_aegi_perspective_ambient_plane,e1159.34;388.55#7C1407.27;407.58#7C1408.27;534.69#7C1158.08;520.66
+Data: 14,_aegi_perspective_ambient_plane,e1159.34;388.55#7C1407.27;407.58#7C1408.27;534.69#7C1158.57;519.18
+Data: 15,_aegi_perspective_ambient_plane,e1159.34;388.55#7C1407.27;407.58#7C1408.27;534.69#7C1158.57;519.42
+Data: 16,_aegi_perspective_ambient_plane,e1159.34;388.55#7C1408.25;407.09#7C1408.27;534.69#7C1158.57;519.42
+Data: 17,_aegi_perspective_ambient_plane,e1159.34;388.55#7C1408.25;407.09#7C1408.52;533.21#7C1158.57;519.42
+Data: 18,_aegi_perspective_ambient_plane,e1159.34;388.55#7C1408.26;407.09#7C1408.52;533.21#7C1158.57;519.42
+Data: 19,_aegi_perspective_ambient_plane,e1159.34;388.55#7C1408.26;407.08#7C1408.52;533.21#7C1158.57;519.42
+Data: 20,_aegi_perspective_ambient_plane,e691.04;183.71#7C911.25;570.00#7C911.25;650.00#7C800.75;650.00
+Data: 21,_aegi_perspective_ambient_plane,e691.04;183.71#7C911.25;570.00#7C911.25;650.00#7C302.46;766.57
+Data: 22,_aegi_perspective_ambient_plane,e691.04;183.71#7C911.25;570.00#7C938.68;810.00#7C302.46;766.57
+Data: 23,_aegi_perspective_ambient_plane,e691.04;183.71#7C1594.68;480.86#7C938.68;810.00#7C302.46;766.57
+Data: 24,_aegi_perspective_ambient_plane,e691.04;183.71#7C1594.68;480.86#7C1226.68;1091.14#7C302.46;766.57
+Data: 25,_aegi_perspective_ambient_plane,e691.04;183.71#7C1594.68;480.85#7C1226.68;1091.14#7C305.97;764.07
+Data: 26,_aegi_perspective_ambient_plane,e691.04;183.71#7C1593.95;480.85#7C1226.68;1091.14#7C305.96;764.07
+Data: 27,_aegi_perspective_ambient_plane,e688.65;185.04#7C1593.95;480.85#7C1226.68;1091.14#7C305.96;764.07
+Data: 28,_aegi_perspective_ambient_plane,e688.65;185.04#7C1593.98;480.85#7C1226.67;1091.13#7C305.98;764.05
+Data: 29,_aegi_perspective_ambient_plane,e688.65;185.04#7C1593.99;480.85#7C1226.68;1091.14#7C305.98;764.05
+Data: 30,_aegi_perspective_ambient_plane,e688.65;185.04#7C1593.99;480.85#7C1226.66;1091.15#7C305.94;764.04
+Data: 31,_aegi_perspective_ambient_plane,e688.65;185.04#7C1593.98;480.85#7C1226.68;1091.18#7C305.88;764.07
+Data: 32,_aegi_perspective_ambient_plane,e436.12;441.00#7C839.88;745.00#7C839.88;825.00#7C408.12;825.00
+Data: 33,_aegi_perspective_ambient_plane,e436.12;441.00#7C787.88;405.00#7C839.88;825.00#7C408.12;825.00
+Data: 34,_aegi_perspective_ambient_plane,e436.12;441.00#7C787.88;405.00#7C841.88;985.00#7C408.12;825.00
+Data: 35,_aegi_perspective_ambient_plane,e436.12;441.00#7C787.88;405.00#7C841.88;985.00#7C486.12;1015.00
+Data: 36,_aegi_perspective_ambient_plane,e435.90;441.44#7C787.88;405.00#7C841.88;985.00#7C486.12;1015.00
+Data: 37,_aegi_perspective_ambient_plane,e435.90;441.44#7C788.54;401.94#7C841.88;985.00#7C486.12;1015.00
+Data: 38,_aegi_perspective_ambient_plane,e435.90;441.44#7C788.54;401.94#7C838.60;980.85#7C486.12;1015.00
+Data: 39,_aegi_perspective_ambient_plane,e435.90;441.44#7C788.54;401.94#7C838.60;980.85#7C485.24;1012.82
+Data: 40,a-mo,e{"originalText"#3A"{\\fn#E4#BB#93#E8#80#B3#E5#91#A8#E7#8F#82#E6#AD#A3#E5#A4#A7#E6#A6#9C#E4#B9#A6\\c&HAE671A&\\3c&HF8F8FB&\\fax-0.011675\\fscx104.93\\fscy108.51\\frz5.5854\\frx-0.0511\\fry-0.6596\\xbord2.01\\ybord2.00\\org(637.77#2C801.68)\\pos(638.02#2C823.38)}#E7#94#B7#E5#AD#90#E6#B0#94#E6#A6#82#E8#80#83#E6#8B#89{\\b1\\c&H50B2F9&} ACT"#2C"uuid"#3A"db31fd32-e0ee-4633-a9b5-100555239a71"}
