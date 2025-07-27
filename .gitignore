@@ -8,3 +8,4 @@ __pycache__
 *.tfml
 *pre.ass
 aegisub-cli/
+diff2md.py
