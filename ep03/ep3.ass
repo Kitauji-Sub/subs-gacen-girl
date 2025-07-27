@@ -14,8 +14,8 @@ Keyframes File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ib
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.625000
-Scroll Position: 125
-Active Line: 153
+Scroll Position: 249
+Active Line: 288
 Video Position: 14683
 
 [V4+ Styles]
@@ -39,9 +39,9 @@ Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bot
 Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bottom style Text_Top notext if has_japanese,!relayer(8)!{!japanese_pos_tag!\fscx!jp_scale!\fscy!jp_scale!\fn!jp_font_name!}!remove_tags(japanese.text)!
 Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bottom style Text_Top notext if has_ruby,!relayer(9)!{!maxloop("ruby", #rubys)!\pos(!line_left + rubys[loopctx.state.ruby].pos!,!ruby_y!)\fscx!ruby_scale!\fscy!ruby_scale!\bord!line.styleref.outline * 0.8!}!rubys[loopctx.state.ruby].text!
 Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,CREDIT
-Dialogue: 0,0:00:00.00,0:00:00.00,Credit,6s,0,0,0,,{\fad(300,300)}本字幕由北宇治字幕组制作 仅供交流试看之用 TG@KitaUji
-Dialogue: 0,0:00:00.00,0:00:00.00,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}翻译：彬云醒芽（日）KuronekoS（英）　校对：残焰　后期：Scrpr
-Dialogue: 0,0:00:00.00,0:00:00.00,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}长期招募翻译/时轴  招募群: 232487445  观众群: 884738299\N{\fscx80\fscy80}版本：${version}　 https://github.com/Kitauji-Sub/subs-gacen-girl
+Dialogue: 0,0:03:08.04,0:03:14.04,Credit,6s,0,0,0,,{\fad(300,300)}本字幕由北宇治字幕组制作 仅供交流试看之用 TG@KitaUji
+Dialogue: 0,0:03:08.04,0:03:11.04,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}翻译：彬云醒芽（日）KuronekoS（英）　校对：残焰　后期：Scrpr
+Dialogue: 0,0:03:11.04,0:03:14.04,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}长期招募翻译/时轴  招募群: 232487445  观众群: 884738299\N{\fscx80\fscy80}版本：${version}　 https://github.com/Kitauji-Sub/subs-gacen-girl
 Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TITLE
 Dialogue: 0,0:03:08.04,0:03:12.09,Title_this,This,0,0,0,,{\fad(477,477)\pos(1810,915)}#03 你的哥哥在哪里？
 Dialogue: 0,0:23:34.94,0:23:39.94,Title_next,Next,0,0,0,,{\pos(960,620)}能打扰你一下吗？
@@ -317,7 +317,7 @@ Comment: 0,0:17:52.01,0:17:53.27,Text_Bottom,,0,0,0,kara,怎么了？\Nどうし
 Comment: 0,0:17:53.27,0:17:55.90,Text_Bottom,,0,0,0,kara,啊 没什么 别随便进我房间啊\Nあっ いヤ か 勝手に部屋に入ってくるなよ
 Comment: 0,0:17:55.90,0:17:58.30,Text_Bottom,,0,0,0,kara,别管了 游戏机借我！\Nいいからゲーム機 貸してよ！
 Comment: 0,0:17:58.30,0:18:00.02,Text_Bottom,,0,0,0,kara,啊 游戏机啊\Nあぁ ゲーム機ね
-Comment: 0,0:18:00.34,0:18:03.27,Text_Bottom,,0,0,0,kara,但要玩游戏... 你们不是在复习考试吗？\Nでもゲームって テスト勉強中だろ？
+Comment: 0,0:18:00.34,0:18:03.27,Text_Bottom,,0,0,0,kara,但要玩游戏…{\fscx50} {\fscx100}你们不是在复习考试吗？\Nでもゲームって テスト勉強中だろ？
 Comment: 0,0:18:03.47,0:18:08.06,Text_Bottom,,0,0,0,kara,也有适度休息能提升效率的说法啊\N適度な休憩が パフォーマンスを向上させるってやつよ
 Comment: 0,0:18:08.06,0:18:09.61,Text_Bottom,,0,0,0,kara,这说法还真是方便啊！\N便利な言葉だな！
 Comment: 0,0:18:09.61,0:18:15.13,Text_Bottom,,0,0,0,kara,老哥是连可爱妹妹的一个请求都不肯满足的无情混球吗！？\N兄ちゃんは かわいい妹のお願い一つ聞いてくれない人でなし野郎なの！？
