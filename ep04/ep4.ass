@@ -41,7 +41,7 @@ Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,NOTE
 Dialogue: 0,0:09:16.16,0:09:20.82,note,,0,0,0,,日本街机游戏一般直接投硬币，但部分涉及赌博的游戏会使用代币来规避法律风险。\N和内地一样，代币无法换回法币，但可兑彩票。
 Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,CREDIT
 Dialogue: 0,0:03:22.10,0:03:28.10,Credit,6s,0,0,0,,{\fad(300,300)}本字幕由北宇治字幕组制作 仅供交流试看之用 TG@KitaUji
-Dialogue: 0,0:03:22.10,0:03:25.10,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}翻译：彬云醒芽（日）KuronekoS（英）　校对：残焰　后期：Scrpr
+Dialogue: 0,0:03:22.10,0:03:25.10,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}翻译：彬云醒芽（日）KuronekoS（英）　校对：残焰
 Dialogue: 0,0:03:25.10,0:03:28.10,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}长期招募翻译/时轴  招募群: 232487445  观众群: 884738299\N{\fscx80\fscy80}版本：${version}　 https://github.com/Kitauji-Sub/subs-gacen-girl
 Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TITLE
 Dialogue: 0,0:03:22.10,0:03:26.10,Title_this,This,0,0,0,,{\fad(477,477)\pos(1810,915)}#04 能打扰你一下吗？
