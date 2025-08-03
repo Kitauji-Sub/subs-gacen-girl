@@ -9,3 +9,5 @@ __pycache__
 *pre.ass
 aegisub-cli/
 diff2md.py
+*.xlsx
+*.csv
