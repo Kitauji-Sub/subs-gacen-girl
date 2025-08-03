@@ -7,10 +7,256 @@ YCbCr Matrix: TV.709
 PlayResX: 1920
 PlayResY: 1080
 
+[Aegisub Project Garbage]
+Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 04 (1080p) [1A2CEE63].mkv
+Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 04 (1080p) [1A2CEE63].mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.875000
+Scroll Position: 102
+Active Line: 37
+Video Position: 12031
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:00:01.98,0:00:02.02,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx149.45\fscy149.45\c&HEFF2F1&\3c&HAC6B51&\bord4.98\pos(351.25,990.46)}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.02,0:00:02.06,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.14,540.43)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.06,0:00:02.10,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.14,301.16)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.10,0:00:02.14,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.14,155.93)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.14,0:00:02.19,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,71.87)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.19,0:00:02.23,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,30.36)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.23,0:00:02.27,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,6)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.27,0:00:02.31,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,-10.69)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.31,0:00:02.35,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,-22.77)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.35,0:00:02.39,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,-31.71)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.39,0:00:02.44,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,-38.37)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.44,0:00:02.48,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,-43.2)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.48,0:00:02.52,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,-46.68)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.52,0:00:02.56,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,-49.05)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.56,0:00:02.60,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,-50.55)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.60,0:00:02.64,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.14,-51.33)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.64,0:00:02.69,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,-51.68)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.69,0:00:02.85,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,-51.72)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.85,0:00:03.98,OnScreen,49,0,0,0,,{=99}{\alpha&H00&\fn@MiSans\frz270\an8\fscx150\fscy150\pos(349.15,-51.73)\c&HEFF2F1&\3c&HAC6B51&\bord5}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:00:02.06,0:00:02.10,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,1036.6)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.10,0:00:02.14,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,891.38)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.14,0:00:02.19,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,807.31)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.19,0:00:02.23,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,765.8)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.23,0:00:02.27,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,741.44)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.27,0:00:02.31,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,724.75)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.31,0:00:02.35,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,712.67)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.35,0:00:02.39,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,703.73)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.39,0:00:02.44,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,697.08)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.44,0:00:02.48,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,692.24)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.48,0:00:02.52,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,688.76)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.52,0:00:02.56,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,686.39)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.56,0:00:02.60,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,684.89)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.60,0:00:02.64,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,684.12)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.64,0:00:02.69,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,683.76)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.69,0:00:02.89,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,683.72)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:00:02.89,0:00:03.98,OnScreen,66,0,0,0,,{=100}{\fscx100\fscy100\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\pos(1220.57,683.71)\c&H2D94EA&\3c&H0F0E11&\bord3}男子气概考拉斗士！！！
+Dialogue: 0,0:08:16.64,0:08:16.68,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.56\fscy78.83\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.18\org(1205.83,1746.39)\pos(1078,1024.77)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:16.68,0:08:16.72,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.57\fscy78.84\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.18\org(1205.84,1732.44)\pos(1078.01,1010.73)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:16.72,0:08:16.76,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.58\fscy78.85\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.85,1718.58)\pos(1078.02,996.8)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:16.76,0:08:16.80,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.58\fscy78.85\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.87,1704.82)\pos(1078.03,982.97)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:16.80,0:08:16.85,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.59\fscy78.86\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.88,1691.14)\pos(1078.03,969.22)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:16.85,0:08:16.89,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.6\fscy78.87\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.9,1677.59)\pos(1078.04,955.61)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:16.89,0:08:16.93,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.6\fscy78.87\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.92,1664.13)\pos(1078.05,942.1)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:16.93,0:08:16.97,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.61\fscy78.88\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.94,1650.79)\pos(1078.05,928.7)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:16.97,0:08:17.01,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.61\fscy78.89\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.96,1637.58)\pos(1078.06,915.44)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.01,0:08:17.06,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.61\fscy78.89\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1624.51)\pos(1078.06,902.32)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.06,0:08:17.10,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.62\fscy78.9\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1611.58)\pos(1078.07,889.34)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.10,0:08:17.14,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.62\fscy78.9\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.98,1598.77)\pos(1078.07,876.49)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.14,0:08:17.18,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.63\fscy78.91\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.98,1586.12)\pos(1078.08,863.78)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.18,0:08:17.22,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.63\fscy78.91\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.98,1573.61)\pos(1078.08,851.23)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.22,0:08:17.26,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.63\fscy78.92\frz0.24\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.98,1561.21)\pos(1078.08,838.8)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.26,0:08:17.31,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.64\fscy78.92\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.99,1548.97)\pos(1078.09,826.53)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.31,0:08:17.35,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.64\fscy78.92\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.98,1536.92)\pos(1078.09,814.41)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.35,0:08:17.39,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.65\fscy78.93\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.98,1524.99)\pos(1078.1,802.45)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.39,0:08:17.43,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.65\fscy78.93\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1513.25)\pos(1078.1,790.67)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.43,0:08:17.47,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.65\fscy78.94\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1501.64)\pos(1078.1,779.03)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.47,0:08:17.51,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.65\fscy78.94\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1490.21)\pos(1078.11,767.56)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.51,0:08:17.56,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.66\fscy78.94\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.96,1478.93)\pos(1078.11,756.25)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.56,0:08:17.60,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.66\fscy78.95\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1467.8)\pos(1078.11,745.09)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.60,0:08:17.64,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.66\fscy78.95\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1456.88)\pos(1078.11,734.13)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.64,0:08:17.68,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.66\fscy78.95\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.98,1446.1)\pos(1078.12,723.34)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.68,0:08:17.72,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.67\fscy78.95\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1435.5)\pos(1078.12,712.72)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.72,0:08:17.76,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.67\fscy78.95\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1425.05)\pos(1078.12,702.27)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.76,0:08:17.81,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.67\fscy78.95\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1414.79)\pos(1078.12,692)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.81,0:08:17.85,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.67\fscy78.96\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1404.71)\pos(1078.12,681.9)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.85,0:08:17.89,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.67\fscy78.96\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.96,1394.81)\pos(1078.12,672)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.89,0:08:17.93,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.67\fscy78.96\frz0.23\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1385.11)\pos(1078.12,662.28)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.93,0:08:17.97,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.67\fscy78.96\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1375.61)\pos(1078.13,652.75)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:17.97,0:08:18.01,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.67\fscy78.96\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.96,1366.28)\pos(1078.13,643.41)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.01,0:08:18.06,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.67\fscy78.96\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.95,1357.12)\pos(1078.13,634.25)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.06,0:08:18.10,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.68\fscy78.97\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.95,1348.19)\pos(1078.13,625.29)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.10,0:08:18.14,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.68\fscy78.97\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.95,1339.42)\pos(1078.13,616.49)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.14,0:08:18.18,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.68\fscy78.97\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.95,1330.84)\pos(1078.13,607.9)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.18,0:08:18.22,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.68\fscy78.97\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.95,1322.44)\pos(1078.14,599.48)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.22,0:08:18.26,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.68\fscy78.97\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.94,1314.23)\pos(1078.14,591.24)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.26,0:08:18.31,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.69\fscy78.98\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.94,1306.23)\pos(1078.14,583.22)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.31,0:08:18.35,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.69\fscy78.98\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.94,1298.47)\pos(1078.14,575.43)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.35,0:08:18.39,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.69\fscy78.98\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.94,1290.92)\pos(1078.14,567.86)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.39,0:08:18.43,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.69\fscy78.98\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.94,1283.62)\pos(1078.15,560.53)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.43,0:08:18.47,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.69\fscy78.99\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.94,1276.51)\pos(1078.15,553.42)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.47,0:08:18.52,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.7\fscy78.99\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.94,1269.69)\pos(1078.15,546.54)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.52,0:08:18.56,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.7\fscy78.99\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.94,1263.05)\pos(1078.15,539.9)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.56,0:08:18.60,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.7\fscy78.99\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.94,1256.68)\pos(1078.15,533.51)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.60,0:08:18.64,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.7\fscy79\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.95,1250.54)\pos(1078.16,527.34)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.64,0:08:18.68,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.7\fscy79\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.95,1244.66)\pos(1078.16,521.45)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.68,0:08:18.72,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.7\fscy79\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.95,1239.02)\pos(1078.16,515.79)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.72,0:08:18.77,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.7\fscy79\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.95,1233.64)\pos(1078.16,510.39)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.77,0:08:18.81,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.71\fscy79\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.95,1228.52)\pos(1078.16,505.26)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.81,0:08:18.85,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.71\fscy79\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.96,1223.63)\pos(1078.16,500.37)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.85,0:08:18.89,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.71\fscy79.01\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.96,1218.99)\pos(1078.17,495.7)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.89,0:08:18.93,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.71\fscy79.01\frz0.21\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.96,1214.6)\pos(1078.17,491.3)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.93,0:08:18.97,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.71\fscy79.01\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1210.48)\pos(1078.17,487.17)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:18.97,0:08:19.02,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.71\fscy79.01\frz0.21\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.97,1206.62)\pos(1078.17,483.29)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.02,0:08:19.06,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.71\fscy79.01\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.98,1203.03)\pos(1078.17,479.68)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.06,0:08:19.10,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.71\fscy79.01\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.98,1199.68)\pos(1078.17,476.33)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.10,0:08:19.14,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.72\fscy79.01\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.99,1196.61)\pos(1078.17,473.25)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.14,0:08:19.18,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.72\fscy79.02\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.98,1193.8)\pos(1078.18,470.43)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.18,0:08:19.22,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.72\fscy79.02\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.99,1191.26)\pos(1078.18,467.88)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.22,0:08:19.27,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.72\fscy79.02\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.99,1188.96)\pos(1078.18,465.56)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.27,0:08:19.31,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.72\fscy79.02\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.99,1186.9)\pos(1078.18,463.5)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.31,0:08:19.35,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.72\fscy79.02\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.99,1185.16)\pos(1078.18,461.76)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.35,0:08:19.39,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.72\fscy79.02\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1206,1183.67)\pos(1078.18,460.26)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.39,0:08:19.43,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.72\fscy79.02\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1206,1182.44)\pos(1078.18,459.03)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.43,0:08:19.47,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.72\fscy79.02\frz0.21\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.99,1181.49)\pos(1078.18,458.08)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.47,0:08:19.52,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.72\fscy79.02\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1206,1180.81)\pos(1078.18,457.39)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.52,0:08:19.56,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.72\fscy79.02\frz0.22\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1206,1180.41)\pos(1078.18,456.99)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.56,0:08:19.60,OnScreen,11978,0,0,0,,{=12=101}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fscx64.72\fscy79.02\frz0.21\frx0.2585\fry-7.8489\xbord1.98\ybord2.19\org(1205.98,1180.26)\pos(1078.18,456.84)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:08:19.60,0:08:23.02,OnScreen,,0,0,0,,{=21}{\fn思源黑体 Heavy\fax0.132278\fscx213.55\fscy196.15\frz2.1380\frx0.9059\fry0.8466\org(855.88,76.89)\pos(850.23,116.12)\c&H5ABEFB&\3c&H556482&\bord3}猜拳王
+Dialogue: 0,0:08:19.60,0:08:23.02,OnScreen,,0,0,0,,{=23}{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H4D4B4E&\fax0.099903\fscx227.08\fscy205.38\frz2.7305\frx0.8743\fry0.8170\xbord3.19\ybord3.14\org(337.03,312.31)\pos(332.49,353.39)}赢
+Dialogue: 0,0:08:19.60,0:08:23.02,OnScreen,,0,0,0,,{=23}{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H4D4B4E&\fax0.147330\fscx204.65\fscy194.70\frz2.6767\frx0.9206\fry0.8613\xbord2.87\ybord2.98\org(1383.88,243.74)\pos(1377.85,282.68)}赢
+Dialogue: 0,0:08:19.60,0:08:23.02,OnScreen,,0,0,0,,{=24}{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H4D4B4E&\fax0.076814\fscx230.74\fscy216.48\frz4.5415\frx0.8542\fry0.7993\xbord3.24\ybord3.31\org(522.17,959.17)\pos(518.62,1002.46)}输
+Dialogue: 0,0:08:19.60,0:08:23.02,OnScreen,,0,0,0,,{=25}{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H4D4B4E&\fax0.119317\fscx209.74\fscy206.04\frz4.4687\frx0.8968\fry0.8383\xbord2.95\ybord3.15\org(1470.74,858.59)\pos(1465.73,899.8)}平
+Dialogue: 0,0:12:03.95,0:12:08.96,OnScreen,,0,0,0,,{=36}{\fn思源黑体 Heavy\fax0.468863\fscx86.23\fscy87.74\frz-10.6215\frx0.7681\fry1.7746\org(723.63,253.22)\pos(715.55,270.77)\c&H52BAFB&\3c&H425A7E&\bord1.7}猜拳王
+Dialogue: 0,0:12:03.95,0:12:08.96,OnScreen,,0,0,0,,{=39}{\fn思源黑体 Heavy\c&H52BAFB&\3c&H425A7E&\fax0.514944\fscx75.67\fscy82.21\frz-10.6040\frx0.8171\fry1.8934\xbord1.49\ybord1.59\org(1418.98,386.81)\pos(1411.18,403.25)}猜拳王
+Dialogue: 0,0:12:03.95,0:12:08.96,OnScreen,,0,0,0,,{=42}{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H444148&\fax0.450106\fscx89.22\fscy90.07\frz-10.0871\frx0.7527\fry1.7404\xbord1.76\ybord1.74\org(550.97,328.35)\pos(542.94,346.36)}赢
+Dialogue: 0,0:12:03.95,0:12:08.96,OnScreen,,0,0,0,,{=43}{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H444148&\fax0.475213\fscx83.02\fscy86.81\frz-10.1351\frx0.7767\fry1.8053\xbord1.64\ybord1.68\org(944.18,388.99)\pos(936.29,406.35)}赢
+Dialogue: 0,0:12:03.95,0:12:08.96,OnScreen,,0,0,0,,{=44}{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H444148&\fax0.495851\fscx78.05\fscy84.27\frz-10.0687\frx0.8059\fry1.8636\xbord1.54\ybord1.63\org(1272.55,460.08)\pos(1264.81,476.94)}赢
+Dialogue: 0,0:12:03.95,0:12:08.96,OnScreen,,0,0,0,,{=45}{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H444148&\fax0.520383\fscx73.07\fscy81.48\frz-10.1101\frx0.8293\fry1.9282\xbord1.44\ybord1.58\org(1609.28,512.36)\pos(1601.68,528.66)}赢
+Dialogue: 0,0:12:03.95,0:12:08.96,OnScreen,,0,0,0,,{=46}{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H444148&\fax0.429437\fscx88.14\fscy92.15\frz-8.3627\frx0.7520\fry1.7367\xbord1.74\ybord1.79\org(672.29,690.1)\pos(664.72,708.53)}输
+Dialogue: 0,0:12:03.95,0:12:08.96,OnScreen,,0,0,0,,{=47}{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H444148&\fax0.473483\fscx77.12\fscy86.24\frz-8.3300\frx0.8011\fry1.8597\xbord1.52\ybord1.68\org(1385.49,800.92)\pos(1378.19,818.17)}输
+Dialogue: 0,0:12:03.95,0:12:08.96,OnScreen,,0,0,0,,{=48}{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H444148&\fax0.450616\fscx82.81\fscy89.26\frz-8.4047\frx0.7725\fry1.7954\xbord1.63\ybord1.74\org(1011.11,731.92)\pos(1003.65,749.77)}平
+Dialogue: 0,0:12:03.95,0:12:08.96,OnScreen,,0,0,0,,{=49}{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H444148&\fax0.495330\fscx72.72\fscy83.64\frz-8.4080\frx0.8197\fry1.9132\xbord1.43\ybord1.63\org(1680.39,830.2)\pos(1673.19,846.92)}平
+Dialogue: 0,0:12:28.35,0:12:31.85,OnScreen,,0,0,0,,{\fn思源黑体 Heavy\fax0.132278\fscx213.55\fscy196.15\frz2.1380\frx0.9059\fry0.8466\org(855.88,76.89)\pos(850.23,116.12)\c&H5ABEFB&\3c&H556482&\bord3}猜拳王
+Dialogue: 0,0:12:28.35,0:12:31.85,OnScreen,,0,0,0,,{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H4D4B4E&\fax0.099903\fscx227.08\fscy205.38\frz2.7305\frx0.8743\fry0.8170\xbord3.19\ybord3.14\org(337.03,312.31)\pos(332.49,353.39)}赢
+Dialogue: 0,0:12:28.35,0:12:31.85,OnScreen,,0,0,0,,{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H4D4B4E&\fax0.147330\fscx204.65\fscy194.70\frz2.6767\frx0.9206\fry0.8613\xbord2.87\ybord2.98\org(1383.88,243.74)\pos(1377.85,282.68)}赢
+Dialogue: 0,0:12:28.35,0:12:31.85,OnScreen,,0,0,0,,{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H4D4B4E&\fax0.076814\fscx230.74\fscy216.48\frz4.5415\frx0.8542\fry0.7993\xbord3.24\ybord3.31\org(522.17,959.17)\pos(518.62,1002.46)}输
+Dialogue: 0,0:12:28.35,0:12:31.85,OnScreen,,0,0,0,,{\fn獅尾圓體SC-Black\c&HFFFFFF&\3c&H4D4B4E&\fax0.119317\fscx209.74\fscy206.04\frz4.4687\frx0.8968\fry0.8383\xbord2.95\ybord3.15\org(1470.74,858.59)\pos(1465.73,899.8)}平
+Dialogue: 0,0:15:55.18,0:16:01.19,OnScreen,,0,0,0,,{=54}{\fn仓耳周珂正大榜书\c&H787368&\3c&HF8FAFB&\fax-0.165911\fscx136.50\fscy152.32\frz6.2208\frx-1.6991\fry4.0501\xbord5.99\ybord5.99\org(1250.17,256.1)\pos(1254.7,286.56)}男子气概{\fn思源黑体 Heavy\c&HDAAFFE&}  砸地鼠
+Dialogue: 0,0:15:55.18,0:16:01.19,OnScreen,,0,0,0,,{=59}{\fn@獅尾圓體SC-Bold\an8\fax0.087441\fscx127.91\fscy115.04\frz-89.2747\frx-0.2524\fry2.0647\org(304.86,653.98)\pos(302.63,630.97)\c&HF1F1F1&\3c&H636263&\bord2.6}点数
+Dialogue: 1,0:16:04.57,0:16:07.32,OnScreen,,0,0,0,,{\fn@MiSans Heavy\frz270\an7\pos(273.14,148.57)\fscx180\fscy180\c&HDEFD26&\3c&HFDFDFD&\bord6}男子气概考拉\N限定钥匙扣！\N奖品！！
+Dialogue: 0,0:16:04.57,0:16:07.32,OnScreen,,0,0,0,,{\fn@MiSans Heavy\frz270\an7\pos(273.14,148.57)\fscx180\fscy180\c&HDEFD26&\3c&HB8D18C&\bord12}男子气概考拉\N限定钥匙扣！\N奖品！！
+Dialogue: 0,0:16:04.57,0:16:07.32,OnScreen,,0,0,0,,{\fn思源黑体\b1\pos(1393,166)}得分
+Dialogue: 0,0:16:04.57,0:16:07.32,OnScreen,,0,0,0,,{\fn@MiSans\b1\frz270\an7\fscx150\fscy150\c&H7E75F5&\3c&HFBFBFB&\bord7\pos(1314.57,537.14)}的顾客赠送
+Dialogue: 0,0:16:51.20,0:16:58.00,OnScreen,,0,0,0,,{=96}{\fad(437,0)\fn思源黑体\b1\fax0.000003\fscx106.30\fscy122.01\frz-0.1710\frx0.0580\fry-4.6481\org(1237.68,1553.73)\pos(1223.46,77.29)}得分
+Dialogue: 0,0:16:51.20,0:16:58.00,OnScreen,,0,0,0,,{=80}{\fad(437,0)\fn@MiSans\b1\an7\c&H7E75F5&\3c&HFBFBFB&\fax0.228085\fscx119.60\fscy99.81\frz-90.1177\frx-0.1274\fry-4.7945\xbord5.59\ybord4.66\org(1163.72,496.17)\pos(1068.06,476.21)}的顾客赠送
+Dialogue: 1,0:16:51.20,0:16:58.00,OnScreen,,0,0,0,,{=83}{\fad(437,0)\fn@MiSans Heavy\an7\c&HDEFD26&\3c&HFDFDFD&\fax-0.000001\fscx158.85\fscy119.07\frz-89.8291\frx-0.1562\fry-5.8812\xbord7.42\ybord5.56\org(498.12,1493.48)\pos(-643.97,1398.6)}男子气概考拉\N限定钥匙扣！\N奖品！！
+Dialogue: 0,0:16:51.20,0:16:58.00,OnScreen,,0,0,0,,{=83}{\fad(437,0)\fn@MiSans Heavy\an7\c&HDEFD26&\3c&HB8D18C&\fax0.000002\fscx157.58\fscy119.06\frz-89.8291\frx-0.1562\fry-5.8812\xbord11.90\ybord12.00\org(498.09,1493.47)\pos(-643.98,1398.56)}男子气概考拉\N限定钥匙扣！\N奖品！！
+
+[Aegisub Extradata]
+Data: 1,_aegi_perspective_ambient_plane,e929.19;527.32#7C1397.74;313.09#7C1398.07;444.39#7C1001.25;554.99
+Data: 2,_aegi_perspective_ambient_plane,e929.19;527.32#7C1397.74;313.09#7C1398.07;444.39#7C725.97;709.72
+Data: 3,_aegi_perspective_ambient_plane,e724.95;611.03#7C1397.74;313.09#7C1398.07;444.39#7C725.97;709.72
+Data: 4,_aegi_perspective_ambient_plane,e724.95;611.03#7C1397.74;313.09#7C1398.06;444.39#7C724.48;710.72
+Data: 5,_aegi_perspective_ambient_plane,e725.44;610.54#7C1397.74;313.09#7C1398.06;444.39#7C724.48;710.72
+Data: 6,_aegi_perspective_ambient_plane,e725.44;610.54#7C1397.74;313.09#7C1398.06;444.39#7C724.97;711.21
+Data: 7,_aegi_perspective_ambient_plane,e725.44;610.54#7C1184.24;463.66#7C1398.06;444.39#7C724.97;711.21
+Data: 8,_aegi_perspective_ambient_plane,e725.44;610.54#7C1184.24;463.66#7C1185.55;588.06#7C724.97;711.21
+Data: 9,_aegi_perspective_ambient_plane,e725.44;610.54#7C1185.20;461.74#7C1185.56;588.06#7C724.98;711.21
+Data: 10,_aegi_perspective_ambient_plane,e725.44;610.54#7C1185.21;461.74#7C1185.56;588.06#7C724.98;711.21
+Data: 11,_aegi_perspective_ambient_plane,e725.47;610.53#7C1185.21;461.74#7C1185.56;588.06#7C725.01;711.20
+Data: 12,_aegi_perspective_ambient_plane,e725.49;610.53#7C1185.21;461.74#7C1185.56;588.06#7C725.02;711.20
+Data: 13,_aegi_perspective_ambient_plane,e630.98;74.71#7C901.88;45.00#7C901.88;125.00#7C736.12;125.00
+Data: 14,_aegi_perspective_ambient_plane,e630.98;74.71#7C901.88;45.00#7C901.88;125.00#7C454.98;205.00
+Data: 15,_aegi_perspective_ambient_plane,e59.55;97.57#7C901.88;45.00#7C901.88;125.00#7C454.98;205.00
+Data: 16,_aegi_perspective_ambient_plane,e59.55;97.57#7C901.88;45.00#7C901.88;125.00#7C150.98;746.71
+Data: 17,_aegi_perspective_ambient_plane,e59.55;97.57#7C901.88;45.00#7C1713.30;614.14#7C150.98;746.71
+Data: 18,_aegi_perspective_ambient_plane,e59.55;97.57#7C1589.88;40.43#7C1713.30;614.14#7C150.98;746.71
+Data: 19,_aegi_perspective_ambient_plane,e55.36;97.05#7C1589.87;40.43#7C1713.30;614.14#7C150.98;746.71
+Data: 20,_aegi_perspective_ambient_plane,e54.31;97.05#7C1589.87;40.43#7C1713.30;614.14#7C150.98;746.71
+Data: 21,_aegi_perspective_ambient_plane,e54.31;97.05#7C1589.87;40.43#7C1718.05;640.28#7C150.98;746.71
+Data: 22,_aegi_perspective_ambient_plane,e54.31;97.05#7C1589.86;40.43#7C1718.05;640.28#7C150.97;746.72
+Data: 23,_aegi_perspective_ambient_plane,e54.31;97.05#7C1589.85;40.44#7C1718.04;640.28#7C150.97;746.72
+Data: 24,_aegi_perspective_ambient_plane,e54.32;97.05#7C1589.84;40.44#7C1718.04;640.28#7C151.01;746.72
+Data: 25,_aegi_perspective_ambient_plane,e54.30;97.02#7C1589.81;40.46#7C1717.99;640.29#7C151.00;746.72
+Data: 26,_aegi_perspective_ambient_plane,e403.98;118.57#7C823.45;301.43#7C823.45;381.43#7C657.70;381.43
+Data: 27,_aegi_perspective_ambient_plane,e403.98;118.57#7C823.45;301.43#7C823.45;381.43#7C579.98;829.43
+Data: 28,_aegi_perspective_ambient_plane,e403.98;118.57#7C823.45;301.43#7C951.45;836.29#7C579.98;829.43
+Data: 29,_aegi_perspective_ambient_plane,e403.98;118.57#7C1653.16;360.86#7C951.45;836.29#7C579.98;829.43
+Data: 30,_aegi_perspective_ambient_plane,e403.98;118.57#7C1653.16;360.86#7C1817.73;994.00#7C579.98;829.43
+Data: 31,_aegi_perspective_ambient_plane,e403.73;119.56#7C1653.16;360.86#7C1817.73;994.00#7C579.98;829.43
+Data: 32,_aegi_perspective_ambient_plane,e403.73;119.56#7C1649.32;361.34#7C1817.73;994.00#7C579.98;829.43
+Data: 33,_aegi_perspective_ambient_plane,e403.73;119.56#7C1649.32;361.34#7C1818.71;993.51#7C579.98;829.43
+Data: 34,_aegi_perspective_ambient_plane,e403.73;119.56#7C1649.32;361.34#7C1818.71;993.51#7C578.49;828.44
+Data: 35,_aegi_perspective_ambient_plane,e403.73;119.56#7C1649.32;361.34#7C1818.71;993.51#7C578.49;827.97
+Data: 36,_aegi_perspective_ambient_plane,e403.73;119.56#7C1649.32;361.34#7C1818.71;993.51#7C578.50;827.97
+Data: 37,_aegi_perspective_ambient_plane,e403.73;119.56#7C1649.32;361.34#7C1818.70;993.50#7C578.49;827.97
+Data: 38,_aegi_perspective_ambient_plane,e403.71;119.55#7C1649.32;361.34#7C1818.71;993.51#7C578.45;827.99
+Data: 39,_aegi_perspective_ambient_plane,e403.76;119.56#7C1649.32;361.34#7C1818.70;993.47#7C578.61;827.94
+Data: 40,_aegi_perspective_ambient_plane,e403.80;119.57#7C1649.31;361.34#7C1818.70;993.48#7C578.65;827.95
+Data: 42,_aegi_perspective_ambient_plane,e403.80;119.57#7C1649.24;361.32#7C1818.69;993.49#7C578.68;827.97
+Data: 43,_aegi_perspective_ambient_plane,e403.80;119.57#7C1649.15;361.31#7C1818.52;993.40#7C578.68;827.95
+Data: 44,_aegi_perspective_ambient_plane,e403.76;119.55#7C1649.05;361.31#7C1818.38;993.31#7C578.69;827.97
+Data: 45,_aegi_perspective_ambient_plane,e403.84;119.58#7C1649.05;361.31#7C1818.45;993.38#7C578.63;827.99
+Data: 46,_aegi_perspective_ambient_plane,e403.79;119.56#7C1649.05;361.31#7C1818.45;993.37#7C578.60;827.99
+Data: 47,_aegi_perspective_ambient_plane,e403.78;119.54#7C1649.18;361.27#7C1818.53;993.39#7C578.60;827.99
+Data: 48,_aegi_perspective_ambient_plane,e403.44;119.30#7C1649.16;361.30#7C1818.46;993.36#7C578.41;827.99
+Data: 49,_aegi_perspective_ambient_plane,e403.46;119.32#7C1649.10;361.34#7C1818.44;993.35#7C578.38;828.00
+Data: 50,_aegi_perspective_ambient_plane,e940.35;53.16#7C1385.38;117.14#7C1385.38;197.14#7C998.63;197.14
+Data: 51,_aegi_perspective_ambient_plane,e940.35;53.16#7C1385.38;117.14#7C1385.38;197.14#7C937.18;276.32
+Data: 52,_aegi_perspective_ambient_plane,e940.35;53.16#7C1581.75;13.89#7C1385.38;197.14#7C937.18;276.33
+Data: 53,_aegi_perspective_ambient_plane,e940.35;53.16#7C1581.75;13.89#7C1568.45;209.18#7C937.18;276.33
+Data: 54,_aegi_perspective_ambient_plane,e940.35;53.15#7C1581.75;13.88#7C1568.45;209.18#7C937.18;276.33
+Data: 55,_aegi_perspective_ambient_plane,e560.00;540.56#7C560.00;683.44#7C480.00;683.44#7C398.83;556.60
+Data: 56,_aegi_perspective_ambient_plane,e739.37;522.52#7C560.00;683.44#7C480.00;683.44#7C398.83;556.60
+Data: 57,_aegi_perspective_ambient_plane,e739.37;522.52#7C740.38;697.47#7C480.00;683.44#7C398.83;556.60
+Data: 58,_aegi_perspective_ambient_plane,e739.37;522.52#7C740.38;697.47#7C400.84;738.57#7C398.83;556.60
+Data: 59,_aegi_perspective_ambient_plane,e739.37;522.52#7C740.37;697.47#7C400.84;738.57#7C398.84;556.60
+Data: 60,_aegi_perspective_ambient_plane,e1005.61;58.29#7C1285.25;24.00#7C1285.25;104.00#7C1174.75;104.00
+Data: 61,_aegi_perspective_ambient_plane,e1005.61;58.29#7C1285.25;24.00#7C1285.25;104.00#7C573.61;542.86
+Data: 62,_aegi_perspective_ambient_plane,e571.32;254.86#7C1285.25;24.00#7C1285.25;104.00#7C573.61;542.86
+Data: 63,_aegi_perspective_ambient_plane,e571.32;254.86#7C1285.25;24.00#7C1367.54;881.14#7C573.61;542.86
+Data: 64,_aegi_perspective_ambient_plane,e571.32;254.86#7C1285.25;24.00#7C1367.54;881.14#7C569.04;1025.14
+Data: 65,_aegi_perspective_ambient_plane,e571.32;254.86#7C1285.25;24.00#7C1365.25;878.86#7C569.04;1025.14
+Data: 66,_aegi_perspective_ambient_plane,e571.32;254.86#7C1369.82;-67.43#7C1365.25;878.86#7C569.04;1025.14
+Data: 67,_aegi_perspective_ambient_plane,e572.16;255.98#7C1369.82;-67.43#7C1365.25;878.86#7C569.03;1025.14
+Data: 68,_aegi_perspective_ambient_plane,e572.16;255.98#7C1369.82;-67.43#7C1365.25;878.86#7C570.38;1032.33
+Data: 69,_aegi_perspective_ambient_plane,e572.16;255.98#7C1369.83;-67.43#7C1365.25;878.86#7C570.38;1032.33
+Data: 70,_aegi_perspective_ambient_plane,e572.17;255.98#7C1369.83;-67.43#7C1365.25;878.89#7C570.37;1032.34
+Data: 71,_aegi_perspective_ambient_plane,e1478.43;3920.00#7C1478.43;341.38#7C575.43;254.52#7C1215.43;3920.00
+Data: 72,_aegi_perspective_ambient_plane,e1478.43;3919.99#7C1354.28;-65.84#7C575.43;254.53#7C1215.43;3919.99
+Data: 73,_aegi_perspective_ambient_plane,e1478.44;3920.05#7C1354.28;-65.84#7C575.43;254.53#7C579.85;1057.71
+Data: 74,_aegi_perspective_ambient_plane,e1385.75;925.20#7C1354.28;-65.84#7C575.43;254.53#7C579.85;1057.71
+Data: 75,_aegi_perspective_ambient_plane,e1385.73;925.11#7C1354.28;-65.85#7C575.43;254.54#7C572.89;1036.78
+Data: 76,_aegi_perspective_ambient_plane,e1364.87;918.15#7C1354.28;-65.85#7C575.43;254.54#7C572.89;1036.78
+Data: 77,_aegi_perspective_ambient_plane,e1364.85;918.17#7C1368.19;-65.84#7C575.43;254.54#7C572.89;1036.80
+Data: 78,_aegi_perspective_ambient_plane,e1364.85;918.17#7C1368.19;-65.84#7C570.79;254.54#7C572.89;1036.80
+Data: 79,_aegi_perspective_ambient_plane,e1364.81;918.16#7C1368.18;-65.83#7C570.79;254.54#7C572.89;1036.81
+Data: 80,_aegi_perspective_ambient_plane,e1364.82;918.16#7C1368.18;-65.83#7C570.79;254.55#7C572.88;1036.81
+Data: 81,_aegi_perspective_ambient_plane,e1364.82;918.16#7C1368.18;-65.82#7C570.79;254.56#7C572.87;1036.82
+Data: 82,_aegi_perspective_ambient_plane,e1364.82;918.15#7C1368.18;-65.82#7C570.79;254.56#7C572.87;1036.82
+Data: 83,_aegi_perspective_ambient_plane,e1364.83;918.15#7C1368.19;-65.82#7C570.79;254.56#7C572.87;1036.82
+Data: 85,_aegi_perspective_ambient_plane,e2115.05;127.57#7C1186.08;127.57#7C1186.08;-603.24#7C2115.05;-603.24
+Data: 86,_aegi_perspective_ambient_plane,e2115.05;127.57#7C1186.08;127.57#7C948.56;-33.57#7C2115.05;-603.24
+Data: 87,_aegi_perspective_ambient_plane,e2115.05;127.57#7C568.51;1021.64#7C948.56;-33.57#7C2115.05;-603.24
+Data: 88,_aegi_perspective_ambient_plane,e2115.05;127.57#7C568.51;1021.64#7C584.35;259.18#7C2115.05;-603.24
+Data: 89,_aegi_perspective_ambient_plane,e2115.05;127.57#7C568.51;1021.64#7C584.35;259.18#7C1386.64;-81.04
+Data: 90,_aegi_perspective_ambient_plane,e1378.72;887.13#7C568.51;1021.64#7C584.35;259.18#7C1386.64;-81.04
+Data: 91,_aegi_perspective_ambient_plane,e1366.42;890.64#7C568.51;1021.64#7C584.35;259.18#7C1386.64;-81.04
+Data: 92,_aegi_perspective_ambient_plane,e1366.42;890.64#7C568.51;1021.64#7C572.05;255.67#7C1386.64;-81.04
+Data: 93,_aegi_perspective_ambient_plane,e1366.42;890.64#7C568.51;1021.64#7C572.05;255.67#7C1369.07;-66.99
+Data: 94,_aegi_perspective_ambient_plane,e1366.42;890.64#7C568.51;1021.64#7C572.05;255.67#7C1369.06;-66.97
+Data: 95,_aegi_perspective_ambient_plane,e1366.42;890.64#7C568.51;1021.63#7C572.05;255.67#7C1369.06;-66.97
+Data: 96,_aegi_perspective_ambient_plane,e1366.43;890.74#7C568.55;1021.57#7C572.14;255.65#7C1369.06;-66.98
+Data: 99,a-mo,u?S*V>7FE)DIC:G1S-D2B-$AN9TES.#UU-$9X,7&G.45N/4>G94"G-G9V9T9Q)CQC<X*J:WFO97R5:8BU)DIC?VR=:GZ!47F497ZT8&RG=HIS.T"=8'&O/&R=:H.D?$%V-&R=:H.D?4%V-&R=='^T+$-U/3YR.#QV.$!O.$-J8&RD*EB&2E9S2D%G8&QT9S:)15-W1D5R*FR=9G^S:$6^[,7-Z,C+Z;3H[)?KZY3W[:SYZJW$ZZK%ZIC9ZJ;8ZY[QZ:SIZ,C![+?GZ9WTZ9_2\\S")HU
+Data: 100,a-mo,u?S*V>7FE)DIC9G9Y-$*B:'9N/7*G.SUU.$AV,4EW9D1N-$AS9D&D-G2D-4-Z)CQC<X*J:WFO97R5:8BU)DIC?VR=:G\EOZ0IA,0FE;DHDY,GL;0FJ+@GJJTEO;:=8':S?D5O.T!R8&RQ<X-I-4)S-#YV.SQW/$-O.T)J8&RD*EAS2$EU25%G8&QT9S:)-%9Q24%R*FR=9G^S:$.^ZZ3XZ;W1ZL#5ZK;#[)#$ZIO*ZJ;8Z;/L\\S"\\S"\\S")HU
+Data: 101,a-mo,u?S*V>7FE)DIC.$:E.D!R.$-N-'.E/3UU/4!X,7&E-T-N.4EY:7:C-$FB/$9R)CQC<X*J:WFO97R5:8BU)DIC?VR=:G\GA*XGOJ$JOZ(EP:.=8')R8&RB<D>=8'-G3$B"24F'1S:=8$.D*EAY-E-Q2D%G8&RG=W.Y.D1O.T*=8':T9XEX/3YQ-FR=:H*[-#YS-4-Y8&RG=HAQ,D)V/$6=8':S?3UX,DAU/$F=8(BC<X*E-3YZ/&R=?7*P=G1S,D%Z8&RP=G=I-4)Q.3YZ/#QR-4AQ,D)W+6R=='^T+$%Q.TAO-4AM.$5W,DAU+8XII:@GH,L#N_7EO?7IA_7IA_;=OM+XZ;77Z:/"8&R/ZIK6Z<C"ZLCYZIC0QL@IJZ,IC<,GC;\GP*1A:82D,CYO)HU
