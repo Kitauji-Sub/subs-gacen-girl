@@ -1,0 +1,59 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[Aegisub Project Garbage]
+Video Zoom Percent: 0.750000
+Active Line: 34
+Video Position: 20623
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:01.32,0:01:01.32,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:02:56.15,0:02:59.11,OnScreen,Sign,0,0,0,,{\an1\c&H3D256F&\bord0\fs24\b1\frz352.1\pos(157.334,62.667)\fade(192,0)\frx6\fry6}Retro Game Center
+Dialogue: 0,0:02:56.15,0:02:59.11,OnScreen,Sign,0,0,0,,{\c&H515E60&\3c&H60EFE3&\b1\fs8\fade(192,0)\frz355.2\pos(317.333,213.333)\frx8\fry14\iclip(342,212,352,220)}Retro Game Center
+Dialogue: 0,0:02:56.15,0:02:59.11,OnScreen,Sign,0,0,0,,{\c&H515E60&\3c&H60EFE3&\b1\fs8\fade(192,0)\frz355.2\frx8\fry14\\pos(334,286.666)}Lobster
+Dialogue: 0,0:04:52.60,0:04:56.60,OnScreen,Sign,0,0,0,,{\3c&H803A30&\bord1.25\an2\fs10\t(0,4000,\fs12)\b1\fnTimes New Roman\frz270\move(408,157.333,422,151.333,25,3987)}The Battle for Control of the Natural World Begins Now!
+Dialogue: 0,0:04:52.60,0:04:56.60,OnScreen,Sign,0,0,0,,{\c&HD0F0FF&\3c&H6E6EE6&\bord1.5\blur1.5\fs10\t(0,4000,\fs12)\fnTimes New Roman\b1\move(310.667,161.999,311.333,163.333,0,3987)}Chivalry
+Dialogue: 0,0:04:52.60,0:04:56.60,OnScreen,Sign,0,0,0,,{\c&H38ADE6&\bord1.5\shad1.5\fnTimes New Roman\b1\frz8.878\fs10\t(0,4000,\fs12)\move(306,285.334,310,303.333,0,3987)}Otokogi Koala Fighters!!!
+Dialogue: 0,0:05:21.13,0:05:21.30,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs8\fnTimes New Roman\pos(191.667,263.333)\frx358\fry4}Chivalry
+Dialogue: 0,0:05:21.13,0:05:21.30,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs10\fnTimes New Roman\pos(490.667,263.333)\frx2\fry350}Chivalry
+Dialogue: 0,0:05:21.30,0:05:21.46,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs8\fnTimes New Roman\pos(191.667,265.333)\frx358\fry4}Chivalry
+Dialogue: 0,0:05:21.30,0:05:21.46,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs10\fnTimes New Roman\pos(490.667,265.333)\frx2\fry350}Chivalry
+Dialogue: 0,0:05:21.46,0:05:21.63,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs8\fnTimes New Roman\pos(191.667,267.333)\frx358\fry4}Chivalry
+Dialogue: 0,0:05:21.46,0:05:21.63,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs10\fnTimes New Roman\pos(490.667,267.333)\frx2\fry350}Chivalry
+Dialogue: 0,0:05:21.63,0:05:21.80,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs8\fnTimes New Roman\pos(191.667,265.333)\frx358\fry4}Chivalry
+Dialogue: 0,0:05:21.63,0:05:21.80,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs10\fnTimes New Roman\pos(490.667,265.333)\frx2\fry350}Chivalry
+Dialogue: 0,0:05:21.80,0:05:21.96,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs8\fnTimes New Roman\pos(191.667,263.333)\frx358\fry4}Chivalry
+Dialogue: 0,0:05:21.80,0:05:21.96,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs10\fnTimes New Roman\pos(490.667,263.333)\frx2\fry350}Chivalry
+Dialogue: 0,0:05:21.96,0:05:22.13,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs8\fnTimes New Roman\pos(191.667,265.333)\frx358\fry4}Chivalry
+Dialogue: 0,0:05:21.96,0:05:22.13,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs10\fnTimes New Roman\pos(490.667,265.333)\frx2\fry350}Chivalry
+Dialogue: 0,0:06:57.31,0:07:03.81,OnScreen,Sign,0,0,0,,{\an1\c&H92F0FA&\3c&H61BCDA&\bord0.5\b1\fnImpact\fs11\frz13.01\frx12\fry328\pos(381.999,291.334)\t(3276,4736,\c&H91E5FE&)\t(3275,4736,\3c&H7AAAE1&)}Games, Print Club, Prizes,\NMedal Games, Cosplay, etc...
+Dialogue: 1,0:10:10.58,0:10:11.59,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H576F6D&\bord1\b1\frx18\fry6\frz21.44\pos(330,66.001)}Push
+Dialogue: 0,0:10:10.58,0:10:11.59,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H6495D6&\bord3\b1\frx18\fry6\frz21.44\pos(330,66.001)}Push
+Dialogue: 1,0:10:10.58,0:10:12.09,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H576F6D&\bord1\b1\pos(197.333,106)\frz18.42\frx24\fry6}Grab
+Dialogue: 0,0:10:10.58,0:10:12.09,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H6495D6&\bord3\b1\pos(197.333,106)\frz18.42\frx24\fry6}Grab
+Dialogue: 1,0:10:11.59,0:10:11.67,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H576F6D&\bord1\b1\frx18\fry6\frz21.44\pos(330,66.001)\iclip(316,65,322,71)}Push
+Dialogue: 0,0:10:11.59,0:10:11.67,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H6495D6&\bord3\b1\frx18\fry6\frz21.44\pos(330,66.001)\iclip(316,65,322,71)}Push
+Dialogue: 1,0:10:11.67,0:10:11.79,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H576F6D&\bord1\b1\frx18\fry6\frz21.44\pos(330,66.001)\iclip(319,60,322,6)}Push
+Dialogue: 0,0:10:11.67,0:10:11.79,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H6495D6&\bord3\b1\frx18\fry6\frz21.44\pos(330,66.001)\iclip(319,60,322,69)}Push
+Dialogue: 1,0:10:11.79,0:10:12.09,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H576F6D&\bord1\b1\frx18\fry6\frz21.44\pos(330,66.001)}Push
+Dialogue: 0,0:10:11.79,0:10:12.09,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H6495D6&\bord3\b1\frx18\fry6\frz21.44\pos(330,66.001)}Push
+Dialogue: 0,0:10:32.02,0:10:36.99,OnScreen,Sign,0,0,0,,{\c&H000000&\3c&HFFFFFF&\b1\fnTimes New Roman\fs40\an8\fade(194,0)}Big Catch
+Dialogue: 0,0:14:11.62,0:14:20.08,OnScreen,Sign,0,0,0,,{\an3\c&H403025&\3c&HF4E8D5&\b1\pos(265,150)}Major Perv
+Dialogue: 0,0:14:11.62,0:14:22.88,OnScreen,Sign,0,0,0,,{\c&H403025&\3c&HF4E8D5&\b1\pos(415,150)}Family Ties
+Dialogue: 0,0:14:20.08,0:14:20.13,OnScreen,Sign,0,0,0,,{\an3\c&H403025&\3c&HF4E8D5&\b1\pos(265,150)\iclip(171,128,194,156)}Maj{\alpha&FF&}o{\alpha&00&}r Perv
+Dialogue: 0,0:14:20.13,0:14:20.17,OnScreen,Sign,0,0,0,,{\an3\c&H403025&\3c&HF4E8D5&\b1\pos(265,150)\iclip(229,128,242,156)}Perv
+Dialogue: 0,0:14:20.17,0:14:20.21,OnScreen,Sign,0,0,0,,{\an3\c&H403025&\3c&HF4E8D5&\b1\pos(265,150)\iclip(222,128,232,156)}Pe{\alpha&FF&}r{\alpha&00&}v
+Dialogue: 0,0:14:20.21,0:14:22.88,OnScreen,Sign,0,0,0,,{\an3\c&H403025&\3c&HF4E8D5&\b1\pos(265,150)\iclip(249,132,259,150)}erv
+Dialogue: 1,0:15:22.98,0:15:27.84,OnScreen,Sign,0,0,0,,{\c&H9F6122&\bord0.5\b1\fnTimes New Roman\fs10\frz14.64\pos(201.334,337.333)}Otokogi Koala
+Dialogue: 0,0:15:22.98,0:15:27.84,OnScreen,Sign,0,0,0,,{\c&H9F6122&\3c&HDCCBAE&\bord1.5\b1\fnTimes New Roman\fs10\frz14.64\pos(201.334,337.333)}Otokogi Koala
