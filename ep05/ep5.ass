@@ -8,15 +8,14 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 05 (1080p) [366F0455].mkv
-Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 05 (1080p) [366F0455].mkv
-Keyframes File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 05 (1080p) [366F0455]_keyframes.txt
+Audio File: C:/Users/scree/Desktop/gcg/ep5.mkv
+Video File: C:/Users/scree/Desktop/gcg/ep5.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Scroll Position: 346
-Active Line: 370
-Video Position: 33926
+Scroll Position: 357
+Active Line: 375
+Video Position: 251
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -46,357 +45,357 @@ Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TITLE
 Dialogue: 0,0:03:31.77,0:03:34.99,Title_this,This,0,0,0,,{\fad(477,0)\pos(1810,915)}#这位是我爸爸！
 Dialogue: 0,0:23:34.98,0:23:39.98,Title_next,Next,0,0,0,,{\pos(960,620)}我完全没注意到！
 Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TEXT
-Dialogue: 0,0:00:08.31,0:00:09.37,Text_Bottom,,0,0,0,,早安～！\Nおはよ～っ！
-Dialogue: 0,0:00:09.37,0:00:10.03,Text_Bottom,,0,0,0,,哇！\Nわっ！
-Dialogue: 0,0:00:10.45,0:00:12.55,Text_Bottom,,0,0,0,,来吧 要从哪里开始呢？\Nさあ 何から始める？
-Dialogue: 0,0:00:12.81,0:00:13.87,Text_Bottom,,0,0,0,,尽管说哦！\Nなんでも言ってね！
-Dialogue: 0,0:00:14.13,0:00:18.72,Text_Bottom,,0,0,0,,这个嘛 那就先拜托你洗碗吧？\Nそ…{\fscx50} {\fscx100}そうね じゃあ 洗い物からお願いしようかしら？
-Dialogue: 0,0:00:18.93,0:00:19.87,Text_Bottom,,0,0,0,,交给我吧！\N任せて！
-Dialogue: 0,0:00:21.34,0:00:23.63,Text_Bottom,,0,0,0,,盘子碎裂的声音好剧烈！？\Nすごい勢いで割れる音が！？
-Dialogue: 0,0:00:24.03,0:00:26.55,Text_Bottom,,0,0,0,,桌子越擦越湿！\N拭けば拭くほど テーブルがビシャビシャに！
-Dialogue: 0,0:00:27.35,0:00:30.34,Text_Bottom,,0,0,0,,洗好的衣服叠成了金字塔！？\N洗濯物が ピラミッド状に おり込まれてる！？
-Dialogue: 0,0:00:32.18,0:00:34.80,Text_Bottom,,0,0,0,,对…{\fscx50} {\fscx100}对不起 妈妈\Nご…{\fscx50} {\fscx100}ごめんなさい ママ
-Dialogue: 0,0:00:35.01,0:00:39.44,Text_Bottom,,0,0,0,,你…{\fscx50} {\fscx100}你只是想比平时更努力一点 结果搞砸了对吧！？\Nい いつも以上に頑張ろうとして 失敗しちゃっただけだよね！？
-Dialogue: 0,0:00:39.44,0:00:41.54,Text_Bottom,,0,0,0,,妈妈我都知道的！对吧！\Nママ わかってるから！ねっ！
-Dialogue: 0,0:00:41.82,0:00:42.86,Text_Bottom,,0,0,0,,嗯…\Nうん…
-Dialogue: 0,0:00:43.11,0:00:47.69,Text_Bottom,,0,0,0,,突然是怎么了…{\fscx50} {\fscx100}这么卖力\N急にどうしたのかしら…{\fscx50} {\fscx100}やけに張り切っちゃって
-Dialogue: 0,0:00:47.69,0:00:50.56,Text_Bottom,,0,0,0,,是不是想多要些零花钱呢？\Nお小遣いアップでも おねだりするつもりかな？
-Dialogue: 0,0:00:51.07,0:00:53.45,Text_Bottom,,0,0,0,,毕竟总是去游戏中心玩可能会缺钱嘛\Nゲーセン通いで金欠みたいだもの
-Dialogue: 0,0:00:53.98,0:00:54.99,Text_Bottom,,0,0,0,,呵呵\Nフフッ
-Dialogue: 0,0:00:55.17,0:00:57.50,Text_Bottom,,0,0,0,,然后呢…{\fscx50} {\fscx100}那个啊…\Nそれでね…{\fscx50} {\fscx100}あのね…
-Dialogue: 0,0:00:57.77,0:00:59.44,Text_Bottom,,0,0,0,,嗯？怎么了？\Nうん？なぁに？
-Dialogue: 0,0:00:59.77,0:01:00.62,Text_Bottom,,0,0,0,,啊…\Nあっ…
-Dialogue: 0,0:01:01.35,0:01:04.38,Text_Bottom,,0,0,0,,稍…{\fscx50} {\fscx100}稍等一下！\Nちょ…{\fscx50} {\fscx100}ちょっと待ってて！
-Dialogue: 0,0:01:04.79,0:01:05.61,Text_Bottom,,0,0,0,,啊？\Nあっ？
-Dialogue: 0,0:01:08.11,0:01:12.89,Text_Bottom,,0,0,0,,妈妈 平时你总是做饭打扫 谢谢你为我做了这么多！\Nママ  いつもお料理とかお掃除とか いろいろありがとう！
-Dialogue: 0,0:01:13.07,0:01:13.87,Text_Bottom,,0,0,0,,诶？\Nえっ？
-Dialogue: 0,0:01:14.40,0:01:19.63,Text_Bottom,,0,0,0,,那个…{\fscx50} {\fscx100}有人告诉我 日本在五月有母亲节\Nその…{\fscx50} {\fscx100}日本には母の日が ５月にあるって教えてもらって
-Dialogue: 0,0:01:19.63,0:01:20.81,Text_Bottom,,0,0,0,,所以…\Nだから…
-Dialogue: 0,0:01:22.83,0:01:25.35,Text_Bottom,,0,0,0,,所以 从刚才开始就在帮忙？\Nそれで この前からお手伝いを？
-Dialogue: 0,0:01:26.87,0:01:28.05,Text_Bottom,,0,0,0,,黄水仙…\Nダフォディル…
-Dialogue: 0,0:01:29.17,0:01:34.54,Text_Bottom,,0,0,0,,在英国 母亲节时大多不送康乃馨 而是送黄水仙\Nイギリスでは 母の日にはカーネーションではなく ダフォディルを贈ることが多いのです
-Dialogue: 0,0:01:35.43,0:01:37.50,Text_Bottom,,0,0,0,,花语是「尊敬」\N花言葉は 「尊敬」
-Dialogue: 0,0:01:38.16,0:01:39.62,Text_Bottom,,0,0,0,,呵…\Nフッ…
-Dialogue: 0,0:01:40.32,0:01:43.54,Text_Bottom,,0,0,0,,谢谢你莉莉 有故乡的香气呢\Nありがとうリリー 故郷の香りね
-Dialogue: 0,0:01:44.29,0:01:45.50,Text_Bottom,,0,0,0,,啊…\Nあぁ…
-Dialogue: 0,0:01:45.50,0:01:48.71,Text_Bottom,,0,0,0,,不过 零花钱可不会轻易给你涨的\Nでも お小遣いは簡単に上げないわよ～
-Dialogue: 0,0:01:48.71,0:01:49.27,Text_Bottom,,0,0,0,,啊…\Nあっ…
-Dialogue: 0,0:01:49.27,0:01:51.04,Text_Bottom,,0,0,0,,我…{\fscx50} {\fscx100}我知道啦！\Nわ わかってるわよ！
-Dialogue: 0,0:01:51.04,0:01:51.71,Text_Top,,0,0,0,,呵呵…\Nフフッ…
-Dialogue: 0,0:01:51.71,0:01:53.75,Text_Top,,0,0,0,,只是帮了下忙可不能算哦\Nお手伝いしたってだけだからね
-Dialogue: 0,0:01:54.45,0:01:55.26,Text_Bottom,,0,0,0,,莉莉…\Nリリー…
-Dialogue: 0,0:01:56.17,0:01:59.09,Text_Bottom,,0,0,0,,「父亲节」也别忘了啊…\N「父の日」も 忘れないでくれよ…
-Dialogue: 0,0:03:35.25,0:03:38.49,Text_Bottom,,0,0,0,,这样啊 你妈妈她很高兴呢\Nそっか お母さん喜んでくれたんだ
-Dialogue: 0,0:03:39.03,0:03:39.99,Text_Bottom,,0,0,0,,太好了\Nよかったね
-Dialogue: 0,0:03:40.14,0:03:45.23,Text_Bottom,,0,0,0,,嗯 多亏了莲司告诉我关于母亲节的事\Nうん これも母の日のこと教えてくれた レンジのおかげだよ
-Dialogue: 0,0:03:45.23,0:03:46.33,Text_Bottom,,0,0,0,,谢谢\Nアリガト
-Dialogue: 0,0:03:46.66,0:03:50.22,Text_Bottom,,0,0,0,,啊呀 果然还是下起雨来了\Nあちゃ やっぱ降りだしちゃったよ～
-Dialogue: 0,0:03:50.22,0:03:50.88,Text_Bottom,,0,0,0,,诶？\Nえっ？
-Dialogue: 0,0:03:54.74,0:03:56.33,Text_Bottom,,0,0,0,,不妙啊\Nあ～あ
-Dialogue: 0,0:03:56.33,0:03:58.39,Text_Bottom,,0,0,0,,看来一时半会儿停不了呢\Nこりゃ当分 やみそうにないな
-Dialogue: 0,0:03:58.39,0:03:59.45,Text_Bottom,,0,0,0,,啊…\NAh...
-Dialogue: 0,0:03:59.68,0:04:03.01,Text_Bottom,,0,0,0,,诶 莉莉你难道没带伞吗？\Nあれ リリーちゃん もしかして傘持ってきてないの？
-Dialogue: 0,0:04:03.76,0:04:04.64,Text_Bottom,,0,0,0,,嗯…\NUh...
-Dialogue: 0,0:04:04.87,0:04:07.49,Text_Bottom,,0,0,0,,啊…{\fscx50} {\fscx100}对了 {ruby=Just moment}正好{/ruby}\Nあっ…{\fscx50} {\fscx100}そうだ ジャストモーメント
-Dialogue: 0,0:04:08.34,0:04:09.19,Text_Bottom,,0,0,0,,啊？\Nあっ？
-Dialogue: 0,0:04:11.85,0:04:14.53,Text_Bottom,,0,0,0,,给 不介意的话 用这个吧\Nはい よかったら これ使って
-Dialogue: 0,0:04:15.52,0:04:18.11,Text_Bottom,,0,0,0,,啊…{\fscx50} {\fscx100}莲司你怎么办？\Nあっ…{\fscx50} {\fscx100}レンジはドースルの？
-Dialogue: 0,0:04:18.35,0:04:18.93,Text_Bottom,,0,0,0,,嗯？\Nうん？
-Dialogue: 0,0:04:19.50,0:04:21.74,Text_Bottom,,0,0,0,,我的话 那边有备用的伞\N俺なら そこに 置き傘があるから
-Dialogue: 0,0:04:21.74,0:04:22.53,Text_Bottom,,0,0,0,,啊…\Nあっ
-Dialogue: 0,0:04:23.77,0:04:25.12,Text_Bottom,,0,0,0,,先到先得\N早い者勝ちだぞ
-Dialogue: 0,0:04:25.73,0:04:27.29,Text_Bottom,,0,0,0,,对不起哦 莲司\Nごめんね 蓮司くん
-Dialogue: 0,0:04:27.29,0:04:29.28,Text_Bottom,,0,0,0,,啊 好的…\Nあ…{\fscx50} {\fscx100}はい…
-Dialogue: 0,0:04:30.74,0:04:31.29,Text_Bottom,,0,0,0,,嗯\Nんっ
-Dialogue: 0,0:04:31.50,0:04:33.21,Text_Bottom,,0,0,0,,送我回家\NEscort me home!
-Dialogue: 0,0:04:33.21,0:04:37.30,Text_Bottom,,0,0,0,,和我一起回家 送我到家门口吧 {ruby=Mr. Escort}保镖先生{/ruby}！\Nワタシと一緒に帰って ウチまでオクッテ ミスターエスコート
-Dialogue: 0,0:04:37.45,0:04:40.96,Text_Bottom,,0,0,0,,诶！？不行吧 我还有打工呢\Nえっ！？いや まだ俺バイトあるから
-Dialogue: 0,0:04:40.96,0:04:41.81,Text_Bottom,,0,0,0,,那我等你\Nマッテル
-Dialogue: 0,0:04:41.81,0:04:42.55,Text_Bottom,,0,0,0,,诶？\Nえっ？
-Dialogue: 0,0:04:42.83,0:04:45.31,Text_Bottom,,0,0,0,,反正在这里要消磨多少时间都可以！\Nここならいくらでも 時間をツブセルわ！
-Dialogue: 0,0:04:45.86,0:04:47.38,Text_Bottom,,0,0,0,,就这样 我去玩啦！\Nジャ アソンデルネー！
-Dialogue: 0,0:04:47.38,0:04:49.44,Text_Bottom,,0,0,0,,啊 不行 等等！\Nあっ いや！ちょっと待って！
-Dialogue: 0,0:04:50.46,0:04:54.69,Text_Bottom,,0,0,0,,这是…{\fscx50} {\fscx100}要把莉莉送回家的意思？\Nこれ…{\fscx50} {\fscx100}リリーちゃんを 家まで送ってくってことか？
-Dialogue: 0,0:04:55.94,0:04:58.24,Text_Bottom,,0,0,0,,真…{\fscx50} {\fscx100}真的假的啊？\Nマ…{\fscx50} {\fscx100}マジか？
-Dialogue: 0,0:05:02.38,0:05:05.21,Text_Top,,0,0,0,,为了拿到那个手办花了{\fscx50} {\fscx100}5000{\fscx50} {\fscx100}日元呢\Nそのフィギュア取るのに ５０００円も使ったんだよ
-Dialogue: 0,0:05:05.21,0:05:05.94,Text_Top,,0,0,0,,真的假的～\Nマジすか～
-Dialogue: 0,0:05:05.94,0:05:08.62,Text_Top,,0,0,0,,但是不后悔 哈哈哈…\Nだが後悔はしていない ハッハッハ…
-Dialogue: 0,0:05:07.89,0:05:08.62,Text_Bottom,,0,0,0,,噗嗤\Nデュフッ
-Dialogue: 0,0:05:09.46,0:05:17.46,Text_Bottom,,0,0,0,,噗呼呼呼…{\fscx50} {\fscx100}嘿嘿 嘿嘿嘿 嘻嘻嘻…{\fscx50} {\fscx100}嘻嘻嘻\Nデュフフフ…{\fscx50} {\fscx100}フヒッ フヒヒヒ イヒヒヒ…{\fscx50} {\fscx100}ヒヒヒヒ
-Dialogue: 0,0:05:27.21,0:05:29.14,Text_Bottom,,0,0,0,,说点什么 说点什么…\N会話 会話…
-Dialogue: 0,0:05:30.07,0:05:32.58,Text_Bottom,,0,0,0,,说起来 莉莉 你家住在哪一带啊？\Nそういや リリーちゃん どの辺に住んでるの？
-Dialogue: 0,0:05:33.04,0:05:34.74,Text_Bottom,,0,0,0,,应该不太远吧？\Nそんなに遠くないのかな？
-Dialogue: 0,0:05:35.06,0:05:35.61,Text_Bottom,,0,0,0,,啊\Nあっ
-Dialogue: 0,0:05:37.49,0:05:39.61,Text_Bottom,,0,0,0,,不靠过来点的话 会淋湿的\Nもっとこっち寄らないと ぬれちゃうよ
-Dialogue: 0,0:05:39.85,0:05:40.61,Text_Bottom,,0,0,0,,来\Nほら
-Dialogue: 0,0:05:40.61,0:05:41.46,Text_Bottom,,0,0,0,,啊！\Nあっ！
-Dialogue: 0,0:05:42.02,0:05:43.84,Text_Bottom,,0,0,0,,啊 莉莉！\Nあっ リリーちゃん！
-Dialogue: 0,0:05:50.73,0:05:52.62,Text_Bottom,,0,0,0,,没事吧 莉莉！？\N大丈夫！？リリーちゃん！？
-Dialogue: 0,0:05:53.20,0:05:54.55,Text_Top,,0,0,0,,啊…\Nあっ…
-Dialogue: 0,0:05:54.55,0:05:56.21,Text_Top,,0,0,0,,有哪里痛吗？\Nどっか痛いとこある？
-Dialogue: 0,0:05:56.99,0:05:59.60,Text_Top,,0,0,0,,啊…{\fscx50} {\fscx100}嗯嗯…\Nあっ…{\fscx50} {\fscx100}んんっ…
-Dialogue: 0,0:05:59.60,0:06:01.49,Text_Bottom,,400,0,0,,真的？\N本当に？
-Dialogue: 0,0:06:02.47,0:06:04.72,Text_Bottom,,0,0,0,,这样啊…{\fscx50} {\fscx100}太好了…\Nそう…{\fscx50} {\fscx100}よかった…
-Dialogue: 0,0:06:05.10,0:06:06.16,Text_Bottom,,0,0,0,,喂 你们！\Nおい 君たち！
-Dialogue: 0,0:06:06.16,0:06:06.64,Text_Bottom,,0,0,0,,啊\Nあっ
-Dialogue: 0,0:06:07.41,0:06:08.53,Text_Bottom,,0,0,0,,没受伤吧？\Nケガはないかね？
-Dialogue: 0,0:06:08.89,0:06:09.64,Text_Bottom,,0,0,0,,嗯嗯！\Nんんっ！
-Dialogue: 0,0:06:09.99,0:06:12.61,Text_Bottom,,0,0,0,,车里的人 好可怕…\N車の中の人 こえぇ…
-Dialogue: 0,0:06:12.61,0:06:15.20,Text_Bottom,,0,0,0,,啊…{\fscx50} {\fscx100}好像没事\Nあっ…{\fscx50} {\fscx100}大丈夫だったみたいです
-Dialogue: 0,0:06:15.20,0:06:17.40,Text_Bottom,,0,0,0,,是吗…{\fscx50} {\fscx100}真是的…\Nそうか…{\fscx50} {\fscx100}まったく…
-Dialogue: 0,0:06:17.40,0:06:18.40,Text_Bottom,,0,1100,0,,爸爸\NDad!
-Dialogue: 0,0:06:18.74,0:06:20.65,Text_Bottom,,0,0,0,,爸…{\fscx50} {\fscx100}爸…？\Nだっ…{\fscx50} {\fscx100}ど…？
-Dialogue: 0,0:06:21.21,0:06:22.15,Text_Bottom,,0,0,0,,莉莉！\NLily!
-Dialogue: 0,0:06:22.42,0:06:23.93,Text_Bottom,,0,0,0,,莉莉的爸爸！？\Nリリーちゃんのお父さん！？
-Dialogue: 0,0:06:24.18,0:06:24.86,Text_Top,,0,0,0,,哈哈\NHaha.
-Dialogue: 0,0:06:24.57,0:06:28.95,Text_Bottom,,0,0,120,,哦 是你啊莉莉 别那样跑到大街上去\NOh, it's you, Lily! Don't dash out onto the street like that!
-Dialogue: 0,0:06:28.95,0:06:30.58,Text_Bottom,,0,0,0,,对不起嘛 爸爸\NDad, I'm sorry!
-Dialogue: 0,0:06:30.58,0:06:32.11,Text_Bottom,,0,0,0,,哈哈哈\NHahaha!
-Dialogue: 0,0:06:32.59,0:06:36.17,Text_Bottom,,0,0,0,,诶…？爸爸？真的吗？\Nえっ…？お父さん？ホントに？
-Dialogue: 0,0:06:36.47,0:06:40.40,Text_Top,,0,0,0,,介绍一下！这位是我的爸爸哦 莲司\N紹介するネ！私のパパだよ レンジ
-Dialogue: 0,0:06:40.40,0:06:41.17,Text_Top,,0,0,0,,哈？\Nハッ！
-Dialogue: 0,0:06:47.47,0:06:50.71,Text_Bottom,,0,0,0,,那么 莉莉也平安无事的样子…\Nそれじゃあ リリーちゃんも 無事だったようですし…
-Dialogue: 0,0:06:52.42,0:06:53.89,Text_Bottom,,0,0,0,,我就此告辞了…\N僕はこの辺で…
-Dialogue: 0,0:06:54.11,0:06:55.47,Text_Top,,0,0,0,,等等\Nまぁ待ちなさい
-Dialogue: 0,0:06:55.79,0:06:59.34,Text_Top,,0,0,0,,那样对待我女儿的救命恩人也太失礼了\Nそれでは娘の命の恩人に対して 失礼というものだ
-Dialogue: 0,0:06:59.77,0:07:03.11,Text_Top,,0,0,0,,能不能请你来家里 让我们稍微招待你一下啊？\N少し我が家で オモテナシをさせてもらえないか？
-Dialogue: 0,0:07:03.46,0:07:05.46,Text_Top,,0,0,0,,我们家就在附近哦\Nなに すぐ近くだよ
-Dialogue: 0,0:07:06.18,0:07:08.53,Text_Top,,0,0,0,,可以吧？莲司\Nいいだろう？レンジくん
-Dialogue: 0,0:07:09.33,0:07:10.91,Text_Bottom,,0,0,0,,恐怖啊\Nこっ…{\fscx50} {\fscx100}わ～
-Dialogue: 0,0:07:11.27,0:07:13.45,Text_Bottom,,0,0,0,,对啊 莲司 来嘛来嘛\Nそうだよ レンジ キテ キテ
-Dialogue: 0,0:07:14.01,0:07:17.47,Text_Bottom,,0,0,0,,啊…{\fscx50} {\fscx100}好…{\fscx50} {\fscx100}好的…\Nあ…{\fscx50} {\fscx100}は…{\fscx50} {\fscx100}はひっ…
-Dialogue: 0,0:07:21.96,0:07:24.63,Text_Bottom,,0,0,120,,我回来了 妈妈 妈妈？\NI'm back, Mum. Mum?
-Dialogue: 0,0:07:25.22,0:07:29.10,Text_Bottom,,0,0,120,,我听见了 欢迎回来 噢 什 什么情况\NI heard you! Glad you're home. Oh, wha—? Why?
-Dialogue: 0,0:07:29.51,0:07:31.68,Text_Bottom,,0,0,120,,嗯？我们刚好碰见他\NHmm? We just ran into him.
-Dialogue: 0,0:07:31.93,0:07:33.81,Text_Bottom,,0,0,120,,是呀 我们就是刚好碰见他\NYeah, we just ran into him.
-Dialogue: 0,0:07:33.81,0:07:35.76,Text_Bottom,,0,0,0,,那个…{\fscx50} {\fscx100}打扰了…\Nあの…{\fscx50} {\fscx100}おじゃまします…
-Dialogue: 0,0:07:35.76,0:07:38.49,Text_Bottom,,0,0,0,,哎呀 欢迎 莲司\Nまぁ いらっしゃい レンジくん
-Dialogue: 0,0:07:38.49,0:07:40.21,Text_Bottom,,0,0,0,,什么！？你认识他？\N何！？知ってるのか？
-Dialogue: 0,0:07:40.21,0:07:43.18,Text_Bottom,,0,0,0,,嗯 我们之前遇见过他\Nえぇ We just ran into him, before.
-Dialogue: 0,0:07:43.18,0:07:44.69,Text_Bottom,,0,0,0,,啊哈哈…\Nアハハ…
-Dialogue: 0,0:07:46.30,0:07:48.45,Text_Bottom,,0,0,0,,幸好今天晚饭是咖喱\N今日が カレーでよかったわ～
-Dialogue: 0,0:07:49.26,0:07:52.20,Text_Bottom,,0,600,0,,就算人数突然增加 也能准备得过来\N人数が急に増えても 用意できるからね～
-Dialogue: 0,0:07:52.42,0:07:56.06,Text_Bottom,,0,0,0,,不…{\fscx50} {\fscx100}只是因为下雨了 我送她回家而已\Nいや 雨降ってたから 家まで送っただけです
-Dialogue: 0,0:07:56.06,0:07:57.52,Text_Bottom,,0,0,0,,不用 不用这么客气\Nそんな お構いなく
-Dialogue: 0,0:07:57.52,0:07:59.97,Text_Bottom,,0,0,0,,哎呀 不用客气的\Nあら 遠慮しなくていいのよ
-Dialogue: 0,0:07:59.97,0:08:00.96,Text_Bottom,,0,0,0,,对呀\NThat's right!
-Dialogue: 0,0:08:01.33,0:08:05.70,Text_Bottom,,0,0,0,,你看 莉莉也是想给莲司表现好的一面 干劲十足呢\Nほら リリーもレンジくんに いいとこ見せようと 張り切ってるし
-Dialogue: 0,0:08:05.70,0:08:06.89,Text_Bottom,,0,0,0,,对吧 莉莉\Nねっ リリー
-Dialogue: 0,0:08:06.89,0:08:07.80,Text_Bottom,,0,0,0,,哈…\Nハッ…
-Dialogue: 0,0:08:07.80,0:08:10.97,Text_Bottom,,0,0,120,,之前帮忙做的那些家务能派上用场 真是太好了\NI'm glad you're getting something out of the chores you did the other day.
-Dialogue: 0,0:08:11.10,0:08:13.26,Text_Bottom,,0,0,0,,呃 妈妈 别这样\NUgh! Mom, please!
-Dialogue: 0,0:08:13.26,0:08:14.78,Text_Bottom,,0,0,0,,呵呵呵…\Nフフフ…
-Dialogue: 0,0:08:14.78,0:08:16.83,Text_Bottom,,0,0,0,,那么 有什么需要帮忙的吗？\Nじゃあ 何か手伝うこととか
-Dialogue: 0,0:08:16.83,0:08:19.25,Text_Bottom,,0,0,0,,哦…{\fscx50} {\fscx100}那正好\Nほう…{\fscx50} {\fscx100}ならばちょうどいい
-Dialogue: 0,0:08:19.25,0:08:19.74,Text_Bottom,,0,0,0,,啊\Nあっ
-Dialogue: 0,0:08:20.17,0:08:23.20,Text_Bottom,,0,0,0,,能来我这边帮忙削苹果皮吗？\Nこちらでリンゴの皮むきを 手伝ってくれないか？
-Dialogue: 0,0:08:23.59,0:08:26.94,Text_Bottom,,0,0,0,,顺便来点男人之间的闲聊吧\Nついでに 男同士の世間話でも しようじゃないか
-Dialogue: 0,0:08:27.37,0:08:28.72,Text_Bottom,,0,0,0,,莲司\Nレンジくん
-Dialogue: 0,0:08:28.99,0:08:30.35,Text_Bottom,,0,0,0,,好…{\fscx50} {\fscx100}好的\Nは…{\fscx50} {\fscx100}はい
-Dialogue: 0,0:08:30.99,0:08:33.49,Text_Bottom,,0,0,0,,莉莉 绝对是随她妈妈吧\Nリリーちゃん 絶対 母親似だな
-Dialogue: 0,0:08:33.99,0:08:35.91,Text_Bottom,,0,0,0,,话说那是什么刀？\Nてか何 あのナイフ？
-Dialogue: 0,0:08:35.91,0:08:38.32,Text_Bottom,,0,0,0,,怎么看都不是水果刀吧\Nどう見ても果物用じゃないだろ
-Dialogue: 0,0:08:39.62,0:08:43.29,Text_Bottom,,0,0,120,,这样应该就行了 好了 你能准备一下盘子吗\NI suppose this'll do. Right then, can you prepare the plates?
-Dialogue: 0,0:08:43.41,0:08:44.50,Text_Bottom,,0,0,0,,好呀\NOkay.
-Dialogue: 0,0:08:44.50,0:08:45.71,Text_Bottom,,0,0,120,,这些可以吗\NAre these fine?
-Dialogue: 0,0:08:46.17,0:08:48.93,Text_Bottom,,0,0,120,,嘿 不可以把盘子这样挥来挥去\NHey! Don't go waving them around like that!
-Dialogue: 0,0:08:49.01,0:08:51.64,Text_Bottom,,0,0,120,,没关系啦 我不会弄掉的\NI'm not gonna drop it. It's fine.
-Dialogue: 0,0:08:51.76,0:08:53.34,Text_Top,,0,0,0,,注意点儿 莉莉\NJust be careful, Lily.
-Dialogue: 0,0:08:53.34,0:08:54.19,Text_Top,,0,0,0,,行吧\NOkay.
-Dialogue: 0,0:08:54.73,0:08:59.51,Text_Bottom,,0,0,0,,听说你是莉莉常去的游戏中心的店员啊\N君は リリーがよく通ってる ゲームセンターの店員だそうだね
-Dialogue: 0,0:08:59.51,0:09:00.77,Text_Bottom,,0,0,0,,啊…{\fscx50} {\fscx100}是的\Nあ…{\fscx50} {\fscx100}はい
-Dialogue: 0,0:09:00.98,0:09:05.02,Text_Bottom,,0,600,0,,那个…{\fscx50} {\fscx100}那孩子在那里的情况怎么样？\Nその…{\fscx50} {\fscx100}そこでは あの子の様子はどうなのかな？
-Dialogue: 0,0:09:05.27,0:09:06.14,Text_Bottom,,600,0,0,,诶？\Nえっ？
-Dialogue: 0,0:09:06.75,0:09:10.02,Text_Bottom,,600,0,0,,啊…{\fscx50} {\fscx100}她总是很开心哦\Nあぁ…{\fscx50} {\fscx100}いつも楽しそうにしてますよ
-Dialogue: 0,0:09:10.56,0:09:13.78,Text_Bottom,,600,0,0,,也会和学校的朋友之类的 一起来玩\N学校の友達なんかと 一緒に遊びにきたりして
-Dialogue: 0,0:09:15.74,0:09:16.88,Text_Bottom,,0,600,0,,这样啊…\Nそうか…
-Dialogue: 0,0:09:17.74,0:09:21.59,Text_Bottom,,0,0,0,,最近 她也开始拒绝我接送上下学了…\N最近は私の送り迎えも 断るようになったが…
-Dialogue: 0,0:09:22.53,0:09:23.55,Text_Bottom,,0,0,0,,这样啊…\Nそうか…
-Dialogue: 0,0:09:25.71,0:09:29.66,Text_Top,,0,0,0,,莲司 我知道突然说这种事情你会很为难…\Nレンジくん こんなこと 急に言われても困るだろうが…
-Dialogue: 0,0:09:30.19,0:09:34.66,Text_Top,,0,0,0,,那孩子刚来日本那会儿 好像一直交不到朋友\Nあの子は日本に来て しばらくは 友達もできなかったようでね
-Dialogue: 0,0:09:38.06,0:09:39.14,Text_Bottom,,0,0,120,,像这样吗\NLike this?
-Dialogue: 0,0:09:39.93,0:09:41.81,Text_Bottom,,0,0,120,,对 你做的非常棒\NYep, you're doing brilliantly!
-Dialogue: 0,0:09:41.90,0:09:43.40,Text_Bottom,,0,0,120,,是吗\NIs that so?
-Dialogue: 0,0:09:43.84,0:09:49.60,Text_Bottom,,0,0,0,,但是 自从开始去游戏中心后 她就会很开心地讲起各种事情了\Nしかし ゲーセンに 通うようになってからは うれしそうに いろんなことを話すようになってね
-Dialogue: 0,0:09:50.13,0:09:52.03,Text_Bottom,,0,0,120,,那我要再多放点儿\NThen I suppose I'll put a bit more!
-Dialogue: 0,0:09:52.03,0:09:54.83,Text_Bottom,,0,0,120,,额 还是别了 已经够了\NUh... no, that's more than plenty.
-Dialogue: 0,0:09:55.39,0:09:56.73,Text_Top,,0,0,0,,嘿 我说够了\NHey, that's enough.
-Dialogue: 0,0:09:56.73,0:10:00.83,Text_Bottom,,600,0,0,,我很感谢创造了这个契机的你\Nそのきっかけを作ってくれた 君には感謝しているよ
-Dialogue: 0,0:10:01.01,0:10:03.71,Text_Bottom,,0,600,0,,哪…{\fscx50} {\fscx100}哪里的话！不敢当！\Nそ そんな！とんでもないです！
-Dialogue: 0,0:10:04.25,0:10:08.71,Text_Bottom,,0,0,0,,我们一家是因为我工作的关系才搬来这边 所以我一直都很在意\N私の仕事の都合でこちらに来たから ずっと気になっていたのだ
-Dialogue: 0,0:10:09.29,0:10:11.63,Text_Bottom,,0,0,0,,到底是什么样的工作啊？\Nいったい なんの仕事だろう？
-Dialogue: 0,0:10:12.14,0:10:18.01,Text_Bottom,,0,0,0,,嘛…{\fscx50} {\fscx100}不过外表先不论 他是个会关心女儿 温柔的好爸爸呢\Nまっ…{\fscx50} {\fscx100}でも見た目はともかく 娘さんを気にかける 優しくて いいお父さんじゃないか
-Dialogue: 0,0:10:18.69,0:10:19.34,Text_Bottom,,0,0,0,,但是…\Nだが…
-Dialogue: 0,0:10:19.50,0:10:19.85,Text_Bottom,,0,0,0,,嗯！\Nんっ！
-Dialogue: 0,0:10:20.80,0:10:25.12,Text_Bottom,,0,0,0,,要是说到交往那就是另一回事了！\N交際となると話は別だ～！
-Dialogue: 0,0:10:25.36,0:10:26.61,Text_Bottom,,0,0,0,,啊！？\Nはえっ！？
-Dialogue: 0,0:10:26.77,0:10:28.48,Text_Bottom,,0,0,0,,不不 不是的！\Nいやいや 違いますよ！
-Dialogue: 0,0:10:28.48,0:10:31.86,Text_Bottom,,0,0,0,,我和莉莉只是店员和客人的关系…\Nリリーちゃんとは ただの店員と客の 関係っていうか…
-Dialogue: 0,0:10:32.42,0:10:41.12,Text_Top,,0,0,0,,哦～？一个「普通店员」会对客人说「下雨天让她一起撑伞送她回家」这种话吗？\Nほう～？ただの店員が客を「雨の日に傘に入れて家まで 送ってました」とでも言うのか？
-Dialogue: 0,0:10:41.12,0:10:46.63,Text_Bottom,,0,0,0,,那是因为前辈把雨…{\fscx50} {\fscx100}不 伞…{\fscx50} {\fscx100}不对 是只有一把伞…\Nそれは先輩が雨を…{\fscx50} {\fscx100}いや傘が…{\fscx50} {\fscx100}じゃなくて雨が１本しかなくて
-Dialogue: 0,0:10:46.90,0:10:52.76,Text_Bottom,,0,0,0,,更甚至 互相直呼其名 还说只是普通店员和客人！？\Nあまつさえ お互いのファーストネームを 呼び合いながら ただの店員と客だと！？
-Dialogue: 0,0:10:53.03,0:10:55.13,Text_Bottom,,0,0,0,,啊…{\fscx50} {\fscx100}那个…\Nあっ…{\fscx50} {\fscx100}いや～ それは…
-Dialogue: 0,0:10:55.50,0:10:58.64,Text_Bottom,,0,0,0,,那到底是哪种关系？快说！\Nならば どういう関係だ？早く言いたまえ！
-Dialogue: 0,0:10:59.10,0:11:02.34,Text_Bottom,,0,0,0,,不…{\fscx50} {\fscx100}那个…{\fscx50} {\fscx100}这个…\Nいや…{\fscx50} {\fscx100}あの…{\fscx50} {\fscx100}その…
-Dialogue: 0,0:11:02.77,0:11:05.19,Text_Bottom,,0,0,120,,真是的 爸爸 放过他吧\NHonestly, Dad! Let him be!
-Dialogue: 0,0:11:05.19,0:11:06.02,Text_Bottom,,0,0,0,,诶～～！？\Nえぇ～っ！？
-Dialogue: 0,0:11:06.60,0:11:08.90,Text_Bottom,,0,0,120,,莉莉 你干嘛啊\NWhat're you doing, Lily?
-Dialogue: 0,0:11:08.98,0:11:13.70,Text_Bottom,,0,0,120,,你别担心 我和他不是你想的那种关系\NYou don't have to worry! It's not the kind of relationship you're thinking of!
-Dialogue: 0,0:11:14.90,0:11:16.78,Text_Bottom,,0,0,120,,哦 好吧\NOh. All right then.
-Dialogue: 0,0:11:21.95,0:11:24.29,Text_Bottom,,0,0,120,,至少现在还不是\NAt least not yet.
-Dialogue: 0,0:11:26.56,0:11:27.97,Text_Bottom,,0,0,0,,诶…{\fscx50} {\fscx100}那个？\Nえ…{\fscx50} {\fscx100}っと？
-Dialogue: 0,0:11:29.25,0:11:30.63,Text_Bottom,,0,0,120,,我就知道 你小子\NI knew it! You!
-Dialogue: 0,0:11:30.63,0:11:31.05,Text_Bottom,,0,0,0,,啊！？\Nえっ！？
-Dialogue: 0,0:11:31.05,0:11:32.89,Text_Bottom,,0,0,0,,你到底想干嘛\NJust what are you after?
-Dialogue: 0,0:11:32.89,0:11:34.82,Text_Bottom,,0,0,0,,诶 什么？为什么？\Nえっ 何？なんで？
-Dialogue: 0,0:11:34.82,0:11:36.97,Text_Bottom,,0,0,0,,呜 差不多得了 爸爸\NUgh, stop it, Dad!
-Dialogue: 0,0:11:36.97,0:11:39.20,Text_Bottom,,0,0,0,,啊！莉莉…\Nあっ！リリー…
-Dialogue: 0,0:11:39.20,0:11:41.01,Text_Bottom,,0,0,0,,等等！莉莉！？\Nちょっ！リリーちゃん！？
-Dialogue: 0,0:11:41.29,0:11:44.91,Text_Bottom,,0,0,0,,好啦各位 晚饭准备好啦～\Nさぁみんな お夕飯の用意ができたわよ～
-Dialogue: 0,0:12:03.92,0:12:05.96,Text_Bottom,,0,0,0,,爸爸 那边那边！\Nお父さん そっちそっち！
-Dialogue: 0,0:12:07.18,0:12:10.13,Text_Bottom,,0,0,0,,好～嘞 这样！那样！\Nよ～し それ！おりゃ！
-Dialogue: 0,0:12:10.46,0:12:11.12,Text_Bottom,,0,0,0,,怎么样…\Nどう…
-Dialogue: 0,0:12:11.12,0:12:14.40,Text_Bottom,,0,0,0,,加油 爸爸加油 呵呵\Nほら 頑張ってお父さん フフ
-Dialogue: 0,0:12:15.77,0:12:18.22,Text_Top,,600,0,0,,爸爸很厉害吧～\Nお父さんすごいだろ～
-Dialogue: 0,0:12:16.98,0:12:18.23,Text_Top,,0,600,0,,好～厉害！\Nすご～い！
-Dialogue: 0,0:12:23.07,0:12:24.18,Text_Bottom,,0,0,0,,莲司！\Nレンジ！
-Dialogue: 0,0:12:25.12,0:12:26.95,Text_Bottom,,0,0,0,,看呀看呀！\Nネエ！ミテ ミテー！
-Dialogue: 0,0:12:27.61,0:12:28.60,Text_Bottom,,0,0,0,,哦哦！\Nおお！
-Dialogue: 0,0:12:28.91,0:12:32.41,Text_Bottom,,0,0,0,,莉莉换夏装了啊 很适合你 很可爱哦！\N夏服になったんだね 似合ってて かわいいよ！
-Dialogue: 0,0:12:32.41,0:12:33.36,Text_Bottom,,0,0,0,,太好啦！\Nヤッター！
-Dialogue: 0,0:12:33.94,0:12:39.17,Text_Bottom,,0,0,0,,和莉莉相遇是在冬天 这么一想过了挺久呢\Nリリーちゃんと会ったのが 冬だったから そう考えると結構たったなぁ
-Dialogue: 0,0:12:39.41,0:12:40.86,Text_Bottom,,0,0,0,,啊 莉莉\Nあっ リリーちゃん
-Dialogue: 0,0:12:41.30,0:12:45.33,Text_Bottom,,0,0,0,,今天玩什么游戏？还想请你赐教…\N今日はなんのゲームするの？また お手合わせ願いた…
-Dialogue: 0,0:12:45.33,0:12:46.37,Text_Bottom,,0,0,0,,啊！\Nああっ！
-Dialogue: 0,0:12:50.13,0:12:52.00,Text_Bottom,,0,300,0,,你好 店员先生\Nこんにちは 店員さん
-Dialogue: 0,0:12:52.27,0:12:54.42,Text_Bottom,,0,0,0,,啊…{\fscx50} {\fscx100}你好～\Nあ…{\fscx50} {\fscx100}こんちは～
-Dialogue: 0,0:12:54.77,0:12:55.50,Text_Bottom,,0,0,0,,谁？\N誰？
-Dialogue: 0,0:12:55.99,0:12:59.76,Text_Bottom,,0,0,0,,怎么了 对我就没有什么感想吗？\Nどうした 私には何か感想はないのかね？
-Dialogue: 0,0:13:00.00,0:13:03.89,Text_Bottom,,0,0,0,,诶！？不…{\fscx50} {\fscx100}不…{\fscx50} {\fscx100}您的着装真是很漂亮啊…\Nえっ！？い いや…{\fscx50} {\fscx100}すてきなお召し物ですね…
-Dialogue: 0,0:13:04.07,0:13:08.19,Text_Bottom,,0,0,0,,你这家伙 是不是总是这样的眼光看待她的啊～！？\N貴様はそうやって いつも 色目を使っているのか～！？
-Dialogue: 0,0:13:08.19,0:13:08.89,Text_Bottom,,0,0,0,,诶～～！？\Nえぇ～っ！？
-Dialogue: 0,0:13:08.89,0:13:10.90,Text_Bottom,,0,0,120,,呃 你有完没完啊\NUgh! Just stop it already!
-Dialogue: 0,0:13:11.23,0:13:14.65,Text_Bottom,,0,0,0,,啊…{\fscx50} {\fscx100}所…{\fscx50} {\fscx100}所以今天您有何贵干？\Nあ…{\fscx50} {\fscx100}そ…{\fscx50} {\fscx100}それで今日は なんの御用で？
-Dialogue: 0,0:13:14.97,0:13:16.41,Text_Bottom,,0,0,0,,贵干？\N用だと…？
-Dialogue: 0,0:13:17.25,0:13:20.71,Text_Bottom,,0,0,0,,我和女儿休息日去哪里玩\N娘と休日にどこで遊ぼうと
-Dialogue: 0,0:13:21.20,0:13:23.55,Text_Bottom,,0,0,0,,是我的自由吧～？\N私の勝手だろ～う？
-Dialogue: 0,0:13:24.11,0:13:26.23,Text_Bottom,,0,0,0,,是呢！对不起！\Nですね！すみません！
-Dialogue: 0,0:13:26.23,0:13:29.25,Text_Bottom,,0,0,0,,莉莉的爸爸？\Nリリーちゃんの お父さん？
-Dialogue: 0,0:13:29.25,0:13:31.04,Text_Bottom,,0,0,0,,肯定会这么想的吧\Nそう思うよね～
-Dialogue: 0,0:13:31.54,0:13:35.23,Text_Bottom,,0,0,0,,但是…{\fscx50} {\fscx100}选择这里是有理由的\Nだが…{\fscx50} {\fscx100}ここを選んだのには理由がある
-Dialogue: 0,0:13:35.23,0:13:36.06,Text_Bottom,,0,0,0,,诶？\Nえっ？
-Dialogue: 0,0:13:36.69,0:13:42.93,Text_Bottom,,0,0,0,,听说在这个游戏中心 有个图谋不轨的大学生对未成年少女出手\Nこのゲーセンで 年端も行かない少女に手を出す不届きな大学生がいると聞いてな
-Dialogue: 0,0:13:43.12,0:13:44.43,Text_Bottom,,1000,0,0,,您说什么！？\Nなんですって！？
-Dialogue: 0,0:13:45.18,0:13:46.14,Text_Bottom,,0,0,0,,在这里…\Nここで…
-Dialogue: 0,0:13:47.45,0:13:49.06,Text_Bottom,,0,0,0,,居然有这种事…\Nそんなことが…
-Dialogue: 0,0:13:52.24,0:13:55.19,Text_Bottom,,0,0,0,,要是干了亏心事会有什么下场…\Nやましいことをしてたらどうなるか…
-Dialogue: 0,0:13:55.19,0:13:57.07,Text_Bottom,,0,0,0,,嗯 我知道\Nえぇ わかってます
-Dialogue: 0,0:13:57.41,0:13:58.14,Text_Bottom,,0,0,0,,嗯…\Nんっ…
-Dialogue: 0,0:13:58.66,0:13:59.28,Text_Bottom,,0,0,0,,嗯\Nうん
-Dialogue: 0,0:14:00.15,0:14:02.41,Text_Bottom,,0,0,120,,唉 适可而止吧 爸爸\NOh stop, Dad.
-Dialogue: 0,0:14:03.07,0:14:05.20,Text_Bottom,,0,0,120,,我们赶快去玩些游戏吧\NLet's hurry up and start some games!
-Dialogue: 0,0:14:05.66,0:14:09.50,Text_Bottom,,0,0,120,,没错 莉莉 很抱歉让你久等了\NThat's right, Lily! Sorry! I've kept you waiting.
-Dialogue: 0,0:14:11.08,0:14:13.75,Text_Bottom,,0,0,120,,你想玩哪个呢\NWonder which one you want to play, huh?
-Dialogue: 0,0:14:14.50,0:14:16.17,Text_Bottom,,0,0,120,,哪一个\NWhich one...
-Dialogue: 0,0:14:17.25,0:14:20.88,Text_Bottom,,0,0,120,,是新款的男子气概考拉{与350行对应} 就这个吧\NIt's the new Mr.Manly Koala plush! Let's do this one!
-Dialogue: 0,0:14:21.29,0:14:24.86,Text_Bottom,,0,0,0,,这就是…{\fscx50} {\fscx100}所谓的抓娃娃机吧\Nこれは…{\fscx50} {\fscx100}いわゆるクレーンゲームというやつだな
-Dialogue: 0,0:14:25.14,0:14:26.22,Text_Bottom,,0,0,0,,是…{\fscx50} {\fscx100}是的…\Nは はい…
-Dialogue: 0,0:14:29.68,0:14:32.77,Text_Bottom,,0,0,120,,我会一发入魂的 看着吧 爸爸\NI'll win on the first try! Watch, Dad!
-Dialogue: 0,0:14:32.98,0:14:35.06,Text_Bottom,,0,0,120,,噢 真不愧是我的女儿\NOh! That's my girl!
-Dialogue: 0,0:14:35.44,0:14:36.23,Text_Bottom,,0,0,0,,一次！\N一発で！
-Dialogue: 0,0:14:36.23,0:14:37.23,Text_Bottom,,0,0,0,,一次…\Nイッパ…
-Dialogue: 0,0:14:37.23,0:14:38.25,Text_Bottom,,0,0,0,,一…\Nイッ…
-Dialogue: 0,0:14:38.74,0:14:42.71,Text_Bottom,,0,0,0,,一…{\fscx50} {\fscx100}一次…{\fscx50} {\fscx100}呜呜…\Nい いっぱつぅ…{\fscx50} {\fscx100}ううっ…
-Dialogue: 0,0:14:43.17,0:14:44.49,Text_Bottom,,0,0,0,,对吧～\Nだよね～
-Dialogue: 0,0:14:44.49,0:14:46.74,Text_Bottom,,0,0,0,,你～这～ 家伙～\Nキ～ サ～ マ～
-Dialogue: 0,0:14:47.20,0:14:52.41,Text_Bottom,,0,0,0,,榨取他人金钱 甚至以让人哭泣来获得愉悦\Nこうやって金銭を搾取して あまつさえ泣かせ愉悦に浸る
-Dialogue: 0,0:14:52.41,0:14:54.73,Text_Bottom,,500,0,0,,这就是这家店的真实面目吗！？\Nそれがこの店の実態か！？
-Dialogue: 0,0:14:55.12,0:14:57.25,Text_Bottom,,500,0,0,,误…{\fscx50} {\fscx100}误会啊…\Nご 誤解ですぅ…
-Dialogue: 0,0:14:57.65,0:14:59.13,Text_Top,,0,0,0,,成功啦～！\Nやった～！
-Dialogue: 0,0:14:59.33,0:14:59.75,Text_Bottom,,0,0,0,,嗯？\Nんっ？
-Dialogue: 0,0:15:00.35,0:15:01.12,Text_Bottom,,0,0,0,,看～\Nほら～
-Dialogue: 0,0:15:01.38,0:15:03.27,Text_Bottom,,0,0,0,,哇～ 好厉害呢～\Nわ～ すごいね～
-Dialogue: 0,0:15:03.27,0:15:05.73,Text_Bottom,,0,0,0,,嘿嘿 好可爱\Nエヘヘヘ かわいい
-Dialogue: 0,0:15:09.25,0:15:14.16,Text_Bottom,,0,0,0,,哼 那么 这次就由我亲自出手\Nフン ならば この私がじきじきに手を下してやる
-Dialogue: 0,0:15:14.88,0:15:18.02,Text_Bottom,,0,0,0,,啊…{\fscx50} {\fscx100}您知道操作方法吗？\Nあっ…{\fscx50} {\fscx100}操作方法はわかりますか？
-Dialogue: 0,0:15:18.50,0:15:19.79,Text_Bottom,,0,0,0,,可笑！\N笑止！
-Dialogue: 0,0:15:19.79,0:15:24.53,Text_Bottom,,0,0,0,,虽然没捕猎过考拉 但我可是徒手打倒过熊的！\Nコアラを狩ったことはないが 熊ならこの手で倒したことがある！
-Dialogue: 0,0:15:25.77,0:15:27.78,Text_Bottom,,300,0,0,,这人到底在说什么啊…？\N何言ってんの この人…？
-Dialogue: 0,0:15:28.19,0:15:28.78,Text_Bottom,,0,0,0,,投！\Nヌン！
-Dialogue: 0,0:15:28.78,0:15:29.53,Text_Bottom,,0,0,0,,推！\Nトゥッ！
-Dialogue: 0,0:15:29.53,0:15:30.55,Text_Bottom,,0,0,0,,中！\Nタァッ！
-Dialogue: 0,0:15:31.86,0:15:32.54,Text_Bottom,,0,0,0,,啥？\NWhat?
-Dialogue: 0,0:15:36.96,0:15:40.55,Text_Bottom,,0,0,0,,这什么玩意儿～！\Nなんじゃこりゃ～！
-Dialogue: 0,0:15:40.86,0:15:43.69,Text_Bottom,,0,0,0,,这么绵软无力的东西 见都没见过！\Nこんな非力な物 見たことないぞっ！
-Dialogue: 0,0:15:43.69,0:15:49.36,Text_Bottom,,0,0,0,,呃 这个…{\fscx50} {\fscx100}不是夹的 是需要慢慢推出来的机型…\Nえっと これは…{\fscx50} {\fscx100}つかむんじゃなくて 少しずつ押し出していく台でして…
-Dialogue: 0,0:15:49.68,0:15:51.66,Text_Bottom,,0,0,0,,可恶啊…！\Nぐぬぬ…！
-Dialogue: 0,0:15:51.66,0:15:55.92,Text_Bottom,,0,0,0,,可恶 你这小崽子～！\Nうぉのれ ちょこざいな～っ！
-Dialogue: 0,0:16:16.15,0:16:17.08,Text_Bottom,,0,0,0,,可恶…\Nむぅ…
-Dialogue: 0,0:16:20.33,0:16:22.75,Text_Bottom,,0,0,0,,差一点…{\fscx50} {\fscx100}就差一点\Nあと少し…{\fscx50} {\fscx100}なのに
-Dialogue: 0,0:16:23.30,0:16:26.17,Text_Bottom,,0,0,0,,那个…{\fscx50} {\fscx100}还是放弃会比较…\Nあの…{\fscx50} {\fscx100}もう諦めたほうが
-Dialogue: 0,0:16:26.17,0:16:29.47,Text_Bottom,,0,0,120,,他说得对 爸爸 你已经很努力了\NHe's right! You've done enough already, Dad!
-Dialogue: 0,0:16:32.01,0:16:33.51,Text_Bottom,,0,0,120,,我很抱歉 莉莉\NI'm sorry, Lily.
-Dialogue: 0,0:16:34.27,0:16:36.18,Text_Bottom,,0,0,120,,我实在是太逊了\NI'm so uncool.
-Dialogue: 0,0:16:38.27,0:16:44.90,Text_Bottom,,0,0,120,,老实说 我也不想放弃 真的不想 但是……\NHonestly, I don't really wanna give up either... I don't want to, but...
-Dialogue: 0,0:16:45.99,0:16:47.40,Text_Bottom,,0,0,120,,我分文不剩了\NI'm all out.
-Dialogue: 0,0:16:54.20,0:16:55.70,Text_Bottom,,0,0,120,,谢谢你 爸爸\NThanks, Dad.
-Dialogue: 0,0:16:58.90,0:17:01.38,Text_Bottom,,0,0,0,,咦？居然在这里\Nあれ？こんなところに
-Dialogue: 0,0:17:02.24,0:17:03.88,Text_Bottom,,0,0,0,,掉了一枚硬币哦\N１枚 落ちてましたよ
-Dialogue: 0,0:17:04.17,0:17:06.71,Text_Bottom,,0,0,0,,啊…{\fscx50} {\fscx100}你这家伙 打的什么主意…\Nあっ…{\fscx50} {\fscx100}貴様 なんのつもり…
-Dialogue: 0,0:17:06.71,0:17:07.70,Text_Bottom,,0,0,0,,太好了！\Nやった！
-Dialogue: 0,0:17:08.67,0:17:09.18,Text_Bottom,,0,0,0,,给\Nはい
-Dialogue: 0,0:17:09.99,0:17:11.64,Text_Bottom,,0,0,0,,唔…{\fscx50} {\fscx100}唔…\Nう…{\fscx50} {\fscx100}うむ…
-Dialogue: 0,0:18:54.17,0:18:59.63,Text_Bottom,,0,0,0,,耶！\NYay!
-Dialogue: 0,0:19:01.17,0:19:02.72,Text_Bottom,,0,0,0,,来…{\fscx50} {\fscx100}莉莉\Nほら…{\fscx50} {\fscx100}リリー
-Dialogue: 0,0:19:02.72,0:19:04.00,Text_Bottom,,0,0,0,,哇啊\Nわあっ
-Dialogue: 0,0:19:04.24,0:19:08.78,Text_Top,,0,0,0,,虽然终于拿到了…{\fscx50} {\fscx100}但投入的金额真不想回忆\Nようやく取れたが…{\fscx50} {\fscx100}投資した金額は思い出したくもない
-Dialogue: 0,0:19:09.13,0:19:12.94,Text_Top,,0,0,0,,你这家伙 就是一直用这种手段对待我女儿的吗！？\N貴様はいつも うちの娘に こんな仕打ちをしているのか！？
-Dialogue: 0,0:19:12.94,0:19:14.72,Text_Top,,0,0,0,,没 没有 那种…\Nい いえ そんな…
-Dialogue: 0,0:19:14.72,0:19:15.75,Text_Top,,0,0,0,,爸爸\NDad.
-Dialogue: 0,0:19:16.84,0:19:19.06,Text_Bottom,,0,0,120,,谢谢你帮我拿到它 爸爸\NThanks for getting it for me, Dad!
-Dialogue: 0,0:19:21.77,0:19:26.52,Text_Bottom,,0,0,120,,啊 这当然 只要你高兴我也开心啊 莉莉\NAh! Of course! I'm happy that you're happy, Lily!
-Dialogue: 0,0:19:28.05,0:19:30.86,Text_Bottom,,0,0,0,,这次看在莉莉笑容的份上 饶了你\N今回は リリーの笑顔に免じて 許してやる
-Dialogue: 0,0:19:31.25,0:19:33.76,Text_Bottom,,0,0,0,,但没有下次了 做好觉悟\Nだが次はないぞ 覚悟しておけ
-Dialogue: 0,0:19:33.76,0:19:35.34,Text_Bottom,,0,0,0,,啊…{\fscx50} {\fscx100}好的…\Nあっ…{\fscx50} {\fscx100}はい…
-Dialogue: 0,0:19:35.81,0:19:37.62,Text_Bottom,,0,0,0,,再见～ 莲司～\Nジャネー レンジー
-Dialogue: 0,0:19:37.62,0:19:39.13,Text_Bottom,,0,0,0,,欢迎再次光临～\Nまたのお越しを～
-Dialogue: 0,0:19:41.11,0:19:42.81,Text_Bottom,,0,0,0,,好累～…\N疲れた～…
-Dialogue: 0,0:20:11.81,0:20:12.64,Text_Bottom,,0,0,0,,啊\Nあっ
-Dialogue: 0,0:20:12.64,0:20:13.53,Text_Bottom,,0,0,0,,莲司\Nレンジくん
-Dialogue: 0,0:20:13.81,0:20:14.36,Text_Bottom,,0,0,0,,啊\Nあっ
-Dialogue: 0,0:20:14.99,0:20:16.74,Text_Bottom,,0,0,0,,莉莉的爸爸\Nリリーちゃんのお父さん
-Dialogue: 0,0:20:16.74,0:20:19.12,Text_Bottom,,0,0,0,,咦？今天一个人吗？\Nあれ？今日は お一人ですか？
-Dialogue: 0,0:20:19.35,0:20:20.25,Text_Bottom,,0,0,0,,怎么？\Nなんだ？
-Dialogue: 0,0:20:20.59,0:20:22.58,Text_Bottom,,0,0,0,,我一个人来不行吗？\N私が一人で来ちゃいかんのか？
-Dialogue: 0,0:20:22.58,0:20:25.60,Text_Bottom,,0,0,0,,不 不是那个意思…\Nいえ そんなことは ありませんけど…
-Dialogue: 0,0:20:26.05,0:20:27.57,Text_Bottom,,0,0,0,,给 还你\Nほら 返すぞ
-Dialogue: 0,0:20:27.78,0:20:28.37,Text_Bottom,,0,0,0,,诶？\Nえっ？
-Dialogue: 0,0:20:29.55,0:20:31.88,Text_Bottom,,0,0,0,,啊 不用…{\fscx50} {\fscx100}没关系啦！\Nあっ いえ…{\fscx50} {\fscx100}別にいいですよ！
-Dialogue: 0,0:20:32.27,0:20:34.45,Text_Bottom,,0,0,0,,我可不想欠你人情！\N貴様に借りを作るつもりはない！
-Dialogue: 0,0:20:36.51,0:20:39.18,Text_Bottom,,0,0,0,,那个…{\fscx50} {\fscx100}您是特意为这件事来的？\Nあの…{\fscx50} {\fscx100}わざわざ このために？
-Dialogue: 0,0:20:39.18,0:20:39.64,Text_Bottom,,0,0,0,,哼！\Nフン！
-Dialogue: 0,0:20:39.90,0:20:42.51,Text_Bottom,,0,0,0,,没什么 顺便而已\Nなぁに 事のついでだ
-Dialogue: 0,0:20:46.41,0:20:48.31,Text_Bottom,,0,0,0,,今天一定要拿下它\N今日こそは しとめてくれる
-Dialogue: 0,0:20:50.55,0:20:51.52,Text_Bottom,,0,0,0,,啊啊\Nああっ
-Dialogue: 0,0:20:51.76,0:20:56.19,Text_Bottom,,0,0,0,,咦…{\fscx50} {\fscx100}那个新款的男子气概考拉昨天不是拿到了吗？\Nいや…{\fscx50} {\fscx100}あの新作漢気コアラは 昨日取ったじゃないですか？
-Dialogue: 0,0:20:56.19,0:20:58.66,Text_Bottom,,0,0,0,,那么逊咖的拿法 我不认可！\Nあんなぶざまな取り方 私は認めん！
-Dialogue: 0,0:20:58.87,0:21:02.66,Text_Bottom,,0,0,0,,这次一定要靠我自己的手拿下它！\N今度こそは 私自身のこの手で しとめてみせる！
-Dialogue: 0,0:21:06.62,0:21:07.69,Text_Bottom,,0,0,0,,哈哈哈…\Nハハハ…
-Dialogue: 0,0:21:08.47,0:21:11.37,Text_Bottom,,0,0,0,,那个…{\fscx50} {\fscx100}需要的话 给您点建议？\Nあの…{\fscx50} {\fscx100}よければアドバイスしましょうか？
-Dialogue: 0,0:21:11.74,0:21:12.97,Text_Bottom,,0,0,0,,不用多管闲事\Nいらぬ世話だ
-Dialogue: 0,0:21:13.37,0:21:15.42,Text_Bottom,,0,0,0,,用爪子推出来就行了吧？\Nクレーンで押し出せばよいのだろう？
-Dialogue: 0,0:21:15.67,0:21:19.15,Text_Bottom,,0,0,0,,没什么 只要知道诀窍 这种东西\Nなぁに コツさえわかっていれば こんなもの
-Dialogue: 0,0:21:19.54,0:21:20.43,Text_Bottom,,0,0,0,,一次…\N一発で…
-Dialogue: 0,0:21:20.70,0:21:21.42,Text_Bottom,,0,0,0,,一次…\Nいっぱ…
-Dialogue: 0,0:21:21.69,0:21:22.13,Text_Bottom,,0,0,0,,一…\Nいっ…
-Dialogue: 0,0:21:23.21,0:21:24.40,Text_Bottom,,0,0,0,,啊…\Nあぁ…
-Dialogue: 0,0:21:24.69,0:21:26.13,Text_Bottom,,0,0,0,,对吧～\Nですよね～
-Dialogue: 0,0:21:26.42,0:21:29.44,Text_Bottom,,0,0,0,,再来一次！\Nくぅぅ…{\fscx50} {\fscx100}もっかい！
-Dialogue: 0,0:21:29.73,0:21:33.05,Text_Bottom,,0,0,0,,啊…{\fscx50} {\fscx100}呵呵\Nあっ…{\fscx50} {\fscx100}プッ フフッ
-Dialogue: 0,0:21:34.47,0:21:38.19,Text_Bottom,,0,0,0,,总觉得…{\fscx50} {\fscx100}一旦认准了目标就会横冲直撞这点\Nなんか…{\fscx50} {\fscx100}思い込んだら 突っ走っちゃうところとか
-Dialogue: 0,0:21:39.84,0:21:42.20,Text_Bottom,,0,0,0,,还有好胜心强这点…\N負けず嫌いなところとか…
-Dialogue: 0,0:21:42.55,0:21:44.51,Text_Bottom,,0,0,0,,果然还是父女呢\Nやっぱり親子だなぁ
-Dialogue: 0,0:21:44.51,0:21:45.49,Text_Bottom,,0,0,0,,可恶啊…\Nうぅぅ…
-Dialogue: 0,0:21:45.95,0:21:50.02,Text_Bottom,,0,0,0,,混账东西\NBlooooody heeeeeeell!
-Dialogue: 0,0:22:00.61,0:22:01.18,Text_Bottom,,0,0,0,,诶？\Nえっ？
-Dialogue: 0,0:22:01.47,0:22:02.15,Text_Bottom,,0,0,0,,诶？\Nえっ？
+Comment: 0,0:00:08.31,0:00:09.37,Text_Bottom,,0,0,0,kara,早安～！\Nおはよ～っ！
+Comment: 0,0:00:09.37,0:00:10.03,Text_Bottom,,0,0,0,kara,哇！\Nわっ！
+Comment: 0,0:00:10.45,0:00:12.55,Text_Bottom,,0,0,0,kara,来吧 要从哪里开始呢？\Nさあ 何から始める？
+Comment: 0,0:00:12.81,0:00:13.87,Text_Bottom,,0,0,0,kara,尽管说哦！\Nなんでも言ってね！
+Comment: 0,0:00:14.13,0:00:18.72,Text_Bottom,,0,0,0,kara,这个嘛 那就先拜托你洗碗吧？\Nそ…{\fscx50} {\fscx100}そうね じゃあ 洗い物からお願いしようかしら？
+Comment: 0,0:00:18.93,0:00:19.87,Text_Bottom,,0,0,0,kara,交给我吧！\N任せて！
+Comment: 0,0:00:21.34,0:00:23.63,Text_Bottom,,0,0,0,kara,盘子碎裂的声音好剧烈！？\Nすごい勢いで割れる音が！？
+Comment: 0,0:00:24.03,0:00:26.55,Text_Bottom,,0,0,0,kara,桌子越擦越湿！\N拭けば拭くほど テーブルがビシャビシャに！
+Comment: 0,0:00:27.35,0:00:30.34,Text_Bottom,,0,0,0,kara,洗好的衣服叠成了金字塔！？\N洗濯物が ピラミッド状に おり込まれてる！？
+Comment: 0,0:00:32.18,0:00:34.80,Text_Bottom,,0,0,0,kara,对…{\fscx50} {\fscx100}对不起 妈妈\Nご…{\fscx50} {\fscx100}ごめんなさい ママ
+Comment: 0,0:00:35.01,0:00:39.44,Text_Bottom,,0,0,0,kara,你…{\fscx50} {\fscx100}你只是想比平时更努力一点 结果搞砸了对吧！？\Nい いつも以上に頑張ろうとして 失敗しちゃっただけだよね！？
+Comment: 0,0:00:39.44,0:00:41.54,Text_Bottom,,0,0,0,kara,妈妈我都知道的！对吧！\Nママ わかってるから！ねっ！
+Comment: 0,0:00:41.82,0:00:42.86,Text_Bottom,,0,0,0,kara,嗯…\Nうん…
+Comment: 0,0:00:43.11,0:00:47.69,Text_Bottom,,0,0,0,kara,突然是怎么了…{\fscx50} {\fscx100}这么卖力\N急にどうしたのかしら…{\fscx50} {\fscx100}やけに張り切っちゃって
+Comment: 0,0:00:47.69,0:00:50.56,Text_Bottom,,0,0,0,kara,是不是想多要些零花钱呢？\Nお小遣いアップでも おねだりするつもりかな？
+Comment: 0,0:00:51.07,0:00:53.45,Text_Bottom,,0,0,0,kara,毕竟总是去游戏中心玩可能会缺钱嘛\Nゲーセン通いで金欠みたいだもの
+Comment: 0,0:00:53.98,0:00:54.99,Text_Bottom,,0,0,0,kara,呵呵\Nフフッ
+Comment: 0,0:00:55.17,0:00:57.50,Text_Bottom,,0,0,0,kara,然后呢…{\fscx50} {\fscx100}那个啊…\Nそれでね…{\fscx50} {\fscx100}あのね…
+Comment: 0,0:00:57.77,0:00:59.44,Text_Bottom,,0,0,0,kara,嗯？怎么了？\Nうん？なぁに？
+Comment: 0,0:00:59.77,0:01:00.62,Text_Bottom,,0,0,0,kara,啊…\Nあっ…
+Comment: 0,0:01:01.35,0:01:04.38,Text_Bottom,,0,0,0,kara,稍…{\fscx50} {\fscx100}稍等一下！\Nちょ…{\fscx50} {\fscx100}ちょっと待ってて！
+Comment: 0,0:01:04.79,0:01:05.61,Text_Bottom,,0,0,0,kara,啊？\Nあっ？
+Comment: 0,0:01:08.11,0:01:12.89,Text_Bottom,,0,0,0,kara,妈妈 平时你总是做饭打扫 谢谢你为我做了这么多！\Nママ  いつもお料理とかお掃除とか いろいろありがとう！
+Comment: 0,0:01:13.07,0:01:13.87,Text_Bottom,,0,0,0,kara,诶？\Nえっ？
+Comment: 0,0:01:14.40,0:01:19.63,Text_Bottom,,0,0,0,kara,那个…{\fscx50} {\fscx100}有人告诉我 日本在五月有母亲节\Nその…{\fscx50} {\fscx100}日本には母の日が ５月にあるって教えてもらって
+Comment: 0,0:01:19.63,0:01:20.81,Text_Bottom,,0,0,0,kara,所以…\Nだから…
+Comment: 0,0:01:22.83,0:01:25.35,Text_Bottom,,0,0,0,kara,所以 从刚才开始就在帮忙？\Nそれで この前からお手伝いを？
+Comment: 0,0:01:26.87,0:01:28.05,Text_Bottom,,0,0,0,kara,黄水仙…\Nダフォディル…
+Comment: 0,0:01:29.17,0:01:34.54,Text_Bottom,,0,0,0,kara,在英国 母亲节时大多不送康乃馨 而是送黄水仙\Nイギリスでは 母の日にはカーネーションではなく ダフォディルを贈ることが多いのです
+Comment: 0,0:01:35.43,0:01:37.50,Text_Bottom,,0,0,0,kara,花语是「尊敬」\N花言葉は 「尊敬」
+Comment: 0,0:01:38.16,0:01:39.62,Text_Bottom,,0,0,0,kara,呵…\Nフッ…
+Comment: 0,0:01:40.32,0:01:43.54,Text_Bottom,,0,0,0,kara,谢谢你莉莉 有故乡的香气呢\Nありがとうリリー 故郷の香りね
+Comment: 0,0:01:44.29,0:01:45.50,Text_Bottom,,0,0,0,kara,啊…\Nあぁ…
+Comment: 0,0:01:45.50,0:01:48.71,Text_Bottom,,0,0,0,kara,不过 零花钱可不会轻易给你涨的\Nでも お小遣いは簡単に上げないわよ～
+Comment: 0,0:01:48.71,0:01:49.27,Text_Bottom,,0,0,0,kara,啊…\Nあっ…
+Comment: 0,0:01:49.27,0:01:51.04,Text_Bottom,,0,0,0,kara,我…{\fscx50} {\fscx100}我知道啦！\Nわ わかってるわよ！
+Comment: 0,0:01:51.04,0:01:51.71,Text_Top,,0,0,0,kara,呵呵…\Nフフッ…
+Comment: 0,0:01:51.71,0:01:53.75,Text_Top,,0,0,0,kara,只是帮了下忙可不能算哦\Nお手伝いしたってだけだからね
+Comment: 0,0:01:54.45,0:01:55.26,Text_Bottom,,0,0,0,kara,莉莉…\Nリリー…
+Comment: 0,0:01:56.17,0:01:59.09,Text_Bottom,,0,0,0,kara,「父亲节」也别忘了啊…\N「父の日」も 忘れないでくれよ…
+Comment: 0,0:03:35.25,0:03:38.49,Text_Bottom,,0,0,0,kara,这样啊 你妈妈她很高兴呢\Nそっか お母さん喜んでくれたんだ
+Comment: 0,0:03:39.03,0:03:39.99,Text_Bottom,,0,0,0,kara,太好了\Nよかったね
+Comment: 0,0:03:40.14,0:03:45.23,Text_Bottom,,0,0,0,kara,嗯 多亏了莲司告诉我关于母亲节的事\Nうん これも母の日のこと教えてくれた レンジのおかげだよ
+Comment: 0,0:03:45.23,0:03:46.33,Text_Bottom,,0,0,0,kara,谢谢\Nアリガト
+Comment: 0,0:03:46.66,0:03:50.22,Text_Bottom,,0,0,0,kara,啊呀 果然还是下起雨来了\Nあちゃ やっぱ降りだしちゃったよ～
+Comment: 0,0:03:50.22,0:03:50.88,Text_Bottom,,0,0,0,kara,诶？\Nえっ？
+Comment: 0,0:03:54.74,0:03:56.33,Text_Bottom,,0,0,0,kara,不妙啊\Nあ～あ
+Comment: 0,0:03:56.33,0:03:58.39,Text_Bottom,,0,0,0,kara,看来一时半会儿停不了呢\Nこりゃ当分 やみそうにないな
+Comment: 0,0:03:58.39,0:03:59.45,Text_Bottom,,0,0,0,kara,啊…\NAh...
+Comment: 0,0:03:59.68,0:04:03.01,Text_Bottom,,0,0,0,kara,诶 莉莉你难道没带伞吗？\Nあれ リリーちゃん もしかして傘持ってきてないの？
+Comment: 0,0:04:03.76,0:04:04.64,Text_Bottom,,0,0,0,kara,嗯…\NUh...
+Comment: 0,0:04:04.87,0:04:07.49,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}对了 {ruby=Just moment}正好{/ruby}\Nあっ…{\fscx50} {\fscx100}そうだ ジャストモーメント
+Comment: 0,0:04:08.34,0:04:09.19,Text_Bottom,,0,0,0,kara,啊？\Nあっ？
+Comment: 0,0:04:11.85,0:04:14.53,Text_Bottom,,0,0,0,kara,给 不介意的话 用这个吧\Nはい よかったら これ使って
+Comment: 0,0:04:15.52,0:04:18.11,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}莲司你怎么办？\Nあっ…{\fscx50} {\fscx100}レンジはドースルの？
+Comment: 0,0:04:18.35,0:04:18.93,Text_Bottom,,0,0,0,kara,嗯？\Nうん？
+Comment: 0,0:04:19.50,0:04:21.74,Text_Bottom,,0,0,0,kara,我的话 那边有备用的伞\N俺なら そこに 置き傘があるから
+Comment: 0,0:04:21.74,0:04:22.53,Text_Bottom,,0,0,0,kara,啊…\Nあっ
+Comment: 0,0:04:23.77,0:04:25.12,Text_Bottom,,0,0,0,kara,先到先得\N早い者勝ちだぞ
+Comment: 0,0:04:25.73,0:04:27.29,Text_Bottom,,0,0,0,kara,对不起哦 莲司\Nごめんね 蓮司くん
+Comment: 0,0:04:27.29,0:04:29.28,Text_Bottom,,0,0,0,kara,啊 好的…\Nあ…{\fscx50} {\fscx100}はい…
+Comment: 0,0:04:30.74,0:04:31.29,Text_Bottom,,0,0,0,kara,嗯\Nんっ
+Comment: 0,0:04:31.50,0:04:33.21,Text_Bottom,,0,0,0,kara,送我回家\NEscort me home!
+Comment: 0,0:04:33.21,0:04:37.30,Text_Bottom,,0,0,0,kara,和我一起回家 送我到家门口吧 {ruby=Mr. Escort}保镖先生{/ruby}！\Nワタシと一緒に帰って ウチまでオクッテ ミスターエスコート
+Comment: 0,0:04:37.45,0:04:40.96,Text_Bottom,,0,0,0,kara,诶！？不行吧 我还有打工呢\Nえっ！？いや まだ俺バイトあるから
+Comment: 0,0:04:40.96,0:04:41.81,Text_Bottom,,0,0,0,kara,那我等你\Nマッテル
+Comment: 0,0:04:41.81,0:04:42.55,Text_Bottom,,0,0,0,kara,诶？\Nえっ？
+Comment: 0,0:04:42.83,0:04:45.31,Text_Bottom,,0,0,0,kara,反正在这里要消磨多少时间都可以！\Nここならいくらでも 時間をツブセルわ！
+Comment: 0,0:04:45.86,0:04:47.38,Text_Bottom,,0,0,0,kara,就这样 我去玩啦！\Nジャ アソンデルネー！
+Comment: 0,0:04:47.38,0:04:49.44,Text_Bottom,,0,0,0,kara,啊 不行 等等！\Nあっ いや！ちょっと待って！
+Comment: 0,0:04:50.46,0:04:54.69,Text_Bottom,,0,0,0,kara,这是…{\fscx50} {\fscx100}要把莉莉送回家的意思？\Nこれ…{\fscx50} {\fscx100}リリーちゃんを 家まで送ってくってことか？
+Comment: 0,0:04:55.94,0:04:58.24,Text_Bottom,,0,0,0,kara,真…{\fscx50} {\fscx100}真的假的啊？\Nマ…{\fscx50} {\fscx100}マジか？
+Comment: 0,0:05:02.38,0:05:05.21,Text_Top,,0,0,0,kara,为了拿到那个手办花了{\fscx50} {\fscx100}5000{\fscx50} {\fscx100}日元呢\Nそのフィギュア取るのに ５０００円も使ったんだよ
+Comment: 0,0:05:05.21,0:05:05.94,Text_Top,,0,0,0,kara,真的假的～\Nマジすか～
+Comment: 0,0:05:05.94,0:05:08.62,Text_Top,,0,0,0,kara,但是不后悔 哈哈哈…\Nだが後悔はしていない ハッハッハ…
+Comment: 0,0:05:07.89,0:05:08.62,Text_Bottom,,0,0,0,kara,噗嗤\Nデュフッ
+Comment: 0,0:05:09.46,0:05:17.46,Text_Bottom,,0,0,0,kara,噗呼呼呼…{\fscx50} {\fscx100}嘿嘿 嘿嘿嘿 嘻嘻嘻…{\fscx50} {\fscx100}嘻嘻嘻\Nデュフフフ…{\fscx50} {\fscx100}フヒッ フヒヒヒ イヒヒヒ…{\fscx50} {\fscx100}ヒヒヒヒ
+Comment: 0,0:05:27.21,0:05:29.14,Text_Bottom,,0,0,0,kara,说点什么 说点什么…\N会話 会話…
+Comment: 0,0:05:30.07,0:05:32.58,Text_Bottom,,0,0,0,kara,说起来 莉莉 你家住在哪一带啊？\Nそういや リリーちゃん どの辺に住んでるの？
+Comment: 0,0:05:33.04,0:05:34.74,Text_Bottom,,0,0,0,kara,应该不太远吧？\Nそんなに遠くないのかな？
+Comment: 0,0:05:35.06,0:05:35.61,Text_Bottom,,0,0,0,kara,啊\Nあっ
+Comment: 0,0:05:37.49,0:05:39.61,Text_Bottom,,0,0,0,kara,不靠过来点的话 会淋湿的\Nもっとこっち寄らないと ぬれちゃうよ
+Comment: 0,0:05:39.85,0:05:40.61,Text_Bottom,,0,0,0,kara,来\Nほら
+Comment: 0,0:05:40.61,0:05:41.46,Text_Bottom,,0,0,0,kara,啊！\Nあっ！
+Comment: 0,0:05:42.02,0:05:43.84,Text_Bottom,,0,0,0,kara,啊 莉莉！\Nあっ リリーちゃん！
+Comment: 0,0:05:50.73,0:05:52.62,Text_Bottom,,0,0,0,kara,没事吧 莉莉！？\N大丈夫！？リリーちゃん！？
+Comment: 0,0:05:53.20,0:05:54.55,Text_Top,,0,0,0,kara,啊…\Nあっ…
+Comment: 0,0:05:54.55,0:05:56.21,Text_Top,,0,0,0,kara,有哪里痛吗？\Nどっか痛いとこある？
+Comment: 0,0:05:56.99,0:05:59.60,Text_Top,,0,0,0,kara,啊…{\fscx50} {\fscx100}嗯嗯…\Nあっ…{\fscx50} {\fscx100}んんっ…
+Comment: 0,0:05:59.60,0:06:01.49,Text_Bottom,,400,0,0,kara,真的？\N本当に？
+Comment: 0,0:06:02.47,0:06:04.72,Text_Bottom,,0,0,0,kara,这样啊…{\fscx50} {\fscx100}太好了…\Nそう…{\fscx50} {\fscx100}よかった…
+Comment: 0,0:06:05.10,0:06:06.16,Text_Bottom,,0,0,0,kara,喂 你们！\Nおい 君たち！
+Comment: 0,0:06:06.16,0:06:06.64,Text_Bottom,,0,0,0,kara,啊\Nあっ
+Comment: 0,0:06:07.41,0:06:08.53,Text_Bottom,,0,0,0,kara,没受伤吧？\Nケガはないかね？
+Comment: 0,0:06:08.89,0:06:09.64,Text_Bottom,,0,0,0,kara,嗯嗯！\Nんんっ！
+Comment: 0,0:06:09.99,0:06:12.61,Text_Bottom,,0,0,0,kara,车里的人 好可怕…\N車の中の人 こえぇ…
+Comment: 0,0:06:12.61,0:06:15.20,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}好像没事\Nあっ…{\fscx50} {\fscx100}大丈夫だったみたいです
+Comment: 0,0:06:15.20,0:06:17.40,Text_Bottom,,0,0,0,kara,是吗…{\fscx50} {\fscx100}真是的…\Nそうか…{\fscx50} {\fscx100}まったく…
+Comment: 0,0:06:17.40,0:06:18.40,Text_Bottom,,0,1100,0,kara,爸爸\NDad!
+Comment: 0,0:06:18.74,0:06:20.65,Text_Bottom,,0,0,0,kara,爸…{\fscx50} {\fscx100}爸…？\Nだっ…{\fscx50} {\fscx100}ど…？
+Comment: 0,0:06:21.21,0:06:22.15,Text_Bottom,,0,0,0,kara,莉莉！\NLily!
+Comment: 0,0:06:22.42,0:06:23.93,Text_Bottom,,0,0,0,kara,莉莉的爸爸！？\Nリリーちゃんのお父さん！？
+Comment: 0,0:06:24.18,0:06:24.86,Text_Top,,0,0,0,kara,哈哈\NHaha.
+Comment: 0,0:06:24.57,0:06:28.95,Text_Bottom,,0,0,120,kara,哦 是你啊莉莉 别那样跑到大街上去\NOh, it's you, Lily! Don't dash out onto the street like that!
+Comment: 0,0:06:28.95,0:06:30.58,Text_Bottom,,0,0,0,kara,对不起嘛 爸爸\NDad, I'm sorry!
+Comment: 0,0:06:30.58,0:06:32.11,Text_Bottom,,0,0,0,kara,哈哈哈\NHahaha!
+Comment: 0,0:06:32.59,0:06:36.17,Text_Bottom,,0,0,0,kara,诶…？爸爸？真的吗？\Nえっ…？お父さん？ホントに？
+Comment: 0,0:06:36.47,0:06:40.40,Text_Top,,0,0,0,kara,介绍一下！这位是我的爸爸哦 莲司\N紹介するネ！私のパパだよ レンジ
+Comment: 0,0:06:40.40,0:06:41.17,Text_Top,,0,0,0,kara,哈？\Nハッ！
+Comment: 0,0:06:47.47,0:06:50.71,Text_Bottom,,0,0,0,kara,那么 莉莉也平安无事的样子…\Nそれじゃあ リリーちゃんも 無事だったようですし…
+Comment: 0,0:06:52.42,0:06:53.89,Text_Bottom,,0,0,0,kara,我就此告辞了…\N僕はこの辺で…
+Comment: 0,0:06:54.11,0:06:55.47,Text_Top,,0,0,0,kara,等等\Nまぁ待ちなさい
+Comment: 0,0:06:55.79,0:06:59.34,Text_Top,,0,0,0,kara,那样对待我女儿的救命恩人也太失礼了\Nそれでは娘の命の恩人に対して 失礼というものだ
+Comment: 0,0:06:59.77,0:07:03.11,Text_Top,,0,0,0,kara,能不能请你来家里 让我们稍微招待你一下啊？\N少し我が家で オモテナシをさせてもらえないか？
+Comment: 0,0:07:03.46,0:07:05.46,Text_Top,,0,0,0,kara,我们家就在附近哦\Nなに すぐ近くだよ
+Comment: 0,0:07:06.18,0:07:08.53,Text_Top,,0,0,0,kara,可以吧？莲司\Nいいだろう？レンジくん
+Comment: 0,0:07:09.33,0:07:10.91,Text_Bottom,,0,0,0,kara,恐怖啊\Nこっ…{\fscx50} {\fscx100}わ～
+Comment: 0,0:07:11.27,0:07:13.45,Text_Bottom,,0,0,0,kara,对啊 莲司 来嘛来嘛\Nそうだよ レンジ キテ キテ
+Comment: 0,0:07:14.01,0:07:17.47,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}好…{\fscx50} {\fscx100}好的…\Nあ…{\fscx50} {\fscx100}は…{\fscx50} {\fscx100}はひっ…
+Comment: 0,0:07:21.96,0:07:24.63,Text_Bottom,,0,0,120,kara,我回来了 妈妈 妈妈？\NI'm back, Mum. Mum?
+Comment: 0,0:07:25.22,0:07:29.10,Text_Bottom,,0,0,120,kara,我听见了 欢迎回来 噢 什 什么情况\NI heard you! Glad you're home. Oh, wha—? Why?
+Comment: 0,0:07:29.51,0:07:31.68,Text_Bottom,,0,0,120,kara,嗯？我们刚好碰见他\NHmm? We just ran into him.
+Comment: 0,0:07:31.93,0:07:33.81,Text_Bottom,,0,0,120,kara,是呀 我们就是刚好碰见他\NYeah, we just ran into him.
+Comment: 0,0:07:33.81,0:07:35.76,Text_Bottom,,0,0,0,kara,那个…{\fscx50} {\fscx100}打扰了…\Nあの…{\fscx50} {\fscx100}おじゃまします…
+Comment: 0,0:07:35.76,0:07:38.49,Text_Bottom,,0,0,0,kara,哎呀 欢迎 莲司\Nまぁ いらっしゃい レンジくん
+Comment: 0,0:07:38.49,0:07:40.21,Text_Bottom,,0,0,0,kara,什么！？你认识他？\N何！？知ってるのか？
+Comment: 0,0:07:40.21,0:07:43.18,Text_Bottom,,0,0,0,kara,嗯 我们之前遇见过他\Nえぇ We just ran into him, before.
+Comment: 0,0:07:43.18,0:07:44.69,Text_Bottom,,0,0,0,kara,啊哈哈…\Nアハハ…
+Comment: 0,0:07:46.30,0:07:48.45,Text_Bottom,,0,0,0,kara,幸好今天晚饭是咖喱\N今日が カレーでよかったわ～
+Comment: 0,0:07:49.26,0:07:52.20,Text_Bottom,,0,600,0,kara,就算人数突然增加 也能准备得过来\N人数が急に増えても 用意できるからね～
+Comment: 0,0:07:52.42,0:07:56.06,Text_Bottom,,0,0,0,kara,不…{\fscx50} {\fscx100}只是因为下雨了 我送她回家而已\Nいや 雨降ってたから 家まで送っただけです
+Comment: 0,0:07:56.06,0:07:57.52,Text_Bottom,,0,0,0,kara,不用 不用这么客气\Nそんな お構いなく
+Comment: 0,0:07:57.52,0:07:59.97,Text_Bottom,,0,0,0,kara,哎呀 不用客气的\Nあら 遠慮しなくていいのよ
+Comment: 0,0:07:59.97,0:08:00.96,Text_Bottom,,0,0,0,kara,对呀\NThat's right!
+Comment: 0,0:08:01.33,0:08:05.70,Text_Bottom,,0,0,0,kara,你看 莉莉也是想给莲司表现好的一面 干劲十足呢\Nほら リリーもレンジくんに いいとこ見せようと 張り切ってるし
+Comment: 0,0:08:05.70,0:08:06.89,Text_Bottom,,0,0,0,kara,对吧 莉莉\Nねっ リリー
+Comment: 0,0:08:06.89,0:08:07.80,Text_Bottom,,0,0,0,kara,哈…\Nハッ…
+Comment: 0,0:08:07.80,0:08:10.97,Text_Bottom,,0,0,120,kara,之前帮忙做的那些家务能派上用场 真是太好了\NI'm glad you're getting something out of the chores you did the other day.
+Comment: 0,0:08:11.10,0:08:13.26,Text_Bottom,,0,0,0,kara,呃 妈妈 别这样\NUgh! Mom, please!
+Comment: 0,0:08:13.26,0:08:14.78,Text_Bottom,,0,0,0,kara,呵呵呵…\Nフフフ…
+Comment: 0,0:08:14.78,0:08:16.83,Text_Bottom,,0,0,0,kara,那么 有什么需要帮忙的吗？\Nじゃあ 何か手伝うこととか
+Comment: 0,0:08:16.83,0:08:19.25,Text_Bottom,,0,0,0,kara,哦…{\fscx50} {\fscx100}那正好\Nほう…{\fscx50} {\fscx100}ならばちょうどいい
+Comment: 0,0:08:19.25,0:08:19.74,Text_Bottom,,0,0,0,kara,啊\Nあっ
+Comment: 0,0:08:20.17,0:08:23.20,Text_Bottom,,0,0,0,kara,能来我这边帮忙削苹果皮吗？\Nこちらでリンゴの皮むきを 手伝ってくれないか？
+Comment: 0,0:08:23.59,0:08:26.94,Text_Bottom,,0,0,0,kara,顺便来点男人之间的闲聊吧\Nついでに 男同士の世間話でも しようじゃないか
+Comment: 0,0:08:27.37,0:08:28.72,Text_Bottom,,0,0,0,kara,莲司\Nレンジくん
+Comment: 0,0:08:28.99,0:08:30.35,Text_Bottom,,0,0,0,kara,好…{\fscx50} {\fscx100}好的\Nは…{\fscx50} {\fscx100}はい
+Comment: 0,0:08:30.99,0:08:33.49,Text_Bottom,,0,0,0,kara,莉莉 绝对是随她妈妈吧\Nリリーちゃん 絶対 母親似だな
+Comment: 0,0:08:33.99,0:08:35.91,Text_Bottom,,0,0,0,kara,话说那是什么刀？\Nてか何 あのナイフ？
+Comment: 0,0:08:35.91,0:08:38.32,Text_Bottom,,0,0,0,kara,怎么看都不是水果刀吧\Nどう見ても果物用じゃないだろ
+Comment: 0,0:08:39.62,0:08:43.29,Text_Bottom,,0,0,120,kara,这样应该就行了 好了 你能准备一下盘子吗\NI suppose this'll do. Right then, can you prepare the plates?
+Comment: 0,0:08:43.41,0:08:44.50,Text_Bottom,,0,0,0,kara,好呀\NOkay.
+Comment: 0,0:08:44.50,0:08:45.71,Text_Bottom,,0,0,120,kara,这些可以吗\NAre these fine?
+Comment: 0,0:08:46.17,0:08:48.93,Text_Bottom,,0,0,120,kara,嘿 不可以把盘子这样挥来挥去\NHey! Don't go waving them around like that!
+Comment: 0,0:08:49.01,0:08:51.64,Text_Bottom,,0,0,120,kara,没关系啦 我不会弄掉的\NI'm not gonna drop it. It's fine.
+Comment: 0,0:08:51.76,0:08:53.34,Text_Top,,0,0,0,kara,注意点儿 莉莉\NJust be careful, Lily.
+Comment: 0,0:08:53.34,0:08:54.19,Text_Top,,0,0,0,kara,行吧\NOkay.
+Comment: 0,0:08:54.73,0:08:59.51,Text_Bottom,,0,0,0,kara,听说你是莉莉常去的游戏中心的店员啊\N君は リリーがよく通ってる ゲームセンターの店員だそうだね
+Comment: 0,0:08:59.51,0:09:00.77,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}是的\Nあ…{\fscx50} {\fscx100}はい
+Comment: 0,0:09:00.98,0:09:05.02,Text_Bottom,,0,600,0,kara,那个…{\fscx50} {\fscx100}那孩子在那里的情况怎么样？\Nその…{\fscx50} {\fscx100}そこでは あの子の様子はどうなのかな？
+Comment: 0,0:09:05.27,0:09:06.14,Text_Bottom,,600,0,0,kara,诶？\Nえっ？
+Comment: 0,0:09:06.75,0:09:10.02,Text_Bottom,,600,0,0,kara,啊…{\fscx50} {\fscx100}她总是很开心哦\Nあぁ…{\fscx50} {\fscx100}いつも楽しそうにしてますよ
+Comment: 0,0:09:10.56,0:09:13.78,Text_Bottom,,600,0,0,kara,也会和学校的朋友之类的 一起来玩\N学校の友達なんかと 一緒に遊びにきたりして
+Comment: 0,0:09:15.74,0:09:16.88,Text_Bottom,,0,600,0,kara,这样啊…\Nそうか…
+Comment: 0,0:09:17.74,0:09:21.59,Text_Bottom,,0,0,0,kara,最近 她也开始拒绝我接送上下学了…\N最近は私の送り迎えも 断るようになったが…
+Comment: 0,0:09:22.53,0:09:23.55,Text_Bottom,,0,0,0,kara,这样啊…\Nそうか…
+Comment: 0,0:09:25.71,0:09:29.66,Text_Top,,0,0,0,kara,莲司 我知道突然说这种事情你会很为难…\Nレンジくん こんなこと 急に言われても困るだろうが…
+Comment: 0,0:09:30.19,0:09:34.66,Text_Top,,0,0,0,kara,那孩子刚来日本那会儿 好像一直交不到朋友\Nあの子は日本に来て しばらくは 友達もできなかったようでね
+Comment: 0,0:09:38.06,0:09:39.14,Text_Bottom,,0,0,120,kara,像这样吗\NLike this?
+Comment: 0,0:09:39.93,0:09:41.81,Text_Bottom,,0,0,120,kara,对 你做的非常棒\NYep, you're doing brilliantly!
+Comment: 0,0:09:41.90,0:09:43.40,Text_Bottom,,0,0,120,kara,是吗\NIs that so?
+Comment: 0,0:09:43.84,0:09:49.60,Text_Bottom,,0,0,0,kara,但是 自从开始去游戏中心后 她就会很开心地讲起各种事情了\Nしかし ゲーセンに 通うようになってからは うれしそうに いろんなことを話すようになってね
+Comment: 0,0:09:50.13,0:09:52.03,Text_Bottom,,0,0,120,kara,那我要再多放点儿\NThen I suppose I'll put a bit more!
+Comment: 0,0:09:52.03,0:09:54.83,Text_Bottom,,0,0,120,kara,额 还是别了 已经够了\NUh... no, that's more than plenty.
+Comment: 0,0:09:55.39,0:09:56.73,Text_Top,,0,0,0,kara,嘿 我说够了\NHey, that's enough.
+Comment: 0,0:09:56.73,0:10:00.83,Text_Bottom,,600,0,0,kara,我很感谢创造了这个契机的你\Nそのきっかけを作ってくれた 君には感謝しているよ
+Comment: 0,0:10:01.01,0:10:03.71,Text_Bottom,,0,600,0,kara,哪…{\fscx50} {\fscx100}哪里的话！不敢当！\Nそ そんな！とんでもないです！
+Comment: 0,0:10:04.25,0:10:08.71,Text_Bottom,,0,0,0,kara,我们一家是因为我工作的关系才搬来这边 所以我一直都很在意\N私の仕事の都合でこちらに来たから ずっと気になっていたのだ
+Comment: 0,0:10:09.29,0:10:11.63,Text_Bottom,,0,0,0,kara,到底是什么样的工作啊？\Nいったい なんの仕事だろう？
+Comment: 0,0:10:12.14,0:10:18.01,Text_Bottom,,0,0,0,kara,嘛…{\fscx50} {\fscx100}不过外表先不论 他是个会关心女儿 温柔的好爸爸呢\Nまっ…{\fscx50} {\fscx100}でも見た目はともかく 娘さんを気にかける 優しくて いいお父さんじゃないか
+Comment: 0,0:10:18.69,0:10:19.34,Text_Bottom,,0,0,0,kara,但是…\Nだが…
+Comment: 0,0:10:19.50,0:10:19.85,Text_Bottom,,0,0,0,kara,嗯！\Nんっ！
+Comment: 0,0:10:20.80,0:10:25.12,Text_Bottom,,0,0,0,kara,要是说到交往那就是另一回事了！\N交際となると話は別だ～！
+Comment: 0,0:10:25.36,0:10:26.61,Text_Bottom,,0,0,0,kara,啊！？\Nはえっ！？
+Comment: 0,0:10:26.77,0:10:28.48,Text_Bottom,,0,0,0,kara,不不 不是的！\Nいやいや 違いますよ！
+Comment: 0,0:10:28.48,0:10:31.86,Text_Bottom,,0,0,0,kara,我和莉莉只是店员和客人的关系…\Nリリーちゃんとは ただの店員と客の 関係っていうか…
+Comment: 0,0:10:32.42,0:10:41.12,Text_Top,,0,0,0,kara,哦～？一个「普通店员」会对客人说「下雨天让她一起撑伞送她回家」这种话吗？\Nほう～？ただの店員が客を「雨の日に傘に入れて家まで 送ってました」とでも言うのか？
+Comment: 0,0:10:41.12,0:10:46.63,Text_Bottom,,0,0,0,kara,那是因为前辈把雨…{\fscx50} {\fscx100}不 伞…{\fscx50} {\fscx100}不对 是只有一把伞…\Nそれは先輩が雨を…{\fscx50} {\fscx100}いや傘が…{\fscx50} {\fscx100}じゃなくて雨が１本しかなくて
+Comment: 0,0:10:46.90,0:10:52.76,Text_Bottom,,0,0,0,kara,更甚至 互相直呼其名 还说只是普通店员和客人！？\Nあまつさえ お互いのファーストネームを 呼び合いながら ただの店員と客だと！？
+Comment: 0,0:10:53.03,0:10:55.13,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}那个…\Nあっ…{\fscx50} {\fscx100}いや～ それは…
+Comment: 0,0:10:55.50,0:10:58.64,Text_Bottom,,0,0,0,kara,那到底是哪种关系？快说！\Nならば どういう関係だ？早く言いたまえ！
+Comment: 0,0:10:59.10,0:11:02.34,Text_Bottom,,0,0,0,kara,不…{\fscx50} {\fscx100}那个…{\fscx50} {\fscx100}这个…\Nいや…{\fscx50} {\fscx100}あの…{\fscx50} {\fscx100}その…
+Comment: 0,0:11:02.77,0:11:05.19,Text_Bottom,,0,0,120,kara,真是的 爸爸 放过他吧\NHonestly, Dad! Let him be!
+Comment: 0,0:11:05.19,0:11:06.02,Text_Bottom,,0,0,0,kara,诶～～！？\Nえぇ～っ！？
+Comment: 0,0:11:06.60,0:11:08.90,Text_Bottom,,0,0,120,kara,莉莉 你干嘛啊\NWhat're you doing, Lily?
+Comment: 0,0:11:08.98,0:11:13.70,Text_Bottom,,0,0,120,kara,你别担心 我和他不是你想的那种关系\NYou don't have to worry! It's not the kind of relationship you're thinking of!
+Comment: 0,0:11:14.90,0:11:16.78,Text_Bottom,,0,0,120,kara,哦 好吧\NOh. All right then.
+Comment: 0,0:11:21.95,0:11:24.29,Text_Bottom,,0,0,120,kara,至少现在还不是\NAt least not yet.
+Comment: 0,0:11:26.56,0:11:27.97,Text_Bottom,,0,0,0,kara,诶…{\fscx50} {\fscx100}那个？\Nえ…{\fscx50} {\fscx100}っと？
+Comment: 0,0:11:29.25,0:11:30.63,Text_Bottom,,0,0,120,kara,我就知道 你小子\NI knew it! You!
+Comment: 0,0:11:30.63,0:11:31.05,Text_Bottom,,0,0,0,kara,啊！？\Nえっ！？
+Comment: 0,0:11:31.05,0:11:32.89,Text_Bottom,,0,0,0,kara,你到底想干嘛\NJust what are you after?
+Comment: 0,0:11:32.89,0:11:34.82,Text_Bottom,,0,0,0,kara,诶 什么？为什么？\Nえっ 何？なんで？
+Comment: 0,0:11:34.82,0:11:36.97,Text_Bottom,,0,0,0,kara,呜 差不多得了 爸爸\NUgh, stop it, Dad!
+Comment: 0,0:11:36.97,0:11:39.20,Text_Bottom,,0,0,0,kara,啊！莉莉…\Nあっ！リリー…
+Comment: 0,0:11:39.20,0:11:41.01,Text_Bottom,,0,0,0,kara,等等！莉莉！？\Nちょっ！リリーちゃん！？
+Comment: 0,0:11:41.29,0:11:44.91,Text_Bottom,,0,0,0,kara,好啦各位 晚饭准备好啦～\Nさぁみんな お夕飯の用意ができたわよ～
+Comment: 0,0:12:03.92,0:12:05.96,Text_Bottom,,0,0,0,kara,爸爸 那边那边！\Nお父さん そっちそっち！
+Comment: 0,0:12:07.18,0:12:10.13,Text_Bottom,,0,0,0,kara,好～嘞 这样！那样！\Nよ～し それ！おりゃ！
+Comment: 0,0:12:10.46,0:12:11.12,Text_Bottom,,0,0,0,kara,怎么样…\Nどう…
+Comment: 0,0:12:11.12,0:12:14.40,Text_Bottom,,0,0,0,kara,加油 爸爸加油 呵呵\Nほら 頑張ってお父さん フフ
+Comment: 0,0:12:15.77,0:12:18.22,Text_Top,,600,0,0,kara,爸爸很厉害吧～\Nお父さんすごいだろ～
+Comment: 0,0:12:16.98,0:12:18.23,Text_Top,,0,600,0,kara,好～厉害！\Nすご～い！
+Comment: 0,0:12:23.07,0:12:24.18,Text_Bottom,,0,0,0,kara,莲司！\Nレンジ！
+Comment: 0,0:12:25.12,0:12:26.95,Text_Bottom,,0,0,0,kara,看呀看呀！\Nネエ！ミテ ミテー！
+Comment: 0,0:12:27.61,0:12:28.60,Text_Bottom,,0,0,0,kara,哦哦！\Nおお！
+Comment: 0,0:12:28.91,0:12:32.41,Text_Bottom,,0,0,0,kara,莉莉换夏装了啊 很适合你 很可爱哦！\N夏服になったんだね 似合ってて かわいいよ！
+Comment: 0,0:12:32.41,0:12:33.36,Text_Bottom,,0,0,0,kara,太好啦！\Nヤッター！
+Comment: 0,0:12:33.94,0:12:39.17,Text_Bottom,,0,0,0,kara,和莉莉相遇是在冬天 这么一想过了挺久呢\Nリリーちゃんと会ったのが 冬だったから そう考えると結構たったなぁ
+Comment: 0,0:12:39.41,0:12:40.86,Text_Bottom,,0,0,0,kara,啊 莉莉\Nあっ リリーちゃん
+Comment: 0,0:12:41.30,0:12:45.33,Text_Bottom,,0,0,0,kara,今天玩什么游戏？还想请你赐教…\N今日はなんのゲームするの？また お手合わせ願いた…
+Comment: 0,0:12:45.33,0:12:46.37,Text_Bottom,,0,0,0,kara,啊！\Nああっ！
+Comment: 0,0:12:50.13,0:12:52.00,Text_Bottom,,0,300,0,kara,你好 店员先生\Nこんにちは 店員さん
+Comment: 0,0:12:52.27,0:12:54.42,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}你好～\Nあ…{\fscx50} {\fscx100}こんちは～
+Comment: 0,0:12:54.77,0:12:55.50,Text_Bottom,,0,0,0,kara,谁？\N誰？
+Comment: 0,0:12:55.99,0:12:59.76,Text_Bottom,,0,0,0,kara,怎么了 对我就没有什么感想吗？\Nどうした 私には何か感想はないのかね？
+Comment: 0,0:13:00.00,0:13:03.89,Text_Bottom,,0,0,0,kara,诶！？不…{\fscx50} {\fscx100}不…{\fscx50} {\fscx100}您的着装真是很漂亮啊…\Nえっ！？い いや…{\fscx50} {\fscx100}すてきなお召し物ですね…
+Comment: 0,0:13:04.07,0:13:08.19,Text_Bottom,,0,0,0,kara,你这家伙 是不是总是这样的眼光看待她的啊～！？\N貴様はそうやって いつも 色目を使っているのか～！？
+Comment: 0,0:13:08.19,0:13:08.89,Text_Bottom,,0,0,0,kara,诶～～！？\Nえぇ～っ！？
+Comment: 0,0:13:08.89,0:13:10.90,Text_Bottom,,0,0,120,kara,呃 你有完没完啊\NUgh! Just stop it already!
+Comment: 0,0:13:11.23,0:13:14.65,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}所…{\fscx50} {\fscx100}所以今天您有何贵干？\Nあ…{\fscx50} {\fscx100}そ…{\fscx50} {\fscx100}それで今日は なんの御用で？
+Comment: 0,0:13:14.97,0:13:16.41,Text_Bottom,,0,0,0,kara,贵干？\N用だと…？
+Comment: 0,0:13:17.25,0:13:20.71,Text_Bottom,,0,0,0,kara,我和女儿休息日去哪里玩\N娘と休日にどこで遊ぼうと
+Comment: 0,0:13:21.20,0:13:23.55,Text_Bottom,,0,0,0,kara,是我的自由吧～？\N私の勝手だろ～う？
+Comment: 0,0:13:24.11,0:13:26.23,Text_Bottom,,0,0,0,kara,是呢！对不起！\Nですね！すみません！
+Comment: 0,0:13:26.23,0:13:29.25,Text_Bottom,,0,0,0,kara,莉莉的爸爸？\Nリリーちゃんの お父さん？
+Comment: 0,0:13:29.25,0:13:31.04,Text_Bottom,,0,0,0,kara,肯定会这么想的吧\Nそう思うよね～
+Comment: 0,0:13:31.54,0:13:35.23,Text_Bottom,,0,0,0,kara,但是…{\fscx50} {\fscx100}选择这里是有理由的\Nだが…{\fscx50} {\fscx100}ここを選んだのには理由がある
+Comment: 0,0:13:35.23,0:13:36.06,Text_Bottom,,0,0,0,kara,诶？\Nえっ？
+Comment: 0,0:13:36.69,0:13:42.93,Text_Bottom,,0,0,0,kara,听说在这个游戏中心 有个图谋不轨的大学生对未成年少女出手\Nこのゲーセンで 年端も行かない少女に手を出す不届きな大学生がいると聞いてな
+Comment: 0,0:13:43.12,0:13:44.43,Text_Bottom,,1000,0,0,kara,您说什么！？\Nなんですって！？
+Comment: 0,0:13:45.18,0:13:46.14,Text_Bottom,,0,0,0,kara,在这里…\Nここで…
+Comment: 0,0:13:47.45,0:13:49.06,Text_Bottom,,0,0,0,kara,居然有这种事…\Nそんなことが…
+Comment: 0,0:13:52.24,0:13:55.19,Text_Bottom,,0,0,0,kara,要是干了亏心事会有什么下场…\Nやましいことをしてたらどうなるか…
+Comment: 0,0:13:55.19,0:13:57.07,Text_Bottom,,0,0,0,kara,嗯 我知道\Nえぇ わかってます
+Comment: 0,0:13:57.41,0:13:58.14,Text_Bottom,,0,0,0,kara,嗯…\Nんっ…
+Comment: 0,0:13:58.66,0:13:59.28,Text_Bottom,,0,0,0,kara,嗯\Nうん
+Comment: 0,0:14:00.15,0:14:02.41,Text_Bottom,,0,0,120,kara,唉 适可而止吧 爸爸\NOh stop, Dad.
+Comment: 0,0:14:03.07,0:14:05.20,Text_Bottom,,0,0,120,kara,我们赶快去玩些游戏吧\NLet's hurry up and start some games!
+Comment: 0,0:14:05.66,0:14:09.50,Text_Bottom,,0,0,120,kara,没错 莉莉 很抱歉让你久等了\NThat's right, Lily! Sorry! I've kept you waiting.
+Comment: 0,0:14:11.08,0:14:13.75,Text_Bottom,,0,0,120,kara,你想玩哪个呢\NWonder which one you want to play, huh?
+Comment: 0,0:14:14.50,0:14:16.17,Text_Bottom,,0,0,120,kara,哪一个\NWhich one...
+Comment: 0,0:14:17.25,0:14:20.88,Text_Bottom,,0,0,120,kara,是新款的男子气概考拉{与350行对应} 就这个吧\NIt's the new Mr.Manly Koala plush! Let's do this one!
+Comment: 0,0:14:21.29,0:14:24.86,Text_Bottom,,0,0,0,kara,这就是…{\fscx50} {\fscx100}所谓的抓娃娃机吧\Nこれは…{\fscx50} {\fscx100}いわゆるクレーンゲームというやつだな
+Comment: 0,0:14:25.14,0:14:26.22,Text_Bottom,,0,0,0,kara,是…{\fscx50} {\fscx100}是的…\Nは はい…
+Comment: 0,0:14:29.68,0:14:32.77,Text_Bottom,,0,0,120,kara,我会一发入魂的 看着吧 爸爸\NI'll win on the first try! Watch, Dad!
+Comment: 0,0:14:32.98,0:14:35.06,Text_Bottom,,0,0,120,kara,噢 真不愧是我的女儿\NOh! That's my girl!
+Comment: 0,0:14:35.44,0:14:36.23,Text_Bottom,,0,0,0,kara,一次！\N一発で！
+Comment: 0,0:14:36.23,0:14:37.23,Text_Bottom,,0,0,0,kara,一次…\Nイッパ…
+Comment: 0,0:14:37.23,0:14:38.25,Text_Bottom,,0,0,0,kara,一…\Nイッ…
+Comment: 0,0:14:38.74,0:14:42.71,Text_Bottom,,0,0,0,kara,一…{\fscx50} {\fscx100}一次…{\fscx50} {\fscx100}呜呜…\Nい いっぱつぅ…{\fscx50} {\fscx100}ううっ…
+Comment: 0,0:14:43.17,0:14:44.49,Text_Bottom,,0,0,0,kara,对吧～\Nだよね～
+Comment: 0,0:14:44.49,0:14:46.74,Text_Bottom,,0,0,0,kara,你～这～ 家伙～\Nキ～ サ～ マ～
+Comment: 0,0:14:47.20,0:14:52.41,Text_Bottom,,0,0,0,kara,榨取他人金钱 甚至以让人哭泣来获得愉悦\Nこうやって金銭を搾取して あまつさえ泣かせ愉悦に浸る
+Comment: 0,0:14:52.41,0:14:54.73,Text_Bottom,,500,0,0,kara,这就是这家店的真实面目吗！？\Nそれがこの店の実態か！？
+Comment: 0,0:14:55.12,0:14:57.25,Text_Bottom,,500,0,0,kara,误…{\fscx50} {\fscx100}误会啊…\Nご 誤解ですぅ…
+Comment: 0,0:14:57.65,0:14:59.13,Text_Top,,0,0,0,kara,成功啦～！\Nやった～！
+Comment: 0,0:14:59.33,0:14:59.75,Text_Bottom,,0,0,0,kara,嗯？\Nんっ？
+Comment: 0,0:15:00.35,0:15:01.12,Text_Bottom,,0,0,0,kara,看～\Nほら～
+Comment: 0,0:15:01.38,0:15:03.27,Text_Bottom,,0,0,0,kara,哇～ 好厉害呢～\Nわ～ すごいね～
+Comment: 0,0:15:03.27,0:15:05.73,Text_Bottom,,0,0,0,kara,嘿嘿 好可爱\Nエヘヘヘ かわいい
+Comment: 0,0:15:09.25,0:15:14.16,Text_Bottom,,0,0,0,kara,哼 那么 这次就由我亲自出手\Nフン ならば この私がじきじきに手を下してやる
+Comment: 0,0:15:14.88,0:15:18.02,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}您知道操作方法吗？\Nあっ…{\fscx50} {\fscx100}操作方法はわかりますか？
+Comment: 0,0:15:18.50,0:15:19.79,Text_Bottom,,0,0,0,kara,可笑！\N笑止！
+Comment: 0,0:15:19.79,0:15:24.53,Text_Bottom,,0,0,0,kara,虽然没捕猎过考拉 但我可是徒手打倒过熊的！\Nコアラを狩ったことはないが 熊ならこの手で倒したことがある！
+Comment: 0,0:15:25.77,0:15:27.78,Text_Bottom,,300,0,0,kara,这人到底在说什么啊…？\N何言ってんの この人…？
+Comment: 0,0:15:28.19,0:15:28.78,Text_Bottom,,0,0,0,kara,投！\Nヌン！
+Comment: 0,0:15:28.78,0:15:29.53,Text_Bottom,,0,0,0,kara,推！\Nトゥッ！
+Comment: 0,0:15:29.53,0:15:30.55,Text_Bottom,,0,0,0,kara,中！\Nタァッ！
+Comment: 0,0:15:31.86,0:15:32.54,Text_Bottom,,0,0,0,kara,啥？\NWhat?
+Comment: 0,0:15:36.96,0:15:40.55,Text_Bottom,,0,0,0,kara,这什么玩意儿～！\Nなんじゃこりゃ～！
+Comment: 0,0:15:40.86,0:15:43.69,Text_Bottom,,0,0,0,kara,这么绵软无力的东西 见都没见过！\Nこんな非力な物 見たことないぞっ！
+Comment: 0,0:15:43.69,0:15:49.36,Text_Bottom,,0,0,0,kara,呃 这个…{\fscx50} {\fscx100}不是夹的 是需要慢慢推出来的机型…\Nえっと これは…{\fscx50} {\fscx100}つかむんじゃなくて 少しずつ押し出していく台でして…
+Comment: 0,0:15:49.68,0:15:51.66,Text_Bottom,,0,0,0,kara,可恶啊…！\Nぐぬぬ…！
+Comment: 0,0:15:51.66,0:15:55.92,Text_Bottom,,0,0,0,kara,可恶 你这小崽子～！\Nうぉのれ ちょこざいな～っ！
+Comment: 0,0:16:16.15,0:16:17.08,Text_Bottom,,0,0,0,kara,可恶…\Nむぅ…
+Comment: 0,0:16:20.33,0:16:22.75,Text_Bottom,,0,0,0,kara,差一点…{\fscx50} {\fscx100}就差一点\Nあと少し…{\fscx50} {\fscx100}なのに
+Comment: 0,0:16:23.30,0:16:26.17,Text_Bottom,,0,0,0,kara,那个…{\fscx50} {\fscx100}还是放弃会比较…\Nあの…{\fscx50} {\fscx100}もう諦めたほうが
+Comment: 0,0:16:26.17,0:16:29.47,Text_Bottom,,0,0,120,kara,他说得对 爸爸 你已经很努力了\NHe's right! You've done enough already, Dad!
+Comment: 0,0:16:32.01,0:16:33.51,Text_Bottom,,0,0,120,kara,我很抱歉 莉莉\NI'm sorry, Lily.
+Comment: 0,0:16:34.27,0:16:36.18,Text_Bottom,,0,0,120,kara,我实在是太逊了\NI'm so uncool.
+Comment: 0,0:16:38.27,0:16:44.90,Text_Bottom,,0,0,120,kara,老实说 我也不想放弃 真的不想 但是……\NHonestly, I don't really wanna give up either... I don't want to, but...
+Comment: 0,0:16:45.99,0:16:47.40,Text_Bottom,,0,0,120,kara,我分文不剩了\NI'm all out.
+Comment: 0,0:16:54.20,0:16:55.70,Text_Bottom,,0,0,120,kara,谢谢你 爸爸\NThanks, Dad.
+Comment: 0,0:16:58.90,0:17:01.38,Text_Bottom,,0,0,0,kara,咦？居然在这里\Nあれ？こんなところに
+Comment: 0,0:17:02.24,0:17:03.88,Text_Bottom,,0,0,0,kara,掉了一枚硬币哦\N１枚 落ちてましたよ
+Comment: 0,0:17:04.17,0:17:06.71,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}你这家伙 打的什么主意…\Nあっ…{\fscx50} {\fscx100}貴様 なんのつもり…
+Comment: 0,0:17:06.71,0:17:07.70,Text_Bottom,,0,0,0,kara,太好了！\Nやった！
+Comment: 0,0:17:08.67,0:17:09.18,Text_Bottom,,0,0,0,kara,给\Nはい
+Comment: 0,0:17:09.99,0:17:11.64,Text_Bottom,,0,0,0,kara,唔…{\fscx50} {\fscx100}唔…\Nう…{\fscx50} {\fscx100}うむ…
+Comment: 0,0:18:54.17,0:18:59.63,Text_Bottom,,0,0,0,kara,耶！\NYay!
+Comment: 0,0:19:01.17,0:19:02.72,Text_Bottom,,0,0,0,kara,来…{\fscx50} {\fscx100}莉莉\Nほら…{\fscx50} {\fscx100}リリー
+Comment: 0,0:19:02.72,0:19:04.00,Text_Bottom,,0,0,0,kara,哇啊\Nわあっ
+Comment: 0,0:19:04.24,0:19:08.78,Text_Top,,0,0,0,kara,虽然终于拿到了…{\fscx50} {\fscx100}但投入的金额真不想回忆\Nようやく取れたが…{\fscx50} {\fscx100}投資した金額は思い出したくもない
+Comment: 0,0:19:09.13,0:19:12.94,Text_Top,,0,0,0,kara,你这家伙 就是一直用这种手段对待我女儿的吗！？\N貴様はいつも うちの娘に こんな仕打ちをしているのか！？
+Comment: 0,0:19:12.94,0:19:14.72,Text_Top,,0,0,0,kara,没 没有 那种…\Nい いえ そんな…
+Comment: 0,0:19:14.72,0:19:15.75,Text_Top,,0,0,0,kara,爸爸\NDad.
+Comment: 0,0:19:16.84,0:19:19.06,Text_Bottom,,0,0,120,kara,谢谢你帮我拿到它 爸爸\NThanks for getting it for me, Dad!
+Comment: 0,0:19:21.77,0:19:26.52,Text_Bottom,,0,0,120,kara,啊 这当然 只要你高兴我也开心啊 莉莉\NAh! Of course! I'm happy that you're happy, Lily!
+Comment: 0,0:19:28.05,0:19:30.86,Text_Bottom,,0,0,0,kara,这次看在莉莉笑容的份上 饶了你\N今回は リリーの笑顔に免じて 許してやる
+Comment: 0,0:19:31.25,0:19:33.76,Text_Bottom,,0,0,0,kara,但没有下次了 做好觉悟\Nだが次はないぞ 覚悟しておけ
+Comment: 0,0:19:33.76,0:19:35.34,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}好的…\Nあっ…{\fscx50} {\fscx100}はい…
+Comment: 0,0:19:35.81,0:19:37.62,Text_Bottom,,0,0,0,kara,再见～ 莲司～\Nジャネー レンジー
+Comment: 0,0:19:37.62,0:19:39.13,Text_Bottom,,0,0,0,kara,欢迎再次光临～\Nまたのお越しを～
+Comment: 0,0:19:41.11,0:19:42.81,Text_Bottom,,0,0,0,kara,好累～…\N疲れた～…
+Comment: 0,0:20:11.81,0:20:12.64,Text_Bottom,,0,0,0,kara,啊\Nあっ
+Comment: 0,0:20:12.64,0:20:13.53,Text_Bottom,,0,0,0,kara,莲司\Nレンジくん
+Comment: 0,0:20:13.81,0:20:14.36,Text_Bottom,,0,0,0,kara,啊\Nあっ
+Comment: 0,0:20:14.99,0:20:16.74,Text_Bottom,,0,0,0,kara,莉莉的爸爸\Nリリーちゃんのお父さん
+Comment: 0,0:20:16.74,0:20:19.12,Text_Bottom,,0,0,0,kara,咦？今天一个人吗？\Nあれ？今日は お一人ですか？
+Comment: 0,0:20:19.35,0:20:20.25,Text_Bottom,,0,0,0,kara,怎么？\Nなんだ？
+Comment: 0,0:20:20.59,0:20:22.58,Text_Bottom,,0,0,0,kara,我一个人来不行吗？\N私が一人で来ちゃいかんのか？
+Comment: 0,0:20:22.58,0:20:25.60,Text_Bottom,,0,0,0,kara,不 不是那个意思…\Nいえ そんなことは ありませんけど…
+Comment: 0,0:20:26.05,0:20:27.57,Text_Bottom,,0,0,0,kara,给 还你\Nほら 返すぞ
+Comment: 0,0:20:27.78,0:20:28.37,Text_Bottom,,0,0,0,kara,诶？\Nえっ？
+Comment: 0,0:20:29.55,0:20:31.88,Text_Bottom,,0,0,0,kara,啊 不用…{\fscx50} {\fscx100}没关系啦！\Nあっ いえ…{\fscx50} {\fscx100}別にいいですよ！
+Comment: 0,0:20:32.27,0:20:34.45,Text_Bottom,,0,0,0,kara,我可不想欠你人情！\N貴様に借りを作るつもりはない！
+Comment: 0,0:20:36.51,0:20:39.18,Text_Bottom,,0,0,0,kara,那个…{\fscx50} {\fscx100}您是特意为这件事来的？\Nあの…{\fscx50} {\fscx100}わざわざ このために？
+Comment: 0,0:20:39.18,0:20:39.64,Text_Bottom,,0,0,0,kara,哼！\Nフン！
+Comment: 0,0:20:39.90,0:20:42.51,Text_Bottom,,0,0,0,kara,没什么 顺便而已\Nなぁに 事のついでだ
+Comment: 0,0:20:46.41,0:20:48.31,Text_Bottom,,0,0,0,kara,今天一定要拿下它\N今日こそは しとめてくれる
+Comment: 0,0:20:50.55,0:20:51.52,Text_Bottom,,0,0,0,kara,啊啊\Nああっ
+Comment: 0,0:20:51.76,0:20:56.19,Text_Bottom,,0,0,0,kara,咦…{\fscx50} {\fscx100}那个新款的男子气概考拉昨天不是拿到了吗？\Nいや…{\fscx50} {\fscx100}あの新作漢気コアラは 昨日取ったじゃないですか？
+Comment: 0,0:20:56.19,0:20:58.66,Text_Bottom,,0,0,0,kara,那么逊咖的拿法 我不认可！\Nあんなぶざまな取り方 私は認めん！
+Comment: 0,0:20:58.87,0:21:02.66,Text_Bottom,,0,0,0,kara,这次一定要靠我自己的手拿下它！\N今度こそは 私自身のこの手で しとめてみせる！
+Comment: 0,0:21:06.62,0:21:07.69,Text_Bottom,,0,0,0,kara,哈哈哈…\Nハハハ…
+Comment: 0,0:21:08.47,0:21:11.37,Text_Bottom,,0,0,0,kara,那个…{\fscx50} {\fscx100}需要的话 给您点建议？\Nあの…{\fscx50} {\fscx100}よければアドバイスしましょうか？
+Comment: 0,0:21:11.74,0:21:12.97,Text_Bottom,,0,0,0,kara,不用多管闲事\Nいらぬ世話だ
+Comment: 0,0:21:13.37,0:21:15.42,Text_Bottom,,0,0,0,kara,用爪子推出来就行了吧？\Nクレーンで押し出せばよいのだろう？
+Comment: 0,0:21:15.67,0:21:19.15,Text_Bottom,,0,0,0,kara,没什么 只要知道诀窍 这种东西\Nなぁに コツさえわかっていれば こんなもの
+Comment: 0,0:21:19.54,0:21:20.43,Text_Bottom,,0,0,0,kara,一次…\N一発で…
+Comment: 0,0:21:20.70,0:21:21.42,Text_Bottom,,0,0,0,kara,一次…\Nいっぱ…
+Comment: 0,0:21:21.69,0:21:22.13,Text_Bottom,,0,0,0,kara,一…\Nいっ…
+Comment: 0,0:21:23.21,0:21:24.40,Text_Bottom,,0,0,0,kara,啊…\Nあぁ…
+Comment: 0,0:21:24.69,0:21:26.13,Text_Bottom,,0,0,0,kara,对吧～\Nですよね～
+Comment: 0,0:21:26.42,0:21:29.44,Text_Bottom,,0,0,0,kara,再来一次！\Nくぅぅ…{\fscx50} {\fscx100}もっかい！
+Comment: 0,0:21:29.73,0:21:33.05,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}呵呵\Nあっ…{\fscx50} {\fscx100}プッ フフッ
+Comment: 0,0:21:34.47,0:21:38.19,Text_Bottom,,0,0,0,kara,总觉得…{\fscx50} {\fscx100}一旦认准了目标就会横冲直撞这点\Nなんか…{\fscx50} {\fscx100}思い込んだら 突っ走っちゃうところとか
+Comment: 0,0:21:39.84,0:21:42.20,Text_Bottom,,0,0,0,kara,还有好胜心强这点…\N負けず嫌いなところとか…
+Comment: 0,0:21:42.55,0:21:44.51,Text_Bottom,,0,0,0,kara,果然还是父女呢\Nやっぱり親子だなぁ
+Comment: 0,0:21:44.51,0:21:45.49,Text_Bottom,,0,0,0,kara,可恶啊…\Nうぅぅ…
+Comment: 0,0:21:45.95,0:21:50.02,Text_Bottom,,0,0,0,kara,混账东西\NBlooooody heeeeeeell!
+Comment: 0,0:22:00.61,0:22:01.18,Text_Bottom,,0,0,0,kara,诶？\Nえっ？
+Comment: 0,0:22:01.47,0:22:02.15,Text_Bottom,,0,0,0,kara,诶？\Nえっ？
