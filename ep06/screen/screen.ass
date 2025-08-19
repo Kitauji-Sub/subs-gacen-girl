@@ -8,9 +8,13 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Video Zoom Percent: 0.750000
-Active Line: 34
-Video Position: 20623
+Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 06 (1080p) [17BDE207].mkv
+Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 06 (1080p) [17BDE207].mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 1.000000
+Active Line: 3
+Video Position: 22144
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -19,41 +23,71 @@ Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:01:01.32,0:01:01.32,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
-Dialogue: 0,0:02:56.15,0:02:59.11,OnScreen,Sign,0,0,0,,{\an1\c&H3D256F&\bord0\fs24\b1\frz352.1\pos(157.334,62.667)\fade(192,0)\frx6\fry6}Retro Game Center
-Dialogue: 0,0:02:56.15,0:02:59.11,OnScreen,Sign,0,0,0,,{\c&H515E60&\3c&H60EFE3&\b1\fs8\fade(192,0)\frz355.2\pos(317.333,213.333)\frx8\fry14\iclip(342,212,352,220)}Retro Game Center
-Dialogue: 0,0:02:56.15,0:02:59.11,OnScreen,Sign,0,0,0,,{\c&H515E60&\3c&H60EFE3&\b1\fs8\fade(192,0)\frz355.2\frx8\fry14\\pos(334,286.666)}Lobster
-Dialogue: 0,0:04:52.60,0:04:56.60,OnScreen,Sign,0,0,0,,{\3c&H803A30&\bord1.25\an2\fs10\t(0,4000,\fs12)\b1\fnTimes New Roman\frz270\move(408,157.333,422,151.333,25,3987)}The Battle for Control of the Natural World Begins Now!
-Dialogue: 0,0:04:52.60,0:04:56.60,OnScreen,Sign,0,0,0,,{\c&HD0F0FF&\3c&H6E6EE6&\bord1.5\blur1.5\fs10\t(0,4000,\fs12)\fnTimes New Roman\b1\move(310.667,161.999,311.333,163.333,0,3987)}Chivalry
-Dialogue: 0,0:04:52.60,0:04:56.60,OnScreen,Sign,0,0,0,,{\c&H38ADE6&\bord1.5\shad1.5\fnTimes New Roman\b1\frz8.878\fs10\t(0,4000,\fs12)\move(306,285.334,310,303.333,0,3987)}Otokogi Koala Fighters!!!
-Dialogue: 0,0:05:21.13,0:05:21.30,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs8\fnTimes New Roman\pos(191.667,263.333)\frx358\fry4}Chivalry
-Dialogue: 0,0:05:21.13,0:05:21.30,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs10\fnTimes New Roman\pos(490.667,263.333)\frx2\fry350}Chivalry
-Dialogue: 0,0:05:21.30,0:05:21.46,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs8\fnTimes New Roman\pos(191.667,265.333)\frx358\fry4}Chivalry
-Dialogue: 0,0:05:21.30,0:05:21.46,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs10\fnTimes New Roman\pos(490.667,265.333)\frx2\fry350}Chivalry
-Dialogue: 0,0:05:21.46,0:05:21.63,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs8\fnTimes New Roman\pos(191.667,267.333)\frx358\fry4}Chivalry
-Dialogue: 0,0:05:21.46,0:05:21.63,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs10\fnTimes New Roman\pos(490.667,267.333)\frx2\fry350}Chivalry
-Dialogue: 0,0:05:21.63,0:05:21.80,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs8\fnTimes New Roman\pos(191.667,265.333)\frx358\fry4}Chivalry
-Dialogue: 0,0:05:21.63,0:05:21.80,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs10\fnTimes New Roman\pos(490.667,265.333)\frx2\fry350}Chivalry
-Dialogue: 0,0:05:21.80,0:05:21.96,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs8\fnTimes New Roman\pos(191.667,263.333)\frx358\fry4}Chivalry
-Dialogue: 0,0:05:21.80,0:05:21.96,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs10\fnTimes New Roman\pos(490.667,263.333)\frx2\fry350}Chivalry
-Dialogue: 0,0:05:21.96,0:05:22.13,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs8\fnTimes New Roman\pos(191.667,265.333)\frx358\fry4}Chivalry
-Dialogue: 0,0:05:21.96,0:05:22.13,OnScreen,Sign,0,0,0,,{\c&H3B4441&\3c&H4635B3&\b1\blur0.5\bord0\fs10\fnTimes New Roman\pos(490.667,265.333)\frx2\fry350}Chivalry
-Dialogue: 0,0:06:57.31,0:07:03.81,OnScreen,Sign,0,0,0,,{\an1\c&H92F0FA&\3c&H61BCDA&\bord0.5\b1\fnImpact\fs11\frz13.01\frx12\fry328\pos(381.999,291.334)\t(3276,4736,\c&H91E5FE&)\t(3275,4736,\3c&H7AAAE1&)}Games, Print Club, Prizes,\NMedal Games, Cosplay, etc...
-Dialogue: 1,0:10:10.58,0:10:11.59,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H576F6D&\bord1\b1\frx18\fry6\frz21.44\pos(330,66.001)}Push
-Dialogue: 0,0:10:10.58,0:10:11.59,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H6495D6&\bord3\b1\frx18\fry6\frz21.44\pos(330,66.001)}Push
-Dialogue: 1,0:10:10.58,0:10:12.09,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H576F6D&\bord1\b1\pos(197.333,106)\frz18.42\frx24\fry6}Grab
-Dialogue: 0,0:10:10.58,0:10:12.09,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H6495D6&\bord3\b1\pos(197.333,106)\frz18.42\frx24\fry6}Grab
-Dialogue: 1,0:10:11.59,0:10:11.67,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H576F6D&\bord1\b1\frx18\fry6\frz21.44\pos(330,66.001)\iclip(316,65,322,71)}Push
-Dialogue: 0,0:10:11.59,0:10:11.67,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H6495D6&\bord3\b1\frx18\fry6\frz21.44\pos(330,66.001)\iclip(316,65,322,71)}Push
-Dialogue: 1,0:10:11.67,0:10:11.79,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H576F6D&\bord1\b1\frx18\fry6\frz21.44\pos(330,66.001)\iclip(319,60,322,6)}Push
-Dialogue: 0,0:10:11.67,0:10:11.79,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H6495D6&\bord3\b1\frx18\fry6\frz21.44\pos(330,66.001)\iclip(319,60,322,69)}Push
-Dialogue: 1,0:10:11.79,0:10:12.09,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H576F6D&\bord1\b1\frx18\fry6\frz21.44\pos(330,66.001)}Push
-Dialogue: 0,0:10:11.79,0:10:12.09,OnScreen,Sign,0,0,0,,{\c&HECF0F8&\3c&H6495D6&\bord3\b1\frx18\fry6\frz21.44\pos(330,66.001)}Push
-Dialogue: 0,0:10:32.02,0:10:36.99,OnScreen,Sign,0,0,0,,{\c&H000000&\3c&HFFFFFF&\b1\fnTimes New Roman\fs40\an8\fade(194,0)}Big Catch
-Dialogue: 0,0:14:11.62,0:14:20.08,OnScreen,Sign,0,0,0,,{\an3\c&H403025&\3c&HF4E8D5&\b1\pos(265,150)}Major Perv
-Dialogue: 0,0:14:11.62,0:14:22.88,OnScreen,Sign,0,0,0,,{\c&H403025&\3c&HF4E8D5&\b1\pos(415,150)}Family Ties
-Dialogue: 0,0:14:20.08,0:14:20.13,OnScreen,Sign,0,0,0,,{\an3\c&H403025&\3c&HF4E8D5&\b1\pos(265,150)\iclip(171,128,194,156)}Maj{\alpha&FF&}o{\alpha&00&}r Perv
-Dialogue: 0,0:14:20.13,0:14:20.17,OnScreen,Sign,0,0,0,,{\an3\c&H403025&\3c&HF4E8D5&\b1\pos(265,150)\iclip(229,128,242,156)}Perv
-Dialogue: 0,0:14:20.17,0:14:20.21,OnScreen,Sign,0,0,0,,{\an3\c&H403025&\3c&HF4E8D5&\b1\pos(265,150)\iclip(222,128,232,156)}Pe{\alpha&FF&}r{\alpha&00&}v
-Dialogue: 0,0:14:20.21,0:14:22.88,OnScreen,Sign,0,0,0,,{\an3\c&H403025&\3c&HF4E8D5&\b1\pos(265,150)\iclip(249,132,259,150)}erv
-Dialogue: 1,0:15:22.98,0:15:27.84,OnScreen,Sign,0,0,0,,{\c&H9F6122&\bord0.5\b1\fnTimes New Roman\fs10\frz14.64\pos(201.334,337.333)}Otokogi Koala
-Dialogue: 0,0:15:22.98,0:15:27.84,OnScreen,Sign,0,0,0,,{\c&H9F6122&\3c&HDCCBAE&\bord1.5\b1\fnTimes New Roman\fs10\frz14.64\pos(201.334,337.333)}Otokogi Koala
+Dialogue: 0,0:02:56.15,0:02:59.11,OnScreen,,0,0,0,,{=3}{\fad(193,0)\c&H317F36&\fn思源黑体\b1\fscx187.14\fscy178.91\frz-4.9427\frx1.2473\fry1.6967\org(30.61,685.94)\pos(581.44,93.71)}复{\c&HBA9251&}古{\c&H332E75&}游戏中心
+Dialogue: 0,0:02:56.15,0:02:59.11,OnScreen,,0,0,0,,{=13}{\fad(193,0)\fn思源黑体\b1\c&H654D4E&\fax0.000001\fscx65.60\fscy81.14\frz-0.7178\frx-0.7161\fry2.7418\org(1162.23,1541.5)\pos(950.52,702.84)}复古游戏中心
+Dialogue: 0,0:02:56.15,0:02:59.11,OnScreen,,0,0,0,,{=14}{\fad(193,0)\fn思源黑体\b1\c&H654D4E&\fax0.000001\fscx66.89\fscy81.86\frz-0.5756\frx-0.7098\fry2.7160\org(1096.5,1557.06)\pos(947.04,976.68)}伊势龙虾
+Dialogue: 0,0:04:52.60,0:04:56.60,OnScreen,track,0,0,0,,{=39}{\clip()\alpha&H00&\fn@MiSans\frz270\t(26,3988,\frz270)\an8\fscx100\t(26,3988,\fscx114.63)\fscy100\t(26,3988,\fscy114.63)\move(573,386,516.76,377.92,26,3988)\3c&H923C21&\bord4\t(26,3988,\bord4.59)\c&HFEF8F5&}赌上大自然霸权的战斗现在一触即发！
+Dialogue: 0,0:04:52.60,0:04:56.60,OnScreen,track,0,0,0,,{=38}{\clip()\fscx100\t(26,3988,\fscx114.63)\fscy100\t(26,3988,\fscy114.63)\alpha&H00&\fn仓耳周珂正大榜书\frz5.7\t(26,3988,\frz5.7)\c&H2D94EA&\3c&H0F0E11&\bord3\t(26,3988,\bord3.44)\move(1124.57,791.73,1149,843.01,26,3988)}男子气概考拉斗士！！！
+Dialogue: 0,0:06:57.31,0:07:03.81,OnScreen,,0,0,0,,{=22}{\alpha&H00&\fn思源黑体\b1\an7\c&H8AE9FC&\3c&H82C0F1&\fax-0.000002\fscx108.40\fscy121.44\frz-0.2625\frx-0.1274\fry-5.0284\xbord3.31\ybord3.37\org(1252.03,1887.67)\pos(1112.83,746.94)}街机·夹娃娃机·奖品\N投币游戏·角色扮演 etc...
+Dialogue: 0,0:10:10.59,0:10:12.09,OnScreen,,0,0,0,,{=35}{\fn思源黑体\b1\c&HEFEEF1&\fax0.208512\fscx185.27\fscy151.12\frz16.9773\frx3.5352\fry-0.0173\org(709.11,156.64)\pos(701.38,186.86)\3c&H103E58&\bord3}抓取
+Dialogue: 0,0:10:10.59,0:10:12.09,OnScreen,,0,0,0,,{=37}{\fn思源黑体\b1\c&HEFEEF1&\3c&H103E58&\fax0.273571\fscx176.70\fscy147.58\frz16.9780\frx3.6195\fry-0.0179\xbord2.86\ybord2.93\org(1103.45,36.19)\pos(1093.78,65.71)}放下
+Dialogue: 0,0:10:32.02,0:10:32.07,OnScreen,track-15163,0,0,0,,{=41}{\alpha&H00&\fn仓耳周珂正大榜书\frz16.52\fscx150\fscy150\pos(109,421.21)\c&H010101&\3c&HFFFFFF&\bord4}大
+Dialogue: 0,0:10:32.07,0:10:32.11,OnScreen,track-15163,0,0,0,,{=41}{\alpha&H00&\fn仓耳周珂正大榜书\frz16.52\fscx150\fscy150\pos(109,528.46)\c&H010101&\3c&HFFFFFF&\bord4}大
+Dialogue: 0,0:10:32.11,0:10:32.15,OnScreen,track-15163,0,0,0,,{=41}{\alpha&H00&\fn仓耳周珂正大榜书\frz16.52\fscx150\fscy150\pos(109,626.33)\c&H010101&\3c&HFFFFFF&\bord4}大
+Dialogue: 0,0:10:32.15,0:10:32.19,OnScreen,track-15163,0,0,0,,{=41}{\alpha&H00&\fn仓耳周珂正大榜书\frz16.52\fscx150\fscy150\pos(109,678.29)\c&H010101&\3c&HFFFFFF&\bord4}大
+Dialogue: 0,0:10:32.19,0:10:32.23,OnScreen,track-15163,0,0,0,,{=41}{\alpha&H00&\fn仓耳周珂正大榜书\frz16.52\fscx150\fscy150\pos(109,695.58)\c&H010101&\3c&HFFFFFF&\bord4}大
+Dialogue: 0,0:10:32.23,0:10:36.99,OnScreen,track-15163,0,0,0,,{=41}{\alpha&H00&\fn仓耳周珂正大榜书\frz16.52\fscx150\fscy150\pos(109,698)\c&H010101&\3c&HFFFFFF&\bord4}大
+Dialogue: 0,0:10:32.02,0:10:32.07,OnScreen,track-15163,0,0,0,,{=40}{\alpha&H00&\fn仓耳周珂正大榜书\fscx150\fscy150\c&H010101&\3c&HFFFFFF&\bord4\frz340.5\pos(1771,423.21)}丰收
+Dialogue: 0,0:10:32.07,0:10:32.11,OnScreen,track-15163,0,0,0,,{=40}{\alpha&H00&\fn仓耳周珂正大榜书\fscx150\fscy150\c&H010101&\3c&HFFFFFF&\bord4\frz340.5\pos(1771,530.46)}丰收
+Dialogue: 0,0:10:32.11,0:10:32.15,OnScreen,track-15163,0,0,0,,{=40}{\alpha&H00&\fn仓耳周珂正大榜书\fscx150\fscy150\c&H010101&\3c&HFFFFFF&\bord4\frz340.5\pos(1771,628.33)}丰收
+Dialogue: 0,0:10:32.15,0:10:32.19,OnScreen,track-15163,0,0,0,,{=40}{\alpha&H00&\fn仓耳周珂正大榜书\fscx150\fscy150\c&H010101&\3c&HFFFFFF&\bord4\frz340.5\pos(1771,680.29)}丰收
+Dialogue: 0,0:10:32.19,0:10:32.23,OnScreen,track-15163,0,0,0,,{=40}{\alpha&H00&\fn仓耳周珂正大榜书\fscx150\fscy150\c&H010101&\3c&HFFFFFF&\bord4\frz340.5\pos(1771,697.58)}丰收
+Dialogue: 0,0:10:32.23,0:10:36.99,OnScreen,track-15163,0,0,0,,{=40}{\alpha&H00&\fn仓耳周珂正大榜书\fscx150\fscy150\c&H010101&\3c&HFFFFFF&\bord4\frz340.5\pos(1771,700)}丰收
+Dialogue: 0,0:14:11.62,0:14:20.05,OnScreen,,0,0,0,,{\fn@MiSans\frz270\an8\fscx300\fscy300\c&H432E22&\3c&HFBE9D9&\bord5\move(315,393,315,5324.5,0,12000)}超级变态　　超级变态　　超级变态　　超级变态　　超级变态　　超级变态　　超级变态　　超级变态　　超级变态　　超级变态　　超级变态　　超级变态　　超级变态　　超级变态　　超级变态　　超级变态　　超级变态
+Dialogue: 0,0:14:11.62,0:14:22.88,OnScreen,,0,0,0,,{\fn@MiSans\frz270\an2\fscx300\fscy300\c&H432E22&\3c&HFBE9D9&\bord5\move(1620,393,1620,-4538.5,0,12000)}家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系　　家人关系
+Dialogue: 1,0:15:22.99,0:15:27.82,OnScreen,,0,0,0,,{\fn仓耳周珂正大榜书\fscx80\fscy80\frz11.5\pos(617.14,1013.23)\c&HA96214&\3c&H1A252E&\bord1}男子气概考拉{\c&H4EAFFA&}ACT
+Dialogue: 0,0:15:22.99,0:15:27.82,OnScreen,,0,0,0,,{\fn仓耳周珂正大榜书\fscx80\fscy80\frz11.5\pos(617.14,1013.23)\c&HA96214&\3c&HDEE1E3&\bord2.5\blur0.1.2.3.4.5}男子气概考拉{\c&H4EAFFA&}ACT
+
+[Aegisub Extradata]
+Data: 0,_aegi_perspective_ambient_plane,e379.25;90.00#7C708.75;120.00#7C708.75;200.00#7C377.25;200.00
+Data: 1,_aegi_perspective_ambient_plane,e379.25;90.00#7C708.75;120.00#7C708.75;200.00#7C363.25;350.00
+Data: 2,_aegi_perspective_ambient_plane,e379.25;90.00#7C708.75;120.00#7C1030.75;430.00#7C363.25;350.00
+Data: 3,_aegi_perspective_ambient_plane,e379.25;90.00#7C1032.75;184.00#7C1030.75;430.00#7C363.25;350.00
+Data: 4,_aegi_perspective_ambient_plane,e845.25;614.00#7C1112.75;730.00#7C1112.75;810.00#7C781.25;810.00
+Data: 5,_aegi_perspective_ambient_plane,e845.25;614.00#7C1042.75;642.00#7C1112.75;810.00#7C781.25;810.00
+Data: 6,_aegi_perspective_ambient_plane,e845.25;614.00#7C1042.75;642.00#7C1112.75;810.00#7C845.25;922.00
+Data: 7,_aegi_perspective_ambient_plane,e845.25;614.00#7C1042.75;642.00#7C1042.75;942.00#7C845.25;922.00
+Data: 8,_aegi_perspective_ambient_plane,e847.41;611.62#7C1042.75;642.00#7C1042.75;942.00#7C845.25;922.00
+Data: 9,_aegi_perspective_ambient_plane,e847.41;611.62#7C1043.19;640.66#7C1042.75;942.00#7C845.25;922.00
+Data: 10,_aegi_perspective_ambient_plane,e847.41;611.62#7C1043.19;640.66#7C1042.75;942.00#7C847.07;919.17
+Data: 11,_aegi_perspective_ambient_plane,e847.41;611.62#7C1043.19;640.66#7C1040.72;939.15#7C847.07;919.16
+Data: 12,_aegi_perspective_ambient_plane,e847.41;611.62#7C1043.20;640.66#7C1040.72;939.15#7C847.07;919.16
+Data: 13,_aegi_perspective_ambient_plane,e847.41;611.62#7C1043.20;640.66#7C1040.72;939.14#7C847.07;919.15
+Data: 14,_aegi_perspective_ambient_plane,e847.41;611.62#7C1043.20;640.66#7C1040.72;939.13#7C847.07;919.14
+Data: 15,_aegi_perspective_ambient_plane,e998.83;502.45#7C1394.49;370.66#7C1395.30;504.66#7C718.80;1045.06
+Data: 16,_aegi_perspective_ambient_plane,e720.83;896.45#7C1394.49;370.66#7C1395.30;504.66#7C718.80;1045.06
+Data: 17,_aegi_perspective_ambient_plane,e720.83;896.45#7C1394.49;370.66#7C1457.30;854.66#7C718.80;1045.06
+Data: 18,_aegi_perspective_ambient_plane,e720.83;896.45#7C1458.49;660.66#7C1457.30;854.66#7C718.80;1045.06
+Data: 19,_aegi_perspective_ambient_plane,e719.75;896.88#7C1458.49;660.66#7C1457.30;854.66#7C718.80;1045.06
+Data: 20,_aegi_perspective_ambient_plane,e719.75;896.88#7C1458.49;660.65#7C1457.31;854.66#7C719.77;1054.23
+Data: 21,_aegi_perspective_ambient_plane,e719.75;896.88#7C1458.50;658.49#7C1457.31;854.66#7C719.76;1054.23
+Data: 22,_aegi_perspective_ambient_plane,e719.75;896.88#7C1458.49;658.49#7C1457.31;854.66#7C719.76;1054.23
+Data: 23,_aegi_perspective_ambient_plane,e585.75;218.00#7C814.25;218.00#7C814.25;298.00#7C703.75;298.00
+Data: 24,_aegi_perspective_ambient_plane,e585.75;218.00#7C814.25;218.00#7C814.25;298.00#7C465.75;900.00
+Data: 25,_aegi_perspective_ambient_plane,e31.75;364.00#7C814.25;218.00#7C814.25;298.00#7C465.75;900.00
+Data: 26,_aegi_perspective_ambient_plane,e31.75;364.00#7C814.25;218.00#7C814.25;298.00#7C305.75;978.00
+Data: 27,_aegi_perspective_ambient_plane,e31.75;364.00#7C814.25;218.00#7C1218.25;672.00#7C305.75;978.00
+Data: 28,_aegi_perspective_ambient_plane,e31.75;364.00#7C1460.25;-70.00#7C1218.25;672.00#7C305.75;978.00
+Data: 29,_aegi_perspective_ambient_plane,e31.75;364.00#7C1460.26;-70.00#7C1856.25;452.00#7C305.75;978.00
+Data: 30,_aegi_perspective_ambient_plane,e31.75;364.00#7C1451.49;-68.25#7C1856.25;452.00#7C305.75;978.00
+Data: 31,_aegi_perspective_ambient_plane,e31.75;364.00#7C1451.49;-68.25#7C1861.51;449.37#7C305.75;978.00
+Data: 32,_aegi_perspective_ambient_plane,e31.75;364.00#7C1451.49;-68.25#7C1861.51;449.37#7C313.38;984.54
+Data: 33,_aegi_perspective_ambient_plane,e30.68;364.81#7C1451.49;-68.25#7C1861.51;449.37#7C313.38;984.54
+Data: 34,_aegi_perspective_ambient_plane,e30.68;364.81#7C1451.51;-68.26#7C1861.52;449.37#7C313.38;984.53
+Data: 35,_aegi_perspective_ambient_plane,e30.68;364.81#7C1451.51;-68.26#7C1861.51;449.37#7C313.38;984.52
+Data: 36,_aegi_perspective_ambient_plane,e30.68;364.81#7C1451.50;-68.25#7C1861.50;449.37#7C313.39;984.51
+Data: 37,_aegi_perspective_ambient_plane,e30.67;364.81#7C1451.50;-68.25#7C1861.48;449.37#7C313.40;984.50
+Data: 38,a-mo,u?S*V>7FE)DIC94.F:$2D.G%N-75Q/3UU-T.D,7%W-W-N-W2E9D5T/$"E.4ER)CQC<X*J:WFO97R5:8BU)DIC?VR=:G\EOZ0IA,0FE;DHDY,GL;0FJ+@GJJTEO;:=8':S?D5O.VR=9S:)-E1Z.%6"*FR=-W-G3$"'-%5R-3:=8'*P=G1T8&RQ<X-I-4%S.#YV.SQX/4%O.T-J@??5N_7NE/;QF/;GAOC!A_;,C?;7F_7DK__]A?_]A?_]A3*^
+Data: 39,a-mo,u?S*V>7FE)DIC:4FG-'1V-TEN-G)R/#UU9W9V,4FC-$!N9W6B.W%Z:$AQ9T!S)CQC<X*J:WFO97R5:8BU)DIC?VR=:GZ!47F497ZT8&RG=HIS.T"=8'&O/&R=:H.D?$%Q-&R=:H.D?4%Q-&R=='^T+$5X-SQT/$9J8&QT9S:)/4)T1T)R*FR=9G^S:$2=8'-G3%:&2DB'.3:^[,7-Z,C+Z;3H[)?KZY3W[:SYZJW$ZZK%ZIC9ZJ;8ZY[QZ:SIZ,C![+?GZ9WTZ9_2\\S")HU
+Data: 40,a-mo,u?S*V>7FE)DIC:'1V.'9W9D!N:$9R93UU-D5V,4FE9G%N9T-W.$"B.'*C.T1V)CQC<X*J:WFO97R5:8BU)DIC?VR=:G\EOZ0IA,0FE;DHDY,GL;0FJ+@GJJTEO;:=8':T9XAR.4"=8':T9XER.4"=8'-G3$!R-$%Q-3:=8$.D*EB'2E:'2E9G8&RC<X*E.&R=:H*[-T1Q,D6=8("P=SAR.T=R,$=Q-#F^Z,CQZJ3W)HU
+Data: 41,a-mo,u?S*V>7FE)DIC.$%R-'1S.75N9W)V:3UU:4)Q,7%V94!N.D2B:4.F-4=V-W&C)CQC<X*J:WFO97R5:8BU)DIC?VR=:G\EOZ0IA,0FE;DHDY,GL;0FJ+@GJJTEO;:=8':S?D%W,D5S8&RG=W.Y-45Q8&RG=W.Z-45Q8&RQ<X-I-4!Z,$9Z/#F=8'-G3$!R-$%Q-3:=8$.D*EB'2E:'2E9G8&RC<X*E.(XFJ+=C@1
