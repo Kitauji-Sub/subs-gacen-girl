@@ -12,10 +12,10 @@ Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka
 Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 07 (1080p) [8B3AE26A].mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.750000
-Scroll Position: 213
-Active Line: 11
-Video Position: 113
+Video Zoom Percent: 0.625000
+Scroll Position: 315
+Active Line: 319
+Video Position: 25023
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -189,7 +189,7 @@ Dialogue: 0,0:09:01.55,0:09:02.51,Text_Bottom,,0,0,0,,喂\Nなぁ…
 Dialogue: 0,0:09:02.97,0:09:06.01,Text_Bottom,,0,0,0,,班长你为什么要偷偷跟来？\Nなんで委員長さんは➡ コソコソついてきてるんだ？
 Dialogue: 0,0:09:06.23,0:09:06.81,Text_Bottom,,0,0,0,,啊！\Nハッ！
 Dialogue: 0,0:09:07.36,0:09:09.66,Text_Bottom,,0,0,0,,普通地一起来不就好了\N普通に一緒に来ればいいのに
-Dialogue: 0,0:09:09.74,0:09:11.36,Text_Bottom,,0,0,120,,\NYou're just like a ninja!
+Dialogue: 0,0:09:09.74,0:09:11.36,Text_Bottom,,0,0,120,,你跟个忍者似的！\NYou're just like a ninja!
 Dialogue: 0,0:09:12.06,0:09:14.86,Text_Bottom,,0,0,0,,这么说也对\Nこ これは そのですね…
 Dialogue: 0,0:09:16.65,0:09:20.46,Text_Bottom,,0,0,0,,上次来的时候 还不知道这里是否能学到东西\Nこの前 来たときじゃ➡ ここが勉強になるか わからなかったですから➡
 Dialogue: 0,0:09:20.46,0:09:25.83,Text_Bottom,,0,0,0,,为了确认是否真的有益 要接触所有事物 如果一次无法理解 就要多次挑战\N本当にためになるのか ありとあらゆるものに触れて 一度で理解できなければ 何度でも挑戦し
@@ -253,7 +253,7 @@ Dialogue: 0,0:12:08.34,0:12:11.21,Text_Bottom,,0,0,0,,那个 打工太忙了 总
 Dialogue: 0,0:12:11.21,0:12:12.40,Text_Bottom,,0,0,0,,那就辞了\Nじゃあバイト辞めろ
 Dialogue: 0,0:12:12.40,0:12:14.58,Text_Bottom,,0,0,0,,真是的 乱说些什么呢\Nもう ムチャクチャ言わないの
 Dialogue: 0,0:12:14.74,0:12:15.76,Text_Bottom,,0,0,0,,莲司\NＲｅｎｊｉ！
-Dialogue: 0,0:12:15.76,0:12:18.09,Text_Bottom,,0,0,120,,有什么新的考拉商品吗？\NAny new Mr. Koala stuff today?
+Dialogue: 0,0:12:15.76,0:12:18.09,Text_Bottom,,0,0,120,,有新的考拉周边到货吗？\NAny new Mr. Koala stuff today?
 Dialogue: 0,0:12:18.33,0:12:20.34,Text_Bottom,,0,0,0,,\Nんっ？ ああ
 Dialogue: 0,0:12:20.34,0:12:22.88,Text_Bottom,,0,0,0,,进了些小物件和玩偶一类的东西\N小物とかぬいぐるみとか➡ いろいろ入ってるよ
 Dialogue: 0,0:12:23.13,0:12:24.39,Text_Bottom,,0,0,0,,太好啦！\Nやった～！
@@ -268,7 +268,7 @@ Dialogue: 0,0:12:46.31,0:12:48.63,Text_Bottom,,0,0,0,,莉莉也想这么说吧\N
 Dialogue: 0,0:12:49.58,0:12:50.65,Text_Bottom,,0,0,0,,原来如此\Nなるほど…
 Dialogue: 0,0:12:51.11,0:12:52.40,Text_Bottom,,0,0,0,,有一定道理啊\N一理ありますね
 Dialogue: 0,0:12:52.66,0:12:54.37,Text_Bottom,,0,0,0,,这居然也能接受啊\N《それで納得しちゃうんだ！？》
-Dialogue: 0,0:12:54.71,0:12:57.63,Text_Bottom,,0,0,120,,好 我来教你怎么玩\NAll right! I'll show you how to play!
+Dialogue: 0,0:12:54.71,0:12:57.63,Text_Bottom,,0,0,120,,好吧 我来给你露一手！\NAll right! I'll show you how to play!
 Dialogue: 0,0:12:57.82,0:12:59.10,Text_Bottom,,0,0,0,,好\Nは… はい！
 Dialogue: 0,0:13:04.50,0:13:06.07,Text_Bottom,,0,0,0,,这位置挺好呀\Nいい位置なんじゃない？
 Dialogue: 0,0:13:06.07,0:13:07.39,Text_Bottom,,0,0,0,,说的是\Nそうですよね！
@@ -346,8 +346,8 @@ Dialogue: 0,0:17:11.69,0:17:12.35,Text_Bottom,,0,0,0,,咦？\Nあっ… あれ�
 Dialogue: 0,0:17:12.81,0:17:14.96,Text_Bottom,,0,0,0,,那个还没玩吧\N（葵衣）それ まだやってないよね
 Dialogue: 0,0:17:15.23,0:17:16.54,Text_Bottom,,0,0,0,,这是…\N（蛍）あっ これは…
 Dialogue: 0,0:17:17.43,0:17:18.75,Text_Bottom,,0,0,0,,「大头贴」？\N「プリクラ」…
-Dialogue: 0,0:17:20.56,0:17:22.98,Text_Bottom,,0,0,120,,哦 是叫照相亭吧\NOh, it's called a photo booth  ね
-Dialogue: 0,0:17:23.63,0:17:27.37,Text_Bottom,,0,0,0,,Photo booth？英语是这么叫的啊\Nフォトブース？ へぇ 英語でそう言うんだ
+Dialogue: 0,0:17:20.56,0:17:22.98,Text_Bottom,,0,0,120,,哦 我们管这个叫「照相亭」\NOh, it's called a photo booth  ね
+Dialogue: 0,0:17:23.63,0:17:27.37,Text_Bottom,,0,0,0,,{ruby=Photo booth}照相亭{/ruby}？英语是这么叫的啊\Nフォトブース？ へぇ 英語でそう言うんだ
 Dialogue: 0,0:17:27.69,0:17:28.91,Text_Bottom,,0,0,0,,大家一起拍吧\Nみんなで撮ろう！
 Dialogue: 0,0:17:28.91,0:17:29.89,Text_Bottom,,0,0,0,,好啊\Nいいね！
 Dialogue: 0,0:17:30.94,0:17:33.95,Text_Bottom,,0,0,0,,那个…我是很想拍\Nその… 私も撮りたいんですが…
