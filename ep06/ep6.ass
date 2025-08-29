@@ -14,7 +14,8 @@ Keyframes File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ib
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 1.000000
-Active Line: 16
+Scroll Position: 359
+Active Line: 374
 Video Position: 33927
 
 [V4+ Styles]
@@ -397,12 +398,12 @@ Comment: 0,0:21:25.11,0:21:26.24,Text_Bottom,,0,0,0,kara,诶！？\Nえぇ！？
 Comment: 0,0:21:30.06,0:21:31.57,Text_Bottom,,0,0,0,kara,早啊～！\Nおっはよ～！
 Comment: 0,0:21:31.57,0:21:32.77,Text_Bottom,,0,0,0,kara,早上好\Nオハヨー
 Comment: 0,0:21:33.61,0:21:34.98,Text_Bottom,,0,0,0,kara,早上好\Nおはよう
-Comment: 0,0:21:34.98,0:21:37.25,Text_Bottom,,0,0,0,kara,什么啊 葵衣 这不是挺有精神的嘛\Nなんだ葵衣 元気になってるじゃん
-Comment: 0,0:21:37.54,0:21:40.74,Text_Bottom,,0,0,0,kara,难得那么安静 我可担心了\N珍しく 静かだったから 心配してたんだよ
-Comment: 0,0:21:40.74,0:21:43.79,Text_Top,,0,0,0,kara,抱歉抱歉 已经恢复原样了！\Nごめんごめん もう いつもどおりだから！
+Comment: 0,0:21:34.98,0:21:37.25,Text_Bottom,,0,0,0,kara,什么啊 葵衣 你这不是挺有精神的嘛\Nなんだ葵衣 元気になってるじゃん
+Comment: 0,0:21:37.54,0:21:40.74,Text_Bottom,,0,0,0,kara,看你难得那么安静 我们可担心了\N珍しく 静かだったから 心配してたんだよ
+Comment: 0,0:21:40.74,0:21:43.79,Text_Top,,0,0,0,kara,抱歉抱歉 我已经恢复正常啦！\Nごめんごめん もう いつもどおりだから！
 Comment: 0,0:21:44.02,0:21:47.28,Text_Bottom,,600,0,0,kara,太好了 两位都恢复精神了呢\Nよかった ２人とも 元気になったみたいですね
 Comment: 0,0:21:47.53,0:21:49.75,Text_Bottom,,600,0,0,kara,虽然我什么也没能帮上\N私は何もできませんでしたが
-Comment: 0,0:21:50.18,0:21:54.00,Text_Top,,0,0,0,kara,不过 要是还像昨天那样 去游戏中心就有点尴尬了 太好了～\Nでも あのまんまだと ゲーセン行きにくかったから よかったよ～
+Comment: 0,0:21:50.18,0:21:54.00,Text_Top,,0,0,0,kara,不过还好 要是气氛还像之前那样 我就没法去游戏中心了\Nでも あのまんまだと ゲーセン行きにくかったから よかったよ～
 Comment: 0,0:21:54.00,0:21:54.75,Text_Bottom,,0,600,0,kara,啊…\Nあっ…
 Comment: 0,0:21:55.60,0:21:56.81,Text_Bottom,,0,0,0,kara,游戏中心？\Nゲーセン？
 Comment: 0,0:22:02.29,0:22:03.30,Text_Bottom,,0,0,0,kara,难道\Nまさか
