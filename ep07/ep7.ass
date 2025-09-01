@@ -13,10 +13,10 @@ Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka
 Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 07 (1080p) [8B3AE26A].mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 1.000000
-Scroll Position: 399
-Active Line: 416
-Video Position: 113
+Video Zoom Percent: 0.750000
+Scroll Position: 153
+Active Line: 168
+Video Position: 13567
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -81,7 +81,7 @@ Comment: 0,0:01:37.35,0:01:38.65,Text_Bottom,,0,0,0,kara,至…{\fscx50} {\fscx1
 Comment: 0,0:01:40.49,0:01:42.61,Text_Bottom,,0,0,0,kara,你是班长…{\fscx50} {\fscx100}对吧？\N委員長さん… だったか？
 Comment: 0,0:01:43.67,0:01:47.70,Text_Bottom,,0,0,0,kara,看来你因为头脑太顽固 没看清事情的本质啊\N頭が固いばっかりに 事の本質が見えてねえようだ
 Comment: 0,0:01:47.70,0:01:49.46,Text_Bottom,,0,0,0,kara,你…{\fscx50} {\fscx100}你说什么！\Nな… なんですって！
-Comment: 0,0:01:50.91,0:01:56.29,Text_Bottom,,0,0,0,kara,对她来说 去游戏中心也算是正儿八经的异文化交流的一环啊！\Nコイツにとっては ゲーセンに行くのも 立派な異文化交流の➡ 一環なんだぜ！
+Comment: 0,0:01:50.91,0:01:56.29,Text_Bottom,,0,0,0,kara,对她来说 去游戏中心也算是正儿八经的异文化交流的一环啊！\Nコイツにとっては ゲーセンに行くのも 立派な異文化交流の一環なんだぜ！
 Comment: 0,0:01:56.55,0:01:57.10,Text_Bottom,,0,0,0,kara,嗯？\Nんっ？
 Comment: 0,0:01:57.47,0:01:58.22,Text_Bottom,,0,0,0,kara,诶…？\Nえっ…？
 Comment: 0,0:01:58.22,0:02:01.73,Text_Bottom,,0,0,0,kara,不是只有坐在书桌前念书才叫学习\N机の上に座って 学ぶだけが勉強じゃねえ
@@ -144,7 +144,7 @@ Comment: 0,0:06:28.66,0:06:29.60,Text_Bottom,,0,0,0,kara,啊\Nあっ…
 Comment: 0,0:06:29.81,0:06:33.44,Text_Bottom,,0,0,0,kara,这样啊…{\fscx50} {\fscx100}错了也没关系…\Nそ そっか… 間違えてもいいんだ…
 Comment: 0,0:06:33.86,0:06:37.66,Text_Bottom,,0,0,0,kara,这既不是上课也不是做题…{\fscx50} {\fscx100}只是游戏而已…\N勉強でも おけいこでもない… ゲームだから…
 Comment: 0,0:06:40.46,0:06:41.67,Text_Bottom,,0,0,0,kara,你们说得对\Nそうですね
-Comment: 0,0:06:42.49,0:06:45.99,Text_Bottom,,0,0,0,kara,莉莉同学 我很抱歉！\Nリリーさん！ ア… アイムソーリー！
+Comment: 0,0:06:42.49,0:06:45.99,Text_Bottom,,0,0,0,kara,莉莉同学 {ruby=I'm sorry}我很抱歉{/ruby}！\Nリリーさん！ ア… アイムソーリー！
 Comment: 0,0:06:48.07,0:06:50.27,Text_Bottom,,0,0,0,kara,没关系 我们答下一题吧！\Nあっ… いいよ～！ 次いこ～！
 Comment: 0,0:06:50.64,0:06:51.33,Text_Bottom,,0,0,0,kara,诶\Nえっ…
 Comment: 0,0:06:52.18,0:06:53.50,Text_Bottom,,0,0,0,kara,啊 好\Nあっ はいっ
@@ -195,7 +195,8 @@ Comment: 0,0:09:07.36,0:09:09.74,Text_Bottom,,0,0,0,kara,直接跟我们一起�
 Comment: 0,0:09:09.74,0:09:11.36,Text_Bottom,,0,0,120,kara,你简直就像个忍者一样！\NYou're just like a ninja!
 Comment: 0,0:09:12.06,0:09:15.03,Text_Bottom,,0,0,0,kara,这么说也对\Nこ これは そのですね…
 Comment: 0,0:09:16.65,0:09:20.46,Text_Bottom,,0,0,0,kara,上次来的时候 我还不确定这里能不能学到知识\Nこの前 来たときじゃ ここが勉強になるか わからなかったですから
-Comment: 0,0:09:20.46,0:09:25.83,Text_Bottom,,0,0,0,kara,所以这次我得把所有东西都尝试一遍 看看是不是真有收获 如果一次搞不懂 就多挑战几次\N本当にためになるのかありとあらゆるものに触れて 一度で理解できなければ 何度でも挑戦し
+Comment: 0,0:09:20.46,0:09:23.13,Text_Bottom,,0,0,0,kara,所以这次我得把所有东西都尝试一遍 看看是不是真有收获\N本当にためになるのかありとあらゆるものに触れて
+Comment: 0,0:09:23.13,0:09:25.83,Text_Bottom,,0,0,0,kara,如果一次搞不懂 就多挑战几次\N一度で理解できなければ 何度でも挑戦し
 Comment: 0,0:09:25.83,0:09:28.17,Text_Bottom,,0,0,0,kara,我就是为了把事情彻底搞懂才来的！\Nより詳しく調べるべく 来ただけですよ！
 Comment: 0,0:09:28.17,0:09:30.30,Text_Bottom,,0,0,0,kara,突…{\fscx50} {\fscx100}突然开始长篇大论！\Nきゅ 急に すごい語りだした！
 Comment: 0,0:09:30.75,0:09:35.82,Text_Bottom,,0,0,0,kara,其实为了今天 我把游戏中心里会出现的游戏类型预习过了\N実は今日のために ゲーセンにどんなゲームがあるのか 予習してきたんです
