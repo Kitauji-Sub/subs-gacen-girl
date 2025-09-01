@@ -8,14 +8,15 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
+Last Style Storage: Default
 Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 07 (1080p) [8B3AE26A].mkv
 Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 07 (1080p) [8B3AE26A].mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.750000
-Scroll Position: 393
-Active Line: 412
-Video Position: 31276
+Video Zoom Percent: 1.000000
+Scroll Position: 399
+Active Line: 416
+Video Position: 113
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -24,420 +25,422 @@ Style: Text_Top,獅尾圓體SC-Bold,55,&H00F0F0F0,&H000000FF,&H00444444,&H000000
 Style: note,思源黑体,50,&H00F0F0F0,&H000000FF,&H002F2F2F,&H00000000,-1,0,0,0,100,100,1.1,0,1,3,0,7,50,10,70,1
 Style: Credit,獅尾圓體SC-Bold,45,&H00F0F0F0,&H000000FF,&H002F2F2F,&H00000000,-1,0,0,0,100,100,1.1,0,1,3,0,8,10,10,30,1
 Style: Title_this,思源黑体 Heavy,65,&H00CF863B,&H000000FF,&H00FFFFFF,&H0005DAFD,0,0,0,0,100,100,0,0,1,3,3.8,6,10,10,30,1
-Style: Title_next,12×16莫妮卡圆像素,64,&H00CF863B,&H000000FF,&H00FFFFFF,&H0005DAFD,0,0,0,0,100,100,0,0,1,3,3.8,8,10,10,30,1
+Style: Title_next,Zpix,48,&H00CF863B,&H000000FF,&H00FFFFFF,&H0005DAFD,0,0,0,0,100,100,0,0,1,3,3.8,8,10,10,30,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:02:46.29,0:02:46.29,Text_Bottom,,0,0,0,import-shifted,../op.ass
 Comment: 0,0:22:04.93,0:22:04.97,Text_Bottom,,0,0,0,import-shifted,../ed.ass
 Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,import,screen/screen.ass
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,settings,0,0,0,code once style Text_Bottom style Text_Top,_zh_jp_gap = 42; _zh_jp_gap_top = 63; jp_font_name="獅尾圓體JP-Bold"; jp_scale = 67; ruby_scale =60; ruby_gap=10; reverse_top = true;
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,utils,0,0,0,code once style Text_Bottom style Text_Top,local re = require('re') local function safe_text_extents(style, text)     if aegisub and aegisub.text_extents then         return aegisub.text_extents(style, text)     else         return 0, 0, 0, 0     end end local function gmatch(str, pattern)     local matches = {}     for match, start_idx, end_idx in re.gfind(str, pattern) do         local groups = re.match(match, pattern)         if not groups then             groups = {}         end         for i = 1, #groups do           groups[i]["first"] = groups[i]["first"] + start_idx - 1           groups[i]["last"] = groups[i]["last"] + start_idx - 1         end         table.insert(matches, groups)     end     return matches end function remove_tags(text)     if not text then return "" end     return re.sub(text, "\\{[^}]*\\}", "", 0) end local function extract_rubys(text, style)     local rubys = {}     if not text then return rubys end          local current_pos = 0     local clean_text = ""     local original_text = text          for _, ruby_match in _G.ipairs(gmatch(original_text, "\\{ruby=([^}]+)\\}([^{]*?)\\{/ruby\\}")) do         local ruby_text = ruby_match[2].str         local annotated_text = ruby_match[3].str                  local before_text = string.sub(original_text, 1, ruby_match[1].first - 1)         local clean_before_text = remove_tags(before_text)                  local clean_annotated_text = remove_tags(annotated_text)         local annotated_width = 0         if clean_annotated_text ~= "" then             local width, height, descent, ext_lead = safe_text_extents(style, clean_annotated_text)             annotated_width = width or 0         end                  local before_width = 0         if clean_before_text ~= "" then             local width, height, descent, ext_lead = safe_text_extents(style, clean_before_text)             before_width = width or 0         end                  local ruby_pos = before_width + annotated_width / 2                  table.insert(rubys, {             text = ruby_text,             pos = ruby_pos         })                  clean_text = clean_text .. string.sub(before_text, current_pos + 1) .. annotated_text         current_pos = ruby_match[2].last     end          return rubys end function process_bilingual_subtitle(raw_text, style)     if not raw_text or raw_text == "" then         return {             chinese = {text = "", width = 0, height = 0},             japanese = {text = "", width = 0, height = 0},             ruby = {}         }     end          local parts = re.split(raw_text, "\\\\N")          local chinese_text = ""     local japanese_text = ""          if #parts >= 1 then         chinese_text = parts[1] or ""     end     if #parts >= 2 then         japanese_text = parts[2] or ""     end          local rubys = extract_rubys(chinese_text, style)          local chinese_clean = remove_tags(chinese_text)     chinese_clean = re.sub(chinese_clean, "\\{ruby=[^}]+\\}([^{]*?)\\{/ruby\\}", "%1", 0)          local chinese_width, chinese_height = 0, 0     if chinese_clean ~= "" then         local width, height, descent, ext_lead = safe_text_extents(style, chinese_clean)         chinese_width = width or 0         chinese_height = height or 0     end          local japanese_clean = remove_tags(japanese_text)     local japanese_width, japanese_height = 0, 0     if japanese_clean ~= "" then         local width, height, descent, ext_lead = safe_text_extents(style, japanese_clean)         japanese_width = width or 0         japanese_height = height or 0     end        return {         text = chinese_text,         width = chinese_width,         height = chinese_height       },       {         text = japanese_text,         width = japanese_width,         height = japanese_height       },       rubys end
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,gv,0,0,0,code line style Text_Bottom style Text_Top,chinese, japanese, rubys = process_bilingual_subtitle(orgline.text, orgline.styleref); has_chinese = chinese ~= nil; has_japanese = japanese ~= nil; has_ruby = false; if rubys then for k, ruby in _G.ipairs(rubys) do has_ruby=true end end; zh_jp_gap = japanese and _zh_jp_gap or 0; zh_jp_gap_top = japanese and _zh_jp_gap_top or 0; line_left = (meta.res_x - orgline.eff_margin_l - orgline.eff_margin_r - chinese.width) / 2 + orgline.eff_margin_l; is_top = orgline.styleref.align == 8; local c_pos_x, c_pos_y, j_pos_x, j_pos_y, ruby_pos_y if is_top then   if reverse_top then     if has_ruby then       c_pos_x, c_pos_y = orgline.center, (orgline.top + ruby_gap + (chinese.height * ruby_scale / 100))       j_pos_x, j_pos_y = orgline.center, (orgline.top + ruby_gap + (chinese.height * ruby_scale / 100) + zh_jp_gap_top)       ruby_pos_y = orgline.top     else       c_pos_x, c_pos_y = orgline.center, orgline.top       j_pos_x, j_pos_y = orgline.center, (orgline.top + zh_jp_gap_top)       ruby_pos_y = 0     end   else     c_pos_x, c_pos_y = orgline.center, (orgline.top + zh_jp_gap_top)     j_pos_x, j_pos_y = orgline.center, orgline.top     ruby_pos_y = orgline.bottom + zh_jp_gap_top + ruby_gap   end else   c_pos_x, c_pos_y = orgline.center, (orgline.bottom - zh_jp_gap)   j_pos_x, j_pos_y = orgline.center, orgline.bottom   ruby_pos_y = orgline.top - zh_jp_gap - ruby_gap end chinese_pos_tag = [[\pos(]] .. c_pos_x .. [[,]] .. c_pos_y .. [[)]] japanese_pos_tag = [[\pos(]] .. j_pos_x .. [[,]] .. j_pos_y .. [[)]] ruby_y = ruby_pos_y
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bottom style Text_Top notext if has_chinese,!relayer(9)!{!chinese_pos_tag!}!chinese.text!
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bottom style Text_Top notext if has_japanese,!relayer(8)!{!japanese_pos_tag!\fscx!jp_scale!\fscy!jp_scale!\fn!jp_font_name!}!remove_tags(japanese.text)!
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bottom style Text_Top notext if has_ruby,!relayer(9)!{!maxloop("ruby", #rubys)!\pos(!line_left + rubys[loopctx.state.ruby].pos!,!ruby_y!)\fscx!ruby_scale!\fscy!ruby_scale!\bord!line.styleref.outline * 0.8!}!rubys[loopctx.state.ruby].text!
 Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,CREDIT
-Dialogue: 0,0:00:00.00,0:00:00.00,Credit,6s,0,0,0,,{\fad(300,300)}本字幕由北宇治字幕组制作 仅供交流试看之用 TG@KitaUji
-Dialogue: 0,0:00:00.00,0:00:00.00,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}翻译：彬云醒芽（日）KuronekoS（英）　校对：残焰
-Dialogue: 0,0:00:00.00,0:00:00.00,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}长期招募翻译/时轴  招募群: 232487445  观众群: 884738299\N{\fscx80\fscy80}版本：${version}　 https://github.com/Kitauji-Sub/subs-gacen-girl
+Dialogue: 0,0:04:15.11,0:04:21.11,Credit,6s,0,0,0,,{\fad(300,300)}本字幕由北宇治字幕组制作 仅供交流试看之用 TG@KitaUji
+Dialogue: 0,0:04:15.11,0:04:18.11,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}翻译：彬云醒芽、D.C.（日） KuronekoS（英）　校对：残焰
+Dialogue: 0,0:04:18.11,0:04:21.11,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}长期招募翻译/时轴  招募群: 232487445  观众群: 884738299\N{\fscx80\fscy80}版本：${version}　 https://github.com/Kitauji-Sub/subs-gacen-girl
 Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TITLE
 Dialogue: 0,0:04:15.11,0:04:19.07,Title_this,This,0,0,0,,{\fad(477,477)\pos(1810,915)}#07 有劳无逸让萤变成傻姑娘了！
-Dialogue: 0,0:23:34.94,0:23:39.94,Title_next,Next,0,0,0,,{\pos(960,620)}Happy Birthday to You
+Dialogue: 0,0:23:34.94,0:23:39.94,Title_next,Next,0,0,0,,{\pos(960,620)}祝你生日快乐
 Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TEXT
-Dialogue: 0,0:00:04.70,0:00:06.30,Text_Bottom,,0,0,0,,早啊～！\Nおっはよ～！
-Dialogue: 0,0:00:06.30,0:00:07.57,Text_Bottom,,0,0,0,,早上好\Nオハヨー
-Dialogue: 0,0:00:07.57,0:00:08.95,Text_Bottom,,0,0,0,,早上好\Nおはよう
-Dialogue: 0,0:00:08.95,0:00:11.42,Text_Bottom,,0,0,0,,什么啊 葵衣 你这不是挺有精神的嘛\Nなんだ葵衣元気になってるじゃん
-Dialogue: 0,0:00:11.54,0:00:14.78,Text_Bottom,,0,0,0,,看你难得那么安静 我们可担心了\N珍しく静かだったから 心配してたんだよ
-Dialogue: 0,0:00:14.78,0:00:17.77,Text_Bottom,,0,0,0,,抱歉抱歉 我已经恢复正常啦！\Nごめんごめん もう いつもどおりだから！
-Dialogue: 0,0:00:18.29,0:00:22.03,Text_Bottom,,0,0,0,,莉莉之前也因为担心葵衣 没什么精神呢\Nリリーちゃんも 葵衣を気にして 元気なかったんだから
-Dialogue: 0,0:00:22.23,0:00:25.70,Text_Bottom,,0,0,0,,别太让莉莉困扰啊 男朋友同学~\Nあんま リリーちゃんを困らせんなよ 彼氏さ～ん
-Dialogue: 0,0:00:25.81,0:00:27.29,Text_Bottom,,0,0,0,,谁是她男朋友啊！\N誰が彼氏じゃい！
-Dialogue: 0,0:00:31.34,0:00:34.45,Text_Bottom,,0,0,0,,太好了 两位都恢复精神了呢\Nよかった… ２人とも 元気になったんですね
-Dialogue: 0,0:00:35.35,0:00:39.20,Text_Bottom,,0,0,0,,不过还好 要是气氛还像之前那样 我就没法去游戏中心了\Nでも あのまんまだと ゲーセン行きにくかったから よかったよ～
-Dialogue: 0,0:00:40.42,0:00:41.28,Text_Bottom,,0,0,0,,啊\Nあっ…
-Dialogue: 0,0:00:42.62,0:00:43.61,Text_Bottom,,0,0,0,,游戏中心？\Nゲーセン？
-Dialogue: 0,0:00:45.30,0:00:46.31,Text_Bottom,,0,0,0,,难道说\Nまさか…
-Dialogue: 0,0:00:49.35,0:00:51.68,Text_Bottom,,0,0,0,,咱们今天放学后也去游戏中心吗？\N学校終わったら 今日もゲーセン行く？
-Dialogue: 0,0:00:51.98,0:00:52.98,Text_Bottom,,0,0,0,,去～！\N行く～！
-Dialogue: 0,0:00:53.30,0:00:54.62,Text_Bottom,,0,0,0,,加贺同学也来吗？\N加賀さんも来るの？
-Dialogue: 0,0:00:54.89,0:00:55.79,Text_Bottom,,0,0,0,,是啊\Nまあな
-Dialogue: 0,0:00:56.51,0:00:57.84,Text_Bottom,,0,0,0,,你们给我站住！\Nちょっと あなたたち！
-Dialogue: 0,0:00:57.84,0:00:58.65,Text_Bottom,,0,0,0,,啊？\Nあっ？
-Dialogue: 0,0:01:01.03,0:01:03.93,Text_Bottom,,0,0,0,,难道说 你们打算去游戏中心吗！？\Nもしかして ゲーセンに 行くつもりなのですか！？
-Dialogue: 0,0:01:04.03,0:01:06.15,Text_Bottom,,0,0,0,,班…班长…！\Nい 委員長…！
-Dialogue: 0,0:01:06.66,0:01:10.69,Text_Bottom,,0,0,0,,我最近一直有从{ruby=家长教师联谊会}PTA{/ruby}那里收到报告\Nかねてより PTAの方たちから ご報告は受けていたのです
-Dialogue: 0,0:01:11.03,0:01:14.56,Text_Bottom,,0,0,0,,说有我校的学生 在游戏中心聚众玩耍\N我が校の生徒が ゲーセンに たむろしているということを
-Dialogue: 0,0:01:14.73,0:01:15.27,Text_Bottom,,0,0,0,,呜…\Nうっ…
-Dialogue: 0,0:01:15.59,0:01:20.51,Text_Bottom,,0,0,0,,没想到那竟然是我们班的 莉莉同学和草壁同学…\Nそれがまさか うちのクラスの リリーさん 草壁さん…
-Dialogue: 0,0:01:21.89,0:01:23.84,Text_Bottom,,0,0,0,,竟然是你们…\Nあなたたちだったなんて…
-Dialogue: 0,0:01:24.82,0:01:27.99,Text_Bottom,,0,0,0,,太悲伤了！太难受了！令人扼腕叹息！\N悲しい！ つらい！ 嘆かわしい！
-Dialogue: 0,0:01:27.99,0:01:29.49,Text_Bottom,,0,0,0,,也太激动了吧！\N勢いがすごい！
-Dialogue: 0,0:01:29.59,0:01:33.90,Text_Bottom,,0,0,0,,没那么夸张吧…校规也没有明令禁止啊\Nそんな大げさな… 校則で禁止されてるならともかく
-Dialogue: 0,0:01:34.19,0:01:37.14,Text_Bottom,,0,0,0,,不对！ 你们就是一群异类！\N いいえ！あなたたちは 非常識の権化です！
-Dialogue: 0,0:01:37.35,0:01:38.65,Text_Bottom,,0,0,0,,至…至于吗！？\Nそ そこまで！？
-Dialogue: 0,0:01:40.49,0:01:42.61,Text_Bottom,,0,0,0,,你是班长…对吧？\N委員長さん… だったか？
-Dialogue: 0,0:01:43.67,0:01:47.70,Text_Bottom,,0,0,0,,看来你因为头脑太顽固 没看清事情的本质啊\N頭が固いばっかりに 事の本質が見えてねえようだ
-Dialogue: 0,0:01:47.70,0:01:49.41,Text_Bottom,,0,0,0,,你…你说什么！\Nな… なんですって！
-Dialogue: 0,0:01:50.91,0:01:56.29,Text_Bottom,,0,0,0,,对她来说 去游戏中心也算是正儿八经的异文化交流的一环啊！\Nコイツにとっては ゲーセンに行くのも 立派な異文化交流の➡ 一環なんだぜ！
-Dialogue: 0,0:01:56.55,0:01:57.10,Text_Bottom,,0,0,0,,嗯？\Nんっ？
-Dialogue: 0,0:01:57.60,0:01:58.05,Text_Bottom,,0,0,0,,诶…？\Nえっ…？
-Dialogue: 0,0:01:58.22,0:02:01.55,Text_Bottom,,0,0,0,,不是只有坐在书桌前念书才叫学习\N机の上に座って 学ぶだけが勉強じゃねえ
-Dialogue: 0,0:02:01.73,0:02:05.90,Text_Bottom,,0,0,0,,对从国外来的莉莉来说 所有地方都是学习的场所\N海外から来たコイツにとっては すべてが学びの場なのさ
-Dialogue: 0,0:02:06.17,0:02:09.78,Text_Bottom,,0,0,0,,可…可是 就算这样 也没必要特意去游戏中心吧\Nで でも だからって わざわざゲーセンに行かなくたって
-Dialogue: 0,0:02:09.91,0:02:13.60,Text_Bottom,,0,0,0,,所～以～说～ 我们是带她去了各种各样的地方啊\Nだ か ら～ いろんな場所に 連れてってんだよ
-Dialogue: 0,0:02:13.86,0:02:16.66,Text_Bottom,,0,0,0,,只是碰巧在游戏中心的时候被看到了而已\Nたまたま ゲーセンにいるときに 見られただけだ
-Dialogue: 0,0:02:16.93,0:02:19.79,Text_Bottom,,0,0,0,,原…原来如此…？\Nな… なるほど…？
-Dialogue: 0,0:02:20.62,0:02:22.41,Text_Bottom,,0,0,0,,那就这样 回见啦\Nじゃ そういうことだから
-Dialogue: 0,0:02:22.69,0:02:23.91,Text_Bottom,,0,0,0,,我们走吧\Nさぁ行こうぜ
-Dialogue: 0,0:02:24.37,0:02:26.40,Text_Bottom,,0,0,0,,请…请等一下！\Nま… 待ってください！
-Dialogue: 0,0:02:26.85,0:02:27.46,Text_Bottom,,0,0,0,,嗯？\Nんっ？
-Dialogue: 0,0:02:28.77,0:02:33.26,Text_Bottom,,0,0,0,,既然如此 我也跟你们去游戏中心 应该没问题吧？\Nでしたら 私もゲーセンについていっても 問題ないはずですよね？
-Dialogue: 0,0:02:33.42,0:02:34.10,Text_Bottom,,0,0,0,,啥！？\Nはぁ！？
-Dialogue: 0,0:02:34.64,0:02:38.48,Text_Bottom,,0,0,0,,作为班长 我要去亲眼确认看看 \N委員長として あなたたちが どんな勉強をしてるのか
-Dialogue: 0,0:02:38.48,0:02:40.34,Text_Bottom,,0,0,0,,你们到底在学习些什么！\Nしかと見させていただきます！
-Dialogue: 0,0:02:42.39,0:02:44.37,Text_Bottom,,0,0,0,,诶～！？\Nえぇ～っ！？
-Dialogue: 0,0:04:34.34,0:04:36.31,Text_Bottom,,0,0,0,,你怎么呆住了？\Nどうしたの？ ボーッとして
-Dialogue: 0,0:04:36.31,0:04:40.43,Text_Bottom,,0,0,0,,没…没什么 我只是觉得比想象中要普通呢\Nい… いえ 案外普通だなと思いまして
-Dialogue: 0,0:04:40.66,0:04:42.86,Text_Bottom,,0,0,0,,你没来过游戏中心吗\Nゲーセン 来たことなかったのか
-Dialogue: 0,0:04:43.34,0:04:45.09,Text_Bottom,,0,0,0,,你以为会是什么样的地方？\Nどんなのだと思ってたの？
-Dialogue: 0,0:04:45.46,0:04:47.71,Text_Bottom,,0,0,0,,嗯～ 更像是…\Nう～ん もっとこう…
-Dialogue: 0,0:04:48.50,0:04:50.17,Text_Bottom,,0,0,0,,喂喂喂？！\Nオラオラオラ！
-Dialogue: 0,0:04:50.17,0:04:51.30,Text_Bottom,,0,0,0,,噫\Nひぃ～
-Dialogue: 0,0:04:51.65,0:04:52.82,Text_Bottom,,0,0,0,,像这种感觉\Nこういう感じかと
-Dialogue: 0,0:04:52.89,0:04:54.91,Text_Bottom,,0,0,0,,我可没见过那样的小混混\Nそんな不良 見たことないよ！？
-Dialogue: 0,0:04:54.91,0:04:57.10,Text_Bottom,,0,0,0,,我觉得抱有这种偏见不太好哦\N偏見はどうかと思うぜ
-Dialogue: 0,0:04:57.10,0:04:58.10,Text_Bottom,,0,0,0,,呜…\Nうぅ…
-Dialogue: 0,0:04:58.35,0:05:00.27,Text_Bottom,,0,0,0,,我承认我确实有偏见！\N偏見があったことは認めます！
-Dialogue: 0,0:05:01.06,0:05:01.99,Text_Bottom,,0,0,0,,但是…\Nですが…
-Dialogue: 0,0:05:02.35,0:05:05.71,Text_Bottom,,0,0,0,,在这种满是游戏的地方 我才不信能学得进去什么东西呢\Nこんな ゲームだらけの場で 勉強できるとは思えませんね！
-Dialogue: 0,0:05:06.01,0:05:07.30,Text_Bottom,,0,0,0,,她为什么一脸得意…\Nなぜ ドヤ顔…
-Dialogue: 0,0:05:08.10,0:05:11.66,Text_Bottom,,0,0,0,,嗯…有没有能学习知识的游戏呢\Nう～ん 勉強ができそうなゲームかぁ
-Dialogue: 0,0:05:12.25,0:05:13.99,Text_Bottom,,0,0,0,,你们的话我都听到了！\N話は聞かせてもらった！
-Dialogue: 0,0:05:13.99,0:05:15.03,Text_Bottom,,0,0,0,,莲司！\Nレンジ！
-Dialogue: 0,0:05:15.03,0:05:15.94,Text_Bottom,,0,0,0,,老哥！？\N兄ちゃん！？
-Dialogue: 0,0:05:16.23,0:05:17.26,Text_Bottom,,0,0,0,,店员？\N店員さん…？
-Dialogue: 0,0:05:17.51,0:05:20.89,Text_Bottom,,0,0,0,,能学习的游戏的话 这里正好有一款哦！\N勉強ができるゲームなら ちょうどいいのがあるよ！
-Dialogue: 0,0:05:21.22,0:05:21.94,Text_Bottom,,0,0,0,,诶！？\Nえっ！？
-Dialogue: 0,0:05:26.61,0:05:27.68,Text_Bottom,,0,0,0,,这是…\Nこれは…
-Dialogue: 0,0:05:28.03,0:05:29.33,Text_Bottom,,0,0,0,,问答游戏？\Nクイズゲーム？
-Dialogue: 0,0:05:29.85,0:05:33.35,Text_Bottom,,0,0,0,,诶 玩这个的话 好像确实能学到知识呢\Nへぇ～ 確かに これなら 勉強になりそうね
-Dialogue: 0,0:05:33.77,0:05:36.18,Text_Bottom,,0,0,0,,这里面有各种领域的谜题\Nいろんなジャンルのクイズがあって
-Dialogue: 0,0:05:36.18,0:05:39.19,Text_Bottom,,0,0,0,,可以选择和朋友合作 或者对战的玩法\N友達と協力したり 対戦したりできるんだ
-Dialogue: 0,0:05:39.19,0:05:40.53,Text_Bottom,,0,0,0,,诶～！\Nへぇ～！
-Dialogue: 0,0:05:40.82,0:05:43.53,Text_Bottom,,0,0,0,,反正我们是第一次玩 就选合作模式吧\Nまぁ初めてだし 協力プレイでいくか
-Dialogue: 0,0:05:44.15,0:05:46.38,Text_Bottom,,0,0,0,,谁知道答案就去按按钮这样的感觉\Nわかったヤツから ボタンを押していく感じで
-Dialogue: 0,0:05:46.59,0:05:47.54,Text_Bottom,,0,0,0,,好主意\Nそうね
-Dialogue: 0,0:05:47.83,0:05:48.71,Text_Bottom,,0,0,0,,好～！\Nは～い！
-Dialogue: 0,0:05:52.54,0:05:58.30,Text_Bottom,,0,0,0,,谚语「藏头露尾」的由来是什么动物？\Nことわざ「頭隠して尻隠さず」の由来となった動物はなんでしょう？
-Comment: 0,0:05:53.78,0:05:58.30,Text_Bottom,,0,0,0,,熊猫 野鸡 猴子 考拉\Nパンダ キジ サル コアラ
-Dialogue: 0,0:05:58.90,0:06:03.25,Text_Bottom,,0,0,0,,我虽然知道这个谚语本身…但从没在意过它的出处\Nことわざ自体は知ってるけど…語源なんて気にしたこともない
-Dialogue: 0,0:06:03.43,0:06:05.78,Text_Bottom,,0,0,0,,大…大家知道答案吗\Nみ みんな わかるのかしら
-Dialogue: 0,0:06:08.10,0:06:10.78,Text_Bottom,,0,0,0,,诶！？ 莉莉同学懂这句谚语吗！？\Nえっ！？ リリーさん ことわざがわかるの！？
-Dialogue: 0,0:06:13.82,0:06:14.65,Text_Bottom,,0,0,0,,考拉？\Nコアラ？
-Dialogue: 0,0:06:17.70,0:06:21.30,Text_Bottom,,0,0,0,,等…日本的谚语里 怎么可能出现考拉嘛！？\Nちょっ… 日本のことわざでコアラが出てくるわけないでしょう！？
-Dialogue: 0,0:06:21.30,0:06:22.90,Text_Bottom,,0,0,0,,啊…对不起！\Nあぁ… ごめんなさい！
-Dialogue: 0,0:06:23.31,0:06:25.03,Text_Bottom,,0,0,0,,嘛 没关系啦\Nまぁ いいじゃねえか
-Dialogue: 0,0:06:25.03,0:06:28.50,Text_Bottom,,0,0,0,,就是就是 只是游戏而已 答错了也没关系～\Nそうそう ゲームなんだし 間違えてもいいよ～
-Dialogue: 0,0:06:28.66,0:06:29.60,Text_Bottom,,0,0,0,,啊\Nあっ…
-Dialogue: 0,0:06:29.81,0:06:33.44,Text_Bottom,,0,0,0,,这样啊…错了也没关系…\Nそ そっか… 間違えてもいいんだ…
-Dialogue: 0,0:06:33.86,0:06:37.66,Text_Bottom,,0,0,0,,这既不是上课也不是做题…只是游戏而已…\N勉強でも おけいこでもない… ゲームだから…
-Dialogue: 0,0:06:40.46,0:06:41.81,Text_Bottom,,0,0,0,,你们说得对\Nそうですね
-Dialogue: 0,0:06:42.49,0:06:45.99,Text_Bottom,,0,0,0,,莉莉同学 我很抱歉！\Nリリーさん！ ア… アイムソーリー！
-Dialogue: 0,0:06:48.07,0:06:50.19,Text_Bottom,,0,0,0,,没关系 我们答下一题吧！\Nあっ… いいよ～！ 次いこ～！
-Dialogue: 0,0:06:50.64,0:06:51.33,Text_Bottom,,0,0,0,,诶\Nえっ…
-Dialogue: 0,0:06:52.18,0:06:53.50,Text_Bottom,,0,0,0,,啊 好\Nあっ はいっ
-Dialogue: 0,0:06:56.01,0:07:01.44,Text_Bottom,,0,0,0,,戴在手腕上的装饰品叫作手镯 那么戴在脚踝上的装饰品叫作什么呢？\N手首につける装飾品はブレスレットですが、足首につける装飾品はなんでしよう?
-Comment: 0,0:06:58.93,0:07:01.44,Text_Bottom,,0,0,0,,脚链 项链 袜子 床垫\Nアンクレット ネックレス くつした マットレス
-Dialogue: 0,0:07:01.99,0:07:02.99,Text_Bottom,,0,0,0,,脚链\Nアンクレット！
-Dialogue: 0,0:07:04.32,0:07:05.21,Text_Bottom,,0,0,0,,回答正确\N正解！
-Dialogue: 0,0:07:06.95,0:07:10.89,Text_Bottom,,0,0,0,,「旷工」来源于法语的哪个词？\N「サボる」という言葉はなんというフランス語が由来でしょう？
-Comment: 0,0:07:10.37,0:07:10.89,Text_Bottom,,0,0,0,,肥皂 怠工 破坏 仙人掌\Nサボン サボタージュ サボウル サボテン
-Dialogue: 0,0:07:10.89,0:07:11.98,Text_Bottom,,0,0,0,,{ruby=Sabotage}怠工{/ruby}\Nサボタージュ！
-Dialogue: 0,0:07:13.01,0:07:13.71,Text_Bottom,,0,0,0,,回答正确\N正解！
-Dialogue: 0,0:07:14.07,0:07:14.98,Text_Bottom,,0,0,0,,漂亮！\NNice!
-Dialogue: 0,0:07:14.98,0:07:16.46,Text_Bottom,,0,0,0,,这你都知道啊！\Nよくわかったね！
-Dialogue: 0,0:07:16.46,0:07:17.79,Text_Bottom,,0,0,0,,小意思啦！\N楽勝よ！
-Dialogue: 0,0:07:17.79,0:07:19.68,Text_Top,,0,0,0,,没想到你还挺会答的嘛\N思いのほかやるじゃない
-Dialogue: 0,0:07:19.68,0:07:21.69,Text_Top,,0,0,0,,我在漫画里有看到过这个啊\N漫画で見たことあんだよな
-Dialogue: 0,0:07:21.69,0:07:22.90,Text_Top,,0,0,0,,诶 原来是这样啊\Nえ そうなんだ
-Dialogue: 0,0:07:17.79,0:07:19.68,Text_Bottom,,0,0,0,,大家都好厉害！\Nみんなすごい！
-Dialogue: 0,0:07:19.68,0:07:22.90,Text_Bottom,,0,0,0,,只有我还一题都没答对过呢！\Nまだ私だけ 一問も答えられてない！
-Dialogue: 0,0:07:26.14,0:07:32.58,Text_Bottom,,0,0,0,,「音乐的三要素」指的是节奏 旋律和什么？\N「音楽の三要素」といえば、リズムとメロディとあとなんでしょう？
-Comment: 0,0:07:27.41,0:07:32.58,Text_Bottom,,0,0,0,,四重奏 和声 交响乐 管弦乐队\Nカルテット ハ一モ二一 シンフォニー オーケストラ
-Dialogue: 0,0:07:34.46,0:07:35.18,Text_Bottom,,0,0,0,,啊！\Nハッ！
-Dialogue: 0,0:07:36.02,0:07:36.99,Text_Bottom,,0,0,0,,是和声！\Nハーモニー！
-Dialogue: 0,0:07:42.23,0:07:42.98,Text_Bottom,,0,0,0,,回答正确！\N正解！
-Dialogue: 0,0:07:43.10,0:07:44.27,Text_Bottom,,0,0,0,,啊！\Nあぁ！
-Dialogue: 0,0:07:46.65,0:07:47.85,Text_Bottom,,0,0,0,,闯关成功！\Nステージクリア！
-Dialogue: 0,0:07:48.38,0:07:49.68,Text_Bottom,,0,0,0,,耶！\NYeah！
-Dialogue: 0,0:07:49.68,0:07:53.17,Text_Bottom,,0,0,0,,莉…莉莉同学！ 不过是个游戏 反应不用那么夸张啦…\Nリ リリーさん！ ゲームくらいで そんな大げさな…
-Dialogue: 0,0:07:53.34,0:07:56.55,Text_Bottom,,0,0,0,,说什么呢 你不是也玩得很投入嘛\N何言ってんだ しっかり楽しんでたじゃねえか
-Dialogue: 0,0:07:56.72,0:07:59.11,Text_Bottom,,0,0,0,,你答对的时候看起来很开心呢～\N正解できて うれしそうだったもんね～
-Dialogue: 0,0:07:59.11,0:07:59.69,Text_Bottom,,0,0,0,,那\Nそ
-Dialogue: 0,0:08:00.53,0:08:01.58,Text_Bottom,,0,0,0,,那是因为\Nそれはっ…
-Dialogue: 0,0:08:01.58,0:08:03.42,Text_Bottom,,0,0,0,,班长好厉害！\Nイインチョー すごい！
-Dialogue: 0,0:08:03.42,0:08:05.75,Text_Bottom,,0,0,0,,只是碰巧能答对而已\N正解できたのは たまたまで
-Dialogue: 0,0:08:05.75,0:08:07.25,Text_Bottom,,0,0,0,,别那么害羞嘛！\Nてれるな てれるな！
-Dialogue: 0,0:08:07.25,0:08:08.75,Text_Bottom,,0,0,0,,我才…才没害羞呢！\Nて てれてません！
-Dialogue: 0,0:08:09.10,0:08:10.83,Text_Bottom,,0,0,0,,不过 真亏你知道呢\Nでも よくわかったね～！
-Dialogue: 0,0:08:10.83,0:08:13.05,Text_Bottom,,0,0,0,,那是因为之前上课外班时碰巧有学到…\Nそれは 習い事でたまたま…
-Dialogue: 0,0:08:13.05,0:08:16.23,Text_Bottom,,0,0,0,,班长好厉害！好厉害！ 哦呼\Nいいんちょスゴイ！ スゴイ！ フフッ
-Dialogue: 0,0:08:24.43,0:08:25.73,Text_Bottom,,0,0,0,,今天也去游戏中心吗？\N今日 ゲーセン行く？
-Dialogue: 0,0:08:26.08,0:08:28.62,Text_Bottom,,0,0,0,,嗯…我零花钱可能有点紧张了\Nう～ん おこづかいピンチかも
-Dialogue: 0,0:08:28.82,0:08:30.27,Text_Bottom,,0,0,0,,你们给我站住！\Nちょっと あなたたち！
-Dialogue: 0,0:08:30.27,0:08:31.13,Text_Bottom,,0,0,0,,嗯\Nんっ？
-Dialogue: 0,0:08:33.21,0:08:36.14,Text_Bottom,,0,0,0,,今…今天你们不去吗？\Nきょ… 今日は行かないんですか？
-Dialogue: 0,0:08:36.83,0:08:38.62,Text_Bottom,,0,0,0,,游…游戏中心\Nゲ ゲーセン…
-Dialogue: 0,0:08:38.62,0:08:40.59,Text_Bottom,,0,0,0,,她看起来超想去的样子！\Nメッチャ行きたそう！
-Dialogue: 0,0:09:01.55,0:09:02.51,Text_Bottom,,0,0,0,,喂\Nなぁ…
-Dialogue: 0,0:09:02.97,0:09:06.01,Text_Bottom,,0,0,0,,班长你为什么要鬼鬼祟祟的？\Nなんで委員長さんはコソコソついてきてるんだ？
-Dialogue: 0,0:09:06.23,0:09:06.81,Text_Bottom,,0,0,0,,啊！\Nハッ！
-Dialogue: 0,0:09:07.36,0:09:09.66,Text_Bottom,,0,0,0,,直接跟我们一起走不就好了\N普通に一緒に来ればいいのに
-Dialogue: 0,0:09:09.74,0:09:11.36,Text_Bottom,,0,0,120,,你简直就像个忍者一样！\NYou're just like a ninja!
-Dialogue: 0,0:09:12.06,0:09:14.86,Text_Bottom,,0,0,0,,这么说也对\Nこ これは そのですね…
-Dialogue: 0,0:09:16.65,0:09:20.46,Text_Bottom,,0,0,0,,上次来的时候 我还不确定这里能不能学到知识\Nこの前 来たときじゃ ここが勉強になるか わからなかったですから
-Dialogue: 0,0:09:20.46,0:09:25.83,Text_Bottom,,0,0,0,,所以这次我得把所有东西都尝试一遍 看看是不是真有收获 如果一次搞不懂 就多挑战几次\N本当にためになるのかありとあらゆるものに触れて 一度で理解できなければ 何度でも挑戦し
-Dialogue: 0,0:09:25.83,0:09:28.17,Text_Bottom,,0,0,0,,我就是为了把事情彻底搞懂才来的！\Nより詳しく調べるべく 来ただけですよ！
-Dialogue: 0,0:09:28.17,0:09:30.31,Text_Bottom,,0,0,0,,突…突然开始长篇大论！\Nきゅ 急に すごい語りだした！
-Dialogue: 0,0:09:30.75,0:09:35.82,Text_Bottom,,0,0,0,,其实为了今天 我把游戏中心里会出现的游戏类型预习过了\N実は今日のために ゲーセンにどんなゲームがあるのか 予習してきたんです
-Dialogue: 0,0:09:36.55,0:09:38.89,Text_Bottom,,0,0,0,,班长干劲满满啊\N委員長 すっごい張り切ってる
-Dialogue: 0,0:09:38.89,0:09:40.05,Text_Bottom,,0,0,0,,真行啊！\Nやるわね！
-Dialogue: 0,0:09:40.05,0:09:42.77,Text_Bottom,,0,0,0,,格斗游戏 代币游戏 抓娃娃机 …\N格ゲーにメダルゲーにクレーンゲーム…
-Dialogue: 0,0:09:43.13,0:09:44.81,Text_Bottom,,0,0,0,,嗯 这里基本都有\Nまっ だいたいここにあるな
-Dialogue: 0,0:09:45.14,0:09:46.38,Text_Bottom,,0,0,0,,真的吗！？\N本当ですか！？
-Dialogue: 0,0:09:46.38,0:09:47.90,Text_Bottom,,0,0,0,,我们全都玩一遍吧～！\N全部やろ～！
-Dialogue: 0,0:09:47.90,0:09:49.99,Text_Bottom,,0,0,0,,那我们按顺序一个个玩过去吧\Nじゃ 順番に回っていこっか
-Dialogue: 0,0:09:57.98,0:10:00.43,Text_Bottom,,0,0,0,,诶 你打得还不赖嘛…\Nへぇ… 筋は悪くねえ…
-Dialogue: 0,0:10:00.43,0:10:01.42,Text_Bottom,,0,0,0,,但是\Nだが
-Dialogue: 0,0:10:01.97,0:10:04.30,Text_Bottom,,0,0,0,,想赢咱还早了一百年呢！\Nウチに勝つのは１００年早ぇな！
-Dialogue: 0,0:10:07.65,0:10:09.05,Text_Bottom,,0,0,0,,K.O.！\N Ｋ．Ｏ．！
-Dialogue: 0,0:10:09.52,0:10:11.50,Text_Bottom,,0,0,0,,啊～ 输啦～！\Nたは～ 負けた～！
-Dialogue: 0,0:10:11.50,0:10:15.31,Text_Bottom,,0,0,0,,师父 好厉害！葵衣也很努力了！\Nししょー すご～い！ アオイも頑張った！
-Dialogue: 0,0:10:15.71,0:10:18.32,Text_Bottom,,0,0,0,,加贺 你的手部动作真厉害！\N加賀さん すごい手の動きでした！
-Dialogue: 0,0:10:18.87,0:10:20.98,Text_Bottom,,0,0,0,,这对打字也有帮助吧？\Nタイピングにも役に立つのでは？
-Dialogue: 0,0:10:21.23,0:10:22.99,Text_Bottom,,0,0,0,,话说得真圆啊\Nものはいいようだなぁ
-Dialogue: 0,0:10:23.44,0:10:25.75,Text_Bottom,,0,0,0,,那 班长你也来试试看吧\Nじゃ 委員長さんもやってみろよ
-Dialogue: 0,0:10:27.54,0:10:30.31,Text_Bottom,,0,0,0,,哇...娃娃\Nわっ わわ… わわ
-Dialogue: 0,0:10:31.23,0:10:34.26,Text_Bottom,,0,0,0,,呃...唔...\Nうぅ… くぅ… うぅ！
-Dialogue: 0,0:10:34.47,0:10:37.13,Text_Bottom,,0,0,0,,冷静点 你又开始乱摇摇杆了\N落ち着け またレバガチャになってるぞ
-Dialogue: 0,0:10:38.01,0:10:41.46,Text_Bottom,,0,0,0,,班长 不能只顾着防守 要果断进攻\N委員長さん 守ってちゃダメだ 思い切っていきな
-Dialogue: 0,0:10:42.38,0:10:47.11,Text_Bottom,,0,0,0,,居…居然…这么难…\Nこ こんなに… 難しい なんて…
-Dialogue: 0,0:10:48.35,0:10:49.60,Text_Bottom,,0,0,0,,她们水平还不错嘛\Nいい腕っすね
-Dialogue: 0,0:10:49.99,0:10:53.58,Text_Bottom,,0,0,0,,是啊 我们也不能输啊\Nああ 我々も負けてられないな フッ
-Dialogue: 0,0:10:55.49,0:10:57.76,Text_Bottom,,0,0,0,,总觉得…有股很微妙又带点关怀的视线…\Nなんか なま暖かい視線が…
-Dialogue: 0,0:10:58.10,0:10:59.22,Text_Bottom,,0,0,0,,来一决胜负吧！\Nさぁ勝負だ！
-Dialogue: 0,0:11:00.13,0:11:03.18,Text_Bottom,,0,0,0,,石头 剪刀 布！\Nジャン ケン…ポン！
-Dialogue: 0,0:11:04.26,0:11:05.35,Text_Bottom,,0,0,0,,输啦～\N負け～！
-Dialogue: 0,0:11:05.75,0:11:08.74,Text_Bottom,,0,0,0,,怎么老是输啊 这机器是不是有问题！？\Nこんなに負け越すなんて 不正してるんじゃないですか！？
-Dialogue: 0,0:11:10.10,0:11:11.25,Text_Bottom,,0,0,0,,来一决胜负吧！\Nさぁ勝負だ！
-Dialogue: 0,0:11:11.57,0:11:14.47,Text_Bottom,,0,0,0,,石头 剪刀 布！\Nジャン ケン…ポン！
-Dialogue: 0,0:11:15.12,0:11:16.25,Text_Bottom,,0,0,0,,输啦～\N負け～！
-Dialogue: 0,0:11:16.94,0:11:18.57,Text_Bottom,,0,0,0,,呜…\Nうぅ…
-Dialogue: 0,0:11:18.57,0:11:21.14,Text_Bottom,,0,0,0,,早都说了 这种游戏是赢不了的啦！\Nだから そのゲームは 勝てないんだって！
-Dialogue: 0,0:11:21.55,0:11:24.89,Text_Bottom,,0,0,0,,能赢下的方法 就算是我也没什么可教的啊\Nそれに勝つ方法は さすがに教えられねえぞ
-Dialogue: 0,0:11:25.14,0:11:26.81,Text_Bottom,,0,0,0,,没关系 莉莉！\N大丈夫です リリーさん！
-Dialogue: 0,0:11:27.14,0:11:28.73,Text_Bottom,,0,0,0,,我现在就为你报仇！\N今 敵を討ちますよ！
-Dialogue: 0,0:11:29.37,0:11:30.33,Text_Bottom,,0,0,0,,啊 等一下！\Nあっ ちょっと！
-Dialogue: 0,0:11:30.33,0:11:31.37,Text_Bottom,,0,0,0,,来一决胜负吧！\Nさぁ勝負だ！
-Dialogue: 0,0:11:31.73,0:11:33.31,Text_Bottom,,0,0,0,,石头 剪刀…\Nジャン ケン…
-Dialogue: 0,0:11:33.31,0:11:34.34,Text_Bottom,,0,0,0,,布！\Nパー！
-Dialogue: 0,0:11:34.99,0:11:36.09,Text_Bottom,,0,0,0,,输啦～\N負け～！
-Dialogue: 0,0:11:36.51,0:11:38.43,Text_Bottom,,0,0,0,,这机器果然有问题吧！？\Nやっぱり不正してますよね！？
-Dialogue: 0,0:11:42.25,0:11:44.32,Text_Bottom,,0,0,0,,真是个可怕的游戏\N恐ろしいゲームでした
-Dialogue: 0,0:11:44.73,0:11:46.41,Text_Bottom,,0,0,0,,下次我们绝对不会输的\N次は絶対負けない
-Dialogue: 0,0:11:46.63,0:11:49.12,Text_Bottom,,0,0,0,,对 我们研究一下再复仇吧！\Nはい 学んでリベンジしましょうね！
-Dialogue: 0,0:11:49.50,0:11:51.58,Text_Bottom,,0,0,0,,我是绝对不会玩那个的\Nウチは絶対やらねえ
-Dialogue: 0,0:11:51.67,0:11:54.17,Text_Bottom,,0,0,0,,真是的～ 玩点别的游戏不就好了\Nも～ 他のゲームやればいいじゃん
-Dialogue: 0,0:11:54.17,0:11:56.46,Text_Bottom,,0,0,0,,不 我一定要复仇！\Nいえ 必ずリベンジします！
-Dialogue: 0,0:11:58.08,0:11:59.41,Text_Bottom,,0,0,0,,啊 莉莉\Nあっ リリーちゃん
-Dialogue: 0,0:11:59.68,0:12:00.94,Text_Bottom,,0,0,0,,莲司！\Nレンジ！
-Dialogue: 0,0:12:02.48,0:12:04.21,Text_Bottom,,0,0,0,,今天是和大家一起来的啊\N今日はみんなで来たんだね
-Dialogue: 0,0:12:04.21,0:12:08.16,Text_Bottom,,0,0,0,,小哥 差不多该做好和我对战的觉悟了吧\N兄さん そろそろウチと 対戦する覚悟は決まったか？
-Dialogue: 0,0:12:08.34,0:12:11.21,Text_Bottom,,0,0,0,,那个 打工太忙了 抽不出身…\Nいや バイトが忙しくて なかなか…
-Dialogue: 0,0:12:11.21,0:12:12.40,Text_Bottom,,0,0,0,,那就辞了\Nじゃあバイト辞めろ
-Dialogue: 0,0:12:12.40,0:12:14.58,Text_Bottom,,0,0,0,,真是的 别强人所难啦\Nもう ムチャクチャ言わないの
-Dialogue: 0,0:12:14.74,0:12:15.76,Text_Bottom,,0,0,0,,莲司\NRenji!
-Dialogue: 0,0:12:15.76,0:12:18.09,Text_Bottom,,0,0,120,,有新的考拉先生周边到货吗？\NAny new Mr. Koala stuff today?
-Dialogue: 0,0:12:18.33,0:12:20.34,Text_Bottom,,0,0,0,,嗯？哦！\Nんっ？ ああ
-Dialogue: 0,0:12:20.34,0:12:22.88,Text_Bottom,,0,0,0,,我们进了些小挂件和玩偶之类的东西\N小物とかぬいぐるみとか いろいろ入ってるよ
-Dialogue: 0,0:12:23.13,0:12:24.39,Text_Bottom,,0,0,0,,太好啦！\Nやった～！
-Dialogue: 0,0:12:24.78,0:12:28.33,Text_Bottom,,0,0,0,,考拉？是什么游戏的奖品吗？\Nコアラ？ 何かのゲームの景品なんですか？
-Dialogue: 0,0:12:33.28,0:12:33.94,Text_Bottom,,0,0,0,,是这个\Nこれ！
-Dialogue: 0,0:12:34.35,0:12:36.14,Text_Bottom,,0,0,0,,抓娃娃机吗\Nクレーンゲームですか
-Dialogue: 0,0:12:36.48,0:12:39.73,Text_Bottom,,0,0,0,,但是 再怎么说玩这个也学不到什么东西吧\Nでも さすがにこれは 勉強にならないような
-Dialogue: 0,0:12:40.91,0:12:45.69,Text_Bottom,,0,0,0,,格斗游戏也好代币游戏也罢 人生就是会从各种东西中学到知识\N格ゲーやメダルゲー 人生では あらゆることが学びになる
-Dialogue: 0,0:12:46.31,0:12:48.63,Text_Bottom,,0,0,0,,莉莉就是想说这个吧\Nそういうことを リリーは言いたいんだろ
-Dialogue: 0,0:12:49.58,0:12:50.65,Text_Bottom,,0,0,0,,原来如此\Nなるほど…
-Dialogue: 0,0:12:51.11,0:12:52.40,Text_Bottom,,0,0,0,,有一定道理啊\N一理ありますね
-Dialogue: 0,0:12:52.66,0:12:54.37,Text_Bottom,,0,0,0,,这就把你说服了吗\Nそれで納得しちゃうんだ！？
-Dialogue: 0,0:12:54.71,0:12:57.63,Text_Bottom,,0,0,120,,好吧 我来给你露一手！\NAll right! I'll show you how to play!
-Dialogue: 0,0:12:57.82,0:12:59.10,Text_Bottom,,0,0,0,,啊…好！\Nは… はい！
-Dialogue: 0,0:13:04.50,0:13:06.07,Text_Bottom,,0,0,0,,这位置挺好呀\Nいい位置なんじゃない？
-Dialogue: 0,0:13:06.07,0:13:07.39,Text_Bottom,,0,0,0,,说得没错\Nそうですよね！
-Dialogue: 0,0:13:15.60,0:13:17.54,Text_Bottom,,0,0,0,,你抓娃娃机也玩成这样啊\Nクレーンゲームでも こんなに？
-Dialogue: 0,0:13:17.99,0:13:20.14,Text_Bottom,,0,0,0,,但 但你把玩偶移动了很多哦\Nで でも だいぶ動いてるよ！
-Dialogue: 0,0:13:20.14,0:13:22.35,Text_Bottom,,0,0,0,,你也就移动了3厘米左右哦！\N３ミリくらいしか動いてねえぞ！
-Dialogue: 0,0:13:22.35,0:13:24.70,Text_Bottom,,0,0,0,,加贺同学 我是在安慰她呢！\N加賀さん 慰めてるんだから！
-Dialogue: 0,0:13:25.02,0:13:27.39,Text_Bottom,,0,0,0,,这…难道是\Nこ… これはまさか…
-Dialogue: 0,0:13:28.55,0:13:33.59,Text_Bottom,,0,0,0,,从实践中学到「人生不如意事 十之八九」这个道理吗\N人生と同じで そううまくは いかないよってことを 身をもって 教えてくれてるってことですか！？
-Dialogue: 0,0:13:33.59,0:13:35.37,Text_Bottom,,0,0,0,,我想绝对不是这样\N絶対 違うと思う！
-Dialogue: 0,0:13:35.63,0:13:37.25,Text_Bottom,,0,0,0,,莲司~\Nレンジ～
-Dialogue: 0,0:13:37.25,0:13:38.07,Text_Bottom,,0,0,0,,来了来了\Nはいはい
-Dialogue: 0,0:13:39.62,0:13:40.29,Text_Bottom,,0,0,0,,诶？\Nえっ？
-Dialogue: 0,0:13:42.41,0:13:43.01,Text_Bottom,,0,0,0,,诶？\Nえっ？
-Dialogue: 0,0:13:43.45,0:13:44.62,Text_Bottom,,0,0,0,,放这附近可以吗\Nこの辺でいいかな
-Dialogue: 0,0:13:44.62,0:13:45.86,Text_Bottom,,0,0,0,,谢谢~\Nありがと～
-Dialogue: 0,0:13:45.86,0:13:46.98,Text_Bottom,,0,0,0,,诶诶？！\Nえぇ～！？
-Dialogue: 0,0:13:46.98,0:13:48.31,Text_Bottom,,0,0,0,,这是怎么一回事\Nどういうことですか！？
-Dialogue: 0,0:13:48.31,0:13:50.54,Text_Bottom,,0,0,0,,这里还能允许这样偷奸耍滑吗\Nそんなえこひいき 許されるんですか！？
-Dialogue: 0,0:13:50.54,0:13:54.48,Text_Bottom,,0,0,0,,不不不！这也是本店的既定方针之一啊\Nいやいやいや！ お店の方針で決まってるんだよ こういうの！
-Dialogue: 0,0:13:54.78,0:13:59.33,Text_Bottom,,0,0,0,,对于消费超过一定额度的常客 是允许进行这种优待的\N一定以上お金を入れた 常連さんには こういうサービスしてもいいって！
-Dialogue: 0,0:13:59.47,0:14:02.80,Text_Bottom,,0,0,0,,就是说在遇到问题时寻求帮助也是很重要的\N困ったときに助けを求めるのも 大事ってことだ
-Dialogue: 0,0:14:03.49,0:14:04.49,Text_Bottom,,0,0,0,,原来如此\Nなるほど
-Dialogue: 0,0:14:04.79,0:14:08.74,Text_Bottom,,0,0,0,,这也可能会成为在我们步入社会之后 一项必须掌握的沟通能力对吧\Nこれも社会に出たら必要になる コミュニケーション力ということですか
-Dialogue: 0,0:14:09.02,0:14:11.74,Text_Bottom,,0,0,0,,这…就当作是这么一回事吧\Nまあ… そういうことにしておこう
-Dialogue: 0,0:14:16.09,0:14:19.22,Text_Bottom,,0,0,0,,抓到了 谢谢你莲司\Nやった～ ありがと レンジ
-Dialogue: 0,0:14:19.74,0:14:20.79,Text_Bottom,,0,0,0,,真是太好了\Nよかったね
-Dialogue: 0,0:14:22.73,0:14:24.83,Text_Bottom,,0,0,0,,班长不玩玩抓娃娃机吗\N委員長は クレーンゲームやらないの？
-Dialogue: 0,0:14:25.26,0:14:25.74,Text_Bottom,,0,0,0,,诶？\Nえっ？
-Dialogue: 0,0:14:26.27,0:14:27.25,Text_Bottom,,0,0,0,,那个…\Nえっと…
-Dialogue: 0,0:14:28.10,0:14:33.09,Text_Bottom,,0,0,0,,要是我拿玩偶回家的话 家里人会骂我的\N私の家は ぬいぐるみとか持って帰ったら 怒られてしまうので…
-Dialogue: 0,0:14:33.74,0:14:36.58,Text_Bottom,,0,0,0,,不过那个考拉先生真的很可爱 我也很喜欢\Nコアラさんは かわいくて好きなんですけど…
-Dialogue: 0,0:14:37.15,0:14:38.50,Text_Bottom,,0,0,0,,班长…\Nイインチョー…
-Dialogue: 0,0:14:38.73,0:14:41.63,Text_Bottom,,0,0,0,,这样啊…有没有什么其他办法呢\Nそっか… どうにかできないかな
-Dialogue: 0,0:14:41.90,0:14:45.63,Text_Bottom,,0,0,0,,就算偷偷带回家 玩偶也实在太显眼了\Nこっそり持ち込むにしても ぬいぐるみは目立つからなぁ
-Dialogue: 0,0:14:45.98,0:14:47.76,Text_Bottom,,0,0,0,,啊 那样的话\Nあっ… それなら
-Dialogue: 0,0:14:52.59,0:14:56.65,Text_Bottom,,0,0,0,,这种小挂件的话 挂在铅笔盒上也不会被注意到吧\Nこういうのだったら 筆箱とかに付けても 見つからないんじゃない？
-Dialogue: 0,0:14:57.18,0:14:59.58,Text_Bottom,,0,0,0,,确实 这个或许可以…\Nた 確かにこれなら…
-Dialogue: 0,0:14:59.85,0:15:01.47,Text_Bottom,,0,0,0,,我来试试看\N私 やってみます！
-Dialogue: 0,0:15:05.22,0:15:07.94,Text_Bottom,,0,0,0,,这不是完全抓不到吗 店员先生！\Nって全然取れないじゃないですか 店員さん！
-Dialogue: 0,0:15:07.94,0:15:11.35,Text_Bottom,,0,0,0,,不 这个你不对准位置的话是抓不到的\Nいや これは位置を合わせないとどうしようもないから…
-Dialogue: 0,0:15:11.69,0:15:12.83,Text_Bottom,,0,0,0,,加油！\N頑張れ～！
-Dialogue: 0,0:15:13.11,0:15:15.74,Text_Bottom,,0,0,0,,刚才起就一直差一点点呢\Nさっきから 入りそうで入らないね～
-Dialogue: 0,0:15:28.58,0:15:29.90,Text_Bottom,,0,0,0,,你要放弃了吗？\N諦めんのか？
-Dialogue: 0,0:15:39.23,0:15:40.24,Text_Bottom,,0,0,0,,原来如此\Nなるほど
-Dialogue: 0,0:15:41.62,0:15:44.46,Text_Bottom,,0,0,0,,从这个游戏中可以学到永不放弃的精神\Nこのゲームは 諦めない気持ちも学べる
-Dialogue: 0,0:15:45.67,0:15:47.21,Text_Bottom,,0,0,0,,是这么一回事吧\Nそういうことですね！
-Dialogue: 0,0:15:49.92,0:15:50.55,Text_Bottom,,0,0,0,,嗯？\Nんっ…？
-Dialogue: 0,0:15:50.55,0:15:52.21,Text_Bottom,,0,0,0,,你这不是挺懂的吗\Nへっ わかってるじゃねえか
-Dialogue: 0,0:15:52.21,0:15:54.66,Text_Bottom,,0,0,0,,她绝对没想这么多吧！\N絶対そこまで 考えてなかったよね！？
-Dialogue: 0,0:15:55.46,0:15:56.77,Text_Bottom,,0,0,0,,这就是\Nこれが最後…
-Dialogue: 0,0:15:59.01,0:15:59.92,Text_Bottom,,0,0,0,,我最后的\N泣きの…
-Dialogue: 0,0:16:01.06,0:16:02.23,Text_Bottom,,0,0,0,,放手一搏了！\N一回です！
-Dialogue: 0,0:16:17.43,0:16:18.53,Text_Bottom,,0,0,0,,抓到了？\N取れた…？
-Dialogue: 0,0:16:19.18,0:16:20.94,Text_Bottom,,0,0,0,,太好了！\Nやった～！
-Dialogue: 0,0:16:20.08,0:16:20.94,Text_Bottom,,0,0,0,,哇！\Nわっ！？
-Dialogue: 0,0:16:21.54,0:16:23.46,Text_Bottom,,0,0,0,,这是你坚持下来的回报啊 班长\N粘り勝ちだね委員長！
-Dialogue: 0,0:16:23.46,0:16:24.86,Text_Bottom,,0,0,0,,挺能干的嘛\Nやるじゃねえか！
-Dialogue: 0,0:16:25.11,0:16:25.91,Text_Bottom,,0,0,0,,恭喜你\Nおめでとう！
-Dialogue: 0,0:16:26.35,0:16:29.27,Text_Bottom,,0,0,0,,你们等一下 没有这么夸张啦\Nちょ ちょっと… 大げさですよ
-Dialogue: 0,0:16:35.19,0:16:40.54,Text_Bottom,,0,0,0,,我明明是班长 玩得这么忘乎所以真的可以吗\N委員長なのに こんなに楽しい思いをして いいんでしょうか
-Dialogue: 0,0:16:50.06,0:16:52.42,Text_Bottom,,0,0,0,,哎呀 今天玩得真尽兴啊\Nいや～ ゲーム尽くしだったね
-Dialogue: 0,0:16:52.42,0:16:53.57,Text_Bottom,,0,0,0,,嗯嗯嗯\Nうんうんうん
-Dialogue: 0,0:16:57.31,0:16:59.50,Text_Bottom,,0,0,0,,你还真是好学啊\Nずいぶん勉強熱心じゃねえか
-Dialogue: 0,0:16:59.83,0:17:01.65,Text_Bottom,,0,0,0,,我想把感想写下来\N感想を書いておきたくて
-Dialogue: 0,0:17:02.16,0:17:05.41,Text_Bottom,,0,0,0,,多亏了大家 我把想玩的游戏都玩了一遍\N皆さんのおかげで 気になっていたゲームができました
-Dialogue: 0,0:17:06.06,0:17:07.35,Text_Bottom,,0,0,0,,谢谢你们\Nありがとうございます
-Dialogue: 0,0:17:07.95,0:17:10.24,Text_Bottom,,0,0,0,,班长你玩得开心就好\N委員長が楽しめてよかったよ！
-Dialogue: 0,0:17:11.69,0:17:12.35,Text_Bottom,,0,0,0,,咦？\Nあっ… あれ？
-Dialogue: 0,0:17:12.81,0:17:14.96,Text_Bottom,,0,0,0,,那个你还没玩过吧\Nそれ まだやってないよね
-Dialogue: 0,0:17:15.23,0:17:16.54,Text_Bottom,,0,0,0,,这是…\Nあっ これは…
-Dialogue: 0,0:17:17.43,0:17:18.75,Text_Bottom,,0,0,0,,「大头贴」？\N「プリクラ」…
-Dialogue: 0,0:17:20.56,0:17:22.98,Text_Bottom,,0,0,120,,哦 我们管这个叫「照相亭」\NOh, it's called a photo booth  ね
-Dialogue: 0,0:17:23.63,0:17:27.37,Text_Bottom,,0,0,0,,{ruby=Photo booth}照相亭{/ruby}？原来英语是这么叫的啊\Nフォトブース？ へぇ 英語でそう言うんだ
-Dialogue: 0,0:17:27.69,0:17:28.91,Text_Bottom,,0,0,0,,大家一起拍吧\Nみんなで撮ろう！
-Dialogue: 0,0:17:28.91,0:17:29.89,Text_Bottom,,0,0,0,,好啊\Nいいね！
-Dialogue: 0,0:17:30.94,0:17:33.95,Text_Bottom,,0,0,0,,那个…我是很想拍\Nその… 私も撮りたいんですが…
-Dialogue: 0,0:17:34.72,0:17:37.52,Text_Bottom,,0,0,0,,但这个好像和学习没什么关系\N勉強に あまり関係なさそうで
-Dialogue: 0,0:17:38.85,0:17:40.02,Text_Bottom,,0,0,0,,走吧！\NLet's go!
-Dialogue: 0,0:17:40.02,0:17:41.45,Text_Bottom,,0,0,0,,诶 诶诶！？\Nえっ えぇ～！？
-Dialogue: 0,0:17:43.74,0:17:46.78,Text_Bottom,,0,0,0,,这…这就是大头贴\Nこ… これがプリクラ…！
-Dialogue: 0,0:17:47.91,0:17:50.00,Text_Bottom,,0,0,0,,姿势就按推荐的来可以吗\Nポーズはオススメのやつでいい？
-Dialogue: 0,0:17:50.18,0:17:50.82,Text_Bottom,,0,0,0,,嗯\Nウン！
-Dialogue: 0,0:17:50.82,0:17:51.90,Text_Bottom,,0,0,0,,拜托你了\Nお願いします！
-Dialogue: 0,0:17:52.61,0:17:55.19,Text_Bottom,,0,0,0,,我可不拍啊 不是我的风格\Nウチは撮らねえぞ ガラじゃねえ
-Dialogue: 0,0:17:55.19,0:17:57.43,Text_Bottom,,0,0,0,,但拍一下试试看的话说不定会很有趣哦\Nでも 撮ってみたら楽しいかもよ？
-Dialogue: 0,0:17:57.75,0:17:58.82,Text_Bottom,,0,0,0,,不要\Nい～や
-Dialogue: 0,0:17:59.07,0:18:03.14,Text_Bottom,,0,0,0,,再说班长你不也觉得这和学习没什么关系吗\Nだいたい委員長さんも 勉強にならないって 思ってたんじゃねえの
-Dialogue: 0,0:18:03.26,0:18:04.69,Text_Bottom,,0,0,0,,是这样没错…\Nそうなんですが…
-Dialogue: 0,0:18:05.45,0:18:10.40,Text_Bottom,,0,0,0,,但我在想其实大头贴能培养大家的团队合作能力也说不定\N実はプリクラも みんなで共同作業を 学べるのでは？ と思いまして
-Dialogue: 0,0:18:10.62,0:18:13.87,Text_Bottom,,0,0,0,,不 从大头贴学不到那些的 毫无关系\Nいや プリクラでは学べない 関係ないな
-Dialogue: 0,0:18:14.15,0:18:16.14,Text_Bottom,,0,0,0,,一直坚持到这一步 居然退缩了？\Nここにきて はしごを外した！？
-Dialogue: 0,0:18:16.37,0:18:17.87,Text_Bottom,,0,0,0,,说得也是…\Nそうなんですね…
-Dialogue: 0,0:18:17.87,0:18:21.69,Text_Bottom,,0,0,0,,无关也没关系啊 今天已经学了很多东西了\N関係なくてもいいじゃん 今日はいっぱい勉強したんだし
-Dialogue: 0,0:18:22.41,0:18:24.58,Text_Bottom,,0,0,0,,我想和师父一起拍\Nししょーと一緒に撮りたい！
-Dialogue: 0,0:18:24.58,0:18:27.50,Text_Bottom,,0,0,0,,不…我对这种不怎么…\Nいや… ウチはこういうのあんまり
-Dialogue: 0,0:18:28.05,0:18:30.81,Text_Bottom,,0,0,0,,拜托你了 师父\Nおねがい ししょー…
-Dialogue: 0,0:18:31.43,0:18:32.34,Text_Bottom,,0,0,0,,呃\Nうぐっ…
-Dialogue: 0,0:18:32.75,0:18:34.29,Text_Bottom,,0,0,0,,加贺同学 拜托你了\N加賀さん お願いします！
-Dialogue: 0,0:18:34.64,0:18:36.42,Text_Bottom,,0,0,0,,大家一起来拍吧\N皆さんで一緒に撮りましょう！
-Dialogue: 0,0:18:44.30,0:18:47.66,Text_Bottom,,0,0,0,,啊真是的 真拿你们没办法\Nあ～ もう！ しようがねえなあ！
-Dialogue: 0,0:18:57.09,0:19:00.32,Text_Bottom,,0,0,0,,总感觉这么窄让人冷静不下来呢\Nなんだか狭くて落ち着きませんね
-Dialogue: 0,0:19:00.66,0:19:02.14,Text_Bottom,,0,0,0,,要开始拍摄了哦\N 撮影を始めるよ！
-Dialogue: 0,0:19:03.69,0:19:06.01,Text_Bottom,,0,0,0,,各位 我们好像应该站在这里\N皆さん 立つ場所はここみたいです！
-Dialogue: 0,0:19:06.70,0:19:09.44,Text_Bottom,,0,0,0,,要按机器所说的摆出姿势来拍照哦\Nプリクラ機が言うとおりのポーズを 取ってくださいね！
-Dialogue: 0,0:19:09.44,0:19:10.47,Text_Bottom,,0,0,0,,好\Nは～い！
-Dialogue: 0,0:19:10.47,0:19:11.02,Text_Bottom,,0,0,0,,嗯\Nウン！
-Dialogue: 0,0:19:11.02,0:19:12.55,Text_Bottom,,0,0,0,,你是大头贴班长吗\Nプリクラ委員長かよ！
-Dialogue: 0,0:19:13.03,0:19:14.81,Text_Bottom,,0,0,0,,首先是小兔子姿势\Nまずは うさちゃんポーズ！
-Dialogue: 0,0:19:14.97,0:19:17.23,Text_Bottom,,0,0,0,,双手摆成耳朵 跳跳\N手で耳を作ってピョンピョン！
-Dialogue: 0,0:19:17.95,0:19:19.41,Text_Bottom,,0,0,0,,小兔子姿势…\Nう うさちゃんピョーズ…？
-Dialogue: 0,0:19:20.11,0:19:21.97,Text_Bottom,,0,0,0,,这 这样吗\Nこ こうでしょうか？
-Dialogue: 0,0:19:21.97,0:19:24.01,Text_Bottom,,0,0,0,,小兔子 跳跳！\Nうさちゃん ピョンピョン！
-Dialogue: 0,0:19:24.01,0:19:25.90,Text_Bottom,,0,0,0,,莉莉 做的真不错\Nリリーちゃん いい感じ！
-Dialogue: 0,0:19:27.69,0:19:29.47,Text_Bottom,,0,0,0,,真的要这么拍吗\Nマジで撮るのかよ…
-Dialogue: 0,0:19:30.22,0:19:30.85,Text_Top,,0,0,0,,5\N 5
-Dialogue: 0,0:19:32.31,0:19:32.82,Text_Top,,0,0,0,,4\N 4
-Dialogue: 0,0:19:32.82,0:19:33.59,Text_Bottom,,0,0,0,,要来了\Nくるよ！
-Dialogue: 0,0:19:34.02,0:19:34.63,Text_Top,,0,0,0,,3\N3
-Dialogue: 0,0:19:35.26,0:19:36.70,Text_Bottom,,0,0,0,,跳跳！\Nピョーン ピョーン！
-Dialogue: 0,0:19:35.50,0:19:35.97,Text_Top,,0,0,0,,2\N 2
-Dialogue: 0,0:19:36.70,0:19:37.31,Text_Top,,0,0,0,,1\N1
-Dialogue: 0,0:19:36.70,0:19:37.83,Text_Bottom,,0,0,0,,莉莉！\Nリリーちゃん！？
-Dialogue: 0,0:19:38.69,0:19:40.31,Text_Bottom,,0,0,0,,画面变得好夸张\Nすごいことになってる！？
-Dialogue: 0,0:19:40.31,0:19:42.56,Text_Bottom,,0,0,0,,抱歉 我是不是离得太近了\Nゴメン 近づき過ぎちゃった
-Dialogue: 0,0:19:42.56,0:19:45.42,Text_Bottom,,0,0,0,,挺有动感的 我觉得挺不错！\Nや 躍動感があって いいと思いますよ！
-Dialogue: 0,0:19:45.42,0:19:47.19,Text_Bottom,,0,0,0,,我说 这张能删掉吗\Nなあ これ消せねえのか？
-Dialogue: 0,0:19:47.19,0:19:48.37,Text_Bottom,,0,0,0,,才不删呢\N消さないよ！？
-Dialogue: 0,0:19:49.33,0:19:50.81,Text_Bottom,,0,0,0,,眼睛太大了点吧\N目が大きすぎません？
-Dialogue: 0,0:19:51.29,0:19:52.89,Text_Bottom,,0,0,0,,大头贴就是这种感觉啦\Nプリクラはこんなもんだよ
-Dialogue: 0,0:19:53.69,0:19:54.89,Text_Bottom,,0,0,0,,为什么老哥也在！？\Nなんで兄ちゃんが！？
-Dialogue: 0,0:19:55.31,0:19:57.17,Text_Bottom,,0,0,0,,因为他就在旁边 顺手就\N近くにいたから つい
-Dialogue: 0,0:19:57.17,0:19:59.68,Text_Bottom,,0,0,0,,只是因为在旁边就把他拉过来了吗\N近くにいたら 連れてきちゃうんですか！？
-Dialogue: 0,0:20:00.49,0:20:02.99,Text_Bottom,,0,0,0,,没想到会棘手到这个地步\Nまさか ここまで てこずるとは…
-Dialogue: 0,0:20:03.49,0:20:06.33,Text_Bottom,,0,0,0,,拍摄过程意外地手忙脚乱…写上\N撮るまでが 意外とせわしない… と
-Dialogue: 0,0:20:07.02,0:20:09.17,Text_Bottom,,0,0,0,,真是百闻不如一见啊\N百聞は一見にしかずですね
-Dialogue: 0,0:20:09.78,0:20:11.86,Text_Bottom,,0,0,0,,接下来就是最后的姿势了哦\N 次が最後のポーズだよ！
-Dialogue: 0,0:20:12.40,0:20:14.54,Text_Bottom,,0,0,0,,呼 终于啊\Nふぅ… ようやくか
-Dialogue: 0,0:20:15.10,0:20:17.35,Text_Bottom,,0,0,0,,这次一定要摆好姿势\Nしっかりポーズを決めなくては
-Dialogue: 0,0:20:17.35,0:20:19.59,Text_Bottom,,0,0,0,,班长 你太紧张了啦\N委員長 緊張し過ぎ
-Dialogue: 0,0:20:19.84,0:20:21.37,Text_Bottom,,0,0,0,,但 但是…\Nで でも…
-Dialogue: 0,0:20:22.96,0:20:25.39,Text_Bottom,,0,0,0,,就算失败也没问题对吧？\N失敗したって いいんですもんね？
-Dialogue: 0,0:20:30.65,0:20:31.76,Text_Bottom,,0,0,0,,当然啦\Nもちろんだよ！
-Dialogue: 0,0:20:32.16,0:20:33.22,Text_Bottom,,0,0,0,,期待期待\Nワクワク！
-Dialogue: 0,0:20:33.71,0:20:35.60,Text_Bottom,,0,0,0,,变成狂野女孩吧\Nワイルド女子になっちゃおう！
-Dialogue: 0,0:20:35.60,0:20:38.96,Text_Bottom,,0,0,0,,弯曲手指 大家一起做出嗷呜嗷呜的姿势\N指を曲げて みんなでガオガオポーズ！
-Dialogue: 0,0:20:38.96,0:20:41.12,Text_Bottom,,0,0,0,,怎么全是这种姿势啊\Nこんなポーズばっかりだな！？
-Dialogue: 0,0:20:41.44,0:20:44.05,Text_Bottom,,0,0,0,,那个…弯曲手指\Nえっと… 手を曲げて…
-Dialogue: 0,0:20:44.05,0:20:45.26,Text_Bottom,,0,0,0,,班长 这样！\N委員長 こう！
-Dialogue: 0,0:20:45.47,0:20:46.74,Text_Bottom,,0,0,0,,好\Nは はい！
-Dialogue: 0,0:20:44.38,0:20:44.99,Text_Top,,0,0,0,,5\N 5
-Dialogue: 0,0:20:45.94,0:20:46.47,Text_Top,,0,0,0,,4\N４
-Dialogue: 0,0:20:47.69,0:20:48.21,Text_Top,,0,0,0,,3\N 3
-Dialogue: 0,0:20:49.09,0:20:49.58,Text_Top,,0,0,0,,2\N 2
-Dialogue: 0,0:20:50.10,0:20:50.63,Text_Top,,0,0,0,,1\N１
-Dialogue: 0,0:20:46.97,0:20:48.58,Text_Bottom,,0,0,0,,嗷呜！\Nガオー！
-Dialogue: 0,0:20:48.58,0:20:49.30,Text_Bottom,,0,0,0,,诶？\Nえぇ！？
-Dialogue: 0,0:20:49.30,0:20:49.86,Text_Bottom,,0,0,0,,哇\Nわっ！
-Dialogue: 0,0:20:49.86,0:20:50.72,Text_Bottom,,0,0,0,,喂！\Nおい！？
-Dialogue: 0,0:20:51.34,0:20:53.01,Text_Bottom,,0,0,0,,哇啊啊\Nわ～っ！
-Dialogue: 0,0:21:02.29,0:21:03.93,Text_Bottom,,0,0,0,,喂喂 班长\Nねえねえ委員長～
-Dialogue: 0,0:21:05.70,0:21:07.68,Text_Bottom,,0,0,0,,有 有什么事吗\Nど どうかしましたか？
-Dialogue: 0,0:21:07.68,0:21:10.56,Text_Bottom,,0,0,0,,不 只是在想班长你之前有挂这种东西吗\Nいや 委員長って こんなの付けてたっけ
-Dialogue: 0,0:21:11.26,0:21:13.01,Text_Bottom,,0,0,0,,啊 你是说这个吗\Nああ これですね
-Dialogue: 0,0:21:13.01,0:21:14.47,Text_Bottom,,0,0,0,,好可爱\Nかわいい
-Dialogue: 0,0:21:14.79,0:21:16.64,Text_Bottom,,0,0,0,,这是在哪里买的啊？\Nどこで買ったんですか？
-Dialogue: 0,0:21:16.80,0:21:21.05,Text_Bottom,,0,0,0,,那个 是在有点特殊的商店买的\Nえっと… ちょっと特別なお店… だったような
-Dialogue: 0,0:21:21.05,0:21:24.21,Text_Bottom,,0,0,0,,这么厉害 花了多少钱？\Nすご～！ えっ いくらぐらいしたの？
-Dialogue: 0,0:21:24.69,0:21:27.84,Text_Bottom,,0,0,0,,不…不记得了\Nお… 覚えてないですね…
-Dialogue: 0,0:21:28.46,0:21:29.12,Text_Bottom,,0,0,0,,啊\Nあっ！
-Dialogue: 0,0:21:31.79,0:21:35.42,Text_Bottom,,0,0,0,,把零花钱基本全花光了才拿到 这我说不出口！\Nお小遣いのほとんどだなんて… 言えません！
-Dialogue: 0,0:21:36.05,0:21:40.07,Text_Bottom,,0,0,0,,这难道是特别名贵的东西吗\Nこれもしかして メッチャ高級品なのかしら…
-Dialogue: 0,0:21:41.82,0:21:44.45,Text_Bottom,,0,0,0,,想起来的话要告诉我们哦 班长\N思い出したら教えてね 委員長
-Dialogue: 0,0:21:44.45,0:21:45.58,Text_Bottom,,0,0,0,,好的\Nは はい
+Comment: 0,0:00:04.70,0:00:06.30,Text_Bottom,,0,0,0,kara,早啊～！\Nおっはよ～！
+Comment: 0,0:00:06.30,0:00:07.36,Text_Bottom,,0,0,0,kara,早上好\Nオハヨー
+Comment: 0,0:00:07.57,0:00:08.95,Text_Bottom,,0,0,0,kara,早上好\Nおはよう
+Comment: 0,0:00:08.95,0:00:11.54,Text_Bottom,,0,0,0,kara,什么啊 葵衣 你这不是挺有精神的嘛\Nなんだ葵衣元気になってるじゃん
+Comment: 0,0:00:11.54,0:00:14.78,Text_Bottom,,0,0,0,kara,看你难得那么安静 我们可担心了\N珍しく静かだったから 心配してたんだよ
+Comment: 0,0:00:14.78,0:00:17.87,Text_Bottom,,0,0,0,kara,抱歉抱歉 我已经恢复正常啦！\Nごめんごめん もう いつもどおりだから！
+Comment: 0,0:00:18.29,0:00:22.23,Text_Bottom,,0,0,0,kara,莉莉之前也因为担心葵衣 没什么精神呢\Nリリーちゃんも 葵衣を気にして 元気なかったんだから
+Comment: 0,0:00:22.23,0:00:25.63,Text_Bottom,,0,0,0,kara,别太让莉莉困扰啊 男朋友同学～\Nあんま リリーちゃんを困らせんなよ 彼氏さ～ん
+Comment: 0,0:00:25.81,0:00:27.29,Text_Bottom,,0,0,0,kara,谁是她男朋友啊！\N誰が彼氏じゃい！
+Comment: 0,0:00:31.34,0:00:34.45,Text_Bottom,,0,0,0,kara,太好了 两位都恢复精神了呢\Nよかった… ２人とも 元気になったんですね
+Comment: 0,0:00:35.35,0:00:39.14,Text_Bottom,,0,0,0,kara,不过还好 要是气氛还像之前那样 我就没法去游戏中心了\Nでも あのまんまだと ゲーセン行きにくかったから よかったよ～
+Comment: 0,0:00:40.42,0:00:41.15,Text_Bottom,,0,0,0,kara,啊\Nあっ…
+Comment: 0,0:00:42.62,0:00:43.61,Text_Bottom,,0,0,0,kara,游戏中心？\Nゲーセン？
+Comment: 0,0:00:45.30,0:00:46.31,Text_Bottom,,0,0,0,kara,难道说\Nまさか…
+Comment: 0,0:00:49.35,0:00:51.68,Text_Bottom,,0,0,0,kara,咱们今天放学后也去游戏中心吗？\N学校終わったら 今日もゲーセン行く？
+Comment: 0,0:00:51.98,0:00:52.98,Text_Bottom,,0,0,0,kara,去～！\N行く～！
+Comment: 0,0:00:53.30,0:00:54.62,Text_Bottom,,0,0,0,kara,加贺同学也来吗？\N加賀さんも来るの？
+Comment: 0,0:00:54.89,0:00:55.79,Text_Bottom,,0,0,0,kara,是啊\Nまあな
+Comment: 0,0:00:56.51,0:00:57.84,Text_Bottom,,0,0,0,kara,你们给我站住！\Nちょっと あなたたち！
+Comment: 0,0:00:57.84,0:00:58.65,Text_Bottom,,0,0,0,kara,啊？\Nあっ？
+Comment: 0,0:01:01.03,0:01:04.03,Text_Bottom,,0,0,0,kara,难道说 你们打算去游戏中心吗！？\Nもしかして ゲーセンに 行くつもりなのですか！？
+Comment: 0,0:01:04.03,0:01:06.15,Text_Bottom,,0,0,0,kara,班…{\fscx50} {\fscx100}班长…！\Nい 委員長…！
+Comment: 0,0:01:06.66,0:01:11.03,Text_Bottom,,0,0,0,kara,我最近一直有从 {ruby=家长教师联谊会}PTA{/ruby} 那里收到报告\Nかねてより PTA{\fscx50} {\fscx100}の方たちから ご報告は受けていたのです
+Comment: 0,0:01:11.03,0:01:14.73,Text_Bottom,,0,0,0,kara,说有我校的学生 在游戏中心聚众玩耍\N我が校の生徒が ゲーセンに たむろしているということを
+Comment: 0,0:01:14.73,0:01:15.31,Text_Bottom,,0,0,0,kara,呜…\Nうっ…
+Comment: 0,0:01:15.59,0:01:20.51,Text_Bottom,,0,0,0,kara,没想到那竟然是我们班的 莉莉同学和草壁同学…\Nそれがまさか うちのクラスの リリーさん 草壁さん…
+Comment: 0,0:01:21.89,0:01:23.84,Text_Bottom,,0,0,0,kara,竟然是你们…\Nあなたたちだったなんて…
+Comment: 0,0:01:24.82,0:01:27.99,Text_Bottom,,0,0,0,kara,太悲伤了！太难受了！令人扼腕叹息！\N悲しい！ つらい！ 嘆かわしい！
+Comment: 0,0:01:27.99,0:01:29.32,Text_Bottom,,0,0,0,kara,也太激动了吧！\N勢いがすごい！
+Comment: 0,0:01:29.59,0:01:33.82,Text_Bottom,,0,0,0,kara,没那么夸张吧…{\fscx50} {\fscx100}校规也没有明令禁止啊\Nそんな大げさな… 校則で禁止されてるならともかく
+Comment: 0,0:01:34.19,0:01:37.14,Text_Bottom,,0,0,0,kara,不对！ 你们就是一群异类！\Nいいえ！あなたたちは 非常識の権化です！
+Comment: 0,0:01:37.35,0:01:38.65,Text_Bottom,,0,0,0,kara,至…{\fscx50} {\fscx100}至于吗！？\Nそ そこまで！？
+Comment: 0,0:01:40.49,0:01:42.61,Text_Bottom,,0,0,0,kara,你是班长…{\fscx50} {\fscx100}对吧？\N委員長さん… だったか？
+Comment: 0,0:01:43.67,0:01:47.70,Text_Bottom,,0,0,0,kara,看来你因为头脑太顽固 没看清事情的本质啊\N頭が固いばっかりに 事の本質が見えてねえようだ
+Comment: 0,0:01:47.70,0:01:49.46,Text_Bottom,,0,0,0,kara,你…{\fscx50} {\fscx100}你说什么！\Nな… なんですって！
+Comment: 0,0:01:50.91,0:01:56.29,Text_Bottom,,0,0,0,kara,对她来说 去游戏中心也算是正儿八经的异文化交流的一环啊！\Nコイツにとっては ゲーセンに行くのも 立派な異文化交流の➡ 一環なんだぜ！
+Comment: 0,0:01:56.55,0:01:57.10,Text_Bottom,,0,0,0,kara,嗯？\Nんっ？
+Comment: 0,0:01:57.47,0:01:58.22,Text_Bottom,,0,0,0,kara,诶…？\Nえっ…？
+Comment: 0,0:01:58.22,0:02:01.73,Text_Bottom,,0,0,0,kara,不是只有坐在书桌前念书才叫学习\N机の上に座って 学ぶだけが勉強じゃねえ
+Comment: 0,0:02:01.73,0:02:05.73,Text_Bottom,,0,0,0,kara,对从国外来的莉莉来说 所有地方都是学习的场所\N海外から来たコイツにとっては すべてが学びの場なのさ
+Comment: 0,0:02:06.17,0:02:09.73,Text_Bottom,,0,0,0,kara,可…{\fscx50} {\fscx100}可是 就算这样 也没必要特意去游戏中心吧\Nで でも だからって わざわざゲーセンに行かなくたって
+Comment: 0,0:02:09.91,0:02:13.60,Text_Bottom,,0,0,0,kara,所～以～说～ 我们是带她去了各种各样的地方啊\Nだ か ら～ いろんな場所に 連れてってんだよ
+Comment: 0,0:02:13.86,0:02:16.62,Text_Bottom,,0,0,0,kara,只是碰巧在游戏中心的时候被看到了而已\Nたまたま ゲーセンにいるときに 見られただけだ
+Comment: 0,0:02:16.93,0:02:19.79,Text_Bottom,,0,0,0,kara,原…{\fscx50} {\fscx100}原来如此…？\Nな… なるほど…？
+Comment: 0,0:02:20.62,0:02:22.41,Text_Bottom,,0,0,0,kara,那就这样 回见啦\Nじゃ そういうことだから
+Comment: 0,0:02:22.69,0:02:23.87,Text_Bottom,,0,0,0,kara,我们走吧\Nさぁ行こうぜ
+Comment: 0,0:02:24.37,0:02:26.40,Text_Bottom,,0,0,0,kara,请…{\fscx50} {\fscx100}请等一下！\Nま… 待ってください！
+Comment: 0,0:02:26.85,0:02:27.46,Text_Bottom,,0,0,0,kara,嗯？\Nんっ？
+Comment: 0,0:02:28.77,0:02:33.26,Text_Bottom,,0,0,0,kara,既然如此 我也跟你们去游戏中心 应该没问题吧？\Nでしたら 私もゲーセンについていっても 問題ないはずですよね？
+Comment: 0,0:02:33.26,0:02:34.13,Text_Bottom,,0,0,0,kara,啥！？\Nはぁ！？
+Comment: 0,0:02:34.64,0:02:38.48,Text_Bottom,,0,0,0,kara,作为班长 我要去亲眼确认看看\N委員長として あなたたちが どんな勉強をしてるのか
+Comment: 0,0:02:38.48,0:02:40.52,Text_Bottom,,0,0,0,kara,你们到底在学习些什么！\Nしかと見させていただきます！
+Comment: 0,0:02:42.39,0:02:44.37,Text_Bottom,,0,0,0,kara,诶～！？\Nえぇ～っ！？
+Comment: 0,0:04:34.34,0:04:36.31,Text_Bottom,,0,0,0,kara,你怎么呆住了？\Nどうしたの？ ボーッとして
+Comment: 0,0:04:36.31,0:04:40.43,Text_Bottom,,0,0,0,kara,没…{\fscx50} {\fscx100}没什么 我只是觉得比想象中要普通呢\Nい… いえ 案外普通だなと思いまして
+Comment: 0,0:04:40.66,0:04:42.76,Text_Bottom,,0,0,0,kara,你没来过游戏中心吗\Nゲーセン 来たことなかったのか
+Comment: 0,0:04:43.34,0:04:45.09,Text_Bottom,,0,0,0,kara,你以为会是什么样的地方？\Nどんなのだと思ってたの？
+Comment: 0,0:04:45.46,0:04:47.71,Text_Bottom,,0,0,0,kara,嗯～ 更像是…\Nう～ん もっとこう…
+Comment: 0,0:04:48.50,0:04:50.17,Text_Bottom,,0,0,0,kara,喂喂喂？！\Nオラオラオラ！
+Comment: 0,0:04:50.17,0:04:51.30,Text_Bottom,,0,0,0,kara,噫\Nひぃ～
+Comment: 0,0:04:51.65,0:04:52.89,Text_Bottom,,0,0,0,kara,像这种感觉\Nこういう感じかと
+Comment: 0,0:04:52.89,0:04:54.91,Text_Bottom,,0,0,0,kara,我可没见过那样的小混混\Nそんな不良 見たことないよ！？
+Comment: 0,0:04:54.91,0:04:57.10,Text_Bottom,,0,0,0,kara,我觉得抱有这种偏见不太好哦\N偏見はどうかと思うぜ
+Comment: 0,0:04:57.10,0:04:57.78,Text_Bottom,,0,0,0,kara,呜…\Nうぅ…
+Comment: 0,0:04:58.35,0:05:00.27,Text_Bottom,,0,0,0,kara,我承认我确实有偏见！\N偏見があったことは認めます！
+Comment: 0,0:05:01.06,0:05:01.91,Text_Bottom,,0,0,0,kara,但是…\Nですが…
+Comment: 0,0:05:02.35,0:05:05.71,Text_Bottom,,0,0,0,kara,在这种满是游戏的地方 我才不信能学得进去什么东西呢\Nこんな ゲームだらけの場で 勉強できるとは思えませんね！
+Comment: 0,0:05:06.01,0:05:07.30,Text_Bottom,,0,0,0,kara,她为什么一脸得意…\Nなぜ ドヤ顔…
+Comment: 0,0:05:08.10,0:05:11.71,Text_Bottom,,0,0,0,kara,嗯…{\fscx50} {\fscx100}有没有能学习知识的游戏呢\Nう～ん 勉強ができそうなゲームかぁ
+Comment: 0,0:05:12.25,0:05:13.99,Text_Bottom,,0,0,0,kara,你们的话我都听到了！\N話は聞かせてもらった！
+Comment: 0,0:05:13.99,0:05:15.03,Text_Bottom,,0,0,0,kara,莲司！\Nレンジ！
+Comment: 0,0:05:15.03,0:05:15.94,Text_Bottom,,0,0,0,kara,老哥！？\N兄ちゃん！？
+Comment: 0,0:05:16.23,0:05:17.21,Text_Bottom,,0,0,0,kara,店员先生？\N店員さん…？
+Comment: 0,0:05:17.51,0:05:20.84,Text_Bottom,,0,0,0,kara,能学习的游戏的话 这里正好有一款哦！\N勉強ができるゲームなら ちょうどいいのがあるよ！
+Comment: 0,0:05:21.22,0:05:21.94,Text_Bottom,,0,0,0,kara,诶！？\Nえっ！？
+Comment: 0,0:05:26.61,0:05:27.85,Text_Bottom,,0,0,0,kara,这是…\Nこれは…
+Comment: 0,0:05:28.03,0:05:29.33,Text_Bottom,,0,0,0,kara,问答游戏？\Nクイズゲーム？
+Comment: 0,0:05:29.85,0:05:33.35,Text_Bottom,,0,0,0,kara,诶 玩这个的话 好像确实能学到知识呢\Nへぇ～ 確かに これなら 勉強になりそうね
+Comment: 0,0:05:33.77,0:05:35.61,Text_Bottom,,0,0,0,kara,这里面有各种领域的谜题\Nいろんなジャンルのクイズがあって
+Comment: 0,0:05:36.18,0:05:39.19,Text_Bottom,,0,0,0,kara,可以选择和朋友合作 或者对战的玩法\N友達と協力したり 対戦したりできるんだ
+Comment: 0,0:05:39.19,0:05:40.61,Text_Bottom,,0,0,0,kara,诶～！\Nへぇ～！
+Comment: 0,0:05:40.82,0:05:43.53,Text_Bottom,,0,0,0,kara,反正我们是第一次玩 就选合作模式吧\Nまぁ初めてだし 協力プレイでいくか
+Comment: 0,0:05:44.15,0:05:46.37,Text_Bottom,,0,0,0,kara,谁知道答案就去按按钮这样的感觉\Nわかったヤツから ボタンを押していく感じで
+Comment: 0,0:05:46.59,0:05:47.54,Text_Bottom,,0,0,0,kara,好主意\Nそうね
+Comment: 0,0:05:47.83,0:05:48.71,Text_Bottom,,0,0,0,kara,好～！\Nは～い！
+Comment: 0,0:05:52.54,0:05:58.30,Text_Bottom,,0,0,0,kara,提问 谚语「藏头露尾」的由来是什么动物？\Nことわざ「頭隠して尻隠さず」の由来となった動物はなんでしょう？
+Comment: 0,0:05:58.90,0:06:03.43,Text_Bottom,,0,0,0,kara,我虽然知道这个谚语本身…{\fscx50} {\fscx100}但从没在意过它的出处\Nことわざ自体は知ってるけど…{\fscx50} {\fscx100}語源なんて気にしたこともない
+Comment: 0,0:06:03.43,0:06:05.78,Text_Bottom,,0,0,0,kara,大…{\fscx50} {\fscx100}大家知道答案吗\Nみ みんな わかるのかしら
+Comment: 0,0:06:08.10,0:06:10.89,Text_Bottom,,0,0,0,kara,诶！？ 莉莉同学懂这句谚语吗！？\Nえっ！？ リリーさん ことわざがわかるの！？
+Comment: 0,0:06:13.82,0:06:14.65,Text_Bottom,,0,0,0,kara,考拉？\Nコアラ？
+Comment: 0,0:06:17.70,0:06:21.30,Text_Bottom,,0,0,0,kara,等…{\fscx50} {\fscx100}日本的谚语里 怎么可能出现考拉嘛！？\Nちょっ… 日本のことわざでコアラが出てくるわけないでしょう！？
+Comment: 0,0:06:21.30,0:06:23.03,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}对不起！\Nあぁ… ごめんなさい！
+Comment: 0,0:06:23.31,0:06:25.03,Text_Bottom,,0,0,0,kara,嘛 没关系啦\Nまぁ いいじゃねえか
+Comment: 0,0:06:25.03,0:06:28.41,Text_Bottom,,0,0,0,kara,就是就是 只是游戏而已 答错了也没关系～\Nそうそう ゲームなんだし 間違えてもいいよ～
+Comment: 0,0:06:28.66,0:06:29.60,Text_Bottom,,0,0,0,kara,啊\Nあっ…
+Comment: 0,0:06:29.81,0:06:33.44,Text_Bottom,,0,0,0,kara,这样啊…{\fscx50} {\fscx100}错了也没关系…\Nそ そっか… 間違えてもいいんだ…
+Comment: 0,0:06:33.86,0:06:37.66,Text_Bottom,,0,0,0,kara,这既不是上课也不是做题…{\fscx50} {\fscx100}只是游戏而已…\N勉強でも おけいこでもない… ゲームだから…
+Comment: 0,0:06:40.46,0:06:41.67,Text_Bottom,,0,0,0,kara,你们说得对\Nそうですね
+Comment: 0,0:06:42.49,0:06:45.99,Text_Bottom,,0,0,0,kara,莉莉同学 我很抱歉！\Nリリーさん！ ア… アイムソーリー！
+Comment: 0,0:06:48.07,0:06:50.27,Text_Bottom,,0,0,0,kara,没关系 我们答下一题吧！\Nあっ… いいよ～！ 次いこ～！
+Comment: 0,0:06:50.64,0:06:51.33,Text_Bottom,,0,0,0,kara,诶\Nえっ…
+Comment: 0,0:06:52.18,0:06:53.50,Text_Bottom,,0,0,0,kara,啊 好\Nあっ はいっ
+Comment: 0,0:06:56.01,0:07:01.44,Text_Bottom,,0,0,0,kara,戴在手腕上的装饰品叫作 {ruby=手镯}Bracelet{/ruby} 那么戴在脚踝上的装饰品叫作什么呢？\N手首につける装飾品はブレスレットですが、足首につける装飾品はなんでしよう？
+Comment: 0,0:07:01.99,0:07:02.99,Text_Bottom,,0,0,0,kara,脚链\Nアンクレット！
+Comment: 0,0:07:04.32,0:07:05.03,Text_Bottom,,0,0,0,kara,回答正确\N正解！
+Comment: 0,0:07:06.95,0:07:10.66,Text_Bottom,,0,0,0,kara,「旷工」来源于法语的哪个词？\N「サボる」という言葉はなんというフランス語が由来でしょう？
+Comment: 0,0:07:10.66,0:07:11.98,Text_Bottom,,0,0,0,kara,{ruby=Sabotage}怠工{/ruby}\Nサボタージュ！
+Comment: 0,0:07:13.01,0:07:13.66,Text_Bottom,,0,0,0,kara,回答正确\N正解！
+Comment: 0,0:07:14.07,0:07:14.98,Text_Bottom,,0,0,0,kara,漂亮！\NNice!
+Comment: 0,0:07:14.98,0:07:16.46,Text_Bottom,,0,0,0,kara,这你都知道啊！\Nよくわかったね！
+Comment: 0,0:07:16.46,0:07:17.79,Text_Bottom,,0,0,0,kara,小意思啦！\N楽勝よ！
+Comment: 0,0:07:17.79,0:07:19.68,Text_Top,,0,0,0,kara,没想到你还挺会答的嘛\N思いのほかやるじゃない
+Comment: 0,0:07:19.68,0:07:21.69,Text_Top,,0,0,0,kara,我在漫画里有看到过这个啊\N漫画で見たことあんだよな
+Comment: 0,0:07:21.69,0:07:22.90,Text_Top,,0,0,0,kara,诶 原来是这样啊\Nえ そうなんだ
+Comment: 0,0:07:17.79,0:07:19.68,Text_Bottom,,0,0,0,kara,大家都好厉害！\Nみんなすごい！
+Comment: 0,0:07:19.68,0:07:22.90,Text_Bottom,,0,0,0,kara,只有我还一题都没答对过呢！\Nまだ私だけ 一問も答えられてない！
+Comment: 0,0:07:26.14,0:07:32.58,Text_Bottom,,0,0,0,kara,提问 「音乐的三要素」指的是节奏 旋律和什么？\N「音楽の三要素」といえば、リズムとメロディとあとなんでしょう？
+Comment: 0,0:07:34.46,0:07:35.06,Text_Bottom,,0,0,0,kara,啊！\Nハッ！
+Comment: 0,0:07:36.02,0:07:36.99,Text_Bottom,,0,0,0,kara,是和声！\Nハーモニー！
+Comment: 0,0:07:42.23,0:07:43.10,Text_Bottom,,0,0,0,kara,回答正确！\N正解！
+Comment: 0,0:07:43.10,0:07:44.27,Text_Bottom,,0,0,0,kara,啊！\Nあぁ！
+Comment: 0,0:07:46.65,0:07:47.82,Text_Bottom,,0,0,0,kara,闯关成功！\Nステージクリア！
+Comment: 0,0:07:48.38,0:07:49.68,Text_Bottom,,0,0,0,kara,耶！\NYeah！
+Comment: 0,0:07:49.68,0:07:53.08,Text_Bottom,,0,0,0,kara,莉…{\fscx50} {\fscx100}莉莉同学！不过是个游戏 反应不用那么夸张啦…\Nリ リリーさん！ ゲームくらいで そんな大げさな…
+Comment: 0,0:07:53.34,0:07:56.55,Text_Bottom,,0,0,0,kara,说什么呢 你不是也玩得很投入嘛\N何言ってんだ しっかり楽しんでたじゃねえか
+Comment: 0,0:07:56.72,0:07:59.11,Text_Bottom,,0,0,0,kara,你答对的时候看起来很开心呢～\N正解できて うれしそうだったもんね～
+Comment: 0,0:07:59.11,0:07:59.69,Text_Bottom,,0,0,0,kara,那\Nそ
+Comment: 0,0:08:00.53,0:08:01.58,Text_Bottom,,0,0,0,kara,那是因为\Nそれはっ…
+Comment: 0,0:08:01.58,0:08:03.42,Text_Bottom,,0,0,0,kara,班长好厉害！\Nイインチョー すごい！
+Comment: 0,0:08:03.42,0:08:05.59,Text_Bottom,,0,0,0,kara,只是碰巧能答对而已\N正解できたのは たまたまで
+Comment: 0,0:08:05.75,0:08:07.25,Text_Bottom,,0,0,0,kara,别那么害羞嘛！\Nてれるな てれるな！
+Comment: 0,0:08:07.25,0:08:08.75,Text_Bottom,,0,0,0,kara,我才…{\fscx50} {\fscx100}才没害羞呢！\Nて てれてません！
+Comment: 0,0:08:09.10,0:08:10.72,Text_Bottom,,0,0,0,kara,不过 真亏你知道呢\Nでも よくわかったね～！
+Comment: 0,0:08:10.72,0:08:13.05,Text_Bottom,,0,0,0,kara,那是因为之前上课外班时碰巧有学到…\Nそれは 習い事でたまたま…
+Comment: 0,0:08:13.05,0:08:16.23,Text_Bottom,,0,0,0,kara,班长好厉害！好厉害！\Nいいんちょスゴイ！ スゴイ！ フフッ
+Comment: 0,0:08:24.43,0:08:25.73,Text_Bottom,,0,0,0,kara,今天也去游戏中心吗？\N今日 ゲーセン行く？
+Comment: 0,0:08:26.08,0:08:28.62,Text_Bottom,,0,0,0,kara,嗯…{\fscx50} {\fscx100}我零花钱可能有点紧张了\Nう～ん おこづかいピンチかも
+Comment: 0,0:08:28.82,0:08:30.27,Text_Bottom,,0,0,0,kara,你们给我站住！\Nちょっと あなたたち！
+Comment: 0,0:08:30.27,0:08:31.24,Text_Bottom,,0,0,0,kara,嗯\Nんっ？
+Comment: 0,0:08:33.21,0:08:36.14,Text_Bottom,,0,0,0,kara,今…{\fscx50} {\fscx100}今天你们不去吗？\Nきょ… 今日は行かないんですか？
+Comment: 0,0:08:36.83,0:08:38.62,Text_Bottom,,0,0,0,kara,游…{\fscx50} {\fscx100}游戏中心\Nゲ ゲーセン…
+Comment: 0,0:08:38.62,0:08:40.59,Text_Bottom,,0,0,0,kara,她看起来超想去的样子！\Nメッチャ行きたそう！
+Comment: 0,0:09:01.55,0:09:02.65,Text_Bottom,,0,0,0,kara,喂\Nなぁ…
+Comment: 0,0:09:02.97,0:09:06.01,Text_Bottom,,0,0,0,kara,班长你为什么要鬼鬼祟祟的？\Nなんで委員長さんはコソコソついてきてるんだ？
+Comment: 0,0:09:06.23,0:09:06.81,Text_Bottom,,0,0,0,kara,啊！\Nハッ！
+Comment: 0,0:09:07.36,0:09:09.74,Text_Bottom,,0,0,0,kara,直接跟我们一起走不就好了\N普通に一緒に来ればいいのに
+Comment: 0,0:09:09.74,0:09:11.36,Text_Bottom,,0,0,120,kara,你简直就像个忍者一样！\NYou're just like a ninja!
+Comment: 0,0:09:12.06,0:09:15.03,Text_Bottom,,0,0,0,kara,这么说也对\Nこ これは そのですね…
+Comment: 0,0:09:16.65,0:09:20.46,Text_Bottom,,0,0,0,kara,上次来的时候 我还不确定这里能不能学到知识\Nこの前 来たときじゃ ここが勉強になるか わからなかったですから
+Comment: 0,0:09:20.46,0:09:25.83,Text_Bottom,,0,0,0,kara,所以这次我得把所有东西都尝试一遍 看看是不是真有收获 如果一次搞不懂 就多挑战几次\N本当にためになるのかありとあらゆるものに触れて 一度で理解できなければ 何度でも挑戦し
+Comment: 0,0:09:25.83,0:09:28.17,Text_Bottom,,0,0,0,kara,我就是为了把事情彻底搞懂才来的！\Nより詳しく調べるべく 来ただけですよ！
+Comment: 0,0:09:28.17,0:09:30.30,Text_Bottom,,0,0,0,kara,突…{\fscx50} {\fscx100}突然开始长篇大论！\Nきゅ 急に すごい語りだした！
+Comment: 0,0:09:30.75,0:09:35.82,Text_Bottom,,0,0,0,kara,其实为了今天 我把游戏中心里会出现的游戏类型预习过了\N実は今日のために ゲーセンにどんなゲームがあるのか 予習してきたんです
+Comment: 0,0:09:36.55,0:09:38.89,Text_Bottom,,0,0,0,kara,班长干劲满满啊\N委員長 すっごい張り切ってる
+Comment: 0,0:09:38.89,0:09:40.05,Text_Bottom,,0,0,0,kara,真行啊！\Nやるわね！
+Comment: 0,0:09:40.05,0:09:42.77,Text_Bottom,,0,0,0,kara,格斗游戏 代币游戏 抓娃娃机 …\N格ゲーにメダルゲーにクレーンゲーム…
+Comment: 0,0:09:43.13,0:09:44.81,Text_Bottom,,0,0,0,kara,嗯 这里基本都有\Nまっ だいたいここにあるな
+Comment: 0,0:09:45.14,0:09:46.38,Text_Bottom,,0,0,0,kara,真的吗！？\N本当ですか！？
+Comment: 0,0:09:46.38,0:09:47.90,Text_Bottom,,0,0,0,kara,我们全都玩一遍吧～！\N全部やろ～！
+Comment: 0,0:09:47.90,0:09:49.99,Text_Bottom,,0,0,0,kara,那我们按顺序一个个玩过去吧\Nじゃ 順番に回っていこっか
+Comment: 0,0:09:57.98,0:10:00.43,Text_Bottom,,0,0,0,kara,诶 你打得还不赖嘛…\Nへぇ… 筋は悪くねえ…
+Comment: 0,0:10:00.43,0:10:01.29,Text_Bottom,,0,0,0,kara,但是\Nだが
+Comment: 0,0:10:01.97,0:10:04.30,Text_Bottom,,0,0,0,kara,想赢咱还早了一百年呢！\Nウチに勝つのは１００年早ぇな！
+Comment: 0,0:10:07.65,0:10:09.05,Text_Bottom,,0,0,0,kara,K.O.！\N Ｋ．Ｏ．！
+Comment: 0,0:10:09.52,0:10:11.50,Text_Bottom,,0,0,0,kara,啊～ 输啦～！\Nたは～ 負けた～！
+Comment: 0,0:10:11.50,0:10:15.31,Text_Bottom,,0,0,0,kara,师父 好厉害！葵衣也很努力了！\Nししょー すご～い！ アオイも頑張った！
+Comment: 0,0:10:15.71,0:10:18.32,Text_Bottom,,0,0,0,kara,加贺 你的手部动作真厉害！\N加賀さん すごい手の動きでした！
+Comment: 0,0:10:18.87,0:10:20.98,Text_Bottom,,0,0,0,kara,这对打字也有帮助吧？\Nタイピングにも役に立つのでは？
+Comment: 0,0:10:21.23,0:10:22.94,Text_Bottom,,0,0,0,kara,话说得真圆啊\Nものはいいようだなぁ
+Comment: 0,0:10:23.44,0:10:25.75,Text_Bottom,,0,0,0,kara,那 班长你也来试试看吧\Nじゃ 委員長さんもやってみろよ
+Comment: 0,0:10:27.54,0:10:30.31,Text_Bottom,,0,0,0,kara,哇...{\fscx50} {\fscx100}娃娃\Nわっ わわ… わわ
+Comment: 0,0:10:31.23,0:10:34.20,Text_Bottom,,0,0,0,kara,呃...{\fscx50} {\fscx100}唔...\Nうぅ… くぅ… うぅ！
+Comment: 0,0:10:34.47,0:10:37.13,Text_Bottom,,0,0,0,kara,冷静点 你又开始乱摇摇杆了\N落ち着け またレバガチャになってるぞ
+Comment: 0,0:10:38.01,0:10:41.58,Text_Bottom,,0,0,0,kara,班长 不能只顾着防守 要果断进攻\N委員長さん 守ってちゃダメだ 思い切っていきな
+Comment: 0,0:10:42.38,0:10:47.11,Text_Bottom,,0,0,0,kara,居…{\fscx50} {\fscx100}居然…{\fscx50} {\fscx100}这么难…\Nこ こんなに… 難しい なんて…
+Comment: 0,0:10:48.35,0:10:49.60,Text_Bottom,,0,0,0,kara,她们水平还不错嘛\Nいい腕っすね
+Comment: 0,0:10:49.99,0:10:53.58,Text_Bottom,,0,0,0,kara,是啊 我们也不能输啊\Nああ 我々も負けてられないな フッ
+Comment: 0,0:10:55.49,0:10:57.85,Text_Bottom,,0,0,0,kara,总觉得…{\fscx50} {\fscx100}有股很微妙又带点关怀的视线…\Nなんか なま暖かい視線が…
+Comment: 0,0:10:58.10,0:10:59.22,Text_Bottom,,0,0,0,kara,来一决胜负吧！\Nさぁ勝負だ！
+Comment: 0,0:11:00.13,0:11:03.23,Text_Bottom,,0,0,0,kara,石头 剪刀 布！\Nジャン ケン…{\fscx50} {\fscx100}ポン！
+Comment: 0,0:11:04.26,0:11:05.48,Text_Bottom,,0,0,0,kara,输啦～\N負け～！
+Comment: 0,0:11:05.75,0:11:08.74,Text_Bottom,,0,0,0,kara,怎么老是输啊 这机器是不是有问题！？\Nこんなに負け越すなんて 不正してるんじゃないですか！？
+Comment: 0,0:11:10.10,0:11:11.25,Text_Bottom,,0,0,0,kara,来一决胜负吧！\Nさぁ勝負だ！
+Comment: 0,0:11:11.57,0:11:14.47,Text_Bottom,,0,0,0,kara,石头 剪刀 布！\Nジャン ケン…{\fscx50} {\fscx100}ポン！
+Comment: 0,0:11:15.12,0:11:16.36,Text_Bottom,,0,0,0,kara,输啦～\N負け～！
+Comment: 0,0:11:16.94,0:11:18.57,Text_Bottom,,0,0,0,kara,呜…\Nうぅ…
+Comment: 0,0:11:18.57,0:11:21.14,Text_Bottom,,0,0,0,kara,早都说了 这种游戏是赢不了的啦！\Nだから そのゲームは 勝てないんだって！
+Comment: 0,0:11:21.55,0:11:24.89,Text_Bottom,,0,0,0,kara,能赢下的方法 就算是我也没什么可教的啊\Nそれに勝つ方法は さすがに教えられねえぞ
+Comment: 0,0:11:25.14,0:11:26.88,Text_Bottom,,0,0,0,kara,没关系 莉莉同学！\N大丈夫です リリーさん！
+Comment: 0,0:11:27.14,0:11:28.73,Text_Bottom,,0,0,0,kara,我现在就为你报仇！\N今 敵を討ちますよ！
+Comment: 0,0:11:29.37,0:11:30.33,Text_Bottom,,0,0,0,kara,啊 等一下！\Nあっ ちょっと！
+Comment: 0,0:11:30.33,0:11:31.37,Text_Bottom,,0,0,0,kara,来一决胜负吧！\Nさぁ勝負だ！
+Comment: 0,0:11:31.73,0:11:33.26,Text_Bottom,,0,0,0,kara,石头 剪刀…\Nジャン ケン…
+Comment: 0,0:11:33.26,0:11:34.34,Text_Bottom,,0,0,0,kara,布！\Nパー！
+Comment: 0,0:11:34.99,0:11:36.09,Text_Bottom,,0,0,0,kara,输啦～\N負け～！
+Comment: 0,0:11:36.51,0:11:38.43,Text_Bottom,,0,0,0,kara,这机器果然有问题吧！？\Nやっぱり不正してますよね！？
+Comment: 0,0:11:42.25,0:11:44.32,Text_Bottom,,0,0,0,kara,真是个可怕的游戏\N恐ろしいゲームでした
+Comment: 0,0:11:44.73,0:11:46.41,Text_Bottom,,0,0,0,kara,下次我们绝对不会输的\N次は絶対負けない
+Comment: 0,0:11:46.63,0:11:49.12,Text_Bottom,,0,0,0,kara,对 我们研究一下再复仇吧！\Nはい 学んでリベンジしましょうね！
+Comment: 0,0:11:49.50,0:11:51.67,Text_Bottom,,0,0,0,kara,我是绝对不会玩那个的\Nウチは絶対やらねえ
+Comment: 0,0:11:51.67,0:11:54.07,Text_Bottom,,0,0,0,kara,真是的～ 玩点别的游戏不就好了\Nも～ 他のゲームやればいいじゃん
+Comment: 0,0:11:54.07,0:11:56.46,Text_Bottom,,0,0,0,kara,不 我一定要复仇！\Nいえ 必ずリベンジします！
+Comment: 0,0:11:58.08,0:11:59.41,Text_Bottom,,0,0,0,kara,啊 莉莉\Nあっ リリーちゃん
+Comment: 0,0:11:59.57,0:12:00.94,Text_Bottom,,0,0,0,kara,莲司！\Nレンジ！
+Comment: 0,0:12:02.48,0:12:04.21,Text_Bottom,,0,0,0,kara,今天是和大家一起来的啊\N今日はみんなで来たんだね
+Comment: 0,0:12:04.21,0:12:08.08,Text_Bottom,,0,0,0,kara,小哥 差不多该做好和我对战的觉悟了吧\N兄さん そろそろウチと 対戦する覚悟は決まったか？
+Comment: 0,0:12:08.34,0:12:11.21,Text_Bottom,,0,0,0,kara,那个 打工太忙了 抽不出身…\Nいや バイトが忙しくて なかなか…
+Comment: 0,0:12:11.21,0:12:12.40,Text_Bottom,,0,0,0,kara,那就辞了\Nじゃあバイト辞めろ
+Comment: 0,0:12:12.40,0:12:14.59,Text_Bottom,,0,0,0,kara,真是的 别强人所难啦\Nもう ムチャクチャ言わないの
+Comment: 0,0:12:14.74,0:12:15.76,Text_Bottom,,0,0,0,kara,莲司\NRenji!
+Comment: 0,0:12:15.76,0:12:18.09,Text_Bottom,,0,0,120,kara,有新的考拉先生周边到货吗？\NAny new Mr. Koala stuff today?
+Comment: 0,0:12:18.33,0:12:20.34,Text_Bottom,,0,0,0,kara,嗯？哦！\Nんっ？ ああ
+Comment: 0,0:12:20.34,0:12:22.88,Text_Bottom,,0,0,0,kara,我们进了些小挂件和玩偶之类的东西\N小物とかぬいぐるみとか いろいろ入ってるよ
+Comment: 0,0:12:23.13,0:12:24.35,Text_Bottom,,0,0,0,kara,太好啦！\Nやった～！
+Comment: 0,0:12:24.78,0:12:28.48,Text_Bottom,,0,0,0,kara,考拉？是什么游戏的奖品吗？\Nコアラ？ 何かのゲームの景品なんですか？
+Comment: 0,0:12:33.28,0:12:33.94,Text_Bottom,,0,0,0,kara,是这个\Nこれ！
+Comment: 0,0:12:34.35,0:12:36.24,Text_Bottom,,0,0,0,kara,抓娃娃机吗\Nクレーンゲームですか
+Comment: 0,0:12:36.48,0:12:39.73,Text_Bottom,,0,0,0,kara,但是 再怎么说玩这个也学不到什么东西吧\Nでも さすがにこれは 勉強にならないような
+Comment: 0,0:12:40.91,0:12:45.69,Text_Bottom,,0,0,0,kara,格斗游戏也好代币游戏也罢 人生就是会从各种东西中学到知识\N格ゲーやメダルゲー 人生では あらゆることが学びになる
+Comment: 0,0:12:46.31,0:12:48.62,Text_Bottom,,0,0,0,kara,莉莉就是想说这个吧\Nそういうことを リリーは言いたいんだろ
+Comment: 0,0:12:49.58,0:12:50.65,Text_Bottom,,0,0,0,kara,原来如此\Nなるほど…
+Comment: 0,0:12:51.11,0:12:52.40,Text_Bottom,,0,0,0,kara,有一定道理啊\N一理ありますね
+Comment: 0,0:12:52.66,0:12:54.50,Text_Bottom,,0,0,0,kara,这就把你说服了吗\Nそれで納得しちゃうんだ！？
+Comment: 0,0:12:54.71,0:12:57.63,Text_Bottom,,0,0,120,kara,好吧 我来给你露一手！\NAll right! I'll show you how to play!
+Comment: 0,0:12:57.82,0:12:59.26,Text_Bottom,,0,0,0,kara,啊…{\fscx50} {\fscx100}好！\Nは… はい！
+Comment: 0,0:13:04.50,0:13:06.07,Text_Bottom,,0,0,0,kara,这位置挺好呀\Nいい位置なんじゃない？
+Comment: 0,0:13:06.07,0:13:07.39,Text_Bottom,,0,0,0,kara,说得没错\Nそうですよね！
+Comment: 0,0:13:15.60,0:13:17.54,Text_Bottom,,0,0,0,kara,你抓娃娃机也玩成这样啊\Nクレーンゲームでも こんなに？
+Comment: 0,0:13:17.99,0:13:20.14,Text_Bottom,,0,0,0,kara,但 但你把玩偶移动了很多哦\Nで でも だいぶ動いてるよ！
+Comment: 0,0:13:20.14,0:13:22.35,Text_Bottom,,0,0,0,kara,你也就移动了{\fscx50} {\fscx100}3{\fscx50} {\fscx100}厘米左右哦！\N３ミリくらいしか動いてねえぞ！
+Comment: 0,0:13:22.35,0:13:24.66,Text_Bottom,,0,0,0,kara,加贺同学 我是在安慰她呢！\N加賀さん 慰めてるんだから！
+Comment: 0,0:13:25.02,0:13:27.39,Text_Bottom,,0,0,0,kara,这…{\fscx50} {\fscx100}难道是\Nこ… これはまさか…
+Comment: 0,0:13:28.55,0:13:33.59,Text_Bottom,,0,0,0,kara,从实践中学到「人生不如意事 十之八九」这个道理吗\N人生と同じで そううまくは いかないよってことを 身をもって 教えてくれてるってことですか！？
+Comment: 0,0:13:33.59,0:13:35.30,Text_Bottom,,0,0,0,kara,我想绝对不是这样\N絶対 違うと思う！
+Comment: 0,0:13:35.63,0:13:37.25,Text_Bottom,,0,0,0,kara,莲司～\Nレンジ～
+Comment: 0,0:13:37.25,0:13:38.07,Text_Bottom,,0,0,0,kara,来了来了\Nはいはい
+Comment: 0,0:13:39.62,0:13:40.29,Text_Bottom,,0,0,0,kara,诶？\Nえっ？
+Comment: 0,0:13:42.41,0:13:43.05,Text_Bottom,,0,0,0,kara,诶？\Nえっ？
+Comment: 0,0:13:43.45,0:13:44.62,Text_Bottom,,0,0,0,kara,放这附近可以吗\Nこの辺でいいかな
+Comment: 0,0:13:44.62,0:13:45.86,Text_Bottom,,0,0,0,kara,谢谢～\Nありがと～
+Comment: 0,0:13:45.86,0:13:46.93,Text_Bottom,,0,0,0,kara,诶诶？！\Nえぇ～！？
+Comment: 0,0:13:46.93,0:13:48.31,Text_Bottom,,0,0,0,kara,这是怎么一回事\Nどういうことですか！？
+Comment: 0,0:13:48.31,0:13:50.54,Text_Bottom,,0,0,0,kara,这里还能允许这样偷奸耍滑吗\Nそんなえこひいき 許されるんですか！？
+Comment: 0,0:13:50.54,0:13:54.56,Text_Bottom,,0,0,0,kara,不不不！这也是本店的既定方针之一啊\Nいやいやいや！ お店の方針で決まってるんだよ こういうの！
+Comment: 0,0:13:54.78,0:13:59.47,Text_Bottom,,0,0,0,kara,对于消费超过一定额度的常客 是允许进行这种优待的\N一定以上お金を入れた 常連さんには こういうサービスしてもいいって！
+Comment: 0,0:13:59.47,0:14:02.80,Text_Bottom,,0,0,0,kara,就是说在遇到问题时寻求帮助也是很重要的\N困ったときに助けを求めるのも 大事ってことだ
+Comment: 0,0:14:03.49,0:14:04.79,Text_Bottom,,0,0,0,kara,原来如此\Nなるほど
+Comment: 0,0:14:04.79,0:14:08.74,Text_Bottom,,0,0,0,kara,这也可能会成为在我们步入社会之后 一项必须掌握的沟通能力对吧\Nこれも社会に出たら必要になる コミュニケーション力ということですか
+Comment: 0,0:14:09.02,0:14:11.74,Text_Bottom,,0,0,0,kara,这…{\fscx50} {\fscx100}就当作是这么一回事吧\Nまあ… そういうことにしておこう
+Comment: 0,0:14:16.09,0:14:19.34,Text_Bottom,,0,0,0,kara,抓到了 谢谢你莲司\Nやった～ ありがと レンジ
+Comment: 0,0:14:19.74,0:14:20.79,Text_Bottom,,0,0,0,kara,真是太好了\Nよかったね
+Comment: 0,0:14:22.73,0:14:24.83,Text_Bottom,,0,0,0,kara,班长不玩玩抓娃娃机吗\N委員長は クレーンゲームやらないの？
+Comment: 0,0:14:25.26,0:14:25.85,Text_Bottom,,0,0,0,kara,诶？\Nえっ？
+Comment: 0,0:14:26.27,0:14:27.25,Text_Bottom,,0,0,0,kara,那个…\Nえっと…
+Comment: 0,0:14:28.10,0:14:33.09,Text_Bottom,,0,0,0,kara,要是我拿玩偶回家的话 家里人会骂我的\N私の家は ぬいぐるみとか持って帰ったら 怒られてしまうので…
+Comment: 0,0:14:33.74,0:14:36.58,Text_Bottom,,0,0,0,kara,不过那个考拉先生真的很可爱 我也很喜欢\Nコアラさんは かわいくて好きなんですけど…
+Comment: 0,0:14:37.15,0:14:38.50,Text_Bottom,,0,0,0,kara,班长…\Nイインチョー…
+Comment: 0,0:14:38.73,0:14:41.63,Text_Bottom,,0,0,0,kara,这样啊…{\fscx50} {\fscx100}有没有什么其他办法呢\Nそっか… どうにかできないかな
+Comment: 0,0:14:41.90,0:14:45.63,Text_Bottom,,0,0,0,kara,就算偷偷带回家 玩偶也实在太显眼了\Nこっそり持ち込むにしても ぬいぐるみは目立つからなぁ
+Comment: 0,0:14:45.98,0:14:47.76,Text_Bottom,,0,0,0,kara,啊 那样的话\Nあっ… それなら
+Comment: 0,0:14:52.59,0:14:56.65,Text_Bottom,,0,0,0,kara,这种小挂件的话 挂在铅笔盒上也不会被注意到吧\Nこういうのだったら 筆箱とかに付けても 見つからないんじゃない？
+Comment: 0,0:14:57.18,0:14:59.58,Text_Bottom,,0,0,0,kara,确实 这个或许可以…\Nた 確かにこれなら…
+Comment: 0,0:14:59.85,0:15:01.47,Text_Bottom,,0,0,0,kara,我来试试看\N私 やってみます！
+Comment: 0,0:15:05.22,0:15:07.94,Text_Bottom,,0,0,0,kara,这不是完全抓不到吗 店员先生！\Nって全然取れないじゃないですか 店員さん！
+Comment: 0,0:15:07.94,0:15:11.35,Text_Bottom,,0,0,0,kara,不 这个你不对准位置的话是抓不到的\Nいや これは位置を合わせないとどうしようもないから…
+Comment: 0,0:15:11.69,0:15:12.89,Text_Bottom,,0,0,0,kara,加油！\N頑張れ～！
+Comment: 0,0:15:13.11,0:15:15.74,Text_Bottom,,0,0,0,kara,刚才起就一直差一点点呢\Nさっきから 入りそうで入らないね～
+Comment: 0,0:15:28.58,0:15:29.90,Text_Bottom,,0,0,0,kara,你要放弃了吗？\N諦めんのか？
+Comment: 0,0:15:39.23,0:15:40.24,Text_Bottom,,0,0,0,kara,原来如此\Nなるほど
+Comment: 0,0:15:41.62,0:15:44.46,Text_Bottom,,0,0,0,kara,从这个游戏中可以学到永不放弃的精神\Nこのゲームは 諦めない気持ちも学べる
+Comment: 0,0:15:45.67,0:15:47.21,Text_Bottom,,0,0,0,kara,是这么一回事吧\Nそういうことですね！
+Comment: 0,0:15:49.92,0:15:50.55,Text_Bottom,,0,0,0,kara,嗯？\Nんっ…？
+Comment: 0,0:15:50.55,0:15:52.21,Text_Bottom,,0,0,0,kara,你这不是挺懂的吗\Nへっ わかってるじゃねえか
+Comment: 0,0:15:52.21,0:15:54.68,Text_Bottom,,0,0,0,kara,她绝对没想这么多吧！\N絶対そこまで 考えてなかったよね！？
+Comment: 0,0:15:55.46,0:15:56.77,Text_Bottom,,0,0,0,kara,这就是\Nこれが最後…
+Comment: 0,0:15:59.01,0:15:59.90,Text_Bottom,,0,0,0,kara,我最后的\N泣きの…
+Comment: 0,0:16:01.06,0:16:02.23,Text_Bottom,,0,0,0,kara,放手一搏了！\N一回です！
+Comment: 0,0:16:17.43,0:16:18.53,Text_Bottom,,0,0,0,kara,抓到了？\N取れた…？
+Comment: 0,0:16:19.18,0:16:20.94,Text_Bottom,,300,0,0,kara,太好了！\Nやった～！
+Comment: 0,0:16:20.08,0:16:20.94,Text_Bottom,,0,300,0,kara,哇！\Nわっ！？
+Comment: 0,0:16:21.54,0:16:23.46,Text_Bottom,,0,0,0,kara,这是你坚持下来的回报啊 班长\N粘り勝ちだね委員長！
+Comment: 0,0:16:23.46,0:16:24.71,Text_Bottom,,0,0,0,kara,挺能干的嘛\Nやるじゃねえか！
+Comment: 0,0:16:25.11,0:16:26.09,Text_Bottom,,0,0,0,kara,恭喜你\Nおめでとう！
+Comment: 0,0:16:26.35,0:16:29.27,Text_Bottom,,0,0,0,kara,你们等一下 没有这么夸张啦\Nちょ ちょっと… 大げさですよ
+Comment: 0,0:16:35.19,0:16:40.54,Text_Bottom,,0,0,0,kara,我明明是班长 玩得这么忘乎所以真的可以吗\N委員長なのに こんなに楽しい思いをして いいんでしょうか
+Comment: 0,0:16:50.06,0:16:52.42,Text_Bottom,,0,0,0,kara,哎呀 今天玩得真尽兴啊\Nいや～ ゲーム尽くしだったね
+Comment: 0,0:16:52.42,0:16:53.57,Text_Bottom,,0,0,0,kara,嗯嗯嗯\Nうんうんうん
+Comment: 0,0:16:57.31,0:16:59.50,Text_Bottom,,0,0,0,kara,你还真是好学啊\Nずいぶん勉強熱心じゃねえか
+Comment: 0,0:16:59.83,0:17:01.65,Text_Bottom,,0,0,0,kara,我想把感想写下来\N感想を書いておきたくて
+Comment: 0,0:17:02.16,0:17:05.41,Text_Bottom,,0,0,0,kara,多亏了大家 我把想玩的游戏都玩了一遍\N皆さんのおかげで 気になっていたゲームができました
+Comment: 0,0:17:06.06,0:17:07.35,Text_Bottom,,0,0,0,kara,谢谢你们\Nありがとうございます
+Comment: 0,0:17:07.95,0:17:10.24,Text_Bottom,,0,0,0,kara,班长你玩得开心就好\N委員長が楽しめてよかったよ！
+Comment: 0,0:17:11.69,0:17:12.26,Text_Bottom,,0,0,0,kara,咦？\Nあっ… あれ？
+Comment: 0,0:17:12.81,0:17:14.96,Text_Bottom,,0,0,0,kara,那个你还没玩过吧\Nそれ まだやってないよね
+Comment: 0,0:17:15.23,0:17:16.54,Text_Bottom,,0,0,0,kara,这是…\Nあっ これは…
+Comment: 0,0:17:17.43,0:17:18.75,Text_Bottom,,0,0,0,kara,「大头贴」？\N「プリクラ」…
+Comment: 0,0:17:20.56,0:17:22.98,Text_Bottom,,0,0,120,kara,哦 我们管这个叫「照相亭」\NOh, it's called a photo booth  ね
+Comment: 0,0:17:23.63,0:17:27.37,Text_Bottom,,0,0,0,kara,{ruby=Photo booth}照相亭{/ruby}？原来英语是这么叫的啊\Nフォトブース？ へぇ 英語でそう言うんだ
+Comment: 0,0:17:27.69,0:17:28.91,Text_Bottom,,0,0,0,kara,大家一起拍吧\Nみんなで撮ろう！
+Comment: 0,0:17:28.91,0:17:29.90,Text_Bottom,,0,0,0,kara,好啊\Nいいね！
+Comment: 0,0:17:30.94,0:17:33.95,Text_Bottom,,0,0,0,kara,那个…{\fscx50} {\fscx100}我是很想拍\Nその… 私も撮りたいんですが…
+Comment: 0,0:17:34.72,0:17:37.54,Text_Bottom,,0,0,0,kara,但这个好像和学习没什么关系\N勉強に あまり関係なさそうで
+Comment: 0,0:17:38.85,0:17:40.02,Text_Bottom,,0,0,0,kara,走吧！\NLet's go!
+Comment: 0,0:17:40.02,0:17:41.45,Text_Bottom,,0,0,0,kara,诶 诶诶！？\Nえっ えぇ～！？
+Comment: 0,0:17:43.74,0:17:46.78,Text_Bottom,,0,0,0,kara,这…{\fscx50} {\fscx100}这就是大头贴\Nこ… これがプリクラ…！
+Comment: 0,0:17:47.91,0:17:50.00,Text_Bottom,,0,0,0,kara,姿势就按推荐的来可以吗\Nポーズはオススメのやつでいい？
+Comment: 0,0:17:50.18,0:17:50.82,Text_Bottom,,0,0,0,kara,嗯\Nウン！
+Comment: 0,0:17:50.82,0:17:51.90,Text_Bottom,,0,0,0,kara,拜托你了\Nお願いします！
+Comment: 0,0:17:52.61,0:17:55.19,Text_Bottom,,0,0,0,kara,咱可不拍啊 不是咱的风格\Nウチは撮らねえぞ ガラじゃねえ
+Comment: 0,0:17:55.19,0:17:57.43,Text_Bottom,,0,0,0,kara,但拍一下试试看的话说不定会很有趣哦\Nでも 撮ってみたら楽しいかもよ？
+Comment: 0,0:17:57.75,0:17:58.73,Text_Bottom,,0,0,0,kara,不要\Nい～や
+Comment: 0,0:17:59.07,0:18:03.26,Text_Bottom,,0,0,0,kara,再说班长你不也觉得这和学习没什么关系吗\Nだいたい委員長さんも 勉強にならないって 思ってたんじゃねえの
+Comment: 0,0:18:03.26,0:18:04.69,Text_Bottom,,0,0,0,kara,是这样没错…\Nそうなんですが…
+Comment: 0,0:18:05.45,0:18:10.36,Text_Bottom,,0,0,0,kara,但我在想其实大头贴能培养大家的团队合作能力也说不定\N実はプリクラも みんなで共同作業を 学べるのでは？ と思いまして
+Comment: 0,0:18:10.62,0:18:13.87,Text_Bottom,,0,0,0,kara,不 从大头贴学不到那些的 毫无关系\Nいや プリクラでは学べない 関係ないな
+Comment: 0,0:18:14.15,0:18:16.12,Text_Bottom,,0,0,0,kara,一直坚持到这一步 居然退缩了？\Nここにきて はしごを外した！？
+Comment: 0,0:18:16.37,0:18:17.87,Text_Bottom,,0,0,0,kara,说得也是…\Nそうなんですね…
+Comment: 0,0:18:17.87,0:18:21.69,Text_Bottom,,0,0,0,kara,无关也没关系啊 今天已经学了很多东西了\N関係なくてもいいじゃん 今日はいっぱい勉強したんだし
+Comment: 0,0:18:22.41,0:18:24.58,Text_Bottom,,0,0,0,kara,我想和师父一起拍\Nししょーと一緒に撮りたい！
+Comment: 0,0:18:24.58,0:18:27.50,Text_Bottom,,0,0,0,kara,不…{\fscx50} {\fscx100}咱对这种不怎么…\Nいや… ウチはこういうのあんまり
+Comment: 0,0:18:28.05,0:18:30.81,Text_Bottom,,0,0,0,kara,拜托你了 师父\Nおねがい ししょー…
+Comment: 0,0:18:31.43,0:18:32.26,Text_Bottom,,0,0,0,kara,呃\Nうぐっ…
+Comment: 0,0:18:32.75,0:18:34.29,Text_Bottom,,0,0,0,kara,加贺同学 拜托你了\N加賀さん お願いします！
+Comment: 0,0:18:34.64,0:18:36.51,Text_Bottom,,0,0,0,kara,大家一起来拍吧\N皆さんで一緒に撮りましょう！
+Comment: 0,0:18:44.30,0:18:47.52,Text_Bottom,,0,0,0,kara,啊真是的 真拿你们没办法\Nあ～ もう！ しようがねえなあ！
+Comment: 0,0:18:57.03,0:19:00.32,Text_Bottom,,0,0,0,kara,总感觉这么窄让人冷静不下来呢\Nなんだか狭くて落ち着きませんね
+Comment: 0,0:19:00.66,0:19:02.14,Text_Bottom,,0,0,0,kara,要开始拍摄了哦\N撮影を始めるよ！
+Comment: 0,0:19:03.69,0:19:06.04,Text_Bottom,,0,0,0,kara,各位 我们好像应该站在这里\N皆さん 立つ場所はここみたいです！
+Comment: 0,0:19:06.70,0:19:09.44,Text_Bottom,,0,0,0,kara,要按机器所说的摆出姿势来拍照哦\Nプリクラ機が言うとおりのポーズを 取ってくださいね！
+Comment: 0,0:19:09.44,0:19:10.47,Text_Bottom,,0,0,0,kara,好\Nは～い！
+Comment: 0,0:19:10.47,0:19:11.02,Text_Bottom,,0,0,0,kara,嗯\Nウン！
+Comment: 0,0:19:11.02,0:19:12.67,Text_Bottom,,0,0,0,kara,你是大头贴班长吗\Nプリクラ委員長かよ！
+Comment: 0,0:19:13.03,0:19:14.81,Text_Bottom,,0,0,0,kara,首先是小兔子姿势\Nまずは うさちゃんポーズ！
+Comment: 0,0:19:14.97,0:19:17.18,Text_Bottom,,0,0,0,kara,双手摆成耳朵 跳跳\N手で耳を作ってピョンピョン！
+Comment: 0,0:19:17.95,0:19:19.41,Text_Bottom,,0,0,0,kara,小兔子姿势…\Nう うさちゃんピョーズ…？
+Comment: 0,0:19:20.11,0:19:21.97,Text_Bottom,,0,0,0,kara,这 这样吗\Nこ こうでしょうか？
+Comment: 0,0:19:21.97,0:19:24.01,Text_Bottom,,0,0,0,kara,小兔子 跳跳！\Nうさちゃん ピョンピョン！
+Comment: 0,0:19:24.01,0:19:25.90,Text_Bottom,,0,0,0,kara,莉莉 做的真不错\Nリリーちゃん いい感じ！
+Comment: 0,0:19:27.69,0:19:29.47,Text_Bottom,,0,0,0,kara,真的要这么拍吗\Nマジで撮るのかよ…
+Comment: 0,0:19:30.22,0:19:30.85,Text_Top,,0,0,0,kara,5\N 5
+Comment: 0,0:19:32.31,0:19:32.82,Text_Top,,0,0,0,kara,4\N 4
+Comment: 0,0:19:32.82,0:19:33.44,Text_Bottom,,0,0,0,kara,要来了\Nくるよ！
+Comment: 0,0:19:34.02,0:19:34.63,Text_Top,,0,0,0,kara,3\N3
+Comment: 0,0:19:35.26,0:19:36.70,Text_Bottom,,0,0,0,kara,跳跳！\Nピョーン ピョーン！
+Comment: 0,0:19:35.50,0:19:35.97,Text_Top,,0,0,0,kara,2\N 2
+Comment: 0,0:19:36.70,0:19:37.31,Text_Top,,0,0,0,kara,1\N1
+Comment: 0,0:19:36.70,0:19:37.87,Text_Bottom,,0,0,0,kara,莉莉！\Nリリーちゃん！？
+Comment: 0,0:19:38.69,0:19:40.31,Text_Bottom,,0,0,0,kara,画面变得好夸张\Nすごいことになってる！？
+Comment: 0,0:19:40.31,0:19:42.56,Text_Bottom,,0,0,0,kara,抱歉 我是不是离得太近了\Nゴメン 近づき過ぎちゃった
+Comment: 0,0:19:42.56,0:19:45.42,Text_Bottom,,0,0,0,kara,挺有动感的 我觉得挺不错！\Nや 躍動感があって いいと思いますよ！
+Comment: 0,0:19:45.42,0:19:47.19,Text_Bottom,,0,0,0,kara,我说 这张能删掉吗\Nなあ これ消せねえのか？
+Comment: 0,0:19:47.19,0:19:48.46,Text_Bottom,,0,0,0,kara,才不删呢\N消さないよ！？
+Comment: 0,0:19:49.33,0:19:50.81,Text_Bottom,,0,0,0,kara,眼睛太大了点吧\N目が大きすぎません？
+Comment: 0,0:19:51.29,0:19:52.89,Text_Bottom,,0,0,0,kara,大头贴就是这种感觉啦\Nプリクラはこんなもんだよ
+Comment: 0,0:19:53.69,0:19:54.89,Text_Bottom,,0,0,0,kara,为什么老哥也在！？\Nなんで兄ちゃんが！？
+Comment: 0,0:19:55.31,0:19:57.17,Text_Bottom,,0,0,0,kara,因为他就在旁边 顺手就\N近くにいたから つい
+Comment: 0,0:19:57.17,0:19:59.72,Text_Bottom,,0,0,0,kara,只是因为在旁边就把他拉过来了吗\N近くにいたら 連れてきちゃうんですか！？
+Comment: 0,0:20:00.49,0:20:02.99,Text_Bottom,,0,0,0,kara,没想到会棘手到这个地步\Nまさか ここまで てこずるとは…
+Comment: 0,0:20:03.49,0:20:06.33,Text_Bottom,,0,0,0,kara,拍摄过程意外地手忙脚乱…{\fscx50} {\fscx100}写上\N撮るまでが 意外とせわしない… と
+Comment: 0,0:20:07.02,0:20:09.17,Text_Bottom,,0,0,0,kara,真是百闻不如一见啊\N百聞は一見にしかずですね
+Comment: 0,0:20:09.78,0:20:11.86,Text_Bottom,,0,0,0,kara,接下来就是最后的姿势了哦\N次が最後のポーズだよ！
+Comment: 0,0:20:12.40,0:20:14.54,Text_Bottom,,0,0,0,kara,呼 终于啊\Nふぅ… ようやくか
+Comment: 0,0:20:15.10,0:20:17.35,Text_Bottom,,0,0,0,kara,这次一定要摆好姿势\Nしっかりポーズを決めなくては
+Comment: 0,0:20:17.35,0:20:19.59,Text_Bottom,,0,0,0,kara,班长 你太紧张了啦\N委員長 緊張し過ぎ
+Comment: 0,0:20:19.84,0:20:21.12,Text_Bottom,,0,0,0,kara,但 但是…\Nで でも…
+Comment: 0,0:20:22.96,0:20:25.39,Text_Bottom,,0,0,0,kara,就算失败也没问题对吧？\N失敗したって いいんですもんね？
+Comment: 0,0:20:30.65,0:20:31.76,Text_Bottom,,0,0,0,kara,当然啦\Nもちろんだよ！
+Comment: 0,0:20:32.16,0:20:33.22,Text_Bottom,,0,0,0,kara,期待期待\Nワクワク！
+Comment: 0,0:20:33.71,0:20:35.60,Text_Bottom,,0,0,0,kara,变成狂野女孩吧\Nワイルド女子になっちゃおう！
+Comment: 0,0:20:35.60,0:20:38.64,Text_Bottom,,0,0,0,kara,弯曲手指 大家一起做出嗷呜嗷呜的姿势\N指を曲げて みんなでガオガオポーズ！
+Comment: 0,0:20:38.96,0:20:41.14,Text_Bottom,,0,0,0,kara,怎么全是这种姿势啊\Nこんなポーズばっかりだな！？
+Comment: 0,0:20:41.44,0:20:44.05,Text_Bottom,,0,0,0,kara,那个…{\fscx50} {\fscx100}弯曲手指\Nえっと… 手を曲げて…
+Comment: 0,0:20:44.05,0:20:45.26,Text_Bottom,,0,0,0,kara,班长 这样！\N委員長 こう！
+Comment: 0,0:20:45.47,0:20:46.52,Text_Bottom,,0,0,0,kara,好\Nは はい！
+Comment: 0,0:20:44.38,0:20:44.99,Text_Top,,0,0,0,kara,5\N 5
+Comment: 0,0:20:45.94,0:20:46.52,Text_Top,,0,0,0,kara,4\N４
+Comment: 0,0:20:47.69,0:20:48.27,Text_Top,,0,0,0,kara,3\N 3
+Comment: 0,0:20:49.09,0:20:49.58,Text_Top,,0,0,0,kara,2\N 2
+Comment: 0,0:20:50.10,0:20:50.63,Text_Top,,0,0,0,kara,1\N１
+Comment: 0,0:20:46.97,0:20:48.58,Text_Bottom,,0,0,0,kara,嗷呜！\Nガオー！
+Comment: 0,0:20:48.58,0:20:49.30,Text_Bottom,,0,0,0,kara,诶？\Nえぇ！？
+Comment: 0,0:20:49.30,0:20:49.77,Text_Bottom,,0,0,0,kara,哇\Nわっ！
+Comment: 0,0:20:49.77,0:20:50.72,Text_Bottom,,0,0,0,kara,喂！\Nおい！？
+Comment: 0,0:20:51.34,0:20:53.01,Text_Bottom,,0,0,0,kara,哇啊啊\Nわ～っ！
+Comment: 0,0:21:02.29,0:21:03.93,Text_Bottom,,0,0,0,kara,喂喂 班长\Nねえねえ委員長～
+Comment: 0,0:21:05.70,0:21:07.68,Text_Bottom,,0,0,0,kara,有 有什么事吗\Nど どうかしましたか？
+Comment: 0,0:21:07.68,0:21:10.54,Text_Bottom,,0,0,0,kara,不 只是在想班长你之前有挂这种东西吗\Nいや 委員長って こんなの付けてたっけ
+Comment: 0,0:21:11.26,0:21:13.01,Text_Bottom,,0,0,0,kara,啊 你是说这个吗\Nああ これですね
+Comment: 0,0:21:13.01,0:21:14.55,Text_Bottom,,0,0,0,kara,好可爱\Nかわいい
+Comment: 0,0:21:14.79,0:21:16.80,Text_Bottom,,0,0,0,kara,这是在哪里买的啊？\Nどこで買ったんですか？
+Comment: 0,0:21:16.80,0:21:21.05,Text_Bottom,,0,0,0,kara,那个 是在有点特殊的商店买的\Nえっと… ちょっと特別なお店… だったような
+Comment: 0,0:21:21.05,0:21:24.21,Text_Bottom,,0,0,0,kara,这么厉害 花了多少钱？\Nすご～！ えっ いくらぐらいしたの？
+Comment: 0,0:21:24.69,0:21:27.89,Text_Bottom,,0,0,0,kara,不…{\fscx50} {\fscx100}不记得了\Nお… 覚えてないですね…
+Comment: 0,0:21:28.46,0:21:29.12,Text_Bottom,,0,0,0,kara,啊\Nあっ！
+Comment: 0,0:21:31.79,0:21:35.42,Text_Bottom,,0,0,0,kara,把零花钱基本全花光了才拿到 这我说不出口！\Nお小遣いのほとんどだなんて… 言えません！
+Comment: 0,0:21:36.05,0:21:39.90,Text_Bottom,,0,0,0,kara,这难道是特别名贵的东西吗\Nこれもしかして メッチャ高級品なのかしら…
+Comment: 0,0:21:41.82,0:21:44.45,Text_Bottom,,0,0,0,kara,想起来的话要告诉我们哦 班长\N思い出したら教えてね 委員長
+Comment: 0,0:21:44.45,0:21:45.58,Text_Bottom,,0,0,0,kara,好的\Nは はい
