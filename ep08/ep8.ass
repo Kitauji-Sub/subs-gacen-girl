@@ -13,8 +13,8 @@ Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Scroll Position: 155
-Active Line: 187
+Scroll Position: 300
+Active Line: 336
 Video Position: 554
 
 [V4+ Styles]
@@ -65,8 +65,8 @@ Dialogue: 0,0:01:22.96,0:01:24.97,Text_Bottom,,0,0,0,,有邀请朋友来吗\Nお
 Dialogue: 0,0:01:25.31,0:01:26.88,Text_Bottom,,0,0,0,,嗯 他们说要来\Nうん 来てくれるって
 Dialogue: 0,0:01:27.25,0:01:31.34,Text_Bottom,,0,0,0,,太好了 我也得好好准备准备接客了\Nよかったわね！ 私もおもてなしの準備 頑張らなくっちゃ
 Dialogue: 0,0:01:32.08,0:01:33.71,Text_Bottom,,0,0,0,,谢谢\Nフフッ ありがとう
-Dialogue: 0,0:01:40.95,0:01:42.42,Text_Bottom,,0,0,0,,真咸啊\NＨｏｗ ｓａｌｔｙ！
-Dialogue: 0,0:01:42.42,0:01:43.52,Text_Bottom,,0,0,0,,好酸\N酸っぱ！
+Dialogue: 0,0:01:40.95,0:01:42.42,Text_Bottom,,0,0,0,,咸香四溢！\NHow salty!
+Dialogue: 0,0:01:42.42,0:01:43.52,Text_Bottom,,0,0,0,,酸爽入味！\N酸っぱ！
 Dialogue: 0,0:03:25.67,0:03:30.97,Text_Bottom,,0,0,0,,嗯~ 总觉得不太对 应该有更好的表达…\Nう～ん なんか違うわね もっとこう いい表現が…
 Dialogue: 0,0:03:31.37,0:03:32.67,Text_Bottom,,0,0,0,,嗯…\Nう～ん…
 Dialogue: 0,0:03:33.05,0:03:35.13,Text_Bottom,,0,0,0,,莉莉 还不睡吗\Nリリー！ まだ起きてるの？
@@ -108,7 +108,7 @@ Dialogue: 0,0:05:52.53,0:05:54.30,Text_Bottom,,0,0,0,,总觉得有些感动\Nな
 Dialogue: 0,0:05:54.79,0:05:58.48,Text_Bottom,,0,0,0,,所以 莲司你能来吗？\Nそれで 蓮司 来てくれる？
 Dialogue: 0,0:05:59.34,0:06:00.67,Text_Bottom,,0,0,0,,当然会去！\Nもちろん行くよ！
 Dialogue: 0,0:06:00.90,0:06:02.18,Text_Bottom,,0,0,0,,真的？\Nホント！？
-Dialogue: 0,0:06:02.18,0:06:03.68,Text_Bottom,,0,0,120,,说好了！\NThat's a promise!
+Dialogue: 0,0:06:02.18,0:06:03.68,Text_Bottom,,0,0,120,,一言为定！\NThat's a promise!
 Dialogue: 0,0:06:04.21,0:06:05.09,Text_Bottom,,0,0,0,,\Nフフッ
 Dialogue: 0,0:06:09.14,0:06:11.13,Text_Bottom,,0,0,0,,绝对绝对要来哦\Nぜったいの ぜったいよ～！
 Dialogue: 0,0:06:11.76,0:06:12.61,Text_Bottom,,0,0,0,,嗯\Nうん！
@@ -159,9 +159,9 @@ Dialogue: 0,0:08:38.53,0:08:42.77,Text_Bottom,,0,0,0,,Happy birthday to you\Nハ
 Dialogue: 0,0:08:43.03,0:08:49.21,Text_Bottom,,0,0,0,,Happy birthday dear Lily chan\N♬「ハッピーバースデー ディア リリーちゃん」
 Dialogue: 0,0:08:49.90,0:08:55.92,Text_Bottom,,0,0,0,,Happy birthday to you\N♬「ハッピーバースデー トゥー ユー」
 Dialogue: 0,0:08:56.30,0:08:58.26,Text_Bottom,,0,0,0,,大家准备好了吗\Nじゃあみんな いくわよ～！
-Dialogue: 0,0:08:58.63,0:08:59.39,Text_Bottom,,0,0,0,,Hip hip\NＨｉｐ ｈｉｐ！
+Dialogue: 0,0:08:58.63,0:08:59.39,Text_Bottom,,0,0,0,,嗨~嗨！\NＨｉｐ ｈｉｐ！
 Dialogue: 0,0:08:59.75,0:09:01.13,Text_Bottom,,0,0,0,,\Nフーレイ
-Dialogue: 0,0:08:59.75,0:09:01.13,Text_Bottom,,0,0,0,,Hooray\NＨｏｏｒａｙ！
+Dialogue: 0,0:08:59.75,0:09:01.13,Text_Bottom,,0,0,0,,好耶！\NHooray!
 Dialogue: 0,0:09:01.13,0:09:03.02,Text_Bottom,,0,0,0,,耶！\Nイエーイ！
 Dialogue: 0,0:09:03.66,0:09:05.14,Text_Bottom,,0,0,0,,说明一下吧\N＜説明しましょう！
 Dialogue: 0,0:09:05.14,0:09:09.31,Text_Bottom,,0,0,0,,在英国唱完生日歌后会这么喊来庆祝\Nイギリスでは 誕生日ソングのあとに お祝いの掛け声をするのです！＞
@@ -190,7 +190,7 @@ Dialogue: 0,0:10:19.34,0:10:22.71,Text_Bottom,,0,0,0,,连我都没有这种待�
 Dialogue: 0,0:10:23.05,0:10:25.93,Text_Bottom,,0,0,0,,\Nアビャビャビャ…！))
 Dialogue: 0,0:10:25.93,0:10:28.13,Text_Bottom,,0,0,0,,事情就大条了\Nとんでもないことに…！？
 Dialogue: 0,0:10:28.62,0:10:30.94,Text_Bottom,,0,0,0,,说起来 今天你爸爸在哪？\Nと ところで今日 お父さんは？
-Dialogue: 0,0:10:31.19,0:10:34.95,Text_Bottom,,0,0,120,,在工作 我们的家庭生日会在明天\NAt work! We'll have a family party tomorrow.
+Dialogue: 0,0:10:31.19,0:10:34.95,Text_Bottom,,0,0,120,,他在忙工作 我们明天还会办个家庭生日会\NAt work! We'll have a family party tomorrow.
 Dialogue: 0,0:10:35.23,0:10:39.02,Text_Bottom,,0,0,0,,原来如此 太好了\Nな なるほど よかったぁ！
 Dialogue: 0,0:10:41.69,0:10:45.13,Text_Bottom,,0,0,0,,居然能听懂英语 莲司先生好厉害啊\N英語わかるなんて 蓮司さんすごいですね！
 Dialogue: 0,0:10:46.41,0:10:48.45,Text_Bottom,,0,0,0,,莲司他很厉害吧！\Nすごいでしょ レンジは！
@@ -208,8 +208,8 @@ Dialogue: 0,0:11:31.29,0:11:33.01,Text_Bottom,,0,0,0,,莉莉真兴高采烈啊\N
 Dialogue: 0,0:11:33.42,0:11:35.20,Text_Bottom,,0,0,0,,\Nアハハ…
 Dialogue: 0,0:11:47.33,0:11:49.62,Text_Bottom,,0,0,0,,我吃饱了\Nごちそうさまでした～！
 Dialogue: 0,0:11:51.17,0:11:52.21,Text_Bottom,,0,0,0,,\Nふぅ～
-Dialogue: 0,0:11:54.19,0:11:56.40,Text_Bottom,,0,0,120,,莉莉 你得准备下了\NLily, you should get ready now.
-Dialogue: 0,0:11:56.61,0:11:58.24,Text_Bottom,,0,0,120,,哦 对\NOh, that's right!
+Dialogue: 0,0:11:54.19,0:11:56.40,Text_Bottom,,0,0,120,,莉莉 差不多该去准备了\NLily, you should get ready now.
+Dialogue: 0,0:11:56.61,0:11:58.24,Text_Bottom,,0,0,120,,哦 是有这回事\NOh, that's right!
 Dialogue: 0,0:11:58.66,0:11:59.27,Text_Bottom,,0,0,0,,嗯？\Nんっ？
 Dialogue: 0,0:12:01.19,0:12:04.29,Text_Bottom,,0,0,0,,我突然想起有事，先离开一下！\N私 用事思い出したから ちょっと抜けるわ！
 Dialogue: 0,0:12:04.56,0:12:06.53,Text_Bottom,,0,0,0,,诶？可今天是你自己的生日啊！？\Nえっ 自分の誕生日なのに！？
@@ -230,7 +230,7 @@ Dialogue: 0,0:12:45.77,0:12:48.16,Text_Bottom,,0,0,0,,而且手柄也够所有�
 Dialogue: 0,0:12:48.53,0:12:50.58,Text_Bottom,,0,0,0,,我 我能玩好吗…\Nう うまくできるかな…
 Dialogue: 0,0:12:52.34,0:12:54.40,Text_Bottom,,0,0,0,,真没办法啊\Nしようがねえなぁ
 Dialogue: 0,0:12:54.87,0:12:57.23,Text_Bottom,,0,0,0,,你们全都放马过来吧！\N全員かかってきやがれ！
-Dialogue: 0,0:12:57.99,0:12:59.27,Text_Bottom,,0,0,0,,\NGame set.
+Dialogue: 0,0:12:57.99,0:12:59.27,Text_Bottom,,0,0,0,,对局结束\NGame set.
 Dialogue: 0,0:13:01.98,0:13:04.45,Text_Bottom,,0,0,0,,可恶！又是第二名！\Nクッソー！ また２位かよ！
 Dialogue: 0,0:13:04.45,0:13:06.47,Text_Bottom,,0,0,0,,为什么就是赢不了小哥啊！\Nなんで兄さんに勝てねえんだぁ！
 Dialogue: 0,0:13:06.73,0:13:09.33,Text_Bottom,,0,0,0,,我 我还一局都没赢呢\Nい 一回も勝てませんね
@@ -260,7 +260,7 @@ Dialogue: 0,0:14:27.59,0:14:28.24,Text_Bottom,,0,0,0,,啊…\Nあっ…
 Dialogue: 0,0:14:29.07,0:14:29.89,Text_Bottom,,0,0,0,,嗯…\Nんっ…
 Dialogue: 0,0:14:30.61,0:14:33.23,Text_Bottom,,0,0,0,,那个 比平时还要可爱！\Nえっと いつにも増して かわいいよ！
 Dialogue: 0,0:14:33.23,0:14:35.95,Text_Bottom,,0,0,0,,简直像真正的爱丽丝一样！\Nまるで 本物のアリスみたいだ！
-Dialogue: 0,0:14:37.73,0:14:39.44,Text_Bottom,,0,0,120,,\NThat's too much...
+Dialogue: 0,0:14:37.73,0:14:39.44,Text_Bottom,,0,0,120,,夸太过了…\NThat's too much...
 Dialogue: 0,0:14:39.91,0:14:42.02,Text_Bottom,,0,0,0,,诶？对 对不起\Nえっ？ ご ごめん
 Dialogue: 0,0:14:42.21,0:14:45.02,Text_Bottom,,0,0,0,,老哥你太夸张了啦\N兄ちゃん 大げさなんだよ
 Dialogue: 0,0:14:45.14,0:14:45.74,Text_Bottom,,0,0,0,,呵呵…\Nフフッ…
@@ -302,7 +302,7 @@ Dialogue: 0,0:16:35.98,0:16:37.05,Text_Bottom,,0,0,0,,当然！\Nもちろん！
 Dialogue: 0,0:16:45.45,0:16:47.99,Text_Bottom,,0,0,0,,哦～！游戏手柄\Nおぉ～！ アケコン
 Dialogue: 0,0:16:48.49,0:16:50.40,Text_Bottom,,0,0,0,,谢谢你～师傅！\Nありがと～ ししょー！
 Dialogue: 0,0:16:50.87,0:16:53.50,Text_Bottom,,0,0,0,,嗯 这下你可要好好练习了\Nまっ それで少し練習するんだな
-Dialogue: 0,0:16:54.74,0:16:56.37,Text_Bottom,,0,0,120,,文具！？\N Stationery?!
+Dialogue: 0,0:16:54.74,0:16:56.37,Text_Bottom,,0,0,120,,是文具吗？！\N Stationery?!
 Dialogue: 0,0:16:56.37,0:16:58.11,Text_Bottom,,0,0,0,,好可爱～！\Nかわいい～！
 Dialogue: 0,0:16:58.43,0:17:01.20,Text_Bottom,,0,0,0,,这个请允许我把这个送给你！\Nそれは私から 贈らせてもらいました！
 Dialogue: 0,0:17:01.20,0:17:05.42,Text_Bottom,,0,0,0,,我希望你在开心的同时 也能学习日本的事情\N楽しみながら 日本のことを 勉強してもらえたら うれしいなと思って
@@ -311,7 +311,7 @@ Dialogue: 0,0:17:10.00,0:17:12.30,Text_Bottom,,0,0,0,,请不要在意 尽管用�
 Dialogue: 0,0:17:12.69,0:17:14.23,Text_Bottom,,0,0,0,,谢谢你 萤！\Nアリガト ホタル！
 Dialogue: 0,0:17:14.23,0:17:16.29,Text_Bottom,,0,0,0,,萤 萤…\Nほ 蛍…
 Dialogue: 0,0:17:16.29,0:17:19.10,Text_Bottom,,0,0,0,,莉 莉莉叫了我的名字\Nリ リリーさんが私の名前を
-Dialogue: 0,0:17:21.15,0:17:23.40,Text_Bottom,,0,0,120,,\NOh! Lip balm!
+Dialogue: 0,0:17:21.15,0:17:23.40,Text_Bottom,,0,0,120,,噢 是润唇膏！\NOh! Lip balm!
 Dialogue: 0,0:17:24.01,0:17:25.68,Text_Bottom,,0,0,0,,啊 那个是我的！\Nあっ それは私！
 Dialogue: 0,0:17:25.91,0:17:28.50,Text_Bottom,,0,0,0,,英语里是叫Lip Cream啊\N英語だとリップクリームって そう言うんだね
 Dialogue: 0,0:17:28.88,0:17:32.69,Text_Bottom,,0,0,0,,包装好可爱～ 谢谢你 葵！\Nパッケージ かわいい～ ありがと アオイ！
@@ -321,7 +321,7 @@ Dialogue: 0,0:17:38.19,0:17:40.50,Text_Bottom,,0,0,0,,啊，那是我们的…\N
 Dialogue: 0,0:17:40.96,0:17:42.50,Text_Bottom,,0,0,0,,会是什么呢…\Nなんだろう…
 Dialogue: 0,0:17:43.11,0:17:44.66,Text_Bottom,,0,0,0,,哇！\NＷｏｗ！
 Dialogue: 0,0:17:44.88,0:17:49.83,Text_Bottom,,0,0,0,,我们有点纠结 最后还是选了日本的传统食物\Nちょっといろいろ 悩み過ぎちゃって 日本の伝統食にしてみたんだけど
-Dialogue: 0,0:17:50.72,0:17:53.26,Text_Bottom,,0,0,120,,\NLooks delicious! Like a fruit!
+Dialogue: 0,0:17:50.72,0:17:53.26,Text_Bottom,,0,0,120,,跟水果似的 看起来就很美味！\NLooks delicious! Like a fruit!
 Dialogue: 0,0:17:53.81,0:17:55.02,Text_Bottom,,0,0,0,,啊…\Nあぁ…
 Dialogue: 0,0:17:55.73,0:17:59.47,Text_Bottom,,0,0,0,,太 太好了…看来她很开心\Nよ よかった… 喜んでもらえたみたい
 Dialogue: 0,0:18:00.01,0:18:01.18,Text_Bottom,,0,0,0,,这边的是～？\Nこっちは～？
@@ -333,9 +333,9 @@ Dialogue: 0,0:18:17.93,0:18:20.08,Text_Bottom,,0,0,0,,太、太好了…\Nよ �
 Dialogue: 0,0:18:20.29,0:18:24.43,Text_Bottom,,0,0,0,,啊，莉莉，我也可以送你生日礼物吗\Nあっ リリーちゃん  俺からも 誕生日プレゼント渡してもいいかな
 Dialogue: 0,0:18:24.62,0:18:25.27,Text_Bottom,,0,0,0,,嗯！？\Nはっ！？
 Dialogue: 0,0:18:37.19,0:18:40.61,Text_Bottom,,0,0,0,,希望你会喜欢这条手帕…\Nハンカチ 気に入ってもらえるといいんだけど…
-Dialogue: 0,0:18:40.98,0:18:43.65,Text_Bottom,,0,0,120,,\NThe one limited to amusement arcades!
+Dialogue: 0,0:18:40.98,0:18:43.65,Text_Bottom,,0,0,120,,是游戏中心的限定款！\NThe one limited to amusement arcades!
 Dialogue: 0,0:18:44.39,0:18:47.66,Text_Bottom,,0,0,0,,哇！？ 真厉害！你一眼就认出来了！\Nうお！？ さすが！ 一瞬でわかるんだ！
-Dialogue: 0,0:18:50.03,0:18:53.03,Text_Bottom,,0,0,120,,我会一直好好珍惜的！谢谢你 莲司！\NI'll always take good care of it! Thanks, Renji!
+Dialogue: 0,0:18:50.03,0:18:53.03,Text_Bottom,,0,0,120,,我会一直珍惜它的 谢谢你 莲司\NI'll always take good care of it! Thanks, Renji!
 Dialogue: 0,0:18:53.77,0:18:57.74,Text_Bottom,,0,0,0,,居然不怕土气 选了男子气概考拉周边\Nかぶりを恐れずに 漢気コアラグッズを選ぶなんて
 Dialogue: 0,0:18:57.74,0:19:00.58,Text_Bottom,,0,0,0,,你连莉莉喜欢什么周边都知道吗！？\Nリリーちゃんの所有グッズを 把握してるの！？
 Dialogue: 0,0:19:00.85,0:19:04.08,Text_Bottom,,0,0,0,,莲司 你们两个到底是什么关系…！\N蓮司さん いったいどういう関係なの…！
@@ -346,7 +346,7 @@ Dialogue: 0,0:19:31.44,0:19:32.42,Text_Bottom,,0,0,0,,服装？\N衣装？
 Dialogue: 0,0:19:33.26,0:19:33.90,Text_Bottom,,0,0,0,,啊…\Nあっ…
 Dialogue: 0,0:19:34.63,0:19:36.03,Text_Bottom,,0,0,0,,怎么了？\Nどうかしました？
 Dialogue: 0,0:19:36.53,0:19:42.01,Text_Bottom,,0,0,0,,不对…我好像跟莉莉爸爸他说错家人一起庆祝的日子了…\Nいヤ… パパに家族で祝う日 間違えて伝えちゃってたかも…
-Dialogue: 0,0:19:43.45,0:19:48.13,Text_Bottom,,0,0,0,,Heeey！爸爸提前下班回家啦！\NＨｅｅｅｙ！Daddy finished work early and came home!
+Dialogue: 0,0:19:43.45,0:19:48.13,Text_Bottom,,0,0,0,,嘿呀！爹地我提前干完活赶回来了\NHeeey! Daddy finished work early and came home!
 Dialogue: 0,0:19:55.51,0:19:58.25,Text_Bottom,,0,0,0,,抱歉 我下次再来…\Nすまない また来るよ…
 Dialogue: 0,0:20:00.24,0:20:02.35,Text_Bottom,,0,0,0,,为什么你这家伙会在这里～！\Nなぜ貴様がここにいる～！
 Dialogue: 0,0:20:02.35,0:20:03.26,Text_Bottom,,0,0,0,,诶！？\Nえぇ！？
@@ -364,7 +364,7 @@ Dialogue: 0,0:21:10.66,0:21:11.36,Text_Bottom,,0,0,0,,是这个？\Nこれ？
 Dialogue: 0,0:21:30.88,0:21:33.44,Text_Bottom,,0,0,0,,啊 是莉莉收到的那个吧？\Nあっ それ リリーちゃんがもらってたやつ？
 Dialogue: 0,0:21:33.95,0:21:38.05,Text_Bottom,,0,0,0,,嗯 我前几天看到了有点在意就买来试试\Nああ こないだ見つけて 気になったから買ってみたんだ
 Dialogue: 0,0:21:44.21,0:21:45.18,Text_Bottom,,0,0,0,,好咸！\Nしょっぱっ！
-Dialogue: 0,0:21:45.18,0:21:47.23,Text_Bottom,,0,0,0,,\NＨｏｗ ｓｏｕｒ！
+Dialogue: 0,0:21:45.18,0:21:47.23,Text_Bottom,,0,0,0,,咋这么酸！\NHow sour!
 Dialogue: 0,0:21:49.89,0:21:52.72,Text_Bottom,,0,0,0,,为什么会有人在吃这种东西啊\Nなんで こんなものを 食べてるんだろう
 Dialogue: 0,0:21:54.39,0:21:55.28,Text_Bottom,,0,0,0,,\Nんんっ…
 Dialogue: 0,0:21:58.07,0:21:59.39,Text_Bottom,,0,0,0,,\Nん～っ…
