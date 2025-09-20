@@ -13,10 +13,10 @@ Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka
 Keyframes File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 10 (1080p) [42773CEE]_keyframes.txt
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.750000
-Scroll Position: 354
-Active Line: 375
-Video Position: 31218
+Video Zoom Percent: 0.625000
+Scroll Position: 18
+Active Line: 41
+Video Position: 4115
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -70,7 +70,7 @@ Comment: 0,0:01:06.29,0:01:07.70,Text_Bottom,,0,0,0,kara,加 加油\Nが がん�
 Comment: 0,0:01:07.91,0:01:10.24,Text_Bottom,,0,0,0,kara,嗯 回头见\Nああ またあとでな
 Comment: 0,0:01:11.73,0:01:13.99,Text_Bottom,,0,0,0,kara,我绝对要赢下冠军！\N絶対に優勝してみせる！
 Comment: 0,0:02:48.05,0:02:50.40,Text_Bottom,,0,400,0,kara,A{\fscx50} {\fscx100}区的选手请到这边～\NＡブロックの方は こちらで～す
-Comment: 0,0:02:51.62,0:02:54.71,Text_Bottom,,0,0,0,kara,嗯～ A-3{\fscx50} {\fscx100}和\Nえ～っと Ａ‐３と
+Comment: 0,0:02:51.62,0:02:54.71,Text_Bottom,,0,0,0,kara,嗯…A-3{\fscx50} {\fscx100}是和…\Nえ～っと A-3と
 Comment: 0,0:02:54.71,0:02:56.63,Text_Bottom,,0,0,0,kara,喂 听说了吗？这次比赛\Nおい 聞いたか？ 今回の大会
 Comment: 0,0:02:56.63,0:02:59.45,Text_Bottom,,0,0,0,kara,好像其他地区也有有名的格斗游戏玩家来参加了\N他の地区からも有名な格ゲーマーが来てるらしいぞ
 Comment: 0,0:02:59.71,0:03:01.93,Text_Bottom,,0,0,0,kara,似乎是这样 真让人手痒难耐啊\Nらしいな 腕が鳴るぜ
@@ -368,7 +368,7 @@ Comment: 0,0:18:01.34,0:18:02.26,Text_Bottom,,0,0,0,kara,下蹲\NCrouch!
 Comment: 0,0:18:04.06,0:18:04.96,Text_Bottom,,0,0,0,kara,碰拳\NTouch!
 Comment: 0,0:18:06.71,0:18:07.60,Text_Bottom,,0,0,0,kara,暂停\NPause.
 Comment: 0,0:18:14.01,0:18:15.04,Text_Bottom,,0,0,0,kara,交战！\NEngage!
-Comment: 0,0:19:46.49,0:19:47.93,Text_Bottom,,0,0,0,kara,K.O\NK.O.
+Comment: 0,0:19:46.49,0:19:47.93,Text_Bottom,,0,0,0,kara,K.O.\NK.O.
 Comment: 0,0:19:47.93,0:19:50.51,Text_Bottom,,0,0,0,kara,比赛结束\N試合終了～！
 Comment: 0,0:19:52.38,0:19:56.97,Text_Bottom,,0,0,0,kara,最终获胜的是 花梨选手！\N最終戦を制したのは 花梨選手～！
 Comment: 0,0:19:56.97,0:19:58.43,Text_Bottom,,0,0,0,kara,太厉害了…\Nすごかった…
