@@ -1,0 +1,440 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[Aegisub Project Garbage]
+Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 11 (1080p) [0B5BC212].mkv
+Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 11 (1080p) [0B5BC212].mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.625000
+Active Line: 15
+Video Position: 33926
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Text_Bottom,獅尾圓體SC-Bold,55,&H00F0F0F0,&H000000FF,&H00444444,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,30,1
+Style: Text_Top,獅尾圓體SC-Bold,55,&H00F0F0F0,&H000000FF,&H00444444,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,10,10,30,1
+Style: note,思源黑体,50,&H00F0F0F0,&H000000FF,&H002F2F2F,&H00000000,-1,0,0,0,100,100,1.1,0,1,3,0,7,50,10,70,1
+Style: Credit,獅尾圓體SC-Bold,45,&H00F0F0F0,&H000000FF,&H002F2F2F,&H00000000,-1,0,0,0,100,100,1.1,0,1,3,0,8,10,10,30,1
+Style: Title_this,思源黑体 Heavy,65,&H00CF863B,&H000000FF,&H00FFFFFF,&H0005DAFD,0,0,0,0,100,100,0,0,1,3,3.8,6,10,10,30,1
+Style: Title_next,Zpix,48,&H00CF863B,&H000000FF,&H00FFFFFF,&H0005DAFD,0,0,0,0,100,100,0,0,1,3,3.8,8,10,10,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:01:06.23,0:01:06.23,Text_Bottom,,0,0,0,import-shifted,../op.ass
+Comment: 0,0:22:04.97,0:22:05.01,Text_Bottom,,0,0,0,import-shifted,../ed.ass
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,import,screen/screen.ass
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,settings,0,0,0,code once style Text_Bottom style Text_Top,_zh_jp_gap = 42; _zh_jp_gap_top = 63; jp_font_name="獅尾圓體JP-Bold"; jp_scale = 67; ruby_scale =60; ruby_gap=10; reverse_top = true;
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,utils,0,0,0,code once style Text_Bottom style Text_Top,local re = require('re') local function safe_text_extents(style, text)     if aegisub and aegisub.text_extents then         return aegisub.text_extents(style, text)     else         return 0, 0, 0, 0     end end local function gmatch(str, pattern)     local matches = {}     for match, start_idx, end_idx in re.gfind(str, pattern) do         local groups = re.match(match, pattern)         if not groups then             groups = {}         end         for i = 1, #groups do           groups[i]["first"] = groups[i]["first"] + start_idx - 1           groups[i]["last"] = groups[i]["last"] + start_idx - 1         end         table.insert(matches, groups)     end     return matches end function remove_tags(text)     if not text then return "" end     return re.sub(text, "\\{[^}]*\\}", "", 0) end local function extract_rubys(text, style)     local rubys = {}     if not text then return rubys end          local current_pos = 0     local clean_text = ""     local original_text = text          for _, ruby_match in _G.ipairs(gmatch(original_text, "\\{ruby=([^}]+)\\}([^{]*?)\\{/ruby\\}")) do         local ruby_text = ruby_match[2].str         local annotated_text = ruby_match[3].str                  local before_text = string.sub(original_text, 1, ruby_match[1].first - 1)         local clean_before_text = remove_tags(before_text)                  local clean_annotated_text = remove_tags(annotated_text)         local annotated_width = 0         if clean_annotated_text ~= "" then             local width, height, descent, ext_lead = safe_text_extents(style, clean_annotated_text)             annotated_width = width or 0         end                  local before_width = 0         if clean_before_text ~= "" then             local width, height, descent, ext_lead = safe_text_extents(style, clean_before_text)             before_width = width or 0         end                  local ruby_pos = before_width + annotated_width / 2                  table.insert(rubys, {             text = ruby_text,             pos = ruby_pos         })                  clean_text = clean_text .. string.sub(before_text, current_pos + 1) .. annotated_text         current_pos = ruby_match[2].last     end          return rubys end function process_bilingual_subtitle(raw_text, style)     if not raw_text or raw_text == "" then         return {             chinese = {text = "", width = 0, height = 0},             japanese = {text = "", width = 0, height = 0},             ruby = {}         }     end          local parts = re.split(raw_text, "\\\\N")          local chinese_text = ""     local japanese_text = ""          if #parts >= 1 then         chinese_text = parts[1] or ""     end     if #parts >= 2 then         japanese_text = parts[2] or ""     end          local rubys = extract_rubys(chinese_text, style)          local chinese_clean = remove_tags(chinese_text)     chinese_clean = re.sub(chinese_clean, "\\{ruby=[^}]+\\}([^{]*?)\\{/ruby\\}", "%1", 0)          local chinese_width, chinese_height = 0, 0     if chinese_clean ~= "" then         local width, height, descent, ext_lead = safe_text_extents(style, chinese_clean)         chinese_width = width or 0         chinese_height = height or 0     end          local japanese_clean = remove_tags(japanese_text)     local japanese_width, japanese_height = 0, 0     if japanese_clean ~= "" then         local width, height, descent, ext_lead = safe_text_extents(style, japanese_clean)         japanese_width = width or 0         japanese_height = height or 0     end        return {         text = chinese_text,         width = chinese_width,         height = chinese_height       },       {         text = japanese_text,         width = japanese_width,         height = japanese_height       },       rubys end
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,gv,0,0,0,code line style Text_Bottom style Text_Top,chinese, japanese, rubys = process_bilingual_subtitle(orgline.text, orgline.styleref); has_chinese = chinese ~= nil; has_japanese = japanese ~= nil; has_ruby = false; if rubys then for k, ruby in _G.ipairs(rubys) do has_ruby=true end end; zh_jp_gap = japanese and _zh_jp_gap or 0; zh_jp_gap_top = japanese and _zh_jp_gap_top or 0; line_left = (meta.res_x - orgline.eff_margin_l - orgline.eff_margin_r - chinese.width) / 2 + orgline.eff_margin_l; is_top = orgline.styleref.align == 8; local c_pos_x, c_pos_y, j_pos_x, j_pos_y, ruby_pos_y if is_top then   if reverse_top then     if has_ruby then       c_pos_x, c_pos_y = orgline.center, (orgline.top + ruby_gap + (chinese.height * ruby_scale / 100))       j_pos_x, j_pos_y = orgline.center, (orgline.top + ruby_gap + (chinese.height * ruby_scale / 100) + zh_jp_gap_top)       ruby_pos_y = orgline.top     else       c_pos_x, c_pos_y = orgline.center, orgline.top       j_pos_x, j_pos_y = orgline.center, (orgline.top + zh_jp_gap_top)       ruby_pos_y = 0     end   else     c_pos_x, c_pos_y = orgline.center, (orgline.top + zh_jp_gap_top)     j_pos_x, j_pos_y = orgline.center, orgline.top     ruby_pos_y = orgline.bottom + zh_jp_gap_top + ruby_gap   end else   c_pos_x, c_pos_y = orgline.center, (orgline.bottom - zh_jp_gap)   j_pos_x, j_pos_y = orgline.center, orgline.bottom   ruby_pos_y = orgline.top - zh_jp_gap - ruby_gap end chinese_pos_tag = [[\pos(]] .. c_pos_x .. [[,]] .. c_pos_y .. [[)]] japanese_pos_tag = [[\pos(]] .. j_pos_x .. [[,]] .. j_pos_y .. [[)]] ruby_y = ruby_pos_y
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bottom style Text_Top notext if has_chinese,!relayer(9)!{!chinese_pos_tag!}!chinese.text!
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bottom style Text_Top notext if has_japanese,!relayer(8)!{!japanese_pos_tag!\fscx!jp_scale!\fscy!jp_scale!\fn!jp_font_name!}!remove_tags(japanese.text)!
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bottom style Text_Top notext if has_ruby,!relayer(9)!{!maxloop("ruby", #rubys)!\pos(!line_left + rubys[loopctx.state.ruby].pos!,!ruby_y!)\fscx!ruby_scale!\fscy!ruby_scale!\bord!line.styleref.outline * 0.8!}!rubys[loopctx.state.ruby].text!
+Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,CREDIT
+Dialogue: 0,0:00:00.00,0:00:00.00,Credit,6s,0,0,0,,{\fad(300,300)}本字幕由北宇治字幕组制作 仅供交流试看之用 TG@KitaUji
+Dialogue: 0,0:00:00.00,0:00:00.00,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}翻译：彬云醒芽、D.C.（日） KuronekoS（英）　校对：残焰
+Dialogue: 0,0:00:00.00,0:00:00.00,Credit,3s,0,0,0,,{\fscx90\fscy90\pos(960,80)\fad(300,300)}长期招募翻译/时轴  招募群: 232487445  观众群: 884738299\N{\fscx80\fscy80}版本：${version}　 https://github.com/Kitauji-Sub/subs-gacen-girl
+Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TITLE
+Dialogue: 0,0:02:35.13,0:02:39.10,Title_this,This,0,0,0,,{\fad(477,477)\pos(1810,915)}#11 回家
+Dialogue: 0,0:23:34.98,0:23:39.98,Title_next,Next,0,0,0,,{\pos(960,620)}My Feelings Haven't Changed
+Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TEXT
+Dialogue: 0,0:00:10.31,0:00:13.53,Text_Bottom,,0,0,0,,\Nわぁ～！ あの山おっきい～
+Dialogue: 0,0:00:13.53,0:00:16.30,Text_Bottom,,0,0,0,,\Nホントだ なんて山なんだろ？
+Dialogue: 0,0:00:16.30,0:00:18.17,Text_Bottom,,0,0,0,,\Nあれは磐梯山です
+Dialogue: 0,0:00:19.01,0:00:25.21,Text_Bottom,,0,0,0,,\N標高 １，８１６メートル 「日本百名山」にも選ばれてる 名峰だそうです
+Dialogue: 0,0:00:25.21,0:00:27.83,Text_Bottom,,0,0,0,,\Nさっすが委員長！ 物知りだね
+Dialogue: 0,0:00:27.83,0:00:30.62,Text_Bottom,,0,0,0,,\Nいえ スマホで
+Dialogue: 0,0:00:31.04,0:00:33.57,Text_Bottom,,0,0,0,,\N検索しただけですから ねえ ししょー 見て見て あの山！
+Dialogue: 0,0:00:33.76,0:00:36.75,Text_Bottom,,0,0,0,,\Nうっせえ！ 今 いいところなんだからよ…
+Dialogue: 0,0:00:36.75,0:00:38.10,Text_Bottom,,0,0,0,,\Nよっ… この…
+Dialogue: 0,0:00:40.32,0:00:42.96,Text_Bottom,,0,0,0,,\N今年の帰省は にぎやかでいいねぇ
+Dialogue: 0,0:00:42.96,0:00:44.00,Text_Bottom,,0,0,0,,\Nあっ
+Dialogue: 0,0:00:44.58,0:00:46.88,Text_Bottom,,0,0,0,,\N母さんは気楽でいいよ
+Dialogue: 0,0:00:47.20,0:00:48.13,Text_Bottom,,0,0,0,,\Nそう？
+Dialogue: 0,0:00:48.53,0:00:50.75,Text_Bottom,,0,0,0,,\N何？ あの建物～！
+Dialogue: 0,0:00:50.18,0:00:50.75,Text_Bottom,,0,0,0,,\Nあっ？
+Dialogue: 0,0:00:51.01,0:00:53.17,Text_Bottom,,0,0,0,,\Nホントだ 変な形
+Dialogue: 0,0:00:53.17,0:00:54.61,Text_Bottom,,0,0,0,,\N変なカタチ～
+Dialogue: 0,0:02:35.95,0:02:37.03,Text_Bottom,,0,0,0,,\NＷｈａｔ！？
+Dialogue: 0,0:02:37.03,0:02:39.31,Text_Bottom,,0,0,0,,\Nお二人ともしばらくいないの！？
+Dialogue: 0,0:02:39.61,0:02:43.15,Text_Bottom,,0,0,0,,\Nこの時期は毎年 おばあちゃんちに 家族で行ってるんだよ
+Dialogue: 0,0:02:43.42,0:02:46.16,Text_Bottom,,0,0,0,,\Nだからしばらく 一緒に遊べないけど…
+Dialogue: 0,0:02:46.16,0:02:47.34,Text_Bottom,,0,0,0,,\Nでも…
+Dialogue: 0,0:02:48.46,0:02:50.32,Text_Bottom,,0,0,0,,\Nあぁ… そっか
+Dialogue: 0,0:02:50.47,0:02:51.57,Text_Bottom,,0,0,0,,\Nあぁ…
+Dialogue: 0,0:02:51.57,0:02:54.06,Text_Bottom,,0,0,0,,\Nねぇ よかったら リリーちゃんも一緒に行く？
+Dialogue: 0,0:02:54.27,0:02:54.86,Text_Bottom,,0,0,0,,\Nはっ？
+Dialogue: 0,0:02:55.07,0:02:56.95,Text_Bottom,,0,0,0,,\Nあ… いいの！？
+Dialogue: 0,0:02:56.95,0:02:58.17,Text_Bottom,,0,0,0,,\N何言ってんの！？
+Dialogue: 0,0:02:58.17,0:03:02.63,Text_Bottom,,0,0,0,,\N友達と旅行 行くみたいなもんだし 親に許可もらえば いいんじゃない？
+Dialogue: 0,0:03:02.63,0:03:04.82,Text_Bottom,,0,0,0,,\Nな… なるほ… ど？
+Dialogue: 0,0:03:06.01,0:03:10.90,Text_Bottom,,0,0,0,,\Nでも… 私たちまで誘っていただいて ホント ありがとうございます
+Dialogue: 0,0:03:11.33,0:03:13.04,Text_Bottom,,0,0,0,,\Nほら 加賀さんもお礼を
+Dialogue: 0,0:03:13.04,0:03:13.70,Text_Bottom,,0,0,0,,\Nども
+Dialogue: 0,0:03:13.89,0:03:15.77,Text_Bottom,,0,0,0,,\Nいいのよ 気にしなくて
+Dialogue: 0,0:03:15.77,0:03:19.05,Text_Bottom,,0,0,0,,\Nそれに お礼なら リリーちゃんの お母さんに言わなくちゃ
+Dialogue: 0,0:03:19.05,0:03:20.09,Text_Bottom,,0,0,0,,\NOkay!
+Dialogue: 0,0:03:20.09,0:03:22.32,Text_Bottom,,0,0,0,,\N誕生日パーティーに 来てくれたお礼に
+Dialogue: 0,0:03:22.32,0:03:25.62,Text_Bottom,,0,0,0,,\Nみんなのご家族に説明してくれて ホント助かっちゃった
+Dialogue: 0,0:03:25.91,0:03:29.62,Text_Bottom,,0,0,0,,\Nそれに どうせなら にぎやかで 楽しいほうがいいもんね
+Dialogue: 0,0:03:29.76,0:03:33.05,Text_Bottom,,0,0,0,,\Nでも みんなで来れなかったのは ザンネンだけど
+Dialogue: 0,0:03:33.05,0:03:35.28,Text_Bottom,,0,0,0,,\Nすまぬ！ せっしゃ 拙者 無理でゴザル
+Dialogue: 0,0:03:35.28,0:03:36.46,Text_Bottom,,0,0,0,,\Nごめんね～
+Dialogue: 0,0:03:36.46,0:03:39.29,Text_Bottom,,0,0,0,,\Nあの２人の分も 思いっきり楽しもうね！
+Dialogue: 0,0:03:39.75,0:03:44.24,Text_Bottom,,0,0,0,,\Nちょっと兄ちゃん せっかくの旅行なんだから もっと楽しそうにしたら？
+Dialogue: 0,0:03:44.24,0:03:45.74,Text_Bottom,,0,0,0,,\N楽しそうって…
+Dialogue: 0,0:03:46.03,0:03:49.83,Text_Bottom,,0,0,0,,\N兄さん バイト休みなんだから 向こうで勝負だぜ
+Dialogue: 0,0:03:49.83,0:03:51.04,Text_Bottom,,0,0,0,,\Nいやいや…
+Dialogue: 0,0:03:52.98,0:03:55.66,Text_Bottom,,0,0,0,,\Nそりゃ旅行自体は いいんだけど…
+Dialogue: 0,0:03:55.58,0:03:59.83,Text_Bottom,,0,0,0,,\Nお父さんに 話が回ってなさそうなのが 心配なんだよなぁ
+Dialogue: 0,0:03:59.83,0:04:01.60,Text_Bottom,,0,0,0,,\N聞いとらんぞ～！
+Dialogue: 0,0:04:12.91,0:04:15.61,Text_Bottom,,0,0,0,,\Nこんな小さな電車が あったんですね
+Dialogue: 0,0:04:16.59,0:04:18.38,Text_Bottom,,0,0,0,,\Nまっ 田舎だからね
+Dialogue: 0,0:04:39.60,0:04:42.31,Text_Bottom,,0,0,0,,\NDeer! シカ！シカがいるよ！
+Dialogue: 0,0:04:44.11,0:04:45.42,Text_Bottom,,0,0,0,,\Nああ
+Dialogue: 0,0:04:45.42,0:04:48.55,Text_Bottom,,0,0,0,,\N結構 人里まで 下りてくるみたいだよ～
+Dialogue: 0,0:04:48.55,0:04:49.90,Text_Bottom,,0,0,0,,\Nそうなんですか？
+Dialogue: 0,0:04:50.05,0:04:53.42,Text_Bottom,,0,0,0,,\Nああ～ 実家の近くでも見ることあるよ
+Dialogue: 0,0:04:53.42,0:04:55.36,Text_Bottom,,0,0,0,,\Nたま～にクマとかもね
+Dialogue: 0,0:04:55.36,0:04:56.45,Text_Bottom,,0,0,0,,\NBear!?
+Dialogue: 0,0:04:57.42,0:05:01.05,Text_Bottom,,0,0,0,,\N大丈夫だよ リリーちゃん そんなの めったに出ないから！
+Dialogue: 0,0:05:03.27,0:05:06.74,Text_Top,,0,0,0,,\N当車は次の駅で 特急待ち合わせのため
+Dialogue: 0,0:05:06.74,0:05:08.73,Text_Top,,0,0,0,,\Nしばらく停車いたします
+Dialogue: 0,0:05:08.73,0:05:10.74,Text_Top,,0,0,0,,\Nえ～ お急ぎのところ…
+Dialogue: 0,0:05:19.75,0:05:22.42,Text_Bottom,,0,0,0,,\Nこんな所に駅があるなんて…
+Dialogue: 0,0:05:29.83,0:05:30.95,Text_Bottom,,0,0,0,,\Nうおっ！
+Dialogue: 0,0:05:32.30,0:05:32.94,Text_Bottom,,0,0,0,,\Nえっ！？
+Dialogue: 0,0:05:34.82,0:05:35.59,Text_Bottom,,0,0,0,,\Nんっ！？
+Dialogue: 0,0:05:37.29,0:05:39.09,Text_Bottom,,0,0,0,,\Nうわ～ すげぇ！
+Dialogue: 0,0:05:39.09,0:05:40.67,Text_Bottom,,0,0,0,,\N本物だ～！
+Dialogue: 0,0:05:40.67,0:05:42.38,Text_Bottom,,0,0,0,,\Nお～い お～い！
+Dialogue: 0,0:05:42.81,0:05:45.10,Text_Bottom,,0,0,0,,\Nすごい 初めて見ました
+Dialogue: 0,0:05:45.10,0:05:47.34,Text_Bottom,,0,0,0,,\N私も見るの初めてだよ～
+Dialogue: 0,0:05:52.74,0:05:54.87,Text_Bottom,,0,0,0,,\Nあっ…あっ 待って～
+Dialogue: 0,0:05:54.87,0:05:56.73,Text_Bottom,,0,0,0,,\Nわ～ 急げ～
+Dialogue: 0,0:06:07.41,0:06:09.22,Text_Bottom,,0,0,0,,\Nあの… リリーちゃん…
+Dialogue: 0,0:06:09.71,0:06:10.81,Text_Bottom,,0,0,0,,\Nあっ…
+Dialogue: 0,0:06:26.40,0:06:29.03,Text_Bottom,,0,0,0,,\Nレンジ！ ウミだよウミ！
+Dialogue: 0,0:06:29.03,0:06:30.01,Text_Bottom,,0,0,0,,\Nそうだね
+Dialogue: 0,0:06:41.63,0:06:43.01,Text_Bottom,,0,0,0,,\Nまだかよ～
+Dialogue: 0,0:06:43.01,0:06:44.03,Text_Bottom,,0,0,0,,\N加賀さん
+Dialogue: 0,0:06:44.75,0:06:46.55,Text_Bottom,,0,0,0,,\Nお待たせ 着いたよ
+Dialogue: 0,0:06:50.07,0:06:51.34,Text_Bottom,,0,0,0,,\Nただいま～
+Dialogue: 0,0:06:51.91,0:06:54.02,Text_Bottom,,0,0,0,,\N母さ～ん いる～？
+Dialogue: 0,0:06:54.39,0:06:56.10,Text_Bottom,,0,0,120,,\NIsn't it locked?
+Dialogue: 0,0:06:56.10,0:06:59.54,Text_Bottom,,0,0,0,,\Nああ… 田舎だと 鍵かけない家もあるんだよ
+Dialogue: 0,0:07:00.06,0:07:01.15,Text_Bottom,,0,0,0,,\Nさあどうぞ
+Dialogue: 0,0:07:01.43,0:07:02.14,Text_Bottom,,0,0,0,,\Nそんじゃ
+Dialogue: 0,0:07:02.37,0:07:03.51,Text_Bottom,,0,0,0,,\Nおじゃまします
+Dialogue: 0,0:07:04.06,0:07:06.08,Text_Bottom,,0,0,0,,\Nはいはいはいはい…
+Dialogue: 0,0:07:06.08,0:07:10.30,Text_Bottom,,0,0,0,,\Nあらま なんったら いっぺえ連れできたごど～
+Dialogue: 0,0:07:10.70,0:07:13.61,Text_Bottom,,0,0,0,,\N蓮司も葵衣ちゃんも 大ぎぐなって～
+Dialogue: 0,0:07:13.95,0:07:17.01,Text_Bottom,,0,0,0,,\Nはぁ もう 思いのごすごどはねえべなぁ
+Dialogue: 0,0:07:17.01,0:07:19.99,Text_Bottom,,0,0,0,,\N会って早々 縁起でもないこと言わないで！
+Dialogue: 0,0:07:19.99,0:07:23.07,Text_Bottom,,0,0,0,,\N半年前も同じこと言ってたよ おばあちゃん
+Dialogue: 0,0:07:23.07,0:07:24.74,Text_Bottom,,0,0,0,,\Nあの～ いいべが～？
+Dialogue: 0,0:07:25.02,0:07:28.01,Text_Bottom,,0,0,0,,\Nほら母さん 葵衣の友達も一緒だよ
+Dialogue: 0,0:07:28.01,0:07:28.91,Text_Bottom,,0,0,0,,\Nコンニチハ
+Dialogue: 0,0:07:28.91,0:07:29.66,Text_Bottom,,0,0,0,,\Nちわ～っす
+Dialogue: 0,0:07:29.66,0:07:30.79,Text_Bottom,,0,0,0,,\Nお世話になります
+Dialogue: 0,0:07:31.10,0:07:34.02,Text_Bottom,,0,0,0,,\Nいんやまんず めんごい子ばりでぇ
+Dialogue: 0,0:07:34.02,0:07:37.22,Text_Bottom,,0,0,0,,\N東京の子は みんなハイカラで たまげたじゃ～
+Dialogue: 0,0:07:37.55,0:07:38.24,Text_Bottom,,0,0,0,,\Nえっ？
+Dialogue: 0,0:07:38.24,0:07:38.78,Text_Bottom,,0,0,0,,\Nんっ？
+Dialogue: 0,0:07:38.78,0:07:39.62,Text_Bottom,,0,0,0,,\NWhat?
+Dialogue: 0,0:07:40.07,0:07:41.69,Text_Bottom,,0,0,0,,\Nみんなかわいいってさ
+Dialogue: 0,0:07:42.66,0:07:45.07,Text_Bottom,,0,0,0,,\Nど… どこの国の言葉？
+Dialogue: 0,0:07:45.07,0:07:46.29,Text_Bottom,,0,0,0,,\Nえ～っとぉ…
+Dialogue: 0,0:07:46.29,0:07:48.45,Text_Bottom,,0,0,0,,\Nあっ おばーさま！
+Dialogue: 0,0:07:48.45,0:07:49.38,Text_Bottom,,0,0,0,,\Nんっ？
+Dialogue: 0,0:07:49.38,0:07:53.59,Text_Bottom,,0,0,0,,\Nこの度はお世話になります こ これ ツマラナイモノですが…
+Dialogue: 0,0:07:53.59,0:07:54.37,Text_Bottom,,0,0,0,,\Nあっ
+Dialogue: 0,0:07:55.60,0:07:58.14,Text_Bottom,,0,0,0,,\Nこれはこれは ご丁寧に…
+Dialogue: 0,0:07:58.64,0:08:00.49,Text_Bottom,,0,0,0,,\N蓮司 この子が？
+Dialogue: 0,0:08:00.49,0:08:03.62,Text_Bottom,,0,0,0,,\Nおめが声かげだっつう 外国人の娘っこは？
+Dialogue: 0,0:08:04.51,0:08:06.57,Text_Bottom,,0,0,0,,\Nそんなふうに伝わってたの！？
+Dialogue: 0,0:08:06.83,0:08:08.19,Text_Bottom,,0,0,0,,\Nいい子でないの？
+Dialogue: 0,0:08:08.55,0:08:10.54,Text_Bottom,,0,0,0,,\Nいや そんなんじゃないから！
+Dialogue: 0,0:08:10.54,0:08:11.73,Text_Bottom,,0,0,0,,\Nほんだら どんだってよ？
+Dialogue: 0,0:08:11.73,0:08:13.90,Text_Bottom,,0,0,0,,\Nいや… それは…
+Dialogue: 0,0:08:14.54,0:08:17.01,Text_Bottom,,0,0,0,,\Nだば まんず上がってってけろ
+Dialogue: 0,0:08:17.01,0:08:18.45,Text_Bottom,,0,0,0,,\Nあ～っ！
+Dialogue: 0,0:08:18.45,0:08:20.45,Text_Bottom,,0,0,0,,\N蓮くん久しぶり～！
+Dialogue: 0,0:08:19.90,0:08:20.46,Text_Bottom,,0,0,0,,\Nうわっ
+Dialogue: 0,0:08:21.11,0:08:22.34,Text_Bottom,,0,0,0,,\N日葵ちゃん…
+Dialogue: 0,0:08:22.82,0:08:23.46,Text_Bottom,,0,0,0,,\Nハッ！
+Dialogue: 0,0:08:25.54,0:08:27.82,Text_Bottom,,0,0,0,,\Nえっ？ あ… えっ？
+Dialogue: 0,0:08:33.26,0:08:36.08,Text_Bottom,,0,0,0,,\N私 日葵っていうの よろしくね！
+Dialogue: 0,0:08:36.54,0:08:38.71,Text_Bottom,,0,0,0,,\N日葵ちゃんは いとこの子でね
+Dialogue: 0,0:08:38.71,0:08:42.21,Text_Bottom,,0,0,0,,\N夏休み中は よくおばあちゃんちに 遊びにきてるのよ
+Dialogue: 0,0:08:42.21,0:08:45.31,Text_Bottom,,0,0,0,,\N今 中１だから 私たちの１つ下だよ
+Dialogue: 0,0:08:45.54,0:08:46.49,Text_Bottom,,0,0,0,,\Nフーン
+Dialogue: 0,0:08:46.49,0:08:48.08,Text_Bottom,,0,0,0,,\Nそうなんですか
+Dialogue: 0,0:08:49.87,0:08:52.53,Text_Bottom,,0,0,0,,\N蓮くん会えなくて寂しかったよ～
+Dialogue: 0,0:08:52.53,0:08:54.50,Text_Bottom,,0,0,0,,\Nいや 正月にも会ったじゃん
+Dialogue: 0,0:08:54.50,0:08:56.13,Text_Bottom,,0,0,0,,\Nもうこっちに引っ越そうよ
+Dialogue: 0,0:08:56.13,0:08:57.50,Text_Bottom,,0,0,0,,\Nムチャクチャ言うな！
+Dialogue: 0,0:08:59.63,0:09:01.97,Text_Bottom,,0,0,0,,\N田舎の子って大胆なんですね…
+Dialogue: 0,0:09:01.97,0:09:05.38,Text_Bottom,,0,0,0,,\Nそういえば 「だがし堂」に 新しいゲームが入ったんだよ
+Dialogue: 0,0:09:05.38,0:09:06.32,Text_Bottom,,0,0,0,,\Nゲーム！？
+Dialogue: 0,0:09:06.32,0:09:09.59,Text_Bottom,,0,0,0,,\N夕方まで時間あるから 遊びにいこうよ！
+Dialogue: 0,0:09:09.84,0:09:10.13,Text_Bottom,,0,0,0,,\Nい…
+Dialogue: 0,0:09:10.13,0:09:10.88,Text_Bottom,,0,0,0,,\N行こう！
+Dialogue: 0,0:09:11.12,0:09:12.14,Text_Bottom,,0,0,0,,\Nレンジ！
+Dialogue: 0,0:09:12.77,0:09:14.05,Text_Bottom,,0,0,0,,\Nアハッ！
+Dialogue: 0,0:09:13.30,0:09:14.06,Text_Bottom,,0,0,0,,\Nふぁ！？
+Dialogue: 0,0:09:18.39,0:09:21.45,Text_Bottom,,0,0,0,,\Nおいおい これがゲーセンかよ
+Dialogue: 0,0:09:21.45,0:09:23.78,Text_Bottom,,0,0,0,,\Nいや… ただの駄菓子屋だけど
+Dialogue: 0,0:09:24.75,0:09:25.94,Text_Bottom,,0,0,0,,\Nごめんくださ～い
+Dialogue: 0,0:09:25.94,0:09:27.37,Text_Bottom,,0,0,0,,\Nはいよ～
+Dialogue: 0,0:09:27.37,0:09:30.23,Text_Bottom,,0,0,0,,\Nあ～ら 蓮司くん葵衣ちゃん
+Dialogue: 0,0:09:30.23,0:09:32.05,Text_Bottom,,0,0,0,,\N久しぶりだね～
+Dialogue: 0,0:09:32.05,0:09:33.25,Text_Bottom,,0,0,0,,\N久しぶり
+Dialogue: 0,0:09:33.54,0:09:34.74,Text_Bottom,,0,0,0,,\Nお久しぶりです
+Dialogue: 0,0:09:35.27,0:09:38.24,Text_Bottom,,0,0,0,,\Nなんたらまあ 団体様 連れできて～
+Dialogue: 0,0:09:38.24,0:09:40.17,Text_Bottom,,0,0,0,,\Nあっ… オジャマシマス
+Dialogue: 0,0:09:40.17,0:09:41.29,Text_Bottom,,0,0,0,,\Nおじゃまします
+Dialogue: 0,0:09:41.66,0:09:42.27,Text_Bottom,,0,0,0,,\Nちわっ
+Dialogue: 0,0:09:42.90,0:09:44.21,Text_Bottom,,0,0,0,,\Nところでおばちゃん…
+Dialogue: 0,0:09:44.67,0:09:46.82,Text_Bottom,,0,0,0,,\Nアレ… まだあるかい？
+Dialogue: 0,0:09:47.12,0:09:49.25,Text_Bottom,,0,0,0,,\Nあっ… もずろん
+Dialogue: 0,0:09:50.01,0:09:51.10,Text_Bottom,,0,0,0,,\Nやってぐがい？
+Dialogue: 0,0:09:51.44,0:09:52.33,Text_Bottom,,0,0,0,,\Nああ
+Dialogue: 0,0:10:01.29,0:10:02.81,Text_Bottom,,0,0,0,,\Nすごい
+Dialogue: 0,0:10:04.49,0:10:07.99,Text_Bottom,,0,0,0,,\Nおおっ！ スペースインベーダー初めて見た！
+Dialogue: 0,0:10:08.15,0:10:09.36,Text_Bottom,,0,0,0,,\Nこれ動くのか？
+Dialogue: 0,0:10:10.22,0:10:13.04,Text_Bottom,,0,0,0,,\Nオラと一緒で まだまだ現役だ
+Dialogue: 0,0:10:20.22,0:10:23.46,Text_Bottom,,0,0,0,,\Nこれこそ 私が想像していたゲーセンです！
+Dialogue: 0,0:10:29.86,0:10:31.44,Text_Bottom,,0,0,120,,\NRock, paper, scissors!
+Dialogue: 0,0:10:31.84,0:10:33.38,Text_Bottom,,0,0,0,,\Nレンジ！ じゃんけん！
+Dialogue: 0,0:10:33.51,0:10:34.94,Text_Bottom,,0,0,0,,\Nんっ えっ？
+Dialogue: 0,0:10:35.67,0:10:36.72,Text_Bottom,,0,0,0,,\Nああ
+Dialogue: 0,0:10:37.78,0:10:39.21,Text_Bottom,,0,0,0,,\Nこれは ベーゴマだよ
+Dialogue: 0,0:10:39.63,0:10:40.67,Text_Bottom,,0,0,0,,\Nベーゴマ？
+Dialogue: 0,0:10:41.11,0:10:41.93,Text_Bottom,,0,0,0,,\Nやってみる？
+Dialogue: 0,0:10:42.15,0:10:44.53,Text_Bottom,,0,0,0,,\Nあ… やってみたい！
+Dialogue: 0,0:10:49.84,0:10:51.81,Text_Bottom,,0,0,0,,\Nわ～っ！ ゴメンナサイ！
+Dialogue: 0,0:10:51.81,0:10:53.02,Text_Bottom,,0,0,0,,\Nアハハ…
+Dialogue: 0,0:10:53.02,0:10:55.10,Text_Bottom,,0,0,0,,\Nだ 大丈夫だよ リリーちゃん
+Dialogue: 0,0:10:55.44,0:10:58.40,Text_Bottom,,0,0,0,,\Nこのコマは 投げるより引きを意識すれば
+Dialogue: 0,0:10:58.40,0:10:59.35,Text_Bottom,,0,0,0,,\Nよっ… と
+Dialogue: 0,0:10:59.35,0:11:00.86,Text_Bottom,,0,0,0,,\Nスゴーイ！
+Dialogue: 0,0:11:00.86,0:11:02.64,Text_Bottom,,0,0,0,,\Nもっかい もっかい見せて！
+Dialogue: 0,0:11:02.64,0:11:04.79,Text_Bottom,,0,0,0,,\Nうん じゃあもう一回
+Dialogue: 0,0:11:04.79,0:11:05.77,Text_Bottom,,0,0,0,,\Nこうして
+Dialogue: 0,0:11:05.77,0:11:08.08,Text_Bottom,,0,0,0,,\N蓮くん 私にも教えて～
+Dialogue: 0,0:11:08.08,0:11:10.42,Text_Bottom,,0,0,0,,\Nいや 日葵ちゃんはベーゴマ得意だろ
+Dialogue: 0,0:11:10.42,0:11:12.29,Text_Bottom,,0,0,0,,\N《うちの兄 モテるなぁ…》
+Dialogue: 0,0:11:12.29,0:11:14.72,Text_Bottom,,0,0,0,,\Nじゃあ あっちの新作ゲーム教えてよ
+Dialogue: 0,0:11:16.58,0:11:17.78,Text_Bottom,,0,0,0,,\NＯＫＦ！？
+Dialogue: 0,0:11:17.78,0:11:20.06,Text_Bottom,,0,0,0,,\Nこんな田舎にまで きてるとは…
+Dialogue: 0,0:11:20.35,0:11:22.85,Text_Bottom,,0,0,0,,\N技の出し方とか よくわからないの！
+Dialogue: 0,0:11:22.85,0:11:25.58,Text_Bottom,,0,0,0,,\Nま まあ それなら 教えてあげられるけど
+Dialogue: 0,0:11:25.86,0:11:28.22,Text_Bottom,,0,0,0,,\Nムム… わたしがおしえるわ！
+Dialogue: 0,0:11:28.53,0:11:31.33,Text_Bottom,,0,0,0,,\Nえ～ 君 このゲームできるの？
+Dialogue: 0,0:11:31.33,0:11:33.83,Text_Bottom,,0,0,0,,\Nゲーム あんまり うまくなさそうなんだけど
+Dialogue: 0,0:11:34.07,0:11:35.54,Text_Bottom,,0,0,0,,\Nだったら勝負よ！
+Dialogue: 0,0:11:35.54,0:11:38.27,Text_Bottom,,0,0,0,,\Nおっ いいね 勝ったほうが蓮くんとデートね！
+Dialogue: 0,0:11:38.27,0:11:38.98,Text_Bottom,,0,0,0,,\Nええっ！？
+Dialogue: 0,0:11:39.35,0:11:40.63,Text_Bottom,,0,0,0,,\NK.O.
+Dialogue: 0,0:11:41.54,0:11:43.57,Text_Bottom,,0,0,0,,\Nつ… 強い
+Dialogue: 0,0:11:43.76,0:11:44.82,Text_Bottom,,0,0,0,,\Nムフーン
+Dialogue: 0,0:11:44.82,0:11:47.25,Text_Bottom,,0,0,0,,\Nドヤ顔してるけど ギリギリだったな
+Dialogue: 0,0:11:47.43,0:11:50.59,Text_Bottom,,0,0,0,,\Nこの前の大会で 練習しててよかったね…
+Dialogue: 0,0:11:51.30,0:11:53.59,Text_Bottom,,0,0,0,,\Nい… 言い忘れてたけど…
+Dialogue: 0,0:11:53.84,0:11:56.22,Text_Bottom,,0,0,0,,\Nこれ３回勝負だから次はメンコね！
+Dialogue: 0,0:11:56.22,0:11:57.11,Text_Bottom,,0,0,0,,\Nえぇ！？
+Dialogue: 0,0:11:57.11,0:11:58.27,Text_Bottom,,0,0,0,,\Nのぞむところよ！
+Dialogue: 0,0:11:58.27,0:11:59.37,Text_Bottom,,0,0,0,,\Nえぇ～っ！？
+Dialogue: 0,0:12:15.73,0:12:17.86,Text_Bottom,,0,0,0,,\Nき 君 なかなかやるじゃん
+Dialogue: 0,0:12:17.86,0:12:19.79,Text_Bottom,,0,0,0,,\Nあ あなたこそ
+Dialogue: 0,0:12:19.79,0:12:21.61,Text_Bottom,,0,0,0,,\N《なんか友情芽生えてる》
+Dialogue: 0,0:12:23.03,0:12:24.85,Text_Bottom,,0,0,0,,\Nさあ 召し上がれ
+Dialogue: 0,0:12:24.85,0:12:27.35,Text_Bottom,,0,0,0,,\Nおお 今夜はすごいなママ
+Dialogue: 0,0:12:27.58,0:12:28.93,Text_Bottom,,0,0,0,,\Nそれじゃあ いただきます
+Dialogue: 0,0:12:29.50,0:12:32.03,Text_Bottom,,0,0,0,,\N今頃リリー 楽しくやってるかな
+Dialogue: 0,0:12:32.03,0:12:36.37,Text_Bottom,,0,0,0,,\Nそうね はしゃぎ過ぎて レンジくんに 迷惑かけてないといいけど…
+Dialogue: 0,0:12:36.37,0:12:36.97,Text_Bottom,,0,0,0,,\Nあっ！
+Dialogue: 0,0:12:37.62,0:12:39.42,Text_Bottom,,0,0,0,,\Nレンジ… くん？
+Dialogue: 0,0:12:39.93,0:12:40.47,Text_Bottom,,0,0,0,,\Nあっ…
+Dialogue: 0,0:12:41.30,0:12:44.51,Text_Bottom,,0,0,0,,\Nリリーは同級生と 旅行じゃなかったのか？
+Dialogue: 0,0:12:44.51,0:12:46.55,Text_Bottom,,0,0,0,,\Nまさか アイツも一緒に…！？
+Dialogue: 0,0:12:46.55,0:12:47.87,Text_Bottom,,0,0,0,,\Nいえ… あのね…
+Dialogue: 0,0:12:47.87,0:12:49.19,Text_Bottom,,0,0,0,,\Nこうしてはおれん！
+Dialogue: 0,0:12:49.19,0:12:51.49,Text_Bottom,,0,0,0,,\N今行くからな リリー！
+Dialogue: 0,0:12:51.49,0:12:52.67,Text_Bottom,,0,0,0,,\Nあっ ちょっと！
+Dialogue: 0,0:12:52.67,0:12:53.27,Text_Bottom,,0,0,0,,\Nあぁ…
+Dialogue: 0,0:12:55.70,0:12:58.43,Text_Bottom,,0,0,0,,\Nもう… ハァ…
+Dialogue: 0,0:13:13.86,0:13:17.30,Text_Bottom,,0,0,0,,\Nよ～し 今日は絶好の ザリガニ釣り日和だ
+Dialogue: 0,0:13:17.30,0:13:18.66,Text_Bottom,,0,0,0,,\NCray fish ね
+Dialogue: 0,0:13:18.78,0:13:20.86,Text_Bottom,,0,0,0,,\Nそんなのが釣れるんですか？
+Dialogue: 0,0:13:20.86,0:13:23.23,Text_Bottom,,0,0,0,,\Nああ 昔よくやったよ
+Dialogue: 0,0:13:23.51,0:13:24.94,Text_Bottom,,0,0,0,,\N懐かしいな～
+Dialogue: 0,0:13:25.25,0:13:29.20,Text_Bottom,,0,0,0,,\N葵衣が網ですくおうとして 頭から突っ込んだときは 焦ったけど
+Dialogue: 0,0:13:29.45,0:13:32.38,Text_Bottom,,0,0,0,,\Nあっ！ 余計なことは 思い出さなくていい！
+Dialogue: 0,0:13:33.52,0:13:36.74,Text_Bottom,,0,0,0,,\Nさて… この釣りざおに エサをつけるの
+Dialogue: 0,0:13:36.95,0:13:37.73,Text_Bottom,,0,0,0,,\Nエサ？
+Dialogue: 0,0:13:37.94,0:13:39.98,Text_Bottom,,0,0,0,,\Nミミズとかザザ虫とか？
+Dialogue: 0,0:13:39.98,0:13:41.07,Text_Bottom,,0,0,0,,\Nえ～
+Dialogue: 0,0:13:41.07,0:13:44.09,Text_Bottom,,0,0,0,,\Nこれだよ 昨日 駄菓子屋で買ったんだ
+Dialogue: 0,0:13:45.55,0:13:47.39,Text_Bottom,,0,0,0,,\Nはい これは リリーちゃんの分
+Dialogue: 0,0:13:47.39,0:13:48.58,Text_Bottom,,0,0,0,,\Nアリガトー
+Dialogue: 0,0:13:48.58,0:13:50.05,Text_Bottom,,0,0,0,,\Nはい じゃこれ葵衣ちゃん
+Dialogue: 0,0:13:50.05,0:13:51.44,Text_Bottom,,0,0,0,,\Nあ ありがと
+Dialogue: 0,0:13:51.81,0:13:53.06,Text_Bottom,,0,0,0,,\Nウチの分は～？
+Dialogue: 0,0:13:53.27,0:13:54.85,Text_Bottom,,0,0,0,,\Nちゃんとあるって～
+Dialogue: 0,0:13:59.79,0:14:03.74,Text_Bottom,,0,0,0,,\Nクソ こんなときにかぎって このカーナビは～っ！
+Dialogue: 0,0:14:03.74,0:14:05.67,Text_Bottom,,0,0,0,,\Nママ ナビは頼んだぞ！
+Dialogue: 0,0:14:05.95,0:14:08.16,Text_Bottom,,0,0,120,,\NNo problem. Everything's fine.
+Dialogue: 0,0:14:08.75,0:14:10.87,Text_Bottom,,0,0,120,,\NAll right. Just hang on, Lily!
+Dialogue: 0,0:14:10.96,0:14:12.71,Text_Bottom,,0,0,120,,\NLeave at the next exit, Oliver.
+Dialogue: 0,0:14:12.79,0:14:14.21,Text_Bottom,,0,0,120,,\NAh, okay.
+Dialogue: 0,0:14:17.68,0:14:18.63,Text_Bottom,,0,0,0,,\N釣れた～！
+Dialogue: 0,0:14:18.63,0:14:20.01,Text_Bottom,,0,0,0,,\Nおお～ すごい！
+Dialogue: 0,0:14:20.01,0:14:22.18,Text_Bottom,,0,0,0,,\Nクレーンゲームより ずっと簡単だね！
+Dialogue: 0,0:14:22.18,0:14:23.85,Text_Bottom,,0,0,0,,\Nハハハ…
+Dialogue: 0,0:14:23.85,0:14:24.96,Text_Bottom,,0,0,0,,\Nそうかもね…
+Dialogue: 0,0:14:27.60,0:14:30.24,Text_Bottom,,0,0,0,,\Nお～ おいしいじゃん これ
+Dialogue: 0,0:14:30.24,0:14:33.82,Text_Bottom,,0,0,0,,\Nホントにおいしいです どうやって作ったんですか？
+Dialogue: 0,0:14:34.11,0:14:36.35,Text_Bottom,,0,0,0,,\Nいや普通のサンドイッチだよ
+Dialogue: 0,0:14:36.35,0:14:39.62,Text_Bottom,,0,0,0,,\N田舎の空気のおかげで いつもよりおいしいんじゃない？
+Dialogue: 0,0:14:39.89,0:14:41.63,Text_Bottom,,0,0,0,,\N田舎の空気…
+Dialogue: 0,0:15:12.19,0:15:13.90,Text_Bottom,,0,0,0,,\Nうん… そうかも
+Dialogue: 0,0:15:15.93,0:15:18.40,Text_Bottom,,0,0,0,,\Nねえ 私 デンを作ってみたい！
+Dialogue: 0,0:15:19.82,0:15:20.73,Text_Bottom,,0,0,0,,\Nデン？
+Dialogue: 0,0:15:21.53,0:15:24.71,Text_Bottom,,0,0,0,,\Nへぇ デンって 隠れがって意味なんだ
+Dialogue: 0,0:15:24.71,0:15:26.86,Text_Bottom,,0,0,0,,\N日本の秘密基地みたいなもんか
+Dialogue: 0,0:15:27.18,0:15:31.62,Text_Bottom,,0,0,0,,\Nったく どこの国の子どもも 考えることは変わらねえんだな
+Dialogue: 0,0:15:31.62,0:15:33.58,Text_Bottom,,0,0,0,,\Nあなたも子どもでしょ
+Dialogue: 0,0:15:33.77,0:15:36.33,Text_Bottom,,0,0,0,,\N前 パパに教えてもらったんだけど
+Dialogue: 0,0:15:36.33,0:15:39.66,Text_Bottom,,0,0,0,,\N私 まだ作ったことないから 一度 作ってみたかったの！
+Dialogue: 0,0:15:39.93,0:15:42.22,Text_Bottom,,0,0,0,,\Nいいじゃんそれ やろうよ！
+Dialogue: 0,0:15:42.22,0:15:45.02,Text_Bottom,,0,0,0,,\Nリ… リリーさんが言うなら…
+Dialogue: 0,0:15:45.02,0:15:46.69,Text_Bottom,,0,0,0,,\N私は別に…
+Dialogue: 0,0:15:46.69,0:15:48.18,Text_Bottom,,0,0,0,,\Nおもしろそうじゃん！
+Dialogue: 0,0:15:48.18,0:15:50.99,Text_Bottom,,0,0,0,,\Nしゃあねえなあ つきあってやるか
+Dialogue: 0,0:15:51.30,0:15:52.30,Text_Bottom,,0,0,0,,\Nよし！
+Dialogue: 0,0:15:53.11,0:15:55.98,Text_Bottom,,0,0,0,,\Nどうせ作るなら しっかりしたやつ作ろうか！
+Dialogue: 0,0:15:56.45,0:15:57.07,Text_Bottom,,0,0,0,,\Nねっ！
+Dialogue: 0,0:15:57.62,0:15:58.79,Text_Bottom,,0,0,0,,\Nレンジ…
+Dialogue: 0,0:15:59.76,0:16:00.50,Text_Bottom,,0,0,0,,\Nうん！
+Dialogue: 0,0:16:00.82,0:16:03.60,Text_Bottom,,0,0,0,,\Nじゃあ デン作り始めよう！
+Dialogue: 0,0:16:03.60,0:16:05.15,Text_Bottom,,0,0,0,,\Nお～っ！
+Dialogue: 0,0:16:15.04,0:16:16.54,Text_Bottom,,0,0,120,,\NCome on, let's go!
+Dialogue: 0,0:16:16.69,0:16:18.29,Text_Bottom,,0,0,0,,\NEh? Euh, yeah...
+Dialogue: 0,0:16:54.62,0:16:55.66,Text_Bottom,,0,0,120,,\NWhat's wrong?
+Dialogue: 0,0:16:55.91,0:16:56.66,Text_Bottom,,0,0,120,,\NNothing.
+Dialogue: 0,0:16:58.16,0:17:01.79,Text_Bottom,,0,0,120,,\NIsn't this the first time we're out alone together since we got here, Oliver?
+Dialogue: 0,0:17:02.50,0:17:03.29,Text_Bottom,,0,0,120,,\NIs it?
+Dialogue: 0,0:17:03.59,0:17:04.84,Text_Bottom,,0,0,120,,\NYeah, it is!
+Dialogue: 0,0:17:07.92,0:17:10.76,Text_Bottom,,0,0,120,,\NRight. Let's get moving or we'll miss the daylight!
+Dialogue: 0,0:17:15.47,0:17:16.77,Text_Bottom,,0,0,120,,\NHold on, Sheryl!
+Dialogue: 0,0:17:17.59,0:17:18.64,Text_Bottom,,0,0,0,,\NSheryl!
+Dialogue: 0,0:17:23.18,0:17:24.59,Text_Bottom,,0,0,0,,\Nできた～！
+Dialogue: 0,0:17:24.59,0:17:26.07,Text_Bottom,,0,0,0,,\Nおぉ～っ！
+Dialogue: 0,0:17:26.07,0:17:28.53,Text_Bottom,,0,0,0,,\Nこれは なかなかいい出来 なんじゃない？
+Dialogue: 0,0:17:28.53,0:17:29.63,Text_Bottom,,0,0,0,,\Nそうだな
+Dialogue: 0,0:17:30.01,0:17:32.77,Text_Bottom,,0,0,0,,\Nせいぜい２人ぐらいしか 入れないけど
+Dialogue: 0,0:17:32.77,0:17:34.50,Text_Bottom,,0,0,0,,\Nもう一人ぐらいは入れるだろ
+Dialogue: 0,0:17:34.50,0:17:36.85,Text_Bottom,,0,0,0,,\Nあっ 私も入りたいです
+Dialogue: 0,0:17:36.85,0:17:38.29,Text_Bottom,,0,0,0,,\Nあ～ 無理だよ
+Dialogue: 0,0:17:38.51,0:17:39.84,Text_Bottom,,0,0,0,,\N大丈夫だって
+Dialogue: 0,0:17:39.84,0:17:41.68,Text_Bottom,,0,0,0,,\N少し詰めてください
+Dialogue: 0,0:17:41.68,0:17:43.30,Text_Bottom,,0,0,0,,\Nく 苦し～
+Dialogue: 0,0:17:43.30,0:17:45.23,Text_Bottom,,0,0,0,,\Nねえ もう一人入れるかな？
+Dialogue: 0,0:17:45.51,0:17:47.39,Text_Bottom,,0,0,0,,\Nゴメン ムリー！
+Dialogue: 0,0:17:47.39,0:17:48.69,Text_Bottom,,0,0,0,,\Nおいおい…
+Dialogue: 0,0:17:52.17,0:17:54.35,Text_Bottom,,0,0,0,,\Nあ～ 楽しかった
+Dialogue: 0,0:17:54.59,0:17:57.15,Text_Bottom,,0,0,0,,\Nあのデン 来年まで残ってるかな？
+Dialogue: 0,0:17:57.15,0:17:59.91,Text_Bottom,,0,0,0,,\Nいやあ それはさすがに無理だろ
+Dialogue: 0,0:17:59.91,0:18:03.53,Text_Bottom,,0,0,0,,\Nわかんねえぞ 来年みんなで確かめにこようぜ
+Dialogue: 0,0:18:04.58,0:18:07.79,Text_Bottom,,0,0,0,,\N最初は加賀さん 「しようがないなあ」とか 言ってたのに
+Dialogue: 0,0:18:08.65,0:18:09.95,Text_Bottom,,0,0,0,,\Nう うっせえ！
+Dialogue: 0,0:18:15.20,0:18:15.73,Text_Bottom,,0,0,0,,\Nあっ
+Dialogue: 0,0:18:18.48,0:18:19.42,Text_Bottom,,0,0,0,,\Nばあちゃん！
+Dialogue: 0,0:18:19.99,0:18:20.91,Text_Bottom,,0,0,0,,\Nあっ？
+Dialogue: 0,0:18:22.22,0:18:25.12,Text_Bottom,,0,0,0,,\Nみんな あっという間に こしらえたんだっけもの
+Dialogue: 0,0:18:25.12,0:18:27.13,Text_Bottom,,0,0,0,,\Nいや すごいね～
+Dialogue: 0,0:18:27.36,0:18:29.85,Text_Bottom,,0,0,0,,\Nえ～と 「でん」っていうのかい？
+Dialogue: 0,0:18:29.85,0:18:30.67,Text_Bottom,,0,0,0,,\Nうん！
+Dialogue: 0,0:18:30.67,0:18:34.77,Text_Bottom,,0,0,0,,\Nんでも ２人ぐれしか入れねのに この子が無理に入ってきでさ
+Dialogue: 0,0:18:34.77,0:18:36.71,Text_Bottom,,0,0,0,,\Nだ 大丈夫だったろ！
+Dialogue: 0,0:18:40.09,0:18:41.78,Text_Bottom,,0,0,0,,\Nんっ？ なした？
+Dialogue: 0,0:18:42.06,0:18:42.88,Text_Bottom,,0,0,0,,\Nあっ
+Dialogue: 0,0:18:43.91,0:18:45.49,Text_Bottom,,0,0,0,,\Nあれ… ナニ？
+Dialogue: 0,0:18:46.01,0:18:48.19,Text_Bottom,,0,0,0,,\Nはぁ… どれだべ？
+Dialogue: 0,0:18:48.72,0:18:50.81,Text_Bottom,,0,0,0,,\Nああ お祭りかぁ
+Dialogue: 0,0:18:51.23,0:18:52.74,Text_Bottom,,0,0,0,,\Nお祭り…
+Dialogue: 0,0:18:53.17,0:18:54.49,Text_Bottom,,0,0,0,,\NFestival.
+Dialogue: 0,0:18:54.70,0:18:56.47,Text_Bottom,,0,0,0,,\Nそうそう フェスティバル
+Dialogue: 0,0:18:56.47,0:18:59.41,Text_Bottom,,0,0,0,,\N縁日も出るし花火大会も あるんだよ！
+Dialogue: 0,0:18:59.63,0:19:02.86,Text_Bottom,,0,0,0,,\N花火大会まで… 楽しそうですね
+Dialogue: 0,0:19:02.86,0:19:04.97,Text_Bottom,,0,0,0,,\Nじゃあ みんなで行こうよ
+Dialogue: 0,0:19:04.97,0:19:05.92,Text_Bottom,,0,0,0,,\Nししょー？
+Dialogue: 0,0:19:05.92,0:19:08.21,Text_Bottom,,0,0,0,,\Nしようがねえ つきあってやるか
+Dialogue: 0,0:19:09.76,0:19:11.85,Text_Bottom,,0,0,0,,\N花火大会つったら
+Dialogue: 0,0:19:11.85,0:19:14.17,Text_Bottom,,0,0,0,,\Nこごらには言い伝えがあってな
+Dialogue: 0,0:19:14.79,0:19:15.79,Text_Bottom,,0,0,0,,\N聞きてが？
+Dialogue: 0,0:19:16.13,0:19:18.15,Text_Bottom,,0,0,0,,\Nあ… 聞きたい！
+Dialogue: 0,0:19:19.13,0:19:19.84,Text_Bottom,,0,0,0,,\Nへばっ…
+Dialogue: 0,0:19:20.53,0:19:26.87,Text_Bottom,,0,0,0,,\Nむが～す むがす この辺りさ 年若い おとごとおなごが おったそうな
+Dialogue: 0,0:19:27.23,0:19:31.85,Text_Bottom,,0,0,0,,\N２人は互いに 好き合ってたんだども 村が違ってたんで
+Dialogue: 0,0:19:31.85,0:19:35.37,Text_Bottom,,0,0,0,,\N月に一度 人目ば忍んで会ってたんだど
+Dialogue: 0,0:19:35.99,0:19:37.57,Text_Bottom,,0,0,0,,\Nタナバタみたい…
+Dialogue: 0,0:19:37.91,0:19:39.49,Text_Bottom,,0,0,0,,\N七夕 知ってんのがい？
+Dialogue: 0,0:19:39.89,0:19:41.49,Text_Bottom,,0,0,0,,\Nオリヒメとヒコボシ！
+Dialogue: 0,0:19:41.49,0:19:43.28,Text_Bottom,,0,0,0,,\Nいや たまげだ
+Dialogue: 0,0:19:43.28,0:19:45.23,Text_Bottom,,0,0,0,,\Nリリーちゃん賢いなっす
+Dialogue: 0,0:19:45.23,0:19:46.29,Text_Bottom,,0,0,0,,\Nヘヘ～ッ
+Dialogue: 0,0:19:46.29,0:19:50.14,Text_Bottom,,0,0,0,,\Nだども 織姫と彦星とはちょっと違うんだ
+Dialogue: 0,0:19:50.14,0:19:50.78,Text_Bottom,,0,0,0,,\Nあっ
+Dialogue: 0,0:19:51.26,0:19:55.23,Text_Bottom,,0,0,0,,\Nそやって この２人は おうせば重ねでいだんだども
+Dialogue: 0,0:19:55.57,0:19:57.20,Text_Bottom,,0,0,0,,\Nある祭りの夜…
+Dialogue: 0,0:20:01.68,0:20:04.33,Text_Bottom,,0,0,0,,\N最後の花火が花開いたとき
+Dialogue: 0,0:20:04.33,0:20:08.30,Text_Bottom,,0,0,0,,\N２人の仲は みんなして 知るごどになってまったんだと
+Dialogue: 0,0:20:08.93,0:20:12.49,Text_Bottom,,0,0,0,,\Nあ… それで どうなっちゃったの？
+Dialogue: 0,0:20:13.15,0:20:16.02,Text_Bottom,,0,0,0,,\Nまあ そのあと なんやかんや あったんだども
+Dialogue: 0,0:20:16.02,0:20:19.51,Text_Bottom,,0,0,0,,\Nそれがきっかけで ２つの村は一つさなっで
+Dialogue: 0,0:20:19.51,0:20:24.26,Text_Bottom,,0,0,0,,\N２人は結ばれで 末永ぐ 幸せに暮らしましたとさ
+Dialogue: 0,0:20:24.46,0:20:25.52,Text_Bottom,,0,0,0,,\Nどんとはれ
+Dialogue: 0,0:20:26.22,0:20:29.66,Text_Bottom,,0,0,0,,\Nその 「なんやかんや」のところは どうしたんだよ
+Dialogue: 0,0:20:29.66,0:20:31.62,Text_Bottom,,0,0,0,,\Nすてきなお話です
+Dialogue: 0,0:20:31.62,0:20:35.77,Text_Bottom,,0,0,0,,\Nこの辺じゃ その話がもとになって 最後の花火が上がったとき
+Dialogue: 0,0:20:35.77,0:20:39.46,Text_Bottom,,0,0,0,,\N手をつないでいる男女は 永遠に結ばれるって いわれてるんだよ
+Dialogue: 0,0:20:39.46,0:20:43.47,Text_Bottom,,0,0,0,,\Nはぁ～ ロマンチックです いわゆる都市伝説ですね～
+Dialogue: 0,0:20:43.47,0:20:46.83,Text_Bottom,,0,0,0,,\N都市伝説って… ロマンチックじゃねえ～
+Dialogue: 0,0:20:47.70,0:20:48.67,Text_Bottom,,0,0,0,,\Nなあ ばあちゃん
+Dialogue: 0,0:20:49.02,0:20:50.93,Text_Bottom,,0,0,0,,\Nこれ 山さ入って取ってきたの？
+Dialogue: 0,0:20:51.28,0:20:55.76,Text_Bottom,,0,0,0,,\Nああ 沢っこのは細いのばりだすけ 奥さ行ってきだ
+Dialogue: 0,0:20:56.01,0:20:58.55,Text_Bottom,,0,0,0,,\N大丈夫！？ クマ いねがったが？
+Dialogue: 0,0:20:59.54,0:21:01.18,Text_Bottom,,0,0,0,,\Nいだったがもなぁ
+Dialogue: 0,0:21:01.78,0:21:04.26,Text_Bottom,,0,0,0,,\Nおい… 急にどうしたんだよ
+Dialogue: 0,0:21:08.08,0:21:08.99,Text_Bottom,,0,0,0,,\N出るの？
+Dialogue: 0,0:21:09.42,0:21:12.46,Text_Bottom,,0,0,0,,\Nあっ 大丈夫だよ リリーちゃん
+Dialogue: 0,0:21:12.46,0:21:13.70,Text_Bottom,,0,0,0,,\Nこの時期 クマは…
+Dialogue: 0,0:21:17.18,0:21:18.29,Text_Bottom,,0,0,0,,\Nまさか
+Dialogue: 0,0:21:28.38,0:21:29.21,Text_Bottom,,0,0,0,,\NOliver!
+Dialogue: 0,0:21:29.75,0:21:30.32,Text_Bottom,,0,0,0,,\Nえっ？
+Dialogue: 0,0:21:30.66,0:21:31.17,Text_Bottom,,0,0,0,,\Nえっ…？
+Dialogue: 0,0:21:31.68,0:21:32.11,Text_Bottom,,0,0,0,,\Nへっ？
+Dialogue: 0,0:21:32.11,0:21:32.70,Text_Bottom,,0,0,0,,\Nえっ？
+Dialogue: 0,0:21:33.37,0:21:35.23,Text_Bottom,,0,0,0,,\NMom! Dad!
+Dialogue: 0,0:21:36.83,0:21:38.05,Text_Bottom,,0,0,0,,\NLily!
+Dialogue: 0,0:21:38.05,0:21:39.03,Text_Bottom,,0,0,0,,\NDad!
+Dialogue: 0,0:21:39.03,0:21:41.03,Text_Bottom,,0,0,120,,\NLily! I missed you!
+Dialogue: 0,0:21:41.03,0:21:43.19,Text_Bottom,,0,0,0,,\Nあの… どうしてこんな所に？
+Dialogue: 0,0:21:43.19,0:21:47.17,Text_Bottom,,0,0,0,,\Nそれが 来る途中 カーナビが ダメになっちゃって迷ってたのよ
+Dialogue: 0,0:21:47.38,0:21:49.78,Text_Bottom,,0,0,0,,\Nよくわからないけど ご無事で何より…
+Dialogue: 0,0:21:49.78,0:21:51.99,Text_Bottom,,0,0,0,,\N貴様に気を遣われる いわれはない！
+Dialogue: 0,0:21:51.99,0:21:53.09,Text_Bottom,,0,0,0,,\Nえぇ～っ
+Dialogue: 0,0:21:53.22,0:21:54.85,Text_Bottom,,0,0,0,,\Nもう パパったら！
+Dialogue: 0,0:21:55.03,0:21:56.45,Text_Bottom,,0,0,0,,\Nどちら様だ？
+Dialogue: 0,0:21:56.61,0:21:58.37,Text_Bottom,,0,0,0,,\Nあ… えっと…
+Dialogue: 0,0:21:59.19,0:22:01.93,Text_Bottom,,0,0,0,,\Nリリーちゃんの… ご家族… です
+Dialogue: 0,0:22:02.42,0:22:03.85,Text_Bottom,,0,0,0,,\Nああ…
