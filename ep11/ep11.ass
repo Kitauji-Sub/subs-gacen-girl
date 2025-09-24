@@ -13,7 +13,8 @@ Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.625000
-Active Line: 15
+Scroll Position: 384
+Active Line: 397
 Video Position: 33926
 
 [V4+ Styles]
@@ -49,7 +50,7 @@ Dialogue: 0,0:00:13.53,0:00:16.30,Text_Bottom,,0,0,0,,真的唉 是什么山呢\
 Dialogue: 0,0:00:16.30,0:00:18.17,Text_Bottom,,0,0,0,,那是磐梯山\Nあれは磐梯山です
 Dialogue: 0,0:00:19.01,0:00:25.21,Text_Bottom,,0,0,0,,海拔1816千米 是被选入「日本百座名山」的有名山峰\N標高 １，８１６メートル 「日本百名山」にも選ばれてる 名峰だそうです
 Dialogue: 0,0:00:25.21,0:00:27.83,Text_Bottom,,0,0,0,,不愧是班长 知道的真多啊\Nさっすが委員長！ 物知りだね
-Dialogue: 0,0:00:27.83,0:00:30.62,Text_Bottom,,0,0,0,,没 我只是手机上现查的\Nいえ スマホで検索しただけですから 
+Dialogue: 0,0:00:27.83,0:00:30.62,Text_Bottom,,0,0,0,,没 我只是手机上现查的\Nいえ スマホで検索しただけですから
 Dialogue: 0,0:00:31.04,0:00:33.57,Text_Bottom,,0,0,0,,喂师傅 快看那座山\Nねえ ししょー 見て見て あの山！
 Dialogue: 0,0:00:33.76,0:00:36.75,Text_Bottom,,0,0,0,,别烦！现在正打到要紧的地方\Nうっせえ！ 今 いいところなんだからよ…
 Dialogue: 0,0:00:36.75,0:00:38.10,Text_Bottom,,0,0,0,,哟…这玩意…\Nよっ… この…
@@ -102,7 +103,7 @@ Dialogue: 0,0:04:45.42,0:04:48.55,Text_Bottom,,0,0,0,,它们还经常到人居�
 Dialogue: 0,0:04:48.55,0:04:49.90,Text_Bottom,,0,0,0,,这样的吗？\Nそうなんですか？
 Dialogue: 0,0:04:50.05,0:04:53.42,Text_Bottom,,0,0,0,,哦~我在老家附近也见到过\Nああ～ 実家の近くでも見ることあるよ
 Dialogue: 0,0:04:53.42,0:04:55.36,Text_Bottom,,0,0,0,,偶尔还会有熊\Nたま～にクマとかもね
-Dialogue: 0,0:04:55.36,0:04:56.45,Text_Bottom,,0,0,0,,熊\NBear!?
+Dialogue: 0,0:04:55.36,0:04:56.45,Text_Bottom,,0,0,0,,有熊！？\NBear!?
 Dialogue: 0,0:04:57.42,0:05:01.05,Text_Bottom,,0,0,0,,没事的莉莉 熊还是非常少见的\N大丈夫だよ リリーちゃん そんなの めったに出ないから！
 Dialogue: 0,0:05:03.27,0:05:06.74,Text_Top,,0,0,0,,本次列车在下一站因于特急列车错车\N当車は次の駅で 特急待ち合わせのため
 Dialogue: 0,0:05:06.74,0:05:08.73,Text_Top,,0,0,0,,将会暂时停站\Nしばらく停車いたします
@@ -127,7 +128,7 @@ Dialogue: 0,0:06:43.01,0:06:44.03,Text_Bottom,,0,0,0,,加贺同学\N加賀さん
 Dialogue: 0,0:06:44.75,0:06:46.55,Text_Bottom,,0,0,0,,久等了 我们到了\Nお待たせ 着いたよ
 Dialogue: 0,0:06:50.07,0:06:51.34,Text_Bottom,,0,0,0,,我回来了\Nただいま～
 Dialogue: 0,0:06:51.91,0:06:54.02,Text_Bottom,,0,0,0,,妈 在吗？\N母さ～ん いる～？
-Dialogue: 0,0:06:54.39,0:06:56.10,Text_Bottom,,0,0,120,,都不锁门的吗？\NIsn't it locked?
+Dialogue: 0,0:06:54.39,0:06:56.10,Text_Bottom,,0,0,120,,这儿不锁门吗？\NIsn't it locked?
 Dialogue: 0,0:06:56.10,0:06:59.54,Text_Bottom,,0,0,0,,哦 乡下有人家不锁门的\Nああ… 田舎だと 鍵かけない家もあるんだよ
 Dialogue: 0,0:07:00.06,0:07:01.15,Text_Bottom,,0,0,0,,请进\Nさあどうぞ
 Dialogue: 0,0:07:01.43,0:07:02.14,Text_Bottom,,0,0,0,,那\Nそんじゃ
@@ -211,7 +212,7 @@ Dialogue: 0,0:10:04.49,0:10:07.99,Text_Bottom,,0,0,0,,哦哦！我还是头一�
 Dialogue: 0,0:10:08.15,0:10:09.36,Text_Bottom,,0,0,0,,这些都能玩吗？\Nこれ動くのか？
 Dialogue: 0,0:10:10.22,0:10:13.04,Text_Bottom,,0,0,0,,和我一样 还正值当年呢\Nオラと一緒で まだまだ現役だ
 Dialogue: 0,0:10:20.22,0:10:23.46,Text_Bottom,,0,0,0,,这才是我想象中的游戏中心\Nこれこそ 私が想像していたゲーセンです！
-Dialogue: 0,0:10:29.86,0:10:31.44,Text_Bottom,,0,0,120,,剪刀石头布\NRock, paper, scissors!
+Dialogue: 0,0:10:29.86,0:10:31.44,Text_Bottom,,0,0,120,,石头 剪刀 布！\NRock, paper, scissors!
 Dialogue: 0,0:10:31.84,0:10:33.38,Text_Bottom,,0,0,0,,莲司 猜拳\Nレンジ！ じゃんけん！
 Dialogue: 0,0:10:33.51,0:10:34.94,Text_Bottom,,0,0,0,,\Nんっ えっ？
 Dialogue: 0,0:10:35.67,0:10:36.72,Text_Bottom,,0,0,0,,哦\Nああ
@@ -272,7 +273,7 @@ Dialogue: 0,0:12:51.49,0:12:52.67,Text_Bottom,,0,0,0,,\Nあっ ちょっと！
 Dialogue: 0,0:12:52.67,0:12:53.27,Text_Bottom,,0,0,0,,\Nあぁ…
 Dialogue: 0,0:12:55.70,0:12:58.43,Text_Bottom,,0,0,0,,\Nもう… ハァ…
 Dialogue: 0,0:13:13.86,0:13:17.30,Text_Bottom,,0,0,0,,\Nよ～し 今日は絶好の ザリガニ釣り日和だ
-Dialogue: 0,0:13:17.30,0:13:18.66,Text_Bottom,,0,0,0,,\NCray fish ね
+Dialogue: 0,0:13:17.30,0:13:18.66,Text_Bottom,,0,0,0,,小龙虾啊！\NCray fish ね
 Dialogue: 0,0:13:18.78,0:13:20.86,Text_Bottom,,0,0,0,,\Nそんなのが釣れるんですか？
 Dialogue: 0,0:13:20.86,0:13:23.23,Text_Bottom,,0,0,0,,\Nああ 昔よくやったよ
 Dialogue: 0,0:13:23.51,0:13:24.94,Text_Bottom,,0,0,0,,\N懐かしいな～
@@ -291,10 +292,10 @@ Dialogue: 0,0:13:51.81,0:13:53.06,Text_Bottom,,0,0,0,,\Nウチの分は～？
 Dialogue: 0,0:13:53.27,0:13:54.85,Text_Bottom,,0,0,0,,\Nちゃんとあるって～
 Dialogue: 0,0:13:59.79,0:14:03.74,Text_Bottom,,0,0,0,,\Nクソ こんなときにかぎって このカーナビは～っ！
 Dialogue: 0,0:14:03.74,0:14:05.67,Text_Bottom,,0,0,0,,\Nママ ナビは頼んだぞ！
-Dialogue: 0,0:14:05.95,0:14:08.16,Text_Bottom,,0,0,120,,\NNo problem. Everything's fine.
-Dialogue: 0,0:14:08.75,0:14:10.87,Text_Bottom,,0,0,120,,\NAll right. Just hang on, Lily!
-Dialogue: 0,0:14:10.96,0:14:12.71,Text_Bottom,,0,0,120,,\NLeave at the next exit, Oliver.
-Dialogue: 0,0:14:12.79,0:14:14.21,Text_Bottom,,0,0,120,,\NAh, okay.
+Dialogue: 0,0:14:05.95,0:14:08.16,Text_Bottom,,0,0,120,,没问题 早有准备！\NNo problem. Everything's fine.
+Dialogue: 0,0:14:08.75,0:14:10.87,Text_Bottom,,0,0,120,,很好 撑住啊 莉莉！\NAll right. Just hang on, Lily!
+Dialogue: 0,0:14:10.96,0:14:12.71,Text_Bottom,,0,0,120,,在下个出口下高速哦 奥利弗\NLeave at the next exit, Oliver.
+Dialogue: 0,0:14:12.79,0:14:14.21,Text_Bottom,,0,0,120,,啊 好的\NAh, okay.
 Dialogue: 0,0:14:17.68,0:14:18.63,Text_Bottom,,0,0,0,,\N釣れた～！
 Dialogue: 0,0:14:18.63,0:14:20.01,Text_Bottom,,0,0,0,,\Nおお～ すごい！
 Dialogue: 0,0:14:20.01,0:14:22.18,Text_Bottom,,0,0,0,,\Nクレーンゲームより ずっと簡単だね！
@@ -326,16 +327,16 @@ Dialogue: 0,0:15:57.62,0:15:58.79,Text_Bottom,,0,0,0,,\Nレンジ…
 Dialogue: 0,0:15:59.76,0:16:00.50,Text_Bottom,,0,0,0,,\Nうん！
 Dialogue: 0,0:16:00.82,0:16:03.60,Text_Bottom,,0,0,0,,\Nじゃあ デン作り始めよう！
 Dialogue: 0,0:16:03.60,0:16:05.15,Text_Bottom,,0,0,0,,\Nお～っ！
-Dialogue: 0,0:16:15.04,0:16:16.54,Text_Bottom,,0,0,120,,\NCome on, let's go!
-Dialogue: 0,0:16:16.69,0:16:18.29,Text_Bottom,,0,0,0,,\NEh? Euh, yeah...
-Dialogue: 0,0:16:54.62,0:16:55.66,Text_Bottom,,0,0,120,,\NWhat's wrong?
-Dialogue: 0,0:16:55.91,0:16:56.66,Text_Bottom,,0,0,120,,\NNothing.
-Dialogue: 0,0:16:58.16,0:17:01.79,Text_Bottom,,0,0,120,,\NIsn't this the first time we're out alone together since we got here, Oliver?
-Dialogue: 0,0:17:02.50,0:17:03.29,Text_Bottom,,0,0,120,,\NIs it?
-Dialogue: 0,0:17:03.59,0:17:04.84,Text_Bottom,,0,0,120,,\NYeah, it is!
-Dialogue: 0,0:17:07.92,0:17:10.76,Text_Bottom,,0,0,120,,\NRight. Let's get moving or we'll miss the daylight!
-Dialogue: 0,0:17:15.47,0:17:16.77,Text_Bottom,,0,0,120,,\NHold on, Sheryl!
-Dialogue: 0,0:17:17.59,0:17:18.64,Text_Bottom,,0,0,0,,\NSheryl!
+Dialogue: 0,0:16:15.04,0:16:16.54,Text_Bottom,,0,0,120,,我们快走吧！\NCome on, let's go!
+Dialogue: 0,0:16:16.69,0:16:18.29,Text_Bottom,,0,0,0,,呃？额 行\NEh? Euh, yeah...
+Dialogue: 0,0:16:54.62,0:16:55.66,Text_Bottom,,0,0,120,,怎么了？\NWhat's wrong?
+Dialogue: 0,0:16:55.91,0:16:56.66,Text_Bottom,,0,0,120,,没什么\NNothing.
+Dialogue: 0,0:16:58.16,0:17:01.79,Text_Bottom,,0,0,120,,自从我们来到这儿还是第一回单独出来呢 对吧奥利弗？\NIsn't this the first time we're out alone together since we got here, Oliver?
+Dialogue: 0,0:17:02.50,0:17:03.29,Text_Bottom,,0,0,120,,是吗？\NIs it?
+Dialogue: 0,0:17:03.59,0:17:04.84,Text_Bottom,,0,0,120,,对呀\NYeah, it is!
+Dialogue: 0,0:17:07.92,0:17:10.76,Text_Bottom,,0,0,120,,好啦 再不赶紧动身的话天都要黑了！\NRight. Let's get moving or we'll miss the daylight!
+Dialogue: 0,0:17:15.47,0:17:16.77,Text_Bottom,,0,0,120,,等等我 雪莉！\NHold on, Sheryl!
+Dialogue: 0,0:17:17.59,0:17:18.64,Text_Bottom,,0,0,0,,雪莉！\NSheryl!
 Dialogue: 0,0:17:23.18,0:17:24.59,Text_Bottom,,0,0,0,,\Nできた～！
 Dialogue: 0,0:17:24.59,0:17:26.07,Text_Bottom,,0,0,0,,\Nおぉ～っ！
 Dialogue: 0,0:17:26.07,0:17:28.53,Text_Bottom,,0,0,0,,\Nこれは なかなかいい出来 なんじゃない？
@@ -419,15 +420,15 @@ Dialogue: 0,0:21:08.08,0:21:08.99,Text_Bottom,,0,0,0,,\N出るの？
 Dialogue: 0,0:21:09.42,0:21:12.46,Text_Bottom,,0,0,0,,\Nあっ 大丈夫だよ リリーちゃん
 Dialogue: 0,0:21:12.46,0:21:13.70,Text_Bottom,,0,0,0,,\Nこの時期 クマは…
 Dialogue: 0,0:21:17.18,0:21:18.29,Text_Bottom,,0,0,0,,\Nまさか
-Dialogue: 0,0:21:28.38,0:21:29.21,Text_Bottom,,0,0,0,,\NOliver!
+Dialogue: 0,0:21:28.38,0:21:29.21,Text_Bottom,,0,0,0,,奥利弗！\NOliver!
 Dialogue: 0,0:21:29.75,0:21:30.32,Text_Bottom,,0,0,0,,\Nえっ？
 Dialogue: 0,0:21:30.66,0:21:31.17,Text_Bottom,,0,0,0,,\Nえっ…？
 Dialogue: 0,0:21:31.68,0:21:32.11,Text_Bottom,,0,0,0,,\Nへっ？
 Dialogue: 0,0:21:32.11,0:21:32.70,Text_Bottom,,0,0,0,,\Nえっ？
-Dialogue: 0,0:21:33.37,0:21:35.23,Text_Bottom,,0,0,0,,\NMom! Dad!
-Dialogue: 0,0:21:36.83,0:21:38.05,Text_Bottom,,0,0,0,,\NLily!
-Dialogue: 0,0:21:38.05,0:21:39.03,Text_Bottom,,0,0,0,,\NDad!
-Dialogue: 0,0:21:39.03,0:21:41.03,Text_Bottom,,0,0,120,,\NLily! I missed you!
+Dialogue: 0,0:21:33.37,0:21:35.23,Text_Bottom,,0,0,0,,妈妈！爸爸！\NMom! Dad!
+Dialogue: 0,0:21:36.83,0:21:38.05,Text_Bottom,,0,0,0,,莉莉！\NLily!
+Dialogue: 0,0:21:38.05,0:21:39.03,Text_Bottom,,0,0,0,,爸爸！\NDad!
+Dialogue: 0,0:21:39.03,0:21:41.03,Text_Bottom,,0,0,120,,莉莉 我想死你了！\NLily! I missed you!
 Dialogue: 0,0:21:41.03,0:21:43.19,Text_Bottom,,0,0,0,,\Nあの… どうしてこんな所に？
 Dialogue: 0,0:21:43.19,0:21:47.17,Text_Bottom,,0,0,0,,\Nそれが 来る途中 カーナビが ダメになっちゃって迷ってたのよ
 Dialogue: 0,0:21:47.38,0:21:49.78,Text_Bottom,,0,0,0,,\Nよくわからないけど ご無事で何より…
