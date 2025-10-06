@@ -13,8 +13,9 @@ Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Active Line: 14
-Video Position: 756
+Scroll Position: 351
+Active Line: 366
+Video Position: 33722
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -143,7 +144,7 @@ Dialogue: 0,0:05:25.33,0:05:28.08,Text_Bottom,,0,0,0,,真好啊 我也想要\N�
 Dialogue: 0,0:05:28.08,0:05:31.12,Text_Bottom,,0,0,0,,不那办不到的吧？这都是几年前的东西了\Nいや無理じゃね？ これ何年前のものだよ…
 Dialogue: 0,0:05:31.12,0:05:32.23,Text_Bottom,,0,0,0,,我也不知道\Nわがんない
 Dialogue: 0,0:05:35.76,0:05:36.48,Text_Bottom,,0,0,0,,\Nあっ…
-Dialogue: 0,0:05:37.07,0:05:39.99,Text_Bottom,,0,0,120,,\NNow, let's save a good spot for the fireworks!
+Dialogue: 0,0:05:37.07,0:05:39.99,Text_Bottom,,0,0,120,,现在 我们来找个看烟花的好地方吧！\NNow, let's save a good spot for the fireworks!
 Dialogue: 0,0:05:39.99,0:05:44.83,Text_Bottom,,0,0,0,,这么早？虽然烟花也好看 但还是先享受祭典吧\Nいきなり！？ 花火もいいけど まず お祭りを楽しまなくちゃ
 Dialogue: 0,0:05:44.83,0:05:48.15,Text_Bottom,,0,0,0,,就是 先去祭典吧 肯定会很开心的\Nそうだよ お祭り行こう きっと楽しいよ
 Dialogue: 0,0:05:48.41,0:05:52.09,Text_Bottom,,0,0,0,,但不早早去的话 就占不到好位置了\Nでも早く行かないと いい場所取られちゃうんじゃ…
@@ -156,14 +157,14 @@ Dialogue: 0,0:06:16.65,0:06:17.79,Text_Bottom,,0,0,0,,苹果糖！\Nリンゴア
 Dialogue: 0,0:06:19.23,0:06:19.98,Text_Bottom,,0,0,0,,那是啥？\Nって何？
 Dialogue: 0,0:06:19.98,0:06:20.54,Text_Bottom,,0,0,0,,\Nんっ？
 Dialogue: 0,0:06:20.98,0:06:23.73,Text_Bottom,,0,0,0,,好 那就先去吃苹果糖吧\Nよっしゃ！ まずはリンゴアメだね！
-Dialogue: 0,0:06:24.34,0:06:25.92,Text_Bottom,,0,0,0,,\NＵｈ… ｎｏ…．
+Dialogue: 0,0:06:24.34,0:06:25.92,Text_Bottom,,0,0,0,,呃…不…\NＵｈ… ｎｏ…．
 Dialogue: 0,0:06:26.49,0:06:29.01,Text_Bottom,,0,0,0,,缘日…我也想去看看\N縁日… 私行ってみたいです
 Dialogue: 0,0:06:29.01,0:06:31.07,Text_Bottom,,0,0,0,,好 那大家一起去逛逛看吧\Nよし みんなで 見て回ろうぜ！
 Dialogue: 0,0:06:31.07,0:06:32.73,Text_Bottom,,0,0,0,,走吧走吧！莉莉\Nいこいこ！ リリーちゃん！
 Dialogue: 0,0:06:32.73,0:06:34.13,Text_Bottom,,0,0,0,,\Nあっ… うん…
 Dialogue: 0,0:06:51.59,0:06:53.05,Text_Bottom,,0,0,0,,那是什么？\Nねぇ あれなに～？
 Dialogue: 0,0:06:53.29,0:06:56.70,Text_Bottom,,0,0,0,,莉莉 你走那么快的话会迷路的哦\Nリリーちゃん あんまり先行くと 迷子になっちゃうよ～っ！
-Dialogue: 0,0:06:57.11,0:06:59.98,Text_Bottom,,0,0,120,,\NI'll be fine! I'm not a child anymore!
+Dialogue: 0,0:06:57.11,0:06:59.98,Text_Bottom,,0,0,120,,我可以的 我不是小孩子了\NI'll be fine! I'm not a child anymore!
 Dialogue: 0,0:07:16.46,0:07:18.93,Text_Bottom,,0,0,0,,哇 鹿舞！\Nわあっ シシオドリ！
 Dialogue: 0,0:07:18.93,0:07:19.75,Text_Bottom,,0,0,0,,是啊\Nそうだね
 Dialogue: 0,0:07:20.14,0:07:21.83,Text_Bottom,,0,0,0,,你知道的吗？莉莉\N知ってるのか？ リリー
@@ -188,7 +189,7 @@ Dialogue: 0,0:08:30.98,0:08:33.05,Text_Bottom,,0,0,0,,哦 真不愧是人气角�
 Dialogue: 0,0:08:33.05,0:08:34.58,Text_Bottom,,0,0,0,,莉莉你想要吗？\Nリリーちゃん欲しいの？
 Dialogue: 0,0:08:34.85,0:08:35.49,Text_Bottom,,0,0,0,,嗯\Nうん！
 Dialogue: 0,0:08:35.84,0:08:39.15,Text_Bottom,,0,0,0,,那就我们轮流投 看谁先拿下来分个胜负吧\Nじゃあ順番にやって どっちが先に取れるか勝負ね！
-Dialogue: 0,0:08:39.25,0:08:40.33,Text_Bottom,,0,0,120,,\NBring it on!
+Dialogue: 0,0:08:39.25,0:08:40.33,Text_Bottom,,0,0,120,,放马过来\NBring it on!
 Dialogue: 0,0:08:40.87,0:08:41.46,Text_Bottom,,0,0,0,,\Nえい！
 Dialogue: 0,0:08:41.46,0:08:42.17,Text_Bottom,,0,0,0,,\NＹａｈ！
 Dialogue: 0,0:08:42.87,0:08:44.66,Text_Bottom,,0,0,0,,对决又开始了\N《また対決始まった～！》
@@ -206,7 +207,7 @@ Dialogue: 0,0:09:07.54,0:09:09.41,Text_Bottom,,0,0,0,,哦 打靶吗？\Nほう �
 Dialogue: 0,0:09:09.41,0:09:11.85,Text_Bottom,,0,0,0,,我对此也稍有心得\Nそれだったら私も多少 心得がある
 Dialogue: 0,0:09:12.17,0:09:14.91,Text_Bottom,,0,0,0,,不和我来个对决吗 莲司\Nひとつ私と勝負しないか レンジくん
 Dialogue: 0,0:09:15.18,0:09:16.33,Text_Bottom,,0,0,0,,行啊\Nあっ いいですよ
-Dialogue: 0,0:09:24.14,0:09:26.17,Text_Bottom,,0,0,0,,\NＨｕｈ…？ ｂｌｏｏｄｙ ｈｅｌｌ．
+Dialogue: 0,0:09:24.14,0:09:26.17,Text_Bottom,,0,0,0,,呃…该死的\NＨｕｈ…？ ｂｌｏｏｄｙ ｈｅｌｌ．
 Dialogue: 0,0:09:33.37,0:09:34.26,Text_Bottom,,0,0,0,,打中了！\Nやった！
 Dialogue: 0,0:09:34.26,0:09:35.99,Text_Bottom,,0,0,0,,莲司好厉害\Nレンジすご～い！
 Dialogue: 0,0:09:36.25,0:09:37.55,Text_Bottom,,0,0,0,,我赢了\N僕の勝ちですね
@@ -221,177 +222,177 @@ Dialogue: 0,0:09:50.10,0:09:52.96,Text_Bottom,,0,0,0,,葵衣你要是也想要�
 Dialogue: 0,0:09:54.71,0:09:55.87,Text_Bottom,,0,0,0,,啊…嗯\Nあっ… うん！
 Dialogue: 0,0:10:03.95,0:10:06.17,Text_Bottom,,0,0,0,,烟花 烟花~\Nはっなび はっなび～
 Dialogue: 0,0:10:06.17,0:10:08.11,Text_Bottom,,0,0,0,,咦 莉莉你荷包呢？\Nあれ？ リリーちゃんの巾着は？
-Dialogue: 0,0:10:08.11,0:10:08.71,Text_Bottom,,0,0,0,,\Nえっ？
-Dialogue: 0,0:10:09.23,0:10:10.71,Text_Bottom,,0,0,0,,\N忘れちゃった～！
-Dialogue: 0,0:10:10.71,0:10:12.13,Text_Bottom,,0,0,0,,\N取ってくる～！
-Dialogue: 0,0:10:12.13,0:10:13.54,Text_Bottom,,0,0,0,,\Nちょっ リリーちゃん！？
-Dialogue: 0,0:10:14.09,0:10:15.99,Text_Bottom,,0,0,0,,\N一人で大丈夫かなあ？
-Dialogue: 0,0:10:16.33,0:10:17.46,Text_Bottom,,0,0,0,,\Nどうした葵衣
-Dialogue: 0,0:10:17.68,0:10:18.63,Text_Bottom,,0,0,0,,\N兄ちゃん…
-Dialogue: 0,0:10:19.28,0:10:22.59,Text_Bottom,,0,0,0,,\Nリリーちゃんが忘れ物取りに 一人で戻っちゃって
-Dialogue: 0,0:10:22.95,0:10:25.52,Text_Bottom,,0,0,0,,\Nえっ？ あ…
-Dialogue: 0,0:10:30.63,0:10:34.25,Text_Bottom,,0,0,0,,\Nリリーちゃんは俺が連れてくるから 葵衣はみんなに言っといて
-Dialogue: 0,0:10:34.56,0:10:35.38,Text_Bottom,,0,0,0,,\Nでも
-Dialogue: 0,0:10:35.38,0:10:38.47,Text_Bottom,,0,0,0,,\N大丈夫だって 兄ちゃんに任せとけ
-Dialogue: 0,0:10:48.50,0:10:50.17,Text_Bottom,,0,0,120,,\NThank goodness.
-Dialogue: 0,0:11:17.57,0:11:18.57,Text_Bottom,,0,0,0,,\Nなんだって？
-Dialogue: 0,0:11:19.13,0:11:21.67,Text_Bottom,,0,0,0,,\Nそれで今 兄ちゃんが捜しにいってます
-Dialogue: 0,0:11:22.09,0:11:23.69,Text_Bottom,,0,0,0,,\Nいや… しかし…
-Dialogue: 0,0:11:24.17,0:11:26.90,Text_Bottom,,0,0,0,,\N大丈夫 兄ちゃんがついてますから
-Dialogue: 0,0:11:28.10,0:11:29.58,Text_Bottom,,0,0,0,,\N私 見てくるよ
-Dialogue: 0,0:11:29.58,0:11:30.13,Text_Bottom,,0,0,0,,\Nえっ？
-Dialogue: 0,0:11:30.13,0:11:33.12,Text_Bottom,,0,0,0,,\Nこの神社 ちっちゃいころから よく遊んでたし
-Dialogue: 0,0:11:33.12,0:11:34.41,Text_Bottom,,0,0,0,,\Nあっ そうだね
-Dialogue: 0,0:11:34.61,0:11:36.17,Text_Bottom,,0,0,0,,\Nみんな先行ってて～
-Dialogue: 0,0:11:36.17,0:11:36.81,Text_Bottom,,0,0,0,,\Nうん
-Dialogue: 0,0:11:36.81,0:11:38.71,Text_Bottom,,0,0,0,,\Nあっ… たのんだよ～っ！
-Dialogue: 0,0:11:39.12,0:11:40.24,Text_Bottom,,0,0,0,,\Nわかった～！
-Dialogue: 0,0:11:40.78,0:11:41.93,Text_Bottom,,0,0,0,,\N気をつけてな～！
-Dialogue: 0,0:11:42.34,0:11:43.30,Text_Bottom,,0,0,0,,\Nは～い！
-Dialogue: 0,0:11:45.68,0:11:47.04,Text_Bottom,,0,0,0,,\Nそれじゃ行くか
-Dialogue: 0,0:11:47.04,0:11:48.42,Text_Bottom,,0,0,0,,\Nはい でも…
-Dialogue: 0,0:11:48.42,0:11:51.10,Text_Bottom,,0,0,0,,\Nばあちゃんたち 向こうで待たせとくのかよ？
-Dialogue: 0,0:11:51.10,0:11:52.93,Text_Bottom,,0,0,0,,\Nそれはそうですけど…
-Dialogue: 0,0:11:52.93,0:11:54.43,Text_Bottom,,0,0,0,,\N大丈夫だって
-Dialogue: 0,0:11:54.98,0:11:58.03,Text_Bottom,,0,0,0,,\N((君は リリーのこと どう思っているんだね？
-Dialogue: 0,0:12:01.04,0:12:02.03,Text_Bottom,,0,0,0,,\Nこたえてくれ！
-Dialogue: 0,0:12:06.64,0:12:09.61,Text_Bottom,,0,0,0,,\N正直… まだよくわかりません
-Dialogue: 0,0:12:12.01,0:12:16.14,Text_Bottom,,0,0,0,,\Nリリーちゃんが 僕に好意を寄せてくれてるのは すごくうれしいです…
-Dialogue: 0,0:12:16.48,0:12:17.15,Text_Bottom,,0,0,0,,\Nでも…
-Dialogue: 0,0:12:17.89,0:12:20.97,Text_Bottom,,0,0,0,,\Nその気持ちが この先もずっと変わらないのか
-Dialogue: 0,0:12:20.97,0:12:24.18,Text_Bottom,,0,0,0,,\Nそれとも いつか変わって しまうんじゃないかって…
-Dialogue: 0,0:12:27.30,0:12:29.98,Text_Bottom,,0,0,0,,\N((リリーのこと これからもヨロシクね
-Dialogue: 0,0:12:31.18,0:12:34.72,Text_Bottom,,0,0,0,,\Nリリーちゃんを悲しませることだけは 絶対しないでね！))
-Dialogue: 0,0:12:35.75,0:12:37.95,Text_Bottom,,0,0,0,,\Nでも… そうだったとしても
-Dialogue: 0,0:12:38.83,0:12:42.05,Text_Bottom,,0,0,0,,\N僕は リリーちゃんのこと 悲しませたりしません
-Dialogue: 0,0:12:44.18,0:12:45.07,Text_Bottom,,0,0,0,,\Nなんだそれ？
-Dialogue: 0,0:12:45.39,0:12:46.59,Text_Bottom,,0,0,0,,\Nえっ？ あれ？
-Dialogue: 0,0:12:46.59,0:12:49.76,Text_Bottom,,0,0,0,,\Nえっ 違った？ えっ… 俺 またやっちゃった…？
-Dialogue: 0,0:12:50.41,0:12:51.28,Text_Bottom,,0,0,0,,\Nくっ…
-Dialogue: 0,0:12:51.28,0:12:55.31,Text_Bottom,,0,0,0,,\Nアハハハハ…！
-Dialogue: 0,0:13:08.05,0:13:09.62,Text_Bottom,,0,0,0,,\NIt's all right!
-Dialogue: 0,0:13:15.30,0:13:16.46,Text_Bottom,,0,0,0,,\Nわかった…
-Dialogue: 0,0:13:17.25,0:13:17.94,Text_Bottom,,0,0,0,,\Nいや…
-Dialogue: 0,0:13:19.52,0:13:20.37,Text_Bottom,,0,0,0,,\Nわかるよ
-Dialogue: 0,0:13:22.02,0:13:24.13,Text_Bottom,,0,0,0,,\Nレンジくん リリーのこと
-Dialogue: 0,0:13:24.82,0:13:26.02,Text_Bottom,,0,0,0,,\Nこれからも頼む
-Dialogue: 0,0:13:27.74,0:13:28.47,Text_Bottom,,0,0,0,,\Nはい))
-Dialogue: 0,0:13:36.51,0:13:37.62,Text_Bottom,,0,0,0,,\Nリリーちゃん…
-Dialogue: 0,0:14:14.18,0:14:15.84,Text_Bottom,,0,0,0,,\Nはあ たまげた
-Dialogue: 0,0:14:15.84,0:14:17.67,Text_Bottom,,0,0,0,,\N大丈夫だが？ 立でっが？
-Dialogue: 0,0:15:41.47,0:15:42.62,Text_Bottom,,0,0,0,,\Nレンジ…
-Dialogue: 0,0:15:51.17,0:15:52.17,Text_Bottom,,0,0,0,,\Nリリーちゃん！
-Dialogue: 0,0:15:52.69,0:15:53.94,Text_Bottom,,0,0,0,,\Nレンジ…？
-Dialogue: 0,0:16:15.03,0:16:16.61,Text_Bottom,,0,0,0,,\Nあっ… ごめん！
-Dialogue: 0,0:16:21.73,0:16:25.06,Text_Bottom,,0,0,0,,\Nあっ ごめんなさい ちょっと思い出しちゃって
-Dialogue: 0,0:16:25.61,0:16:29.60,Text_Bottom,,0,0,0,,\N初めて会ったころ メッセージカードの返事を 聞きにいったとき
-Dialogue: 0,0:16:29.97,0:16:33.03,Text_Bottom,,0,0,0,,\Nレンジに会ったら どうしていいか わからなくなって
-Dialogue: 0,0:16:33.42,0:16:35.86,Text_Bottom,,0,0,0,,\N私ったら急に逃げ出しちゃって…
-Dialogue: 0,0:16:36.13,0:16:38.87,Text_Bottom,,0,0,0,,\Nアハハ… あったね そんなこと
-Dialogue: 0,0:16:38.87,0:16:42.96,Text_Bottom,,0,0,0,,\Nそんな私を レンジは追いかけてきて つかまえてくれた
-Dialogue: 0,0:16:42.96,0:16:44.39,Text_Bottom,,0,0,0,,\Nあのときは ごめんね
+Dialogue: 0,0:10:08.11,0:10:08.71,Text_Bottom,,0,0,0,,诶？\Nえっ？
+Dialogue: 0,0:10:09.23,0:10:10.71,Text_Bottom,,0,0,0,,忘记带了～！\N忘れちゃった～！
+Dialogue: 0,0:10:10.71,0:10:12.13,Text_Bottom,,0,0,0,,我去拿～！\N取ってくる～！
+Dialogue: 0,0:10:12.13,0:10:13.54,Text_Bottom,,0,0,0,,等 莉莉！？\Nちょっ リリーちゃん！？
+Dialogue: 0,0:10:14.09,0:10:15.99,Text_Bottom,,0,0,0,,她一个人没事吧？\N一人で大丈夫かなあ？
+Dialogue: 0,0:10:16.33,0:10:17.46,Text_Bottom,,0,0,0,,怎么了葵衣\Nどうした葵衣
+Dialogue: 0,0:10:17.68,0:10:18.63,Text_Bottom,,0,0,0,,哥哥…\N兄ちゃん…
+Dialogue: 0,0:10:19.28,0:10:22.59,Text_Bottom,,0,0,0,,莉莉回去拿忘带的东西 一个人回去了\Nリリーちゃんが忘れ物取りに 一人で戻っちゃって
+Dialogue: 0,0:10:22.95,0:10:25.52,Text_Bottom,,0,0,0,,诶？啊…\Nえっ？ あ…
+Dialogue: 0,0:10:30.63,0:10:34.25,Text_Bottom,,0,0,0,,我去找莉莉 葵衣你跟大伙说一声\Nリリーちゃんは俺が連れてくるから 葵衣はみんなに言っといて
+Dialogue: 0,0:10:34.56,0:10:35.38,Text_Bottom,,0,0,0,,可是\Nでも
+Dialogue: 0,0:10:35.38,0:10:38.47,Text_Bottom,,0,0,0,,没事的 交给哥哥吧\N大丈夫だって 兄ちゃんに任せとけ
+Dialogue: 0,0:10:48.50,0:10:50.17,Text_Bottom,,0,0,120,,谢天谢地\NThank goodness.
+Dialogue: 0,0:11:17.57,0:11:18.57,Text_Bottom,,0,0,0,,你说什么？\Nなんだって？
+Dialogue: 0,0:11:19.13,0:11:21.67,Text_Bottom,,0,0,0,,所以现在哥哥去找她了\Nそれで今 兄ちゃんが捜しにいってます
+Dialogue: 0,0:11:22.09,0:11:23.69,Text_Bottom,,0,0,0,,唔… 可是…\Nいや… しかし…
+Dialogue: 0,0:11:24.17,0:11:26.90,Text_Bottom,,0,0,0,,没事的 有哥哥在呢\N大丈夫 兄ちゃんがついてますから
+Dialogue: 0,0:11:28.10,0:11:29.58,Text_Bottom,,0,0,0,,我去看看\N私 見てくるよ
+Dialogue: 0,0:11:29.58,0:11:30.13,Text_Bottom,,0,0,0,,诶？\Nえっ？
+Dialogue: 0,0:11:30.13,0:11:33.12,Text_Bottom,,0,0,0,,这个神社我从小就来玩\Nこの神社 ちっちゃいころから よく遊んでたし
+Dialogue: 0,0:11:33.12,0:11:34.41,Text_Bottom,,0,0,0,,啊 也是呢\Nあっ そうだね
+Dialogue: 0,0:11:34.61,0:11:36.17,Text_Bottom,,0,0,0,,大家先走吧～\Nみんな先行ってて～
+Dialogue: 0,0:11:36.17,0:11:36.81,Text_Bottom,,0,0,0,,嗯\Nうん
+Dialogue: 0,0:11:36.81,0:11:38.71,Text_Bottom,,0,0,0,,啊… 拜托你了～！\Nあっ… たのんだよ～っ！
+Dialogue: 0,0:11:39.12,0:11:40.24,Text_Bottom,,0,0,0,,知道啦～！\Nわかった～！
+Dialogue: 0,0:11:40.78,0:11:41.93,Text_Bottom,,0,0,0,,小心点～！\N気をつけてな～！
+Dialogue: 0,0:11:42.34,0:11:43.30,Text_Bottom,,0,0,0,,好～！\Nは～い！
+Dialogue: 0,0:11:45.68,0:11:47.04,Text_Bottom,,0,0,0,,那我们走吧\Nそれじゃ行くか
+Dialogue: 0,0:11:47.04,0:11:48.42,Text_Bottom,,0,0,0,,好的 但是…\Nはい でも…
+Dialogue: 0,0:11:48.42,0:11:51.10,Text_Bottom,,0,0,0,,让奶奶她们在那边等着吗？\Nばあちゃんたち 向こうで待たせとくのかよ？
+Dialogue: 0,0:11:51.10,0:11:52.93,Text_Bottom,,0,0,0,,话是这么说…\Nそれはそうですけど…
+Dialogue: 0,0:11:52.93,0:11:54.43,Text_Bottom,,0,0,0,,都说没事了\N大丈夫だって
+Dialogue: 0,0:11:54.98,0:11:58.03,Text_Bottom,,0,0,0,,你对莉莉是怎么想的呢？\N((君は リリーのこと どう思っているんだね？
+Dialogue: 0,0:12:01.04,0:12:02.03,Text_Bottom,,0,0,0,,回答我！\Nこたえてくれ！
+Dialogue: 0,0:12:06.64,0:12:09.61,Text_Bottom,,0,0,0,,老实说… 我还不太清楚\N正直… まだよくわかりません
+Dialogue: 0,0:12:12.01,0:12:16.14,Text_Bottom,,0,0,0,,莉莉对我有好意 我真的很高兴…\Nリリーちゃんが 僕に好意を寄せてくれてるのは すごくうれしいです…
+Dialogue: 0,0:12:16.48,0:12:17.15,Text_Bottom,,0,0,0,,但是…\Nでも…
+Dialogue: 0,0:12:17.89,0:12:20.97,Text_Bottom,,0,0,0,,这份感情今后会不会一直不变\Nその気持ちが この先もずっと変わらないのか
+Dialogue: 0,0:12:20.97,0:12:24.18,Text_Bottom,,0,0,0,,又或者会不会在某一天改变…\Nそれとも いつか変わって しまうんじゃないかって…
+Dialogue: 0,0:12:27.30,0:12:29.98,Text_Bottom,,0,0,0,,莉莉就 以后也请你多关照了\N((リリーのこと これからもヨロシクね
+Dialogue: 0,0:12:31.18,0:12:34.72,Text_Bottom,,0,0,0,,绝对不要让莉莉伤心哦！\Nリリーちゃんを悲しませることだけは 絶対しないでね！))
+Dialogue: 0,0:12:35.75,0:12:37.95,Text_Bottom,,0,0,0,,但是… 就算是那样\Nでも… そうだったとしても
+Dialogue: 0,0:12:38.83,0:12:42.05,Text_Bottom,,0,0,0,,我也不会让莉莉伤心\N僕は リリーちゃんのこと 悲しませたりしません
+Dialogue: 0,0:12:44.18,0:12:45.07,Text_Bottom,,0,0,0,,那是什么？\Nなんだそれ？
+Dialogue: 0,0:12:45.39,0:12:46.59,Text_Bottom,,0,0,0,,诶？ 那个？\Nえっ？ あれ？
+Dialogue: 0,0:12:46.59,0:12:49.76,Text_Bottom,,0,0,0,,诶 不对吗？ 诶… 我又搞错了…？\Nえっ 違った？ えっ… 俺 またやっちゃった…？
+Dialogue: 0,0:12:50.41,0:12:51.28,Text_Bottom,,0,0,0,,唔…\Nくっ…
+Dialogue: 0,0:12:51.28,0:12:55.31,Text_Bottom,,0,0,0,,啊哈哈哈哈哈…！\Nアハハハハ…！
+Dialogue: 0,0:13:08.05,0:13:09.62,Text_Bottom,,0,0,0,,不用担心！\NIt's all right!
+Dialogue: 0,0:13:15.30,0:13:16.46,Text_Bottom,,0,0,0,,我知道了…\Nわかった…
+Dialogue: 0,0:13:17.25,0:13:17.94,Text_Bottom,,0,0,0,,不…\Nいや…
+Dialogue: 0,0:13:19.52,0:13:20.37,Text_Bottom,,0,0,0,,我懂了\Nわかるよ
+Dialogue: 0,0:13:22.02,0:13:24.13,Text_Bottom,,0,0,0,,莲司 莉莉她\Nレンジくん リリーのこと
+Dialogue: 0,0:13:24.82,0:13:26.02,Text_Bottom,,0,0,0,,以后就拜托了\Nこれからも頼む
+Dialogue: 0,0:13:27.74,0:13:28.47,Text_Bottom,,0,0,0,,好的\Nはい))
+Dialogue: 0,0:13:36.51,0:13:37.62,Text_Bottom,,0,0,0,,莉莉…\Nリリーちゃん…
+Dialogue: 0,0:14:14.18,0:14:15.84,Text_Bottom,,0,0,0,,哈 真吃惊\Nはあ たまげた
+Dialogue: 0,0:14:15.84,0:14:17.67,Text_Bottom,,0,0,0,,没事吗？能站起来吗？\N大丈夫だが？ 立でっが？
+Dialogue: 0,0:15:41.47,0:15:42.62,Text_Bottom,,0,0,0,,莲司…\Nレンジ…
+Dialogue: 0,0:15:51.17,0:15:52.17,Text_Bottom,,0,0,0,,莉莉！\Nリリーちゃん！
+Dialogue: 0,0:15:52.69,0:15:53.94,Text_Bottom,,0,0,0,,莲司…？\Nレンジ…？
+Dialogue: 0,0:16:15.03,0:16:16.61,Text_Bottom,,0,0,0,,啊… 对不起！\Nあっ… ごめん！
+Dialogue: 0,0:16:21.73,0:16:25.06,Text_Bottom,,0,0,0,,啊 对不起 我突然想起来了\Nあっ ごめんなさい ちょっと思い出しちゃって
+Dialogue: 0,0:16:25.61,0:16:29.60,Text_Bottom,,0,0,0,,第一次见面的时候 去问留言卡回复的时候\N初めて会ったころ メッセージカードの返事を 聞きにいったとき
+Dialogue: 0,0:16:29.97,0:16:33.03,Text_Bottom,,0,0,0,,见到莲司后 就不知道该怎么办才好\Nレンジに会ったら どうしていいか わからなくなって
+Dialogue: 0,0:16:33.42,0:16:35.86,Text_Bottom,,0,0,0,,我居然突然就跑掉了…\N私ったら急に逃げ出しちゃって…
+Dialogue: 0,0:16:36.13,0:16:38.87,Text_Bottom,,0,0,0,,啊哈哈… 是有这么回事呢\Nアハハ… あったね そんなこと
+Dialogue: 0,0:16:38.87,0:16:42.96,Text_Bottom,,0,0,0,,我都那样了 莲司却追了上来 抓住了我\Nそんな私を レンジは追いかけてきて つかまえてくれた
+Dialogue: 0,0:16:42.96,0:16:44.39,Text_Bottom,,0,0,0,,那时候对不起啊\Nあのときは ごめんね
 Dialogue: 0,0:16:44.39,0:16:46.03,Text_Bottom,,0,0,0,,\NＮｏ ｉｔ’ｓ ｆｉｎｅ．
-Dialogue: 0,0:16:47.76,0:16:53.26,Text_Bottom,,0,0,0,,\N私が迷ったとき レンジは必ず見つけて つかまえてくれる
-Dialogue: 0,0:16:53.59,0:16:55.12,Text_Bottom,,0,0,0,,\Nいや そんなんじゃ…
-Dialogue: 0,0:16:57.66,0:16:59.46,Text_Bottom,,0,0,0,,\NLike the first time we met!
-Dialogue: 0,0:17:01.49,0:17:03.33,Text_Bottom,,0,0,0,,\Nあれから もう半年か…
-Dialogue: 0,0:17:03.90,0:17:04.83,Text_Bottom,,0,0,0,,\Nレンジ
-Dialogue: 0,0:17:04.83,0:17:05.51,Text_Bottom,,0,0,0,,\Nんっ？
-Dialogue: 0,0:17:07.12,0:17:10.41,Text_Bottom,,0,0,0,,\Nあの日から 私の気持ちは変わってない
-Dialogue: 0,0:17:10.41,0:17:12.10,Text_Bottom,,0,0,0,,\N((Ｔｈａｎｋ ｙｏｕ． Ｉ ｗｉｌｌ ｃｈｅｒｉｓｈ ｉｔ))
-Dialogue: 0,0:17:14.75,0:17:17.02,Text_Bottom,,0,0,0,,\NＲｅｎｊｉ Ｉ…．
-Dialogue: 0,0:17:20.31,0:17:20.83,Text_Bottom,,0,0,0,,\Nリ…
-Dialogue: 0,0:17:20.83,0:17:21.91,Text_Bottom,,0,0,0,,\Nリリーちゃん！
-Dialogue: 0,0:17:21.91,0:17:22.56,Text_Bottom,,0,0,0,,\Nわっ！？
-Dialogue: 0,0:17:22.56,0:17:24.32,Text_Bottom,,0,0,0,,\Nヒマリちゃん ど どうして
-Dialogue: 0,0:17:24.32,0:17:25.67,Text_Bottom,,0,0,0,,\N心配したよ～
-Dialogue: 0,0:17:26.17,0:17:27.74,Text_Bottom,,0,0,0,,\Nに 兄ちゃん
-Dialogue: 0,0:17:27.74,0:17:28.56,Text_Bottom,,0,0,0,,\Nあっ…
-Dialogue: 0,0:17:29.22,0:17:32.21,Text_Bottom,,0,0,0,,\Nやっぱりみんなで 捜しにきちゃった
-Dialogue: 0,0:17:32.66,0:17:34.08,Text_Bottom,,0,0,0,,\Nみんなって… あっ！
-Dialogue: 0,0:17:34.65,0:17:35.36,Text_Bottom,,0,0,0,,\N
-Dialogue: 0,0:17:39.26,0:17:41.04,Text_Bottom,,0,0,0,,\Nあのさ葵衣
-Dialogue: 0,0:17:41.04,0:17:41.65,Text_Bottom,,0,0,0,,\Nはい…
-Dialogue: 0,0:17:41.90,0:17:43.47,Text_Bottom,,0,0,0,,\Nいつから見られてたの？
-Dialogue: 0,0:17:43.85,0:17:45.52,Text_Bottom,,0,0,0,,\Nえ～と…
-Dialogue: 0,0:17:45.81,0:17:48.23,Text_Bottom,,0,0,0,,\Nオゥ～ ク～サカ～ベサ～ン
-Dialogue: 0,0:17:48.23,0:17:52.53,Text_Bottom,,0,0,0,,\N私のむすめを見つけ出してくれて 心から感謝いたしマ～ス
-Dialogue: 0,0:17:52.69,0:17:55.11,Text_Bottom,,0,0,0,,\Nセ～ンキュ～ベリ～マァ～ッチ！
-Dialogue: 0,0:17:55.11,0:17:56.42,Text_Bottom,,0,0,0,,\Nあ… いえ…
-Dialogue: 0,0:17:56.42,0:18:00.42,Text_Bottom,,0,0,0,,\Nさあリリー パパ 花火買ってきたから 帰ってみんなでやろうね
-Dialogue: 0,0:18:00.42,0:18:01.90,Text_Bottom,,0,0,0,,\Nあっ… うん…
-Dialogue: 0,0:18:02.24,0:18:03.01,Text_Bottom,,0,0,0,,\Nハァ…
-Dialogue: 0,0:18:04.07,0:18:06.23,Text_Bottom,,0,0,0,,\N兄ちゃん なんかごめん
-Dialogue: 0,0:18:06.23,0:18:06.93,Text_Bottom,,0,0,0,,\Nえっ？
-Dialogue: 0,0:18:07.35,0:18:10.83,Text_Bottom,,0,0,0,,\N何言ってんの 葵衣が謝ることないだろ
-Dialogue: 0,0:18:13.38,0:18:16.58,Text_Bottom,,0,0,0,,\N《でも… みんなが来てなかったら
-Dialogue: 0,0:18:17.19,0:18:18.53,Text_Bottom,,0,0,0,,\Nどうなってたのかな…》
-Dialogue: 0,0:18:33.11,0:18:34.51,Text_Bottom,,0,0,0,,\Nそれでおしまいだね
-Dialogue: 0,0:19:10.63,0:19:11.41,Text_Bottom,,0,0,0,,\Nあっ…
-Dialogue: 0,0:19:11.41,0:19:12.38,Text_Bottom,,0,0,0,,\Nアチッ！
-Dialogue: 0,0:19:12.38,0:19:13.66,Text_Bottom,,0,0,0,,\NＤａ… Ｄａｄ！
-Dialogue: 0,0:19:13.66,0:19:15.75,Text_Bottom,,0,0,0,,\Nちょっ 何やってんですか～
-Dialogue: 0,0:19:15.75,0:19:17.60,Text_Bottom,,0,0,0,,\N冷やして冷やして
-Dialogue: 0,0:19:18.77,0:19:20.97,Text_Bottom,,0,0,0,,\Nホントに お世話になりました
-Dialogue: 0,0:19:20.97,0:19:22.24,Text_Bottom,,0,0,0,,\Nいえいえ
-Dialogue: 0,0:19:22.24,0:19:23.92,Text_Bottom,,0,0,0,,\Nリリーちゃん またいらっしゃい
-Dialogue: 0,0:19:23.92,0:19:24.49,Text_Bottom,,0,0,0,,\Nはい
-Dialogue: 0,0:19:24.88,0:19:28.71,Text_Bottom,,0,0,0,,\N次は私がそっちに行くからね そのとき また勝負だから！
-Dialogue: 0,0:19:29.15,0:19:30.61,Text_Bottom,,0,0,0,,\Nのぞむところよ！
-Dialogue: 0,0:19:31.17,0:19:33.47,Text_Bottom,,0,0,0,,\Nすっかり仲よしね あの２人
-Dialogue: 0,0:19:33.47,0:19:34.39,Text_Bottom,,0,0,0,,\Nそうだな
-Dialogue: 0,0:19:35.77,0:19:36.64,Text_Bottom,,0,0,0,,\Nじゃあな
-Dialogue: 0,0:19:36.64,0:19:38.13,Text_Bottom,,0,0,0,,\Nまたね リリーさん
-Dialogue: 0,0:19:38.59,0:19:39.61,Text_Bottom,,0,0,0,,\Nまたね～
-Dialogue: 0,0:19:40.02,0:19:40.97,Text_Bottom,,0,0,0,,\Nまたね～
-Dialogue: 0,0:19:41.23,0:19:42.48,Text_Bottom,,0,0,0,,\Nまたね～ アオイ
-Dialogue: 0,0:19:42.48,0:19:45.30,Text_Bottom,,0,0,0,,\Nあっ… シーユーレター リリーちゃん
-Dialogue: 0,0:19:48.16,0:19:49.92,Text_Bottom,,0,0,0,,\NＳｅｅ ｙｏｕ ａｇａｉｎ！ レンジ
-Dialogue: 0,0:19:50.11,0:19:51.51,Text_Bottom,,0,0,0,,\Nシーユー アゲイン
-Dialogue: 0,0:19:52.14,0:19:53.28,Text_Bottom,,0,0,0,,\NＳｅｅ ｙｏｕ！
-Dialogue: 0,0:19:57.78,0:19:59.92,Text_Bottom,,0,0,0,,\Nなんだよ シーユーアゲインって
-Dialogue: 0,0:19:59.92,0:20:02.07,Text_Bottom,,0,0,0,,\Nうっ いいだろ別に
-Dialogue: 0,0:20:02.95,0:20:05.21,Text_Bottom,,0,0,0,,\Nさあさあ 私らも帰るよ
-Dialogue: 0,0:20:12.28,0:20:15.24,Text_Bottom,,0,0,120,,\NAre you all right? Do you want me to drive for a bit?
-Dialogue: 0,0:20:16.28,0:20:18.91,Text_Bottom,,0,0,120,,\NIt's all right. I'm perfectly fine!
-Dialogue: 0,0:20:19.82,0:20:20.70,Text_Bottom,,0,0,120,,\NReally?
-Dialogue: 0,0:20:22.95,0:20:27.92,Text_Bottom,,0,0,120,,\NThrough this trip, I think I've figured out why you seem to like this place so much.
-Dialogue: 0,0:20:28.21,0:20:30.71,Text_Bottom,,0,0,120,,\NOh, really? Care to share?
-Dialogue: 0,0:20:34.51,0:20:36.47,Text_Bottom,,0,0,120,,\NIt's because we drive on the left!
-Dialogue: 0,0:20:36.71,0:20:37.27,Text_Bottom,,0,0,0,,\NHuh?
-Dialogue: 0,0:20:41.60,0:20:43.06,Text_Bottom,,0,0,120,,\NSo, you've figured it out!
-Dialogue: 0,0:20:43.14,0:20:44.52,Text_Bottom,,0,0,120,,\NShh! Keep it down!
+Dialogue: 0,0:16:47.76,0:16:53.26,Text_Bottom,,0,0,0,,我迷路的时候 莲司一定会找到我 抓住我\N私が迷ったとき レンジは必ず見つけて つかまえてくれる
+Dialogue: 0,0:16:53.59,0:16:55.12,Text_Bottom,,0,0,0,,不 不是那样的…\Nいや そんなんじゃ…
+Dialogue: 0,0:16:57.66,0:16:59.46,Text_Bottom,,0,0,0,,就跟我们初次见面一样呢！\NLike the first time we met!
+Dialogue: 0,0:17:01.49,0:17:03.33,Text_Bottom,,0,0,0,,从那之后已经半年了啊…\Nあれから もう半年か…
+Dialogue: 0,0:17:03.90,0:17:04.83,Text_Bottom,,0,0,0,,莲司\Nレンジ
+Dialogue: 0,0:17:04.83,0:17:05.51,Text_Bottom,,0,0,0,,嗯？\Nんっ？
+Dialogue: 0,0:17:07.12,0:17:10.41,Text_Bottom,,0,0,0,,从那天起 我的心意就没有改变\Nあの日から 私の気持ちは変わってない
+Dialogue: 0,0:17:10.41,0:17:12.10,Text_Bottom,,0,0,0,,谢谢你 我会珍惜它的\N((Ｔｈａｎｋ ｙｏｕ． Ｉ ｗｉｌｌ ｃｈｅｒｉｓｈ ｉｔ))
+Dialogue: 0,0:17:14.75,0:17:17.02,Text_Bottom,,0,0,0,,莲司 我…．\NＲｅｎｊｉ Ｉ…．
+Dialogue: 0,0:17:20.31,0:17:20.83,Text_Bottom,,0,0,0,,莉…\Nリ…
+Dialogue: 0,0:17:20.83,0:17:21.91,Text_Bottom,,0,0,0,,莉莉！\Nリリーちゃん！
+Dialogue: 0,0:17:21.91,0:17:22.56,Text_Bottom,,0,0,0,,哇！？\Nわっ！？
+Dialogue: 0,0:17:22.56,0:17:24.32,Text_Bottom,,0,0,0,,日葵 为 为什么在这里\Nヒマリちゃん ど どうして
+Dialogue: 0,0:17:24.32,0:17:25.67,Text_Bottom,,0,0,0,,我好担心呀～\N心配したよ～
+Dialogue: 0,0:17:26.17,0:17:27.74,Text_Bottom,,0,0,0,,哥 哥哥\Nに 兄ちゃん
+Dialogue: 0,0:17:27.74,0:17:28.56,Text_Bottom,,0,0,0,,啊…\Nあっ…
+Dialogue: 0,0:17:29.22,0:17:32.21,Text_Bottom,,0,0,0,,果然大家还是一起找过来了\Nやっぱりみんなで 捜しにきちゃった
+Dialogue: 0,0:17:32.66,0:17:34.08,Text_Bottom,,0,0,0,,大家… 啊！\Nみんなって… あっ！
+Dialogue: 0,0:17:34.65,0:17:35.36,Text_Bottom,,0,0,0,, \N
+Dialogue: 0,0:17:39.26,0:17:41.04,Text_Bottom,,0,0,0,,我说葵衣\Nあのさ葵衣
+Dialogue: 0,0:17:41.04,0:17:41.65,Text_Bottom,,0,0,0,,嗯…\Nはい…
+Dialogue: 0,0:17:41.90,0:17:43.47,Text_Bottom,,0,0,0,,你们从什么时候开始看的？\Nいつから見られてたの？
+Dialogue: 0,0:17:43.85,0:17:45.52,Text_Bottom,,0,0,0,,呃～…\Nえ～と…
+Dialogue: 0,0:17:45.81,0:17:48.23,Text_Bottom,,0,0,0,,哦～ 草～壁～先～生～\Nオゥ～ ク～サカ～ベサ～ン
+Dialogue: 0,0:17:48.23,0:17:52.53,Text_Bottom,,0,0,0,,帮我找到了女儿 衷心感谢您～\N私のむすめを見つけ出してくれて 心から感謝いたしマ～ス
+Dialogue: 0,0:17:52.69,0:17:55.11,Text_Bottom,,0,0,0,,非～常～感～谢～！\Nセ～ンキュ～ベリ～マァ～ッチ！
+Dialogue: 0,0:17:55.11,0:17:56.42,Text_Bottom,,0,0,0,,啊… 不…\Nあ… いえ…
+Dialogue: 0,0:17:56.42,0:18:00.42,Text_Bottom,,0,0,0,,来 莉莉 爸爸买了烟花 回去大家一起放吧\Nさあリリー パパ 花火買ってきたから 帰ってみんなでやろうね
+Dialogue: 0,0:18:00.42,0:18:01.90,Text_Bottom,,0,0,0,,啊… 嗯…\Nあっ… うん…
+Dialogue: 0,0:18:02.24,0:18:03.01,Text_Bottom,,0,0,0,,哈…\Nハァ…
+Dialogue: 0,0:18:04.07,0:18:06.23,Text_Bottom,,0,0,0,,哥哥 那个 对不起\N兄ちゃん なんかごめん
+Dialogue: 0,0:18:06.23,0:18:06.93,Text_Bottom,,0,0,0,,诶？\Nえっ？
+Dialogue: 0,0:18:07.35,0:18:10.83,Text_Bottom,,0,0,0,,说什么呢 葵衣你不用道歉\N何言ってんの 葵衣が謝ることないだろ
+Dialogue: 0,0:18:13.38,0:18:16.58,Text_Bottom,,0,0,0,,但是… 如果大家没来的话\N《でも… みんなが来てなかったら
+Dialogue: 0,0:18:17.19,0:18:18.53,Text_Bottom,,0,0,0,,会变成什么样呢…》\Nどうなってたのかな…》
+Dialogue: 0,0:18:33.11,0:18:34.51,Text_Bottom,,0,0,0,,这样就结束了呢\Nそれでおしまいだね
+Dialogue: 0,0:19:10.63,0:19:11.41,Text_Bottom,,0,0,0,,啊…\Nあっ…
+Dialogue: 0,0:19:11.41,0:19:12.38,Text_Bottom,,0,0,0,,好痛！\Nアチッ！
+Dialogue: 0,0:19:12.38,0:19:13.66,Text_Bottom,,0,0,0,,爸… 爸爸！\NＤａ… Ｄａｄ！
+Dialogue: 0,0:19:13.66,0:19:15.75,Text_Bottom,,0,0,0,,等下 您在干什么呀～\Nちょっ 何やってんですか～
+Dialogue: 0,0:19:15.75,0:19:17.60,Text_Bottom,,0,0,0,,快降温降温\N冷やして冷やして
+Dialogue: 0,0:19:18.77,0:19:20.97,Text_Bottom,,0,0,0,,真的非常感谢您的照顾\Nホントに お世話になりました
+Dialogue: 0,0:19:20.97,0:19:22.24,Text_Bottom,,0,0,0,,哪里哪里\Nいえいえ
+Dialogue: 0,0:19:22.24,0:19:23.92,Text_Bottom,,0,0,0,,莉莉 欢迎再来哦\Nリリーちゃん またいらっしゃい
+Dialogue: 0,0:19:23.92,0:19:24.49,Text_Bottom,,0,0,0,,好的\Nはい
+Dialogue: 0,0:19:24.88,0:19:28.71,Text_Bottom,,0,0,0,,下次我去你那边 到时候再一决胜负！\N次は私がそっちに行くからね そのとき また勝負だから！
+Dialogue: 0,0:19:29.15,0:19:30.61,Text_Bottom,,0,0,0,,正合我意！\Nのぞむところよ！
+Dialogue: 0,0:19:31.17,0:19:33.47,Text_Bottom,,0,0,0,,那两个人关系真好啊\Nすっかり仲よしね あの２人
+Dialogue: 0,0:19:33.47,0:19:34.39,Text_Bottom,,0,0,0,,是啊\Nそうだな
+Dialogue: 0,0:19:35.77,0:19:36.64,Text_Bottom,,0,0,0,,再见啦\Nじゃあな
+Dialogue: 0,0:19:36.64,0:19:38.13,Text_Bottom,,0,0,0,,再见 莉莉\Nまたね リリーさん
+Dialogue: 0,0:19:38.59,0:19:39.61,Text_Bottom,,0,0,0,,再见～\Nまたね～
+Dialogue: 0,0:19:40.02,0:19:40.97,Text_Bottom,,0,0,0,,再见～\Nまたね～
+Dialogue: 0,0:19:41.23,0:19:42.48,Text_Bottom,,0,0,0,,再见～ 葵衣\Nまたね～ アオイ
+Dialogue: 0,0:19:42.48,0:19:45.30,Text_Bottom,,0,0,0,,啊… 再见 莉莉\Nあっ… シーユーレター リリーちゃん
+Dialogue: 0,0:19:48.16,0:19:49.92,Text_Bottom,,0,0,0,,再见啦 莲司\NＳｅｅ ｙｏｕ ａｇａｉｎ！ レンジ
+Dialogue: 0,0:19:50.11,0:19:51.51,Text_Bottom,,0,0,0,,{ruby=See you again}再见{/ruby}\Nシーユー アゲイン
+Dialogue: 0,0:19:52.14,0:19:53.28,Text_Bottom,,0,0,0,,再见！\NＳｅｅ ｙｏｕ！
+Dialogue: 0,0:19:57.78,0:19:59.92,Text_Bottom,,0,0,0,,什么呀 还"See you again"\Nなんだよ シーユーアゲインって
+Dialogue: 0,0:19:59.92,0:20:02.07,Text_Bottom,,0,0,0,,唔 没什么不好吧\Nうっ いいだろ別に
+Dialogue: 0,0:20:02.95,0:20:05.21,Text_Bottom,,0,0,0,,好啦好啦 我们也回去吧\Nさあさあ 私らも帰るよ
+Dialogue: 0,0:20:12.28,0:20:15.24,Text_Bottom,,0,0,120,,你还好吗？要不要我帮你开一段？\NAre you all right? Do you want me to drive for a bit?
+Dialogue: 0,0:20:16.28,0:20:18.91,Text_Bottom,,0,0,120,,没事的 我好得很！\NIt's all right. I'm perfectly fine!
+Dialogue: 0,0:20:19.82,0:20:20.70,Text_Bottom,,0,0,120,,真的吗\NReally?
+Dialogue: 0,0:20:22.95,0:20:27.92,Text_Bottom,,0,0,120,,通过这次旅行 我觉得我搞懂你为什么这么喜欢这里了\NThrough this trip, I think I've figured out why you seem to like this place so much.
+Dialogue: 0,0:20:28.21,0:20:30.71,Text_Bottom,,0,0,120,,哦 真的吗 说来听听\NOh, really? Care to share?
+Dialogue: 0,0:20:34.51,0:20:36.47,Text_Bottom,,0,0,120,,因为这里也是靠左行驶！\NIt's because we drive on the left!
+Dialogue: 0,0:20:36.71,0:20:37.27,Text_Bottom,,0,0,0,,嗯？\NHuh?
+Dialogue: 0,0:20:41.60,0:20:43.06,Text_Bottom,,0,0,120,,所以你才搞懂了啊！\NSo, you've figured it out!
+Dialogue: 0,0:20:43.14,0:20:44.52,Text_Bottom,,0,0,120,,嘘 安静一点\NShh! Keep it down!
 Dialogue: 0,0:20:44.52,0:20:45.20,Text_Bottom,,0,0,0,,\NOh!
-Dialogue: 0,0:20:46.23,0:20:47.60,Text_Bottom,,0,0,120,,\NSweet dreams,
-Dialogue: 0,0:20:48.48,0:20:49.85,Text_Bottom,,0,0,120,,\Nour little angel.
-Dialogue: 0,0:20:52.29,0:20:53.97,Text_Bottom,,0,0,0,,\N兄ちゃん これ取って！
-Dialogue: 0,0:20:53.97,0:20:57.05,Text_Bottom,,0,0,0,,\Nえぇ… こんなん どこでも売ってるだろ
-Dialogue: 0,0:20:57.05,0:21:00.59,Text_Bottom,,0,0,0,,\Nダメだよ！ これゲームの景品だから 買えないの！
-Dialogue: 0,0:21:00.59,0:21:01.67,Text_Bottom,,0,0,0,,\Nお願い！
-Dialogue: 0,0:21:01.67,0:21:03.22,Text_Bottom,,0,0,0,,\Nしようがねえなあ
-Dialogue: 0,0:21:03.94,0:21:05.43,Text_Bottom,,0,0,0,,\Nジー…
-Dialogue: 0,0:21:06.17,0:21:07.70,Text_Bottom,,0,0,0,,\Nジー…
-Dialogue: 0,0:21:08.31,0:21:09.02,Text_Bottom,,0,0,0,,\Nうぅ…
-Dialogue: 0,0:21:09.37,0:21:11.19,Text_Bottom,,0,0,0,,\Nおっ 取れた
-Dialogue: 0,0:21:11.19,0:21:12.21,Text_Bottom,,0,0,0,,\Nやったあ！
-Dialogue: 0,0:21:12.21,0:21:13.34,Text_Bottom,,0,0,120,,\NAwesome!
-Dialogue: 0,0:21:13.42,0:21:14.75,Text_Bottom,,0,0,120,,\NYou are so good at games!
-Dialogue: 0,0:21:14.75,0:21:16.46,Text_Bottom,,0,0,120,,\NWhat is this character called?
-Dialogue: 0,0:21:17.05,0:21:19.77,Text_Bottom,,0,0,0,,\Nえ… えっと… その…
-Dialogue: 0,0:21:19.77,0:21:21.53,Text_Bottom,,0,0,0,,\Nぷれぜんと ふぉ～ゆ～
-Dialogue: 0,0:21:21.53,0:21:22.25,Text_Bottom,,0,0,0,,\Nあっ！？
-Dialogue: 0,0:21:25.18,0:21:27.61,Text_Bottom,,0,0,0,,\Nちょっと！ なんであげちゃうの！？
-Dialogue: 0,0:21:27.61,0:21:30.49,Text_Bottom,,0,0,0,,\Nだって キラキラした目で 見てたから つい
-Dialogue: 0,0:21:30.49,0:21:32.86,Text_Bottom,,0,0,0,,\N葵衣には別のを取ってやるから
-Dialogue: 0,0:21:32.86,0:21:34.56,Text_Bottom,,0,0,0,,\Nじゃあ このニャンコがいい
-Dialogue: 0,0:21:34.56,0:21:35.98,Text_Bottom,,0,0,0,,\Nえっ コアラじゃないの？
-Dialogue: 0,0:21:36.23,0:21:36.99,Text_Bottom,,0,0,120,,\NThank you!
-Dialogue: 0,0:21:39.07,0:21:40.82,Text_Bottom,,0,0,120,,\NI'll take good care of it!
-Dialogue: 0,0:21:50.31,0:21:52.22,Text_Bottom,,0,0,0,,\NＡｌｒｉｇｈｔ， ｓｅｅ ｙｏｕ ｌａｔｅｒ！
-Dialogue: 0,0:21:52.43,0:21:53.22,Text_Bottom,,0,0,0,,\NＯＫ．
-Dialogue: 0,0:21:53.44,0:21:54.42,Text_Bottom,,0,0,0,,\NＴａｋｅ ｃａｒｅ．
-Dialogue: 0,0:23:13.25,0:23:15.10,Text_Bottom,,0,0,0,,\NＡｍｕｓｅｍｅｎｔ ａｒｃａｄｅ…．
-Dialogue: 0,0:23:16.93,0:23:17.94,Text_Bottom,,0,0,0,,\Nゲーセン！
-Dialogue: 0,0:23:23.29,0:23:24.72,Text_Bottom,,0,0,0,,\Nハイ！ レンジ！
-Dialogue: 0,0:23:26.47,0:23:27.97,Text_Bottom,,0,0,0,,\Nやあ リリーちゃん
-Dialogue: 0,0:23:29.89,0:23:31.81,Text_Bottom,,0,0,120,,\NCome on, let's play together!
+Dialogue: 0,0:20:46.23,0:20:47.60,Text_Bottom,,0,0,120,,做个好梦\NSweet dreams,
+Dialogue: 0,0:20:48.48,0:20:49.85,Text_Bottom,,0,0,120,,我们的小天使\Nour little angel.
+Dialogue: 0,0:20:52.29,0:20:53.97,Text_Bottom,,0,0,0,,哥哥 帮我抓这个！\N兄ちゃん これ取って！
+Dialogue: 0,0:20:53.97,0:20:57.05,Text_Bottom,,0,0,0,,诶… 这种东西到处都有卖的吧\Nえぇ… こんなん どこでも売ってるだろ
+Dialogue: 0,0:20:57.05,0:21:00.59,Text_Bottom,,0,0,0,,不行！这是游戏奖品 买不到的！\Nダメだよ！ これゲームの景品だから 買えないの！
+Dialogue: 0,0:21:00.59,0:21:01.67,Text_Bottom,,0,0,0,,拜托了！\Nお願い！
+Dialogue: 0,0:21:01.67,0:21:03.22,Text_Bottom,,0,0,0,,真拿你没办法啊\Nしようがねえなあ
+Dialogue: 0,0:21:03.94,0:21:05.43,Text_Bottom,,0,0,0,,盯…\Nジー…
+Dialogue: 0,0:21:06.17,0:21:07.70,Text_Bottom,,0,0,0,,盯…\Nジー…
+Dialogue: 0,0:21:08.31,0:21:09.02,Text_Bottom,,0,0,0,,呜…\Nうぅ…
+Dialogue: 0,0:21:09.37,0:21:11.19,Text_Bottom,,0,0,0,,哦 抓到了\Nおっ 取れた
+Dialogue: 0,0:21:11.19,0:21:12.21,Text_Bottom,,0,0,0,,太好啦！\Nやったあ！
+Dialogue: 0,0:21:12.21,0:21:13.34,Text_Bottom,,0,0,120,,太棒了！\NAwesome!
+Dialogue: 0,0:21:13.42,0:21:14.75,Text_Bottom,,0,0,120,,你游戏玩得真好呀！\NYou are so good at games!
+Dialogue: 0,0:21:14.75,0:21:16.46,Text_Bottom,,0,0,120,,这个角色叫什么名字？\NWhat is this character called?
+Dialogue: 0,0:21:17.05,0:21:19.77,Text_Bottom,,0,0,0,,呃… 那个… 这个…\Nえ… えっと… その…
+Dialogue: 0,0:21:19.77,0:21:21.53,Text_Bottom,,0,0,0,,{ruby=Present for you}给你的礼物{/ruby}\Nぷれぜんと ふぉ～ゆ～
+Dialogue: 0,0:21:21.53,0:21:22.25,Text_Bottom,,0,0,0,,啊！？\Nあっ！？
+Dialogue: 0,0:21:25.18,0:21:27.61,Text_Bottom,,0,0,0,,喂！ 为什么送给她了！？\Nちょっと！ なんであげちゃうの！？
+Dialogue: 0,0:21:27.61,0:21:30.49,Text_Bottom,,0,0,0,,因为她用闪闪发亮的眼神看着 忍不住就\Nだって キラキラした目で 見てたから つい
+Dialogue: 0,0:21:30.49,0:21:32.86,Text_Bottom,,0,0,0,,我会给葵衣抓别的\N葵衣には別のを取ってやるから
+Dialogue: 0,0:21:32.86,0:21:34.56,Text_Bottom,,0,0,0,,那我要这个猫咪\Nじゃあ このニャンコがいい
+Dialogue: 0,0:21:34.56,0:21:35.98,Text_Bottom,,0,0,0,,诶 不要考拉了吗？\Nえっ コアラじゃないの？
+Dialogue: 0,0:21:36.23,0:21:36.99,Text_Bottom,,0,0,120,,谢谢你！\NThank you!
+Dialogue: 0,0:21:39.07,0:21:40.82,Text_Bottom,,0,0,120,,我会好好照顾它的\NI'll take good care of it!
+Dialogue: 0,0:21:50.31,0:21:52.22,Text_Bottom,,0,0,0,,好啦 待会儿见！\NＡｌｒｉｇｈｔ， ｓｅｅ ｙｏｕ ｌａｔｅｒ！
+Dialogue: 0,0:21:52.43,0:21:53.22,Text_Bottom,,0,0,0,,好\NＯＫ．
+Dialogue: 0,0:21:53.44,0:21:54.42,Text_Bottom,,0,0,0,,注意安全\NＴａｋｅ ｃａｒｅ．
+Dialogue: 0,0:23:13.25,0:23:15.10,Text_Bottom,,0,0,0,,游戏厅…\NＡｍｕｓｅｍｅｎｔ ａｒｃａｄｅ…．
+Dialogue: 0,0:23:16.93,0:23:17.94,Text_Bottom,,0,0,0,,游戏中心！\Nゲーセン！
+Dialogue: 0,0:23:23.29,0:23:24.72,Text_Bottom,,0,0,0,,嗨！莲司！\Nハイ！ レンジ！
+Dialogue: 0,0:23:26.47,0:23:27.97,Text_Bottom,,0,0,0,,哟 莉莉\Nやあ リリーちゃん
+Dialogue: 0,0:23:29.89,0:23:31.81,Text_Bottom,,0,0,120,,来吧 我们一起玩吧！\NCome on, let's play together!
