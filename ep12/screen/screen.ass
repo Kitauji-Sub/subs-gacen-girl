@@ -12,9 +12,10 @@ Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka
 Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 12 (1080p) [1E2919B5].mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 1.000000
-Active Line: 4
-Video Position: 12587
+Video Zoom Percent: 0.875000
+Scroll Position: 209
+Active Line: 222
+Video Position: 19550
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -23,8 +24,271 @@ Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
-Dialogue: 0,0:02:45.26,0:02:50.27,OnScreen,1,0,0,0,,
-Dialogue: 0,0:06:40.67,0:06:42.73,OnScreen,3,0,0,0,,
-Dialogue: 0,0:06:50.68,0:06:53.05,OnScreen,4,0,0,0,,
-Dialogue: 0,0:08:44.96,0:08:47.83,OnScreen,5,0,0,0,,
-Dialogue: 0,0:13:32.37,0:13:35.37,OnScreen,6,0,0,0,,
+Dialogue: 0,0:02:45.27,0:02:45.31,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1327.56,409.44)\pos(1280.21,542.2)}粗点心堂
+Dialogue: 0,0:02:45.31,0:02:45.35,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1333.98,409.44)\pos(1286.63,542.2)}粗点心堂
+Dialogue: 0,0:02:45.35,0:02:45.39,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1340.44,409.44)\pos(1293.09,542.2)}粗点心堂
+Dialogue: 0,0:02:45.39,0:02:45.43,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1346.88,409.44)\pos(1299.53,542.2)}粗点心堂
+Dialogue: 0,0:02:45.43,0:02:45.47,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1353.3,409.44)\pos(1305.95,542.2)}粗点心堂
+Dialogue: 0,0:02:45.47,0:02:45.52,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1359.72,409.44)\pos(1312.37,542.2)}粗点心堂
+Dialogue: 0,0:02:45.52,0:02:45.56,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1366.18,409.44)\pos(1318.83,542.2)}粗点心堂
+Dialogue: 0,0:02:45.56,0:02:45.60,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1372.6,409.44)\pos(1325.25,542.2)}粗点心堂
+Dialogue: 0,0:02:45.60,0:02:45.64,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1379.02,409.43)\pos(1331.67,542.2)}粗点心堂
+Dialogue: 0,0:02:45.64,0:02:45.68,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1385.46,409.43)\pos(1338.11,542.19)}粗点心堂
+Dialogue: 0,0:02:45.68,0:02:45.72,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1391.92,409.43)\pos(1344.57,542.2)}粗点心堂
+Dialogue: 0,0:02:45.72,0:02:45.77,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1398.33,409.43)\pos(1350.98,542.19)}粗点心堂
+Dialogue: 0,0:02:45.77,0:02:45.81,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1404.75,409.43)\pos(1357.4,542.19)}粗点心堂
+Dialogue: 0,0:02:45.81,0:02:45.85,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1411.2,409.43)\pos(1363.85,542.19)}粗点心堂
+Dialogue: 0,0:02:45.85,0:02:45.89,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1417.65,409.43)\pos(1370.3,542.19)}粗点心堂
+Dialogue: 0,0:02:45.89,0:02:45.93,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1424.07,409.43)\pos(1376.72,542.19)}粗点心堂
+Dialogue: 0,0:02:45.93,0:02:45.97,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1430.5,409.43)\pos(1383.15,542.19)}粗点心堂
+Dialogue: 0,0:02:45.97,0:02:46.02,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1436.95,409.43)\pos(1389.6,542.19)}粗点心堂
+Dialogue: 0,0:02:46.02,0:02:46.06,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1443.38,409.43)\pos(1396.03,542.19)}粗点心堂
+Dialogue: 0,0:02:46.06,0:02:46.10,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1449.79,409.43)\pos(1402.44,542.19)}粗点心堂
+Dialogue: 0,0:02:46.10,0:02:46.14,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1456.23,409.43)\pos(1408.88,542.19)}粗点心堂
+Dialogue: 0,0:02:46.14,0:02:46.18,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1462.68,409.43)\pos(1415.33,542.19)}粗点心堂
+Dialogue: 0,0:02:46.18,0:02:46.22,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1469.11,409.43)\pos(1421.76,542.19)}粗点心堂
+Dialogue: 0,0:02:46.22,0:02:46.27,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1475.51,409.43)\pos(1428.16,542.19)}粗点心堂
+Dialogue: 0,0:02:46.27,0:02:46.31,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1481.96,409.43)\pos(1434.61,542.19)}粗点心堂
+Dialogue: 0,0:02:46.31,0:02:46.35,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1488.43,409.43)\pos(1441.08,542.19)}粗点心堂
+Dialogue: 0,0:02:46.35,0:02:46.39,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1494.84,409.43)\pos(1447.49,542.19)}粗点心堂
+Dialogue: 0,0:02:46.39,0:02:46.43,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1501.26,409.43)\pos(1453.91,542.19)}粗点心堂
+Dialogue: 0,0:02:46.43,0:02:46.47,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1507.72,409.43)\pos(1460.37,542.19)}粗点心堂
+Dialogue: 0,0:02:46.47,0:02:46.52,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1514.14,409.43)\pos(1466.79,542.19)}粗点心堂
+Dialogue: 0,0:02:46.52,0:02:46.56,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1520.57,409.43)\pos(1473.22,542.19)}粗点心堂
+Dialogue: 0,0:02:46.56,0:02:46.60,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1527.01,409.43)\pos(1479.66,542.19)}粗点心堂
+Dialogue: 0,0:02:46.60,0:02:46.64,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1533.46,409.43)\pos(1486.11,542.19)}粗点心堂
+Dialogue: 0,0:02:46.64,0:02:46.68,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1539.88,409.42)\pos(1492.53,542.18)}粗点心堂
+Dialogue: 0,0:02:46.68,0:02:46.72,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1546.29,409.43)\pos(1498.94,542.19)}粗点心堂
+Dialogue: 0,0:02:46.72,0:02:46.77,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1552.74,409.43)\pos(1505.39,542.19)}粗点心堂
+Dialogue: 0,0:02:46.77,0:02:46.81,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1559.19,409.43)\pos(1511.84,542.19)}粗点心堂
+Dialogue: 0,0:02:46.81,0:02:46.85,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1565.61,409.43)\pos(1518.26,542.19)}粗点心堂
+Dialogue: 0,0:02:46.85,0:02:46.89,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1572.02,409.43)\pos(1524.67,542.19)}粗点心堂
+Dialogue: 0,0:02:46.89,0:02:46.93,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1578.48,409.43)\pos(1531.13,542.19)}粗点心堂
+Dialogue: 0,0:02:46.93,0:02:46.98,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1584.91,409.43)\pos(1537.56,542.19)}粗点心堂
+Dialogue: 0,0:02:46.98,0:02:47.02,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1591.34,409.43)\pos(1543.99,542.19)}粗点心堂
+Dialogue: 0,0:02:47.02,0:02:47.06,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1597.77,409.43)\pos(1550.42,542.19)}粗点心堂
+Dialogue: 0,0:02:47.06,0:02:47.10,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1604.23,409.43)\pos(1556.88,542.19)}粗点心堂
+Dialogue: 0,0:02:47.10,0:02:47.14,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1610.64,409.42)\pos(1563.29,542.18)}粗点心堂
+Dialogue: 0,0:02:47.14,0:02:47.18,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1617.07,409.42)\pos(1569.72,542.19)}粗点心堂
+Dialogue: 0,0:02:47.18,0:02:47.23,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1623.51,409.42)\pos(1576.16,542.18)}粗点心堂
+Dialogue: 0,0:02:47.23,0:02:47.27,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1629.97,409.42)\pos(1582.62,542.18)}粗点心堂
+Dialogue: 0,0:02:47.27,0:02:47.31,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1636.38,409.42)\pos(1589.03,542.18)}粗点心堂
+Dialogue: 0,0:02:47.31,0:02:47.35,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1642.8,409.42)\pos(1595.45,542.18)}粗点心堂
+Dialogue: 0,0:02:47.35,0:02:47.39,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1649.26,409.42)\pos(1601.91,542.19)}粗点心堂
+Dialogue: 0,0:02:47.39,0:02:47.43,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1655.69,409.42)\pos(1608.34,542.18)}粗点心堂
+Dialogue: 0,0:02:47.43,0:02:47.48,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1662.11,409.42)\pos(1614.76,542.18)}粗点心堂
+Dialogue: 0,0:02:47.48,0:02:47.52,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1668.55,409.42)\pos(1621.2,542.18)}粗点心堂
+Dialogue: 0,0:02:47.52,0:02:47.56,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1675.01,409.42)\pos(1627.66,542.18)}粗点心堂
+Dialogue: 0,0:02:47.56,0:02:47.60,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1681.43,409.42)\pos(1634.08,542.18)}粗点心堂
+Dialogue: 0,0:02:47.60,0:02:47.64,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1687.84,409.42)\pos(1640.49,542.18)}粗点心堂
+Dialogue: 0,0:02:47.64,0:02:47.68,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1694.29,409.42)\pos(1646.94,542.18)}粗点心堂
+Dialogue: 0,0:02:47.68,0:02:47.73,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1700.74,409.42)\pos(1653.39,542.18)}粗点心堂
+Dialogue: 0,0:02:47.73,0:02:47.77,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1707.16,409.42)\pos(1659.81,542.18)}粗点心堂
+Dialogue: 0,0:02:47.77,0:02:47.81,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1713.58,409.42)\pos(1666.23,542.18)}粗点心堂
+Dialogue: 0,0:02:47.81,0:02:47.85,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1720.05,409.42)\pos(1672.7,542.18)}粗点心堂
+Dialogue: 0,0:02:47.85,0:02:47.89,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1726.47,409.42)\pos(1679.12,542.18)}粗点心堂
+Dialogue: 0,0:02:47.89,0:02:47.93,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1732.89,409.42)\pos(1685.54,542.18)}粗点心堂
+Dialogue: 0,0:02:47.93,0:02:47.98,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1739.33,409.42)\pos(1691.98,542.18)}粗点心堂
+Dialogue: 0,0:02:47.98,0:02:48.02,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1745.78,409.42)\pos(1698.43,542.18)}粗点心堂
+Dialogue: 0,0:02:48.02,0:02:48.06,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1752.2,409.42)\pos(1704.85,542.18)}粗点心堂
+Dialogue: 0,0:02:48.06,0:02:48.10,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1758.62,409.42)\pos(1711.27,542.19)}粗点心堂
+Dialogue: 0,0:02:48.10,0:02:48.14,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1765.07,409.43)\pos(1717.72,542.19)}粗点心堂
+Dialogue: 0,0:02:48.14,0:02:48.18,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1771.5,409.42)\pos(1724.15,542.18)}粗点心堂
+Dialogue: 0,0:02:48.18,0:02:48.23,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1777.93,409.42)\pos(1730.58,542.19)}粗点心堂
+Dialogue: 0,0:02:48.23,0:02:48.27,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1784.33,409.42)\pos(1736.98,542.18)}粗点心堂
+Dialogue: 0,0:02:48.27,0:02:48.31,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1790.81,409.42)\pos(1743.46,542.18)}粗点心堂
+Dialogue: 0,0:02:48.31,0:02:48.35,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1797.23,409.42)\pos(1749.88,542.18)}粗点心堂
+Dialogue: 0,0:02:48.35,0:02:48.39,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1803.64,409.42)\pos(1756.29,542.18)}粗点心堂
+Dialogue: 0,0:02:48.39,0:02:48.43,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1810.08,409.42)\pos(1762.73,542.18)}粗点心堂
+Dialogue: 0,0:02:48.43,0:02:48.48,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1816.54,409.42)\pos(1769.19,542.18)}粗点心堂
+Dialogue: 0,0:02:48.48,0:02:48.52,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1822.96,409.42)\pos(1775.61,542.18)}粗点心堂
+Dialogue: 0,0:02:48.52,0:02:48.56,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1829.37,409.42)\pos(1782.02,542.18)}粗点心堂
+Dialogue: 0,0:02:48.56,0:02:48.60,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1835.82,409.42)\pos(1788.47,542.18)}粗点心堂
+Dialogue: 0,0:02:48.60,0:02:48.64,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1842.27,409.42)\pos(1794.92,542.18)}粗点心堂
+Dialogue: 0,0:02:48.64,0:02:48.69,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1848.68,409.42)\pos(1801.33,542.18)}粗点心堂
+Dialogue: 0,0:02:48.69,0:02:48.73,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1855.11,409.42)\pos(1807.76,542.18)}粗点心堂
+Dialogue: 0,0:02:48.73,0:02:48.77,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1861.57,409.42)\pos(1814.22,542.18)}粗点心堂
+Dialogue: 0,0:02:48.77,0:02:48.81,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1867.99,409.42)\pos(1820.64,542.18)}粗点心堂
+Dialogue: 0,0:02:48.81,0:02:48.85,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1874.42,409.42)\pos(1827.07,542.18)}粗点心堂
+Dialogue: 0,0:02:48.85,0:02:48.89,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1880.85,409.42)\pos(1833.5,542.18)}粗点心堂
+Dialogue: 0,0:02:48.89,0:02:48.94,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1887.32,409.42)\pos(1839.97,542.18)}粗点心堂
+Dialogue: 0,0:02:48.94,0:02:48.98,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1893.74,409.42)\pos(1846.39,542.19)}粗点心堂
+Dialogue: 0,0:02:48.98,0:02:49.02,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1900.16,409.42)\pos(1852.81,542.18)}粗点心堂
+Dialogue: 0,0:02:49.02,0:02:49.06,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1906.6,409.42)\pos(1859.25,542.18)}粗点心堂
+Dialogue: 0,0:02:49.06,0:02:49.10,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1913.06,409.42)\pos(1865.71,542.18)}粗点心堂
+Dialogue: 0,0:02:49.10,0:02:49.14,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1919.47,409.42)\pos(1872.12,542.18)}粗点心堂
+Dialogue: 0,0:02:49.14,0:02:49.19,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1925.9,409.42)\pos(1878.55,542.18)}粗点心堂
+Dialogue: 0,0:02:49.19,0:02:49.23,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1932.36,409.42)\pos(1885.01,542.18)}粗点心堂
+Dialogue: 0,0:02:49.23,0:02:49.27,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1938.78,409.42)\pos(1891.43,542.18)}粗点心堂
+Dialogue: 0,0:02:49.27,0:02:49.31,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1945.2,409.42)\pos(1897.85,542.18)}粗点心堂
+Dialogue: 0,0:02:49.31,0:02:49.35,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1951.64,409.42)\pos(1904.29,542.18)}粗点心堂
+Dialogue: 0,0:02:49.35,0:02:49.39,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1958.09,409.42)\pos(1910.74,542.18)}粗点心堂
+Dialogue: 0,0:02:49.39,0:02:49.44,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1964.51,409.42)\pos(1917.16,542.18)}粗点心堂
+Dialogue: 0,0:02:49.44,0:02:49.48,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1970.93,409.42)\pos(1923.58,542.18)}粗点心堂
+Dialogue: 0,0:02:49.48,0:02:49.52,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1977.38,409.42)\pos(1930.03,542.18)}粗点心堂
+Dialogue: 0,0:02:49.52,0:02:49.56,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1983.82,409.42)\pos(1936.47,542.18)}粗点心堂
+Dialogue: 0,0:02:49.56,0:02:49.60,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1990.24,409.42)\pos(1942.89,542.18)}粗点心堂
+Dialogue: 0,0:02:49.60,0:02:49.64,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(1996.66,409.43)\pos(1949.31,542.19)}粗点心堂
+Dialogue: 0,0:02:49.64,0:02:49.69,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(2003.12,409.43)\pos(1955.77,542.19)}粗点心堂
+Dialogue: 0,0:02:49.69,0:02:49.73,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(2009.55,409.43)\pos(1962.2,542.19)}粗点心堂
+Dialogue: 0,0:02:49.73,0:02:49.77,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(2015.96,409.43)\pos(1968.61,542.19)}粗点心堂
+Dialogue: 0,0:02:49.77,0:02:49.81,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(2022.4,409.43)\pos(1975.05,542.19)}粗点心堂
+Dialogue: 0,0:02:49.81,0:02:49.85,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(2028.86,409.43)\pos(1981.51,542.19)}粗点心堂
+Dialogue: 0,0:02:49.85,0:02:49.89,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(2035.27,409.43)\pos(1987.92,542.19)}粗点心堂
+Dialogue: 0,0:02:49.89,0:02:49.94,OnScreen,1-track,0,0,0,,{=7=37}{\alpha&H00&\fn仓耳周珂正大榜书\c&H727981&\fax0.000001\fscx91.77\fscy105.21\frz-8.32\frx1.3083\fry4.9921\org(2041.69,409.43)\pos(1994.34,542.19)}粗点心堂
+Dialogue: 0,0:06:40.67,0:06:40.71,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(600.17,2101.53)\pos(590.4,534.36)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:40.71,0:06:40.75,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(611.44,2096)\pos(601.67,528.83)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:40.75,0:06:40.79,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(622.74,2090.42)\pos(612.97,523.25)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:40.79,0:06:40.83,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(634.02,2084.89)\pos(624.25,517.72)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:40.83,0:06:40.88,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(645.29,2079.32)\pos(635.52,512.15)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:40.88,0:06:40.92,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(656.57,2073.77)\pos(646.8,506.6)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:40.92,0:06:40.96,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(667.87,2068.21)\pos(658.1,501.04)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:40.96,0:06:41.00,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(679.15,2062.66)\pos(669.38,495.49)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.00,0:06:41.04,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(690.4,2057.13)\pos(680.63,489.96)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.04,0:06:41.08,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(701.68,2051.54)\pos(691.91,484.37)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.08,0:06:41.13,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(712.98,2046.01)\pos(703.21,478.84)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.13,0:06:41.17,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(724.27,2040.43)\pos(714.5,473.26)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.17,0:06:41.21,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(735.53,2034.91)\pos(725.76,467.74)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.21,0:06:41.25,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(746.81,2029.32)\pos(737.04,462.15)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.25,0:06:41.29,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(758.11,2023.78)\pos(748.34,456.61)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.29,0:06:41.33,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(769.38,2018.23)\pos(759.61,451.06)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.33,0:06:41.38,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(780.64,2012.67)\pos(770.87,445.5)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.38,0:06:41.42,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(791.92,2007.13)\pos(782.15,439.96)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.42,0:06:41.46,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(803.21,2001.55)\pos(793.44,434.38)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.46,0:06:41.50,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(814.51,1996.02)\pos(804.74,428.85)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.50,0:06:41.54,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(825.76,1990.44)\pos(815.99,423.27)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.54,0:06:41.58,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(837.04,1984.91)\pos(827.27,417.74)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.58,0:06:41.63,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(848.33,1979.33)\pos(838.56,412.16)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.63,0:06:41.67,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(859.62,1973.8)\pos(849.85,406.63)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.67,0:06:41.71,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(870.89,1968.23)\pos(861.12,401.06)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.71,0:06:41.75,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(882.16,1962.68)\pos(872.39,395.51)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.75,0:06:41.79,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(893.45,1957.13)\pos(883.68,389.96)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.79,0:06:41.83,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(904.75,1951.56)\pos(894.98,384.39)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.83,0:06:41.88,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(916,1946.03)\pos(906.23,378.86)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.88,0:06:41.92,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(927.27,1940.46)\pos(917.5,373.29)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.92,0:06:41.96,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(938.56,1934.93)\pos(928.79,367.76)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:41.96,0:06:42.00,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(949.85,1929.35)\pos(940.08,362.18)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.00,0:06:42.04,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(961.11,1923.82)\pos(951.34,356.65)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.04,0:06:42.09,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(972.39,1918.25)\pos(962.62,351.08)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.09,0:06:42.13,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(983.68,1912.7)\pos(973.91,345.53)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.13,0:06:42.17,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(994.98,1907.14)\pos(985.21,339.97)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.17,0:06:42.21,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1006.24,1901.58)\pos(996.47,334.41)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.21,0:06:42.25,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1017.51,1896.05)\pos(1007.74,328.88)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.25,0:06:42.29,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1028.8,1890.47)\pos(1019.03,323.3)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.29,0:06:42.34,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1040.09,1884.95)\pos(1030.32,317.77)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.34,0:06:42.38,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1051.36,1879.36)\pos(1041.59,312.19)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.38,0:06:42.42,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1062.62,1873.84)\pos(1052.85,306.67)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.42,0:06:42.46,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1073.91,1868.26)\pos(1064.14,301.09)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.46,0:06:42.50,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1085.2,1862.72)\pos(1075.43,295.55)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.50,0:06:42.54,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1096.48,1857.16)\pos(1086.71,289.99)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.54,0:06:42.59,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1107.74,1851.61)\pos(1097.97,284.43)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.59,0:06:42.63,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1119.03,1846.07)\pos(1109.26,278.9)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.63,0:06:42.67,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1130.32,1840.49)\pos(1120.55,273.32)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.67,0:06:42.71,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1141.6,1834.96)\pos(1131.83,267.79)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.71,0:06:42.75,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1152.85,1829.39)\pos(1143.08,262.22)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.75,0:06:42.79,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1164.14,1823.86)\pos(1154.37,256.69)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.79,0:06:42.84,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1175.43,1818.27)\pos(1165.66,251.1)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.84,0:06:42.88,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1186.71,1812.74)\pos(1176.94,245.57)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.88,0:06:42.92,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1197.97,1807.18)\pos(1188.2,240.01)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.92,0:06:42.96,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1209.26,1801.63)\pos(1199.49,234.46)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:42.96,0:06:43.00,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1220.56,1796.08)\pos(1210.79,228.91)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.00,0:06:43.04,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1231.84,1790.51)\pos(1222.07,223.34)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.04,0:06:43.09,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1243.09,1784.98)\pos(1233.32,217.81)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.09,0:06:43.13,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1254.37,1779.4)\pos(1244.6,212.23)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.13,0:06:43.17,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1265.67,1773.87)\pos(1255.9,206.7)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.17,0:06:43.21,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1276.95,1768.29)\pos(1267.18,201.12)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.21,0:06:43.25,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1288.21,1762.76)\pos(1278.44,195.59)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.25,0:06:43.29,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1299.48,1757.21)\pos(1289.71,190.03)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.29,0:06:43.34,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1310.78,1751.65)\pos(1301.01,184.48)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.34,0:06:43.38,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1322.07,1746.1)\pos(1312.3,178.93)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.38,0:06:43.42,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1333.32,1740.53)\pos(1323.55,173.36)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.42,0:06:43.46,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1344.6,1735.01)\pos(1334.83,167.84)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.46,0:06:43.50,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1355.9,1729.42)\pos(1346.13,162.25)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.50,0:06:43.55,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1367.2,1723.9)\pos(1357.43,156.73)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.55,0:06:43.59,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1378.46,1718.32)\pos(1368.69,151.15)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.59,0:06:43.63,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1389.73,1712.78)\pos(1379.96,145.61)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.63,0:06:43.67,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1401.02,1707.21)\pos(1391.25,140.04)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.67,0:06:43.71,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1412.31,1701.66)\pos(1402.54,134.49)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.71,0:06:43.75,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1423.57,1696.11)\pos(1413.8,128.94)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.75,0:06:43.80,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1434.85,1690.54)\pos(1425.08,123.37)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.80,0:06:43.84,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1446.14,1685.01)\pos(1436.37,117.84)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.84,0:06:43.88,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1457.43,1679.43)\pos(1447.66,112.26)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.88,0:06:43.92,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1468.69,1673.91)\pos(1458.92,106.74)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.92,0:06:43.96,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1479.95,1668.33)\pos(1470.18,101.16)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:43.96,0:06:44.00,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1491.25,1662.8)\pos(1481.48,95.63)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.00,0:06:44.05,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1502.54,1657.23)\pos(1492.77,90.06)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.05,0:06:44.09,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1513.81,1651.69)\pos(1504.04,84.52)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.09,0:06:44.13,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1525.08,1646.14)\pos(1515.31,78.97)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.13,0:06:44.17,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1536.37,1640.57)\pos(1526.6,73.4)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.17,0:06:44.21,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1547.67,1635.03)\pos(1537.9,67.86)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.21,0:06:44.25,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1558.93,1629.45)\pos(1549.16,62.28)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.25,0:06:44.30,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1570.19,1623.92)\pos(1560.42,56.75)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.30,0:06:44.34,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1581.49,1618.34)\pos(1571.72,51.17)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.34,0:06:44.38,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1592.78,1612.83)\pos(1583.01,45.66)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.38,0:06:44.42,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1604.05,1607.26)\pos(1594.28,40.09)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.42,0:06:44.46,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1615.32,1601.71)\pos(1605.55,34.54)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.46,0:06:44.50,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1626.6,1596.16)\pos(1616.83,28.99)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.50,0:06:44.55,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1637.89,1590.59)\pos(1628.12,23.42)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.55,0:06:44.59,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1649.18,1585.04)\pos(1639.41,17.87)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.59,0:06:44.63,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1660.44,1579.48)\pos(1650.67,12.31)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.63,0:06:44.67,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1671.73,1573.95)\pos(1661.96,6.78)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.67,0:06:44.71,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1683.02,1568.35)\pos(1673.25,1.18)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.71,0:06:44.75,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1694.3,1562.83)\pos(1684.53,-4.34)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.75,0:06:44.80,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1705.55,1557.26)\pos(1695.78,-9.91)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.80,0:06:44.84,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1716.84,1551.73)\pos(1707.07,-15.44)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.84,0:06:44.88,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1728.14,1546.16)\pos(1718.37,-21.01)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.88,0:06:44.92,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1739.43,1540.6)\pos(1729.66,-26.57)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.92,0:06:44.96,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1750.68,1535.06)\pos(1740.91,-32.11)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:44.96,0:06:45.00,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1761.96,1529.48)\pos(1752.19,-37.69)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:45.00,0:06:45.05,OnScreen,3-track,0,0,0,,{=17=39}{\alpha&H00&\fn思源宋体 Heavy\fscx78.99\fscy111.88\frz0\frx0.0247\fry-4.0440\org(1773.27,1523.95)\pos(1763.5,-43.22)\c&H4C70C4&\3c&H3C619F&\bord2}使用100%北海道产红豆
+Dialogue: 0,0:06:50.68,0:06:53.05,OnScreen,4,0,0,0,,{=23}{\fn思源宋体 Heavy\c&H5467EE&\3c&HF0F6FC&\blur0.2\fscx146.19\fscy136.53\frz-0.0969\frx0.0560\fry5.0566\xbord2.93\ybord2.73\org(1110.62,408.56)\pos(1115.56,47.42)}特制 {\c&H355963&}炒面
+Dialogue: 0,0:08:44.96,0:08:47.83,OnScreen,5,0,0,0,,{=27}{\fn獅尾圓體SC-Bold\b1\fscx133.63\fscy142.89\frz3.3453\frx-1.3304\fry4.8983\org(423.59,108.85)\pos(476.13,294.4)\c&HEDF7F6&}套圈儿
+Dialogue: 0,0:13:32.37,0:13:35.37,OnScreen,6,0,0,0,,{\fn獅尾圓體SC-Bold\b1\c&HF1EEEA&\fscx61\fscy102\pos(215.44,280.49)}轻目烧
+Dialogue: 0,0:13:32.37,0:13:35.37,OnScreen,6,0,0,0,,{=47}{\fn獅尾圓體SC-Bold\b1\c&H3659F7&\fax-0.000010\fscx85.81\fscy123.19\frz-0.1746\frx-0.0039\fry0.6383\org(882.09,75.79)\pos(882.61,273.47)\bord4\3c&HECEDEF&}套圈儿
+Dialogue: 0,0:13:35.37,0:13:38.88,OnScreen,,0,0,0,,{=31}{\fn獅尾圓體SC-Bold\b1\fax-0.000001\fscx160.74\fscy215.31\frz2.0697\frx0.4771\fry-1.9367\org(1078.58,2445.82)\pos(453.08,293.65)\blur1.6\c&HEFE8DF&\fad(0,979)}轻目烧
+
+[Aegisub Extradata]
+Data: 0,_aegi_perspective_ambient_plane,e1065.31;288.00#7C1410.69;448.00#7C1410.69;528.00#7C1155.31;528.00
+Data: 1,_aegi_perspective_ambient_plane,e1065.31;288.00#7C1410.69;448.00#7C1410.69;528.00#7C1024.31;518.00
+Data: 2,_aegi_perspective_ambient_plane,e1065.31;288.00#7C1505.69;360.00#7C1410.69;528.00#7C1024.31;518.00
+Data: 3,_aegi_perspective_ambient_plane,e1065.31;288.00#7C1505.69;360.00#7C1477.69;566.00#7C1024.31;518.00
+Data: 4,_aegi_perspective_ambient_plane,e1065.85;285.41#7C1505.69;360.00#7C1477.69;566.00#7C1024.31;518.00
+Data: 5,_aegi_perspective_ambient_plane,e1065.85;285.41#7C1501.96;358.76#7C1477.69;566.00#7C1024.31;518.00
+Data: 6,_aegi_perspective_ambient_plane,e1065.85;285.41#7C1501.96;358.76#7C1476.19;565.57#7C1024.31;518.00
+Data: 7,_aegi_perspective_ambient_plane,e1065.85;285.41#7C1501.96;358.76#7C1476.19;565.57#7C1025.22;516.38
+Data: 8,_aegi_perspective_ambient_plane,e294.58;387.02#7C879.42;387.02#7C879.42;466.99#7C327.58;618.99
+Data: 9,_aegi_perspective_ambient_plane,e323.58;467.02#7C879.42;387.02#7C879.42;466.99#7C327.58;618.99
+Data: 10,_aegi_perspective_ambient_plane,e323.58;467.02#7C901.42;239.02#7C879.42;466.99#7C327.58;618.99
+Data: 11,_aegi_perspective_ambient_plane,e323.58;467.02#7C901.42;239.02#7C905.42;406.99#7C327.58;618.99
+Data: 12,_aegi_perspective_ambient_plane,e323.58;467.02#7C901.42;239.02#7C905.67;408.47#7C327.58;618.99
+Data: 13,_aegi_perspective_ambient_plane,e323.58;467.02#7C901.42;239.02#7C904.19;409.70#7C327.58;618.99
+Data: 14,_aegi_perspective_ambient_plane,e323.58;467.02#7C904.11;235.62#7C904.19;409.70#7C327.58;618.99
+Data: 15,_aegi_perspective_ambient_plane,e323.58;467.02#7C904.11;235.62#7C904.19;409.70#7C324.96;617.16
+Data: 16,_aegi_perspective_ambient_plane,e325.02;464.37#7C904.12;235.62#7C904.19;409.70#7C324.96;617.16
+Data: 17,_aegi_perspective_ambient_plane,e325.02;464.37#7C904.12;235.62#7C904.20;409.70#7C324.97;617.16
+Data: 18,_aegi_perspective_ambient_plane,e586.70;-56.42#7C1210.63;91.13#7C1210.63;171.10#7C974.25;171.10
+Data: 19,_aegi_perspective_ambient_plane,e586.70;-56.42#7C1210.63;91.13#7C1210.63;171.10#7C579.59;199.55
+Data: 20,_aegi_perspective_ambient_plane,e586.70;-56.42#7C1210.63;91.13#7C1553.74;251.10#7C579.59;199.55
+Data: 21,_aegi_perspective_ambient_plane,e586.70;-56.42#7C1553.74;59.13#7C1553.74;251.10#7C579.59;199.55
+Data: 22,_aegi_perspective_ambient_plane,e580.47;-52.87#7C1553.74;59.13#7C1553.74;251.10#7C579.59;199.55
+Data: 23,_aegi_perspective_ambient_plane,e580.47;-52.87#7C1553.74;59.13#7C1553.74;251.10#7C579.58;199.55
+Data: 24,_aegi_perspective_ambient_plane,e550.62;126.67#7C764.94;126.67#7C764.94;206.67#7C54.62;341.78
+Data: 25,_aegi_perspective_ambient_plane,e550.62;126.67#7C764.94;126.67#7C1196.94;215.56#7C54.62;341.78
+Data: 26,_aegi_perspective_ambient_plane,e550.62;126.67#7C1200.49;-51.11#7C1196.94;215.56#7C54.62;341.78
+Data: 27,_aegi_perspective_ambient_plane,e20.84;-28.00#7C1200.48;-51.11#7C1196.89;215.55#7C54.64;341.77
+Data: 28,_aegi_perspective_ambient_plane,e36.84;283.11#7C656.49;460.89#7C656.49;540.89#7C442.17;540.89
+Data: 29,_aegi_perspective_ambient_plane,e36.84;283.11#7C656.49;460.89#7C656.49;540.89#7C38.62;695.56
+Data: 30,_aegi_perspective_ambient_plane,e36.84;283.11#7C808.49;50.22#7C656.49;540.89#7C38.62;695.56
+Data: 31,_aegi_perspective_ambient_plane,e36.84;283.11#7C808.49;50.22#7C821.82;498.22#7C38.62;695.56
+Data: 32,_aegi_perspective_ambient_plane,e282.39;94.67#7C494.50;155.11#7C494.50;235.11#7C273.50;235.11
+Data: 33,_aegi_perspective_ambient_plane,e282.39;94.67#7C831.39;112.45#7C494.50;235.11#7C273.50;235.11
+Data: 34,_aegi_perspective_ambient_plane,e282.39;94.67#7C831.39;112.45#7C833.17;428.89#7C273.50;235.11
+Data: 35,_aegi_perspective_ambient_plane,e282.39;94.67#7C831.39;112.45#7C833.17;428.89#7C269.94;197.77
+Data: 36,_aegi_perspective_ambient_plane,e278.83;-157.78#7C831.39;112.45#7C833.17;428.89#7C269.94;197.77
+Data: 37,a-mo,u?S*P=GFH;7ZB<&2F?(1C/C*\8&RG<O3\E_C!M_72K/?0AO;NI_7EJ_;GH/3ZJFR=9S:).T)X/4AR*FR=:G&Y-#YQ-$!Q-$&=8':T9XAZ-3YX.VR=:H.D?4%Q.3YS-6R=:H*[,4AO-T%Y.&R=:H*Y-3YT-$AT8&RG=HEU,DEZ-D&=8'^S:SAR-T)X,D5W,$1Q/3YU.#F=8("P=SAR-DAQ,D)R,$5U-CYS+8XHMJ@HALHFPY0FI))C,#*V>7FE)DIC-4)U:'6B94)N.G9Z-SUU:4-W,7%Y.T9N/$5Q.71S9W:B945R)HU
+Data: 39,a-mo,e{"originalText"#3A"{\\fn#E6#80#9D#E6#BA#90#E5#AE#8B#E4#BD#93 Heavy\\fscx78.99\\fscy111.88\\frz0.0025\\frx0.0247\\fry-4.0440\\org(600.17#2C2101.53)\\pos(590.4#2C534.36)\\c&H4C70C4&\\3c&H3C619F&\\bord2}#E4#BD#BF#E7#94#A8100%#E5#8C#97#E6#B5#B7#E9#81#93#E4#BA#A7#E7#BA#A2#E8#B1#86"#2C"uuid"#3A"aa6073d0-9205-4baf-adbf-9a98eb7340eb"}
+Data: 43,_aegi_perspective_ambient_plane,e575.48;37.62#7C1577.40;37.62#7C1577.40;273.95#7C575.48;273.95
+Data: 44,_aegi_perspective_ambient_plane,e509.70;-15.71#7C1577.40;37.62#7C1577.40;273.95#7C575.48;273.95
+Data: 45,_aegi_perspective_ambient_plane,e509.70;-15.71#7C1365.84;-10.38#7C1577.40;273.95#7C575.48;273.95
+Data: 46,_aegi_perspective_ambient_plane,e509.70;-15.71#7C1365.84;-10.38#7C1364.95;275.73#7C575.48;273.95
+Data: 47,_aegi_perspective_ambient_plane,e509.70;-15.71#7C1365.84;-10.38#7C1364.95;275.73#7C508.81;279.29
