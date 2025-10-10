@@ -13,6 +13,8 @@ Video File: C:/Users/scree/Desktop/gcg/ep12.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.625000
+Scroll Position: 324
+Active Line: 350
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -226,7 +228,7 @@ Comment: 0,0:10:19.28,0:10:22.69,Text_Bottom,,0,0,0,kara,莉莉要去拿忘带�
 Comment: 0,0:10:22.95,0:10:25.52,Text_Bottom,,0,0,0,kara,诶？啊…\Nえっ？ あ…
 Comment: 0,0:10:30.63,0:10:34.25,Text_Bottom,,0,0,0,kara,我去找莉莉 葵衣你跟大伙说一声\Nリリーちゃんは俺が連れてくるから 葵衣はみんなに言っといて
 Comment: 0,0:10:34.56,0:10:35.38,Text_Bottom,,0,0,0,kara,可是\Nでも
-Comment: 0,0:10:35.38,0:10:38.47,Text_Bottom,,0,0,0,kara,没事的 交给老哥我吧\N大丈夫だって 兄ちゃんに任せとけ
+Comment: 0,0:10:35.38,0:10:38.47,Text_Bottom,,0,0,0,kara,没事的 交给哥哥我吧\N大丈夫だって 兄ちゃんに任せとけ
 Comment: 0,0:10:48.50,0:10:50.17,Text_Bottom,,0,0,120,kara,谢天谢地\NThank goodness.
 Comment: 0,0:11:17.57,0:11:18.49,Text_Bottom,,0,0,0,kara,你说什么？\Nなんだって？
 Comment: 0,0:11:19.13,0:11:21.74,Text_Bottom,,0,0,0,kara,所以现在老哥去找她了\Nそれで今 兄ちゃんが捜しにいってます
@@ -278,8 +280,8 @@ Comment: 0,0:15:51.17,0:15:52.14,Text_Bottom,,0,0,0,kara,莉莉！\Nリリーち
 Comment: 0,0:15:52.69,0:15:53.94,Text_Bottom,,0,0,0,kara,莲司…？\Nレンジ…？
 Comment: 0,0:16:15.03,0:16:16.41,Text_Bottom,,0,0,0,kara,啊… 对不起！\Nあっ… ごめん！
 Comment: 0,0:16:21.73,0:16:24.92,Text_Bottom,,0,0,0,kara,啊 对不起 我突然想起来了\Nあっ ごめんなさい ちょっと思い出しちゃって
-Comment: 0,0:16:25.61,0:16:29.60,Text_Bottom,,0,0,0,kara,我们刚见面的时候 我去问你要留言卡的回复\N初めて会ったころ メッセージカードの返事を 聞きにいったとき
-Comment: 0,0:16:29.97,0:16:32.68,Text_Bottom,,0,0,0,kara,当时我一见到莲司 不知道该怎么办才好\Nレンジに会ったら どうしていいか わからなくなって
+Comment: 0,0:16:25.61,0:16:29.60,Text_Bottom,,0,0,0,kara,我们第一次见面的时候 我去问你要留言卡的回复\N初めて会ったころ メッセージカードの返事を 聞きにいったとき
+Comment: 0,0:16:29.97,0:16:32.68,Text_Bottom,,0,0,0,kara,当时我一见到莲司 就不知道该怎么办才好\Nレンジに会ったら どうしていいか わからなくなって
 Comment: 0,0:16:33.42,0:16:35.86,Text_Bottom,,0,0,0,kara,我居然突然就跑掉了…\N私ったら急に逃げ出しちゃって…
 Comment: 0,0:16:36.18,0:16:38.87,Text_Bottom,,0,0,0,kara,啊哈哈… 是有这么回事呢\Nアハハ… あったね そんなこと
 Comment: 0,0:16:38.87,0:16:42.96,Text_Bottom,,0,0,0,kara,面对那样的我 莲司却追了上来 抓住了我\Nそんな私を レンジは追いかけてきて つかまえてくれた
@@ -375,7 +377,7 @@ Comment: 0,0:21:19.77,0:21:21.53,Text_Bottom,,0,0,0,kara,{ruby=Present for you}�
 Comment: 0,0:21:21.53,0:21:22.10,Text_Bottom,,0,0,0,kara,啊！？\Nあっ！？
 Comment: 0,0:21:25.10,0:21:27.61,Text_Bottom,,0,0,0,kara,喂！ 为什么送给她了！？\Nちょっと！ なんであげちゃうの！？
 Comment: 0,0:21:27.61,0:21:30.49,Text_Bottom,,0,0,0,kara,因为她用闪闪发亮的眼神看着 忍不住就\Nだって キラキラした目で 見てたから つい
-Comment: 0,0:21:30.49,0:21:32.86,Text_Bottom,,0,0,0,kara,我给你抓点别的行吧\N葵衣には別のを取ってやるから
+Comment: 0,0:21:30.49,0:21:32.86,Text_Bottom,,0,0,0,kara,我会给葵衣抓别的\N葵衣には別のを取ってやるから
 Comment: 0,0:21:32.86,0:21:34.56,Text_Bottom,,0,0,0,kara,那我要这个猫咪\Nじゃあ このニャンコがいい
 Comment: 0,0:21:34.56,0:21:35.98,Text_Bottom,,0,0,0,kara,诶 不要考拉了吗？\Nえっ コアラじゃないの？
 Comment: 0,0:21:36.23,0:21:36.99,Text_Bottom,,0,0,120,kara,谢谢你！\NThank you!
