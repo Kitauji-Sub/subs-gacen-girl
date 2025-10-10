@@ -8,14 +8,14 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 12 (1080p) [1E2919B5].mkv
-Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 12 (1080p) [1E2919B5].mkv
+Audio File: C:/Users/scree/Desktop/gcg/ep12.mkv
+Video File: C:/Users/scree/Desktop/gcg/ep12.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.875000
-Scroll Position: 209
-Active Line: 222
-Video Position: 19550
+Video Zoom Percent: 1.125000
+Scroll Position: 210
+Active Line: 223
+Video Position: 33539
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -246,6 +246,8 @@ Dialogue: 0,0:08:44.96,0:08:47.83,OnScreen,5,0,0,0,,{=27}{\fn獅尾圓體SC-Bold
 Dialogue: 0,0:13:32.37,0:13:35.37,OnScreen,6,0,0,0,,{\fn獅尾圓體SC-Bold\b1\c&HF1EEEA&\fscx61\fscy102\pos(215.44,280.49)}轻目烧
 Dialogue: 0,0:13:32.37,0:13:35.37,OnScreen,6,0,0,0,,{=47}{\fn獅尾圓體SC-Bold\b1\c&H3659F7&\fax-0.000010\fscx85.81\fscy123.19\frz-0.1746\frx-0.0039\fry0.6383\org(882.09,75.79)\pos(882.61,273.47)\bord4\3c&HECEDEF&}套圈儿
 Dialogue: 0,0:13:35.37,0:13:38.88,OnScreen,,0,0,0,,{=31}{\fn獅尾圓體SC-Bold\b1\fax-0.000001\fscx160.74\fscy215.31\frz2.0697\frx0.4771\fry-1.9367\org(1078.58,2445.82)\pos(453.08,293.65)\blur1.6\c&HEFE8DF&\fad(0,979)}轻目烧
+Dialogue: 0,0:23:18.08,0:23:21.42,OnScreen,,0,0,0,,{\fad(479,479)\pos(592,1060)\fn思源黑体\b1\fscx80\fscy80\bord1\blur4}特别感谢
+Dialogue: 0,0:23:18.08,0:23:21.42,OnScreen,,0,0,0,,{\fad(479,479)\fn思源黑体\b1\fscx80\fscy80\bord1\blur4\pos(1093.34,1060)}所有观看本片的游戏玩家
 
 [Aegisub Extradata]
 Data: 0,_aegi_perspective_ambient_plane,e1065.31;288.00#7C1410.69;448.00#7C1410.69;528.00#7C1155.31;528.00

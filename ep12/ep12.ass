@@ -8,15 +8,11 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 12 (1080p) [1E2919B5].mkv
-Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 12 (1080p) [1E2919B5].mkv
-Keyframes File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 12 (1080p) [1E2919B5]_keyframes.txt
+Audio File: C:/Users/scree/Desktop/gcg/ep12.mkv
+Video File: C:/Users/scree/Desktop/gcg/ep12.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
-Scroll Position: 333
-Active Line: 367
-Video Position: 151
+Video Zoom Percent: 0.625000
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -29,14 +25,13 @@ Style: Title_next,Zpix,48,&H00CF863B,&H000000FF,&H00FFFFFF,&H0005DAFD,0,0,0,0,10
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,import-shifted,../op.ass
-Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,import-shifted,../ed.ass
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,import,insert/insert01.ass
 Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,import,screen/screen.ass
 Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,settings,0,0,0,code once style Text_Bottom style Text_Top,_zh_jp_gap = 42; _zh_jp_gap_top = 63; jp_font_name="獅尾圓體JP-Bold"; jp_scale = 67; ruby_scale =60; ruby_gap=10; reverse_top = true;
 Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,utils,0,0,0,code once style Text_Bottom style Text_Top,local re = require('re') local function safe_text_extents(style, text)     if aegisub and aegisub.text_extents then         return aegisub.text_extents(style, text)     else         return 0, 0, 0, 0     end end local function gmatch(str, pattern)     local matches = {}     for match, start_idx, end_idx in re.gfind(str, pattern) do         local groups = re.match(match, pattern)         if not groups then             groups = {}         end         for i = 1, #groups do           groups[i]["first"] = groups[i]["first"] + start_idx - 1           groups[i]["last"] = groups[i]["last"] + start_idx - 1         end         table.insert(matches, groups)     end     return matches end function remove_tags(text)     if not text then return "" end     return re.sub(text, "\\{[^}]*\\}", "", 0) end local function extract_rubys(text, style)     local rubys = {}     if not text then return rubys end          local current_pos = 0     local clean_text = ""     local original_text = text          for _, ruby_match in _G.ipairs(gmatch(original_text, "\\{ruby=([^}]+)\\}([^{]*?)\\{/ruby\\}")) do         local ruby_text = ruby_match[2].str         local annotated_text = ruby_match[3].str                  local before_text = string.sub(original_text, 1, ruby_match[1].first - 1)         local clean_before_text = remove_tags(before_text)                  local clean_annotated_text = remove_tags(annotated_text)         local annotated_width = 0         if clean_annotated_text ~= "" then             local width, height, descent, ext_lead = safe_text_extents(style, clean_annotated_text)             annotated_width = width or 0         end                  local before_width = 0         if clean_before_text ~= "" then             local width, height, descent, ext_lead = safe_text_extents(style, clean_before_text)             before_width = width or 0         end                  local ruby_pos = before_width + annotated_width / 2                  table.insert(rubys, {             text = ruby_text,             pos = ruby_pos         })                  clean_text = clean_text .. string.sub(before_text, current_pos + 1) .. annotated_text         current_pos = ruby_match[2].last     end          return rubys end function process_bilingual_subtitle(raw_text, style)     if not raw_text or raw_text == "" then         return {             chinese = {text = "", width = 0, height = 0},             japanese = {text = "", width = 0, height = 0},             ruby = {}         }     end          local parts = re.split(raw_text, "\\\\N")          local chinese_text = ""     local japanese_text = ""          if #parts >= 1 then         chinese_text = parts[1] or ""     end     if #parts >= 2 then         japanese_text = parts[2] or ""     end          local rubys = extract_rubys(chinese_text, style)          local chinese_clean = remove_tags(chinese_text)     chinese_clean = re.sub(chinese_clean, "\\{ruby=[^}]+\\}([^{]*?)\\{/ruby\\}", "%1", 0)          local chinese_width, chinese_height = 0, 0     if chinese_clean ~= "" then         local width, height, descent, ext_lead = safe_text_extents(style, chinese_clean)         chinese_width = width or 0         chinese_height = height or 0     end          local japanese_clean = remove_tags(japanese_text)     local japanese_width, japanese_height = 0, 0     if japanese_clean ~= "" then         local width, height, descent, ext_lead = safe_text_extents(style, japanese_clean)         japanese_width = width or 0         japanese_height = height or 0     end        return {         text = chinese_text,         width = chinese_width,         height = chinese_height       },       {         text = japanese_text,         width = japanese_width,         height = japanese_height       },       rubys end
 Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,gv,0,0,0,code line style Text_Bottom style Text_Top,chinese, japanese, rubys = process_bilingual_subtitle(orgline.text, orgline.styleref); has_chinese = chinese ~= nil; has_japanese = japanese ~= nil; has_ruby = false; if rubys then for k, ruby in _G.ipairs(rubys) do has_ruby=true end end; zh_jp_gap = japanese and _zh_jp_gap or 0; zh_jp_gap_top = japanese and _zh_jp_gap_top or 0; line_left = (meta.res_x - orgline.eff_margin_l - orgline.eff_margin_r - chinese.width) / 2 + orgline.eff_margin_l; is_top = orgline.styleref.align == 8; local c_pos_x, c_pos_y, j_pos_x, j_pos_y, ruby_pos_y if is_top then   if reverse_top then     if has_ruby then       c_pos_x, c_pos_y = orgline.center, (orgline.top + ruby_gap + (chinese.height * ruby_scale / 100))       j_pos_x, j_pos_y = orgline.center, (orgline.top + ruby_gap + (chinese.height * ruby_scale / 100) + zh_jp_gap_top)       ruby_pos_y = orgline.top     else       c_pos_x, c_pos_y = orgline.center, orgline.top       j_pos_x, j_pos_y = orgline.center, (orgline.top + zh_jp_gap_top)       ruby_pos_y = 0     end   else     c_pos_x, c_pos_y = orgline.center, (orgline.top + zh_jp_gap_top)     j_pos_x, j_pos_y = orgline.center, orgline.top     ruby_pos_y = orgline.bottom + zh_jp_gap_top + ruby_gap   end else   c_pos_x, c_pos_y = orgline.center, (orgline.bottom - zh_jp_gap)   j_pos_x, j_pos_y = orgline.center, orgline.bottom   ruby_pos_y = orgline.top - zh_jp_gap - ruby_gap end chinese_pos_tag = [[\pos(]] .. c_pos_x .. [[,]] .. c_pos_y .. [[)]] japanese_pos_tag = [[\pos(]] .. j_pos_x .. [[,]] .. j_pos_y .. [[)]] ruby_y = ruby_pos_y
-Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bottom style Text_Top notext if has_chinese,!relayer(9)!{!chinese_pos_tag!}!chinese.text!
-Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bottom style Text_Top notext if has_japanese,!relayer(8)!{!japanese_pos_tag!\fscx!jp_scale!\fscy!jp_scale!\fn!jp_font_name!}!remove_tags(japanese.text)!
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bottom style Text_Top notext if has_chinese,!relayer(9)!{!chinese_pos_tag!!ln.line.tag("fad")!}!chinese.text!
+Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bottom style Text_Top notext if has_japanese,!relayer(8)!{!japanese_pos_tag!\fscx!jp_scale!\fscy!jp_scale!\fn!jp_font_name!!ln.line.tag("fad")!}!remove_tags(japanese.text)!
 Comment: 0,0:00:00.00,0:00:00.00,Text_Bottom,,0,0,0,template line style Text_Bottom style Text_Top notext if has_ruby,!relayer(9)!{!maxloop("ruby", #rubys)!\pos(!line_left + rubys[loopctx.state.ruby].pos!,!ruby_y!)\fscx!ruby_scale!\fscy!ruby_scale!\bord!line.styleref.outline * 0.8!}!rubys[loopctx.state.ruby].text!
 Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,CREDIT
 Dialogue: 0,0:00:28.13,0:00:34.13,Credit,6s,0,0,0,,{\fad(300,300)}本字幕由北宇治字幕组制作 仅供交流试看之用 TG@KitaUji
@@ -209,7 +204,7 @@ Comment: 0,0:09:24.14,0:09:26.17,Text_Bottom,,0,0,0,kara,呃…{\fscx50} {\fscx1
 Comment: 0,0:09:33.37,0:09:34.26,Text_Bottom,,0,0,0,kara,打中了！\Nやった！
 Comment: 0,0:09:34.26,0:09:35.99,Text_Bottom,,0,0,0,kara,莲司好厉害\Nレンジすご～い！
 Comment: 0,0:09:36.25,0:09:37.55,Text_Bottom,,0,0,0,kara,我赢了\N僕の勝ちですね
-Comment: 0,0:09:38.46,0:09:40.63,Text_Bottom,,0,0,0,kara,什么鬼！\Nなんじゃそりゃ～！
+Comment: 0,0:09:38.46,0:09:39.94,Text_Bottom,,0,0,0,kara,什么鬼！\Nなんじゃそりゃ～！
 Comment: 0,0:09:39.94,0:09:40.63,Text_Bottom,,0,0,0,kara,诶！？\Nえぇ！？
 Comment: 0,0:09:40.63,0:09:42.18,Text_Bottom,,0,0,0,kara,哪有那种射击方式\Nそんな撃ち方あるか～！
 Comment: 0,0:09:42.18,0:09:44.98,Text_Bottom,,0,0,0,kara,不 这种游戏就是要这么射击的啦\Nいや これはこうやって 撃つものなんですよ！
@@ -249,7 +244,7 @@ Comment: 0,0:11:40.78,0:11:41.89,Text_Bottom,,0,0,0,kara,小心点～！\N気を
 Comment: 0,0:11:42.34,0:11:43.30,Text_Bottom,,0,0,0,kara,好～！\Nは～い！
 Comment: 0,0:11:45.68,0:11:47.04,Text_Bottom,,0,0,0,kara,那我们走吧\Nそれじゃ行くか
 Comment: 0,0:11:47.04,0:11:48.42,Text_Bottom,,0,0,0,kara,好的 但是…\Nはい でも…
-Comment: 0,0:11:48.42,0:11:51.02,Text_Bottom,,0,0,0,kara,让奶奶她们在那边等着吗？\Nばあちゃんたち 向こうで待たせとくのかよ？
+Comment: 0,0:11:48.42,0:11:51.02,Text_Bottom,,0,0,0,kara,让外婆她们在那边等着吗？\Nばあちゃんたち 向こうで待たせとくのかよ？
 Comment: 0,0:11:51.02,0:11:52.93,Text_Bottom,,0,0,0,kara,话是这么说…\Nそれはそうですけど…
 Comment: 0,0:11:52.93,0:11:54.43,Text_Bottom,,0,0,0,kara,都说没事了\N大丈夫だって
 Comment: 0,0:11:54.98,0:11:58.03,Text_Bottom,,0,0,0,kara,你对莉莉是怎么想的呢？\N君は リリーのこと どう思っているんだね？
@@ -276,7 +271,7 @@ Comment: 0,0:13:22.02,0:13:24.13,Text_Bottom,,0,0,0,kara,莲司 莉莉她\Nレ�
 Comment: 0,0:13:24.82,0:13:26.02,Text_Bottom,,0,0,0,kara,以后就拜托你了\Nこれからも頼む
 Comment: 0,0:13:27.74,0:13:28.47,Text_Bottom,,0,0,0,kara,好的\Nはい))
 Comment: 0,0:13:36.51,0:13:37.62,Text_Bottom,,0,0,0,kara,莉莉…\Nリリーちゃん…
-Comment: 0,0:14:14.18,0:14:15.84,Text_Bottom,,0,0,0,kara,哈 真吃惊\Nはあ たまげた
+Comment: 0,0:14:14.18,0:14:15.84,Text_Bottom,,0,0,0,kara,啊 吓了一跳\Nはあ たまげた
 Comment: 0,0:14:15.84,0:14:17.67,Text_Bottom,,0,0,0,kara,没事吗？能站起来吗？\N大丈夫だが？ 立でっが？
 Comment: 0,0:15:41.47,0:15:42.62,Text_Bottom,,0,0,0,kara,莲司…\Nレンジ…
 Comment: 0,0:15:51.17,0:15:52.14,Text_Bottom,,0,0,0,kara,莉莉！\Nリリーちゃん！
@@ -296,15 +291,15 @@ Comment: 0,0:16:57.66,0:16:59.46,Text_Bottom,,0,0,120,kara,就跟我们初次见
 Comment: 0,0:17:01.49,0:17:03.33,Text_Bottom,,0,0,0,kara,从那之后已经半年了啊…\Nあれから もう半年か…
 Comment: 0,0:17:03.90,0:17:04.83,Text_Bottom,,0,0,0,kara,莲司\Nレンジ
 Comment: 0,0:17:04.83,0:17:05.59,Text_Bottom,,0,0,0,kara,嗯？\Nんっ？
-Comment: 0,0:17:07.12,0:17:10.41,Text_Bottom,,0,0,0,kara,从那天起 我的心意就没有改变\Nあの日から 私の気持ちは変わってない
-Comment: 0,0:17:10.41,0:17:11.59,Text_Bottom,,0,0,0,kara,谢谢你 我会珍惜它的\NThank you. I will cherish it.
-Comment: 0,0:17:14.75,0:17:17.10,Text_Bottom,,0,0,0,kara,莲司 我…．\NRenji, I...
+Comment: 0,0:17:07.12,0:17:10.34,Text_Bottom,,0,0,0,kara,{\fad(0,2522)}从那天起 我的心意就没有改变\Nあの日から 私の気持ちは変わってない
+Comment: 0,0:17:07.80,0:17:11.59,Text_Bottom,,0,0,0,kara,{\fad(2522,0)}谢谢你 我会珍惜它的\NThank you. I will cherish it.
+Comment: 0,0:17:14.75,0:17:17.10,Text_Bottom,,0,0,0,kara,莲司 我…\NRenji, I...
 Comment: 0,0:17:20.31,0:17:20.83,Text_Bottom,,0,0,0,kara,莉…\Nリ…
 Comment: 0,0:17:20.83,0:17:21.91,Text_Bottom,,0,0,0,kara,莉莉！\Nリリーちゃん！
 Comment: 0,0:17:21.91,0:17:22.48,Text_Bottom,,0,0,0,kara,哇！？\Nわっ！？
 Comment: 0,0:17:22.48,0:17:24.32,Text_Bottom,,0,0,0,kara,日葵 为 为什么在这里\Nヒマリちゃん ど どうして
 Comment: 0,0:17:24.32,0:17:25.67,Text_Bottom,,0,0,0,kara,我好担心呀～\N心配したよ～
-Comment: 0,0:17:26.17,0:17:27.74,Text_Bottom,,0,0,0,kara,哥 哥哥\Nに 兄ちゃん
+Comment: 0,0:17:26.17,0:17:27.74,Text_Bottom,,0,0,0,kara,老 老哥\Nに 兄ちゃん
 Comment: 0,0:17:27.74,0:17:28.24,Text_Bottom,,0,0,0,kara,啊…\Nあっ…
 Comment: 0,0:17:29.22,0:17:32.20,Text_Bottom,,0,0,0,kara,我们还是决定大家一起找过来了\Nやっぱりみんなで 捜しにきちゃった
 Comment: 0,0:17:32.66,0:17:34.08,Text_Bottom,,0,0,0,kara,大家… 啊！\Nみんなって… あっ！
