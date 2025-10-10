@@ -8,15 +8,14 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 11 (1080p) [0B5BC212].mkv
-Video File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 11 (1080p) [0B5BC212].mkv
-Keyframes File: C:/Users/scree/Desktop/gcg/[SubsPlease] Game Center Shoujo to Ibunka Kouryuu - 11 (1080p) [0B5BC212]_keyframes.txt
+Audio File: C:/Users/scree/Desktop/gcg/ep11.mkv
+Video File: C:/Users/scree/Desktop/gcg/ep11.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.625000
-Scroll Position: 137
-Active Line: 156
-Video Position: 13388
+Scroll Position: 240
+Active Line: 246
+Video Position: 19686
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -50,7 +49,7 @@ Comment: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,TEXT
 Comment: 0,0:00:10.31,0:00:13.53,Text_Bottom,,0,0,0,kara,哇 那座山好大啊\Nわぁ～！ あの山おっきい～
 Comment: 0,0:00:13.53,0:00:16.30,Text_Bottom,,0,0,0,kara,真的诶 那是什么山啊\Nホントだ なんて山なんだろ？
 Comment: 0,0:00:16.30,0:00:18.17,Text_Bottom,,0,0,0,kara,那是磐梯山\Nあれは磐梯山です
-Comment: 0,0:00:19.01,0:00:24.88,Text_Bottom,,0,0,0,kara,海拔{\fscx50} {\fscx100}1816{\fscx50} {\fscx100}千米 是被录入「日本百座名山」的名山呢\N標高 １，８１６メートル 「日本百名山」にも選ばれてる 名峰だそうです
+Comment: 0,0:00:19.01,0:00:24.88,Text_Top,,0,0,0,kara,海拔{\fscx50} {\fscx100}1816{\fscx50} {\fscx100}千米 是入选了「日本百座名山」的名山呢\N標高 １，８１６メートル 「日本百名山」にも選ばれてる 名峰だそうです
 Comment: 0,0:00:25.21,0:00:27.83,Text_Bottom,,0,0,0,kara,不愧是班长 真是博学啊\Nさっすが委員長！ 物知りだね
 Comment: 0,0:00:27.83,0:00:30.62,Text_Bottom,,0,0,0,kara,也没有 我是在手机上搜出来的\Nいえ スマホで検索しただけですから
 Comment: 0,0:00:31.04,0:00:33.30,Text_Bottom,,0,0,0,kara,喂师傅 快看那座山\Nねえ ししょー 見て見て あの山！
@@ -82,8 +81,8 @@ Comment: 0,0:03:15.77,0:03:19.14,Text_Bottom,,0,0,0,kara,而且要道谢的话 �
 Comment: 0,0:03:19.14,0:03:20.09,Text_Bottom,,0,0,0,kara,没问题\NOkay!
 Comment: 0,0:03:20.09,0:03:22.32,Text_Bottom,,0,0,0,kara,作为参加生日派对的回礼\N誕生日パーティーに 来てくれたお礼に
 Comment: 0,0:03:22.32,0:03:25.64,Text_Bottom,,0,0,0,kara,她能向大家的家长说明情况真是帮我大忙了\Nみんなのご家族に説明してくれて ホント助かっちゃった
-Comment: 0,0:03:25.91,0:03:29.92,Text_Bottom,,0,0,0,kara,而且 要来的话还是大家一起热热闹闹的更好\Nそれに どうせなら にぎやかで 楽しいほうがいいもんね
-Comment: 0,0:03:29.92,0:03:32.90,Text_Bottom,,0,0,0,kara,但是并不是大家都来齐还是有点遗憾\Nでも みんなで来れなかったのは ザンネンだけど
+Comment: 0,0:03:25.91,0:03:29.92,Text_Top,,0,0,0,kara,而且 要来的话还是大家一起热热闹闹的更好\Nそれに どうせなら にぎやかで 楽しいほうがいいもんね
+Comment: 0,0:03:29.92,0:03:32.90,Text_Top,,0,0,0,kara,但是并不是大家都来齐还是有点遗憾\Nでも みんなで来れなかったのは ザンネンだけど
 Comment: 0,0:03:33.05,0:03:35.28,Text_Bottom,,0,0,0,kara,对不住！在下实在无法抽身\Nすまぬ！ 拙者 無理でゴザル
 Comment: 0,0:03:35.28,0:03:36.46,Text_Bottom,,0,0,0,kara,对不起啊\Nごめんね～
 Comment: 0,0:03:36.46,0:03:39.41,Text_Bottom,,0,0,0,kara,我们就连那两人的份一起尽情玩耍吧\Nあの２人の分も 思いっきり楽しもうね！
@@ -275,7 +274,7 @@ Comment: 0,0:13:29.45,0:13:32.38,Text_Bottom,,0,0,0,kara,啊！不要想起多�
 Comment: 0,0:13:33.52,0:13:36.74,Text_Bottom,,0,0,0,kara,那么… 给钓竿装上饵吧\Nさて… この釣りざおに エサをつけるの
 Comment: 0,0:13:36.95,0:13:37.63,Text_Bottom,,0,0,0,kara,饵？\Nエサ？
 Comment: 0,0:13:37.94,0:13:39.98,Text_Bottom,,0,0,0,kara,蚯蚓或者沙蚕吗？\Nミミズとかザザ虫とか？
-Comment: 0,0:13:41.07,0:13:44.09,Text_Bottom,,0,0,0,kara,是这个哦，昨天在零食店买的\Nこれだよ 昨日 駄菓子屋で買ったんだ
+Comment: 0,0:13:41.07,0:13:44.09,Text_Bottom,,0,0,0,kara,是这个哦 昨天在零食店买的\Nこれだよ 昨日 駄菓子屋で買ったんだ
 Comment: 0,0:13:45.55,0:13:47.39,Text_Bottom,,0,0,0,kara,给 这是莉莉的份\Nはい これは リリーちゃんの分
 Comment: 0,0:13:47.39,0:13:48.39,Text_Bottom,,0,0,0,kara,谢谢\Nアリガトー
 Comment: 0,0:13:48.58,0:13:50.05,Text_Bottom,,0,0,0,kara,给 那么这是葵衣的\Nはい じゃこれ葵衣ちゃん
